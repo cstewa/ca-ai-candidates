@@ -31,7 +31,7 @@ function CompareTable({ race, yardsticks }) {
                 {race.candidates.map(c => {
                   const p = cell(c, k)
                   return (
-                    <td key={c.slug}>
+                    <td key={c.slug} data-label={c.name}>
                       {p ? (
                         <>
                           {POSITION_LABELS[p.value]}

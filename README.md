@@ -139,4 +139,4 @@ These were made while converting the doc and are worth checking:
 
 ## Deployment (Railway)
 
-Same as `mama-california`: `railway.toml` builds the `Dockerfile`, which builds the React app into `backend/public` and runs Rails. The only variable to set is `SECRET_KEY_BASE`; no database is needed. Health check: `/healthz`.
+Same as `mama-california`: `railway.toml` builds the `Dockerfile`, which builds the React app into `backend/public` and runs Rails. No environment variables or database are needed. (The app has no logins or cookies, so it doesn't use `SECRET_KEY_BASE`; Rails generates a throwaway one at boot.) Health check: `/healthz`.

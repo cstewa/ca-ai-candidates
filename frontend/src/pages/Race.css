@@ -19,3 +19,18 @@
 .compare__year, .compare__detail { display: block; font-size: 13px; color: var(--muted); font-weight: 400; }
 .compare__none { color: var(--muted); }
 .compare__legend { font-size: 14px; color: var(--muted); margin-top: 8px; }
+
+/* Phones: stack each row so every candidate is visible without sideways scrolling. */
+@media (max-width: 640px) {
+  .compare__scroll { overflow-x: visible; }
+  .compare__table { min-width: 0; }
+  .compare__table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .compare__table, .compare__table tbody, .compare__table tr, .compare__table th, .compare__table td { display: block; width: 100%; }
+  .compare__table tbody tr { border-bottom: 1px solid var(--border); padding: 12px 16px; }
+  .compare__table tbody tr:last-child { border-bottom: none; }
+  .compare__table tbody th, .compare__table td { padding: 0; border-bottom: none; width: 100%; }
+  .compare__table tbody th { margin-bottom: 8px; }
+  .compare__table td { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 8px; padding: 6px 0; border-top: 1px dashed var(--border); }
+  .compare__table td::before { content: attr(data-label); font-weight: 600; }
+  .compare__table td .compare__detail { grid-column: 2; }
+}
