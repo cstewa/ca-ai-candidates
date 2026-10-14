@@ -1,0 +1,9 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "sh -c '(bundle exec rails db:migrate && bundle exec rails db:seed) & exec bundle exec puma -C config/puma.rb'"
+healthcheckPath = "/healthz"
+healthcheckTimeout = 100
+restartPolicyType = "on_failure"

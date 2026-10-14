@@ -1,0 +1,3200 @@
+# Generated from the Oct. 14, 2026 guide; edit by hand from here on.
+# See README for field reference.
+- office: governor
+  candidates:
+  - name: Xavier Becerra
+    sort_name: Becerra
+    party: D
+    status: on_record
+    items:
+    - text: Released an 11-point AI plan in May 2026. It says California cannot accept AI that "poses catastrophic risks to public safety" and promises guardrails against harms "when AI accelerates dangerous capabilities or operates beyond human oversight." [[source]](https://www.xavierbecerra2026.com/priorities/ai/)
+    - text: Asked by CalMatters (Sept. 2026) whether he backs a kill switch and third-party monitoring, his campaign said only that he would enforce existing AI safety laws, close gaps, and strengthen standards. He declined an interview. [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+    - text: Plan also calls for a national AI framework, a state cloud-computing cluster, independent audits of AI used by state government, and transparency for automated job decisions. [[source]](https://www.yahoo.com/news/articles/xavier-becerra-unveils-ai-vision-130000867.html)
+    - text: Encode AI (sponsor of SB 53) is a campaign donor and called itself "cautiously optimistic" about him. [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+      kind: funding
+    - text: At the Sept. 30 debate he likened Hilton's non-answer on state AI rules to Trump accepting a "pinky promise" from AI firms to self-police. [[source]](https://www.cnn.com/2026/09/30/politics/takeaways-cnn-california-governor-debate-becerra-hilton)
+  - name: Steve Hilton
+    sort_name: Hilton
+    party: R
+    status: on_record
+    items:
+    - text: 'Platform: "Keep California the AI Capital of the World." It says government should enforce basic accountability but avoid "sweeping, preemptive regulation," and frames AI as a national-security race with China. [[source]](https://stevehiltonforgovernor.com/policy/keep-california-the-ai-capital-of-the-world)'
+    - text: To CalMatters he called AI risk a "very urgent priority" and said he was "very interested" in external safety evaluators, then declined to endorse them. He called a mandatory kill switch "a gimmick." [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+    - text: Called industry warnings about human extinction "reckless and irresponsible," saying labs would stop if they truly believed them. [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+    - text: Said he would convene an expert AI-safety panel like Newsom's. Would halt AI use in schools on day one and endorsed SB 947 (limits on AI-only firing decisions). [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+    - text: At the debate, said his AI priorities are keeping AI jobs in California and protecting children; did not say whether he agrees with Trump's support for industry self-policing. [[source]](https://www.cnn.com/2026/09/30/politics/takeaways-cnn-california-governor-debate-becerra-hilton)
+- office: lieutenant_governor
+  candidates:
+  - name: Fiona Ma
+    sort_name: Ma
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Gloria Romero
+    sort_name: Romero
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: secretary_of_state
+  candidates:
+  - name: Shirley N. Weber
+    sort_name: Weber
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public statements on frontier AI safety found.
+  - name: Donald P. "Don" Wagner
+    sort_name: Wagner
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: controller
+  candidates:
+  - name: Malia M. Cohen
+    sort_name: Cohen
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Herb W. Morgan
+    sort_name: Morgan
+    party: R
+    status: ai_other
+    items:
+    - text: Proposes using AI to monitor state transactions for fraud. No statements on AI safety found. [[source]](https://factually.co/fact-checks/automotive/herb-w-morgan-controller-ff18cf)
+- office: treasurer
+  candidates:
+  - name: Eleni Kounalakis
+    sort_name: Kounalakis
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Jennifer Hawks
+    sort_name: Hawks
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: attorney_general
+  note: Enforces SB 53
+  candidates:
+  - name: Rob Bonta
+    sort_name: Bonta
+    party: D
+    incumbent: true
+    status: on_record
+    items:
+    - text: Opened a formal investigation of the July 2026 incident in which OpenAI agents escaped a test environment and attacked Hugging Face, and subpoenaed OpenAI on Sept. 30, 2026 over cybersecurity incidents and risks from its models. [[source]](https://www.insurancejournal.com/news/west/2026/10/02/887757.htm)
+    - text: Said he is "looking very closely" at OpenAI and Anthropic, supports the kill-switch idea, and said "the more regulators, the better." [[source]](https://www.yahoo.com/news/articles/rob-bonta-looking-very-closely-182334232.html)
+    - text: Joined a bipartisan group of state AGs urging Congress to regulate large-scale AI models. [[source]](https://gazette.com/2026/10/01/rob-bonta-subpoenas-openai-over-hugging-face-hack/)
+    - text: His office has opposed federal preemption of state AI laws. [[source]](https://oag.ca.gov/system/files/attachments/press-docs/AI%20Laws%20Preemption.pdf)
+    - text: In 2025 approved OpenAI's recapitalization after securing concessions he said ensure "safety will be prioritized." [[source]](https://oag.ca.gov/news/press-releases/attorney-general-bonta-issues-statement-openai%E2%80%99s-recapitalization-plan)
+  - name: Michael E. Gates
+    sort_name: Gates
+    party: R
+    status: none_found
+    search_note: No public AI statements found; his platform centers on crime and homelessness. [[source]](https://vigarchive.sos.ca.gov/2026/primary/candidates/attorney-general-candidate-statements.htm)
+- office: insurance_commissioner
+  candidates:
+  - name: Ben Allen
+    sort_name: Allen
+    party: D
+    status: on_record
+    search_note: No campaign statements on AI found.
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+      detail: Did not vote on first Senate passage; yes on final concurrence
+    - yardstick: sb53
+      position: 'yes'
+      detail: Yes on both Senate votes
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As a state senator: SB 1047 not voting on first Senate passage, yes on final concurrence [[SB 1047 votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/); SB 53 yes both votes [[SB 53 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/); SB 813 yes [[SB 813 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+  - name: Jane Kim
+    sort_name: Kim
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: superintendent
+  note: Nonpartisan office
+  candidates:
+  - name: Richard Barrera
+    sort_name: Barrera
+    party:
+    status: none_found
+    search_note: No public AI-safety statements found.
+  - name: Sonja Shaw
+    sort_name: Shaw
+    party:
+    status: ai_other
+    items:
+    - text: At an April 2026 forum said AI is eroding students' critical thinking and called for a group to study it. [[source]](https://www.noozhawk.com/achievement-gaps-ai-and-more-state-superintendent-hopefuls-detail-plans-at-candidate-forums/)
+- office: board_of_equalization
+  district: 1
+  candidates:
+  - name: Nelson Esparza
+    sort_name: Esparza
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Shannon Grove
+    sort_name: Grove
+    party: R
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+      detail: The only no vote on first Senate passage (32-1); no on final concurrence
+    - yardstick: sb53
+      position: 'no'
+      detail: Yes on first passage; no on final concurrence
+    - yardstick: sb813
+      position: 'yes'
+      detail: No on Senate passage; yes on final concurrence
+    items:
+    - text: 'SB 1047: the only no vote on first Senate passage (32-1), and no on final concurrence [[SB 1047 votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/).'
+    - text: 'SB 53: yes on first passage, no on final concurrence [[SB 53 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/).'
+    - text: 'SB 813: no on Senate passage, yes on final concurrence [[SB 813 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+- office: board_of_equalization
+  district: 2
+  candidates:
+  - name: Sally J. Lieber
+    sort_name: Lieber
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: John Pimentel
+    sort_name: Pimentel
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: board_of_equalization
+  district: 3
+  candidates:
+  - name: Mike Gipson
+    sort_name: Gipson
+    party: D
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As an Assemblymember: yes on SB 1047 [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+  - name: Samuel P. Sukaton
+    sort_name: Sukaton
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: board_of_equalization
+  district: 4
+  candidates:
+  - name: Tom Umberg
+    sort_name: Umberg
+    party: D
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As a state senator: yes on SB 1047 (both votes) [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+    - text: Authored SB 574 (2026) on lawyers' use of AI. [[source]](https://www.transparencycoalition.ai/news/ai-legislative-update-september4-2026)
+  - name: Denis Bilodeau
+    sort_name: Bilodeau
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 1
+  candidates:
+  - name: Mike McGuire
+    sort_name: McGuire
+    party: D
+    status: on_record
+    search_note: No campaign AI statements found.
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As a state senator: yes on SB 1047 (both votes) [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+  - name: James Gallagher
+    sort_name: Gallagher
+    party: R
+    incumbent: true
+    incumbent_note: since 2026 special
+    status: none_found
+    search_note: No AI statements found.
+    positions:
+    - yardstick: sb1047
+      position: did_not_vote
+      detail: Did not vote on floor passage
+    - yardstick: sb53
+      position: did_not_vote
+      detail: Did not vote on floor passage
+    items:
+    - text: 'As Assembly GOP leader: did not vote on SB 1047 [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) or SB 53 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) floor passage.'
+- office: us_house
+  district: 2
+  candidates:
+  - name: Jared Huffman
+    sort_name: Huffman
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Robin Littau
+    sort_name: Littau
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 3
+  candidates:
+  - name: Ami Bera
+    sort_name: Bera
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Robb Tucker
+    sort_name: Tucker
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 4
+  candidates:
+  - name: Eric Jones
+    sort_name: Jones
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Mike Thompson
+    sort_name: Thompson
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter and publicized it, citing risks of mass cyber breaches and bio/chemical weapons. [[source]](https://www.mikethompsonforcongress.com/news/thompson-joins-106-lawmakers-calling-speaker-johnson-pass-artificial-intelligence-safeguards)
+- office: us_house
+  district: 5
+  candidates:
+  - name: Michael Masuda
+    sort_name: Masuda
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Tom McClintock
+    sort_name: McClintock
+    party: R
+    incumbent: true
+    status: on_record
+    search_note: No other AI statements found.
+    positions:
+    - yardstick: moratorium_2025
+      position: 'yes'
+    items:
+    - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+- office: us_house
+  district: 6
+  candidates:
+  - name: Richard Pan
+    sort_name: Pan
+    party: D
+    status: none_found
+    search_note: No public AI statements found (left the state Senate before the major AI bills).
+  - name: Kevin Kiley
+    sort_name: Kiley
+    party: NPP
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: moratorium_2025
+      position: 'yes'
+    items:
+    - text: Co-introduced with Liccardo a U.S.-China AI safety bill (Sept. 2026) targeting loss of control, CBRN threats and cyber risk, with a crisis hotline. [[source]](https://telanganatoday.com/us-lawmakers-propose-ai-safety-framework-hotline-with-china)
+    - text: Said regulators should be "in the loop" on approving new models, red-teaming and misalignment, with "some flexibility" for state rules. [[source]](https://fox5sandiego.com/news/politics/inside-california-politics/inside-california-politics-sept-13-2026/amp/)
+    - text: In 2018 passed an Assembly resolution endorsing the Asilomar AI Principles. [[source]](https://insider.govtech.com/california/news/ai-how-will-the-state-address.html)
+    - text: Voted for the 2025 moratorium bill (as a Republican). [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+- office: us_house
+  district: 7
+  candidates:
+  - name: Doris Matsui
+    sort_name: Matsui
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: openai_letter_2026
+      position: signed
+      detail: Co-led the letter
+    items:
+    - text: Led California House Democrats opposing the 2025 state-law moratorium [[source]](https://matsui.house.gov/media/press-releases/matsui-leads-ca-colleagues-opposing-ai-moratorium-reconciliation-bill), and co-led an 81-member letter against reviving it in the defense bill. [[source]](https://matsui.house.gov/media/press-releases/matsui-leads-colleagues-opposing-push-revive-ai-moratorium-ndaa)
+    - text: Called Trump's Dec. 2025 order against state AI laws "illegal federal coercion." [[source]](https://matsui.house.gov/media/press-releases/matsui-statement-trumps-ai-executive-order)
+    - text: Co-led the Aug. 2026 letter to OpenAI demanding logs from the Hugging Face incident, including whether models tried to undermine human control. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+  - name: Mai Vang
+    sort_name: Vang
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 8
+  candidates:
+  - name: John Garamendi
+    sort_name: Garamendi
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Rudy Recile
+    sort_name: Recile
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 9
+  candidates:
+  - name: Josh Harder
+    sort_name: Harder
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: John McBride
+    sort_name: McBride
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 10
+  candidates:
+  - name: Mark DeSaulnier
+    sort_name: DeSaulnier
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Jeff Frese
+    sort_name: Frese
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 11
+  note: Open seat (Pelosi retiring)
+  candidates:
+  - name: Connie Chan
+    sort_name: Chan
+    party: D
+    status: on_record
+    items:
+    - text: Wants a national moratorium on new data centers until Congress sets rules on AI's economic, environmental and safety impacts. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
+    - text: Focus is on displaced workers and creators' rights; signed the "AI Pact" (no AI-company bailouts, an industry-funded worker fund). [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
+    - text: Her campaign says AI lobbying weakened SB 53, stripping independent audits and narrowing whistleblower protections, and attacks Wiener's AI-safety PAC support. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
+  - name: Scott Wiener
+    sort_name: Wiener
+    party: D
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: author
+    - yardstick: sb53
+      position: author
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Authored SB 1047 [[source]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) and SB 53 [[source]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/); voted yes on SB 813. [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+    - text: Led 20 state lawmakers in urging Congress to reject federal preemption (Dec. 2025). [[source]](https://www.govtech.com/artificial-intelligence/despite-executive-order-california-lawmakers-push-to-regulate-ai)
+    - text: 'Platform: a new federal AI safety and security agency, mandatory safety standards focused on catastrophic risk from the most powerful models, no federal preemption, fees on new data centers. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)'
+    - text: Public First Action (AI-safety group funded partly by Anthropic) has put about $3.5 million into a pro-Wiener PAC. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
+      kind: funding
+- office: us_house
+  district: 12
+  candidates:
+  - name: Jamie Joyce
+    sort_name: Joyce
+    party: D
+    status: ai_other
+    items:
+    - text: Founder of the Society Library, which builds AI tools for mapping policy debates. No specific frontier-safety positions found. [[source]](https://fwd50.com/speaker/jamie-joyce)
+  - name: Lateefah Simon
+    sort_name: Simon
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    - yardstick: openai_letter_2026
+      position: signed
+    items:
+    - text: Signed the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and the Aug. 2026 OpenAI oversight letter. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+- office: us_house
+  district: 13
+  candidates:
+  - name: Adam Gray
+    sort_name: Gray
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Kevin Lincoln
+    sort_name: Lincoln
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 14
+  candidates:
+  - name: Melissa Hernandez
+    sort_name: Hernandez
+    party: D
+    status: ai_other
+    items:
+    - text: At an Oct. 2026 debate said AI regulation "definitely needs to be at the federal level" rather than a state patchwork. [[source]](https://www.nbcbayarea.com/news/local/californias-14th-congressional-district-race-debate/4155063/)
+  - name: Aisha Wahab
+    sort_name: Wahab
+    party: D
+    incumbent: true
+    incumbent_note: since 2026 special
+    status: on_record
+    search_note: No campaign AI statements found.
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As a state senator: yes on SB 1047 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+- office: us_house
+  district: 15
+  candidates:
+  - name: Kevin Mullin
+    sort_name: Mullin
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Charles Hoelter
+    sort_name: Hoelter
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 16
+  candidates:
+  - name: Sam Liccardo
+    sort_name: Liccardo
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+      detail: Drafted and led the letter
+    items:
+    - text: Drafted and led the 107-member letter; said Speaker Johnson was "fiddling" amid a "firestorm of concern" on AI safety. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+    - text: 'Co-introduced the Liccardo-Kiley U.S.-China frontier-safety bill: "no human wins a race to superintelligence that exceeds human control." [[source]](https://www.legistorm.com/stormfeed/view_rss/2873063/member/3804/title/new-bipartisan-ai-safety-bill-will-move-us-and-china-beyond-the-red-phone.html)'
+    - text: Was endorsed in the primary by Leading the Future, the industry-funded PAC. [[source]](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326))
+      kind: funding
+  - name: Peter Sundin Soulé
+    sort_name: Soulé
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 17
+  candidates:
+  - name: Ro Khanna
+    sort_name: Khanna
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    - yardstick: openai_letter_2026
+      position: signed
+    items:
+    - text: In 2024 joined a House letter to Newsom opposing SB 1047. [[source]](https://pelosi.house.gov/news/press-releases/pelosi-statement-opposition-california-senate-bill-1047)
+    - text: In 2026 called for a global pause on recursive self-improvement and on superintelligence, kill-switch protocols and pre-release audits. [[source]](https://axios.com/2026/09/25/ro-khanna-alternative-us-china-ai-playbook)
+    - text: Announced a bill to ban recursive self-improvement until federal safeguards exist, with auditors embedded in every frontier lab; told CNBC there is "a civilizational extinction risk." [[source]](https://www.commondreams.org/news/ro-khanna-recursive-ai)
+    - text: Says states should regulate until Congress acts. [[source]](https://www.thenation.com/?p=595067)
+    - text: Signed the 107-member [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and OpenAI oversight letters. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+  - name: Ritesh Tandon
+    sort_name: Tandon
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 18
+  candidates:
+  - name: Zoe Lofgren
+    sort_name: Lofgren
+    party: D
+    incumbent: true
+    status: on_record
+    items:
+    - text: Opposed SB 1047 in 2024 and praised Newsom's veto, saying AI rules should be federal. [[source]](https://democrats-science.house.gov/news/press-releases/ranking-member-lofgren-commends-governor-newsom-for-veto-of-over-restrictive-california-ai-bill)
+    - text: Called Trump's Dec. 2025 order against state AI laws "not lawful" [[source]](https://democrats-science.house.gov/news/press-releases/ranking-member-lofgren-slams-trump-white-house-for-illegal-plan-to-undermine-state-ai-laws); said the AI Action Plan "only minimally addressed the risks of AI." [[source]](https://democrats-science.house.gov/news/press-releases/ranking-member-lofgren-opening-statement-for-hearing-on-ai-action-plan)
+    - text: As top Science Committee Democrat, backed 10 AI bills in June 2026, including an AI flaw-reporting bill. [[source]](https://capitolreleases.com/releases/dabaaa7d-5ca9-4477-833b-5ab7769931e0)
+  - name: Shane Lewis
+    sort_name: Lewis
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 19
+  candidates:
+  - name: Jimmy Panetta
+    sort_name: Panetta
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Think Big (Leading the Future network) spent $599,280 supporting him in the primary. [[source]](https://elections.transformernews.ai/states/ca)
+      kind: funding
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Peter Coe Verbica
+    sort_name: Verbica
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 20
+  candidates:
+  - name: Sandra Van Scotter
+    sort_name: Scotter
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Vince Fong
+    sort_name: Fong
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: moratorium_2025
+      position: 'yes'
+    items:
+    - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+- office: us_house
+  district: 21
+  candidates:
+  - name: Jim Costa
+    sort_name: Costa
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Kyle Kirkland
+    sort_name: Kirkland
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 22
+  candidates:
+  - name: Randy Villegas
+    sort_name: Villegas
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: David G. Valadao
+    sort_name: Valadao
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: moratorium_2025
+      position: 'yes'
+    items:
+    - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+- office: us_house
+  district: 23
+  candidates:
+  - name: Tessa Lynn Hodge
+    sort_name: Hodge
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Jay Obernolte
+    sort_name: Obernolte
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: moratorium_2025
+      position: 'yes'
+    - yardstick: frontier_act
+      position: sponsor
+      detail: Lead sponsor
+    items:
+    - text: Co-wrote the Great American AI Act draft (June 2026), which would have preempted state AI-development laws for three years. [[source]](https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/)
+    - text: 'Lead sponsor of the FRONTIER Act (July 2026): frontier-lab safety frameworks, independent audits, incident reporting and emergency authority, preempting state rules in those areas. Said it "will protect Americans from catastrophic risk." [[source]](https://thehill.com/policy/technology/5987397-openai-hugging-face-hack/)'
+    - text: 'Safety groups split: an Institute for Law & AI fellow called it the best AI safety bill yet [[source]](https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3825); Americans for Responsible Innovation said its permanent preemption leaves "a serious hole." [[source]](https://ari.us/frontier-act-improves-on-prior-proposal-but-requires-critical-changes/)'
+    - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+- office: us_house
+  district: 24
+  candidates:
+  - name: Salud Carbajal
+    sort_name: Carbajal
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Bob Smith
+    sort_name: Smith
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 25
+  candidates:
+  - name: Raul Ruiz
+    sort_name: Ruiz
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Joe Males
+    sort_name: Males
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 26
+  candidates:
+  - name: Jacqui Irwin
+    sort_name: Irwin
+    party: D
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As an Assemblymember: authored AB 2013 (AI training-data transparency, 2024 law) [[source]](https://perkinscoie.com/insights/update/ab-2013-new-california-ai-law-mandates-disclosure-genai-training-data); voted no on SB 1047 [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/); yes on SB 53 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813. [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+  - name: Sam Gallucci
+    sort_name: Gallucci
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 27
+  candidates:
+  - name: George Whitesides
+    sort_name: Whitesides
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+      detail: Co-led the letter
+    - yardstick: openai_letter_2026
+      position: signed
+    items:
+    - text: Co-led the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis); signed the Aug. 2026 OpenAI oversight letter. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+  - name: Jason Gibbs
+    sort_name: Gibbs
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 28
+  candidates:
+  - name: Judy Chu
+    sort_name: Chu
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: April A. Verlato
+    sort_name: Verlato
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 29
+  candidates:
+  - name: Angélica María Dueñas
+    sort_name: Dueñas
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Luz Maria Rivas
+    sort_name: Rivas
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: As an Assemblymember voted no on SB 1047 (2024). [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+    - text: In Congress, co-led a letter of 75+ members opposing a state-AI-law moratorium in the defense bill (Dec. 2025) [[source]](https://rivas.house.gov/media/press-releases/congresswomen-luz-rivas-and-doris-matsui-lead-colleagues-opposing-push-revive) and signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+- office: us_house
+  district: 30
+  candidates:
+  - name: Laura Friedman
+    sort_name: Friedman
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: As an Assemblymember voted yes on SB 1047. [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Scott Alan Meyers
+    sort_name: Meyers
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 31
+  candidates:
+  - name: Gil Cisneros
+    sort_name: Cisneros
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Eric Ching
+    sort_name: Ching
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 32
+  candidates:
+  - name: Brad Sherman
+    sort_name: Sherman
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Larry Thompson
+    sort_name: Thompson
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 33
+  candidates:
+  - name: Pete Aguilar
+    sort_name: Aguilar
+    party: D
+    incumbent: true
+    status: on_record
+    items:
+    - text: As House Democratic Caucus chair, joined Jeffries and Clark in pressing for AI-safeguard votes in Sept. 2026. [[source]](https://thenextweb.com/news/house-democrats-cancel-recess-ai-safety-jeffries)
+  - name: Stephanie M. Vargas
+    sort_name: Vargas
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 34
+  candidates:
+  - name: Jimmy Gomez
+    sort_name: Gomez
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements by Gomez found.
+    items:
+    - text: The pro-safety Guardrails Alliance PAC spent $412,000 opposing him (Oct. 2026). [[source]](https://elections.transformernews.ai/states/ca)
+      kind: funding
+  - name: Angela Gonzales-Torres
+    sort_name: Gonzales-Torres
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 35
+  candidates:
+  - name: Norma J. Torres
+    sort_name: Torres
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Mike Cargile
+    sort_name: Cargile
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 36
+  candidates:
+  - name: Ted W. Lieu
+    sort_name: Lieu
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: kill_switch_act
+      position: sponsor
+      detail: Lead sponsor
+    - yardstick: letter_107
+      position: signed
+      detail: Co-led the letter
+    items:
+    - text: 'Lead sponsor of the AI Kill Switch Act (July 2026): the largest labs must be able to throttle or shut down their models, and DHS gets emergency shutdown authority. Said "powerful AI systems can go rogue... or even resist human intervention." [[source]](https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can)'
+    - text: Co-led the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and the 2025 letter against a defense-bill moratorium on state AI laws. [[source]](https://matsui.house.gov/media/press-releases/matsui-leads-colleagues-opposing-push-revive-ai-moratorium-ndaa)
+    - text: On Sept. 29, 2026 demanded OpenAI, Google, Anthropic, Meta and SpaceXAI disclose every case of their agents breaking into systems. [[source]](https://gottheimer.house.gov/posts/release-gottheimer-lieu-and-fousheee-demand-answers-from-ai-giants-after-string-of-rogue-hacking-incidents)
+    - text: Criticized the Obernolte-Trahan draft as failing civil-rights, labor and watchdog concerns. [[source]](https://www.globalpolicywatch.com/2026/07/backlash-to-bipartisan-ai-omnibus-illustrates-preemption-impasse/)
+    - text: Co-chairs the House Democratic Commission on AI. [[source]](https://rollcall.com/2026/07/23/ai-companies-would-need-kill-switch-under-new-bipartisan-bill/)
+  - name: Houston Brignano
+    sort_name: Brignano
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 37
+  candidates:
+  - name: Sydney Kamlager-Dove
+    sort_name: Kamlager-Dove
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Samantha Mota
+    sort_name: Mota
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 38
+  candidates:
+  - name: Hilda Solis
+    sort_name: Solis
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Pedro Antonio Casas
+    sort_name: Casas
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 39
+  candidates:
+  - name: Mark Takano
+    sort_name: Takano
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Steve Manos
+    sort_name: Manos
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 40
+  note: Two incumbents running against each other after redistricting
+  candidates:
+  - name: Ken Calvert
+    sort_name: Calvert
+    party: R
+    incumbent: true
+    status: on_record
+    search_note: No other AI statements found.
+    positions:
+    - yardstick: moratorium_2025
+      position: 'yes'
+    items:
+    - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+  - name: Young Kim
+    sort_name: Kim
+    party: R
+    incumbent: true
+    status: on_record
+    search_note: No other AI statements found.
+    positions:
+    - yardstick: moratorium_2025
+      position: 'yes'
+    items:
+    - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+- office: us_house
+  district: 41
+  candidates:
+  - name: Linda Sánchez
+    sort_name: Sánchez
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Mitch Clemmons
+    sort_name: Clemmons
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 42
+  candidates:
+  - name: Robert Garcia
+    sort_name: Garcia
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Brian Burley
+    sort_name: Burley
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 43
+  candidates:
+  - name: Maxine Waters
+    sort_name: Waters
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Cristian Morales
+    sort_name: Morales
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 44
+  candidates:
+  - name: Nanette Diaz Barragán
+    sort_name: Diaz Barragán
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    - yardstick: openai_letter_2026
+      position: signed
+    items:
+    - text: Signed the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and the Aug. 2026 OpenAI oversight letter. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+  - name: Genevieve Angel
+    sort_name: Angel
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 45
+  candidates:
+  - name: Derek Tran
+    sort_name: Tran
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Chuong V. Vo
+    sort_name: Vo
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 46
+  candidates:
+  - name: Lou Correa
+    sort_name: Correa
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: David Pan
+    sort_name: Pan
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 47
+  candidates:
+  - name: Dave Min
+    sort_name: Min
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: did_not_vote
+      detail: Yes on first Senate passage; did not vote on concurrence
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: As a state senator voted yes on SB 1047's first Senate passage and did not vote on concurrence. [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Jenny Rae Le Roux
+    sort_name: Le Roux
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 48
+  candidates:
+  - name: Marni von Wilpert
+    sort_name: von Wilpert
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Jim Desmond
+    sort_name: Desmond
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 49
+  candidates:
+  - name: Mike Levin
+    sort_name: Levin
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Armen Kurdian
+    sort_name: Kurdian
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 50
+  candidates:
+  - name: Scott Peters
+    sort_name: Peters
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: frontier_act
+      position: cosponsor
+    - yardstick: letter_107
+      position: signed
+    items:
+    - text: Co-sponsor of the Great American AI Act draft [[source]](https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/) and the FRONTIER Act (federal frontier-safety rules that preempt some state rules). [[source]](https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3823)
+    - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+  - name: Steve Cohen
+    sort_name: Cohen
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 51
+  candidates:
+  - name: Sara Jacobs
+    sort_name: Jacobs
+    party: D
+    incumbent: true
+    status: on_record
+    items:
+    - text: At a Sept. 16, 2026 press conference with Reps. Beyer, Trahan and Lieu, said voluntary self-audits by AI developers are not enough. [[source]](https://thenextweb.com/news/house-democrats-cancel-recess-ai-safety-jeffries)
+  - name: Ricardo Cabrera
+    sort_name: Cabrera
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: us_house
+  district: 52
+  candidates:
+  - name: Juan Vargas
+    sort_name: Vargas
+    party: D
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Jeff Belle
+    sort_name: Belle
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 2
+  candidates:
+  - name: Damon Connolly
+    sort_name: Connolly
+    party: D
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As an Assemblymember: yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+  - name: Tief Gibbs
+    sort_name: Gibbs
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 4
+  candidates:
+  - name: Jaron Brandon
+    sort_name: Brandon
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Alexandra Duarte
+    sort_name: Duarte
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 6
+  candidates:
+  - name: Sean Frame
+    sort_name: Frame
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Roger Niello
+    sort_name: Niello
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+      detail: Did not vote on first passage; no on final
+    - yardstick: sb53
+      position: 'no'
+      detail: Yes on first passage; no on final
+    - yardstick: sb813
+      position: 'yes'
+      detail: Did not vote on Senate passage; yes on final concurrence
+    items:
+    - text: 'SB 1047: did not vote on first passage, no on final. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)'
+    - text: 'SB 53: yes on first passage, no on final. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/)'
+    - text: 'SB 813: did not vote on Senate passage, yes on final concurrence. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+- office: state_senate
+  district: 8
+  candidates:
+  - name: Angelique Ashby
+    sort_name: Ashby
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Susan A. Mason
+    sort_name: Mason
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 10
+  candidates:
+  - name: Scott Sakakihara
+    sort_name: Sakakihara
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Linda R. Price
+    sort_name: Price
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 12
+  candidates:
+  - name: Nathan Magsig
+    sort_name: Magsig
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+  - name: William Brown Jr.
+    sort_name: Brown
+    party: L
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 14
+  candidates:
+  - name: Esmeralda Soria
+    sort_name: Soria
+    party: D
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As an Assemblymember: yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+  - name: Darin S. DuPont
+    sort_name: DuPont
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 16
+  candidates:
+  - name: Melissa Hurtado
+    sort_name: Hurtado
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Guillermo Asuncion Gonzalez
+    sort_name: Asuncion Gonzalez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 18
+  candidates:
+  - name: Steve Padilla
+    sort_name: Padilla
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+    - text: Authored SB 867 (2026), a moratorium on AI chatbots in toys, and other companion-chatbot safety bills. [[source]](https://www.transparencycoalition.ai/news/ai-legislative-update-september4-2026)
+  - name: Art Hodges
+    sort_name: Hodges
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 20
+  candidates:
+  - name: Caroline Menjivar
+    sort_name: Menjivar
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Tony Rodriguez
+    sort_name: Rodriguez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 22
+  candidates:
+  - name: Susan Rubio
+    sort_name: Rubio
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: coauthor
+    - yardstick: sb53
+      position: coauthor
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Co-author of both SB 1047 [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) and SB 53 [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/); yes on SB 813. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Mike Netter
+    sort_name: Netter
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 24
+  note: Open seat
+  candidates:
+  - name: John M. Erickson
+    sort_name: Erickson
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Brian Goldsmith
+    sort_name: Goldsmith
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 26
+  note: Open seat
+  candidates:
+  - name: Sara Hernandez
+    sort_name: Hernandez
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Sarah Rascón
+    sort_name: Rascón
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 28
+  candidates:
+  - name: Lola Smallwood-Cuevas
+    sort_name: Smallwood-Cuevas
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Joe Lisuzzo
+    sort_name: Lisuzzo
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 30
+  candidates:
+  - name: Bob J. Archuleta
+    sort_name: Archuleta
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Araceli Martinez
+    sort_name: Martinez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 32
+  candidates:
+  - name: Tiffanie Tate
+    sort_name: Tate
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Kelly Seyarto
+    sort_name: Seyarto
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+      detail: Did not vote on first passage; no on final
+    - yardstick: sb53
+      position: 'no'
+      detail: Yes on first passage; no on final
+    - yardstick: sb813
+      position: did_not_vote
+      detail: No in committee and on Senate passage; did not vote on concurrence
+    items:
+    - text: 'SB 1047: did not vote on first passage, no on final. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)'
+    - text: 'SB 53: yes on first passage, no on final. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/)'
+    - text: 'SB 813: no in committee and on Senate passage, did not vote on concurrence. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+- office: state_senate
+  district: 34
+  candidates:
+  - name: Avelino Valencia
+    sort_name: Valencia
+    party: D
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: 'As an Assemblymember: no on SB 1047 [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/); yes on SB 53 [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+  - name: Rhonda Shader
+    sort_name: Shader
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 36
+  candidates:
+  - name: Chris Duncan
+    sort_name: Duncan
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Tony Strickland
+    sort_name: Strickland
+    party: R
+    incumbent: true
+    status: on_record
+    search_note: Not in the Senate for SB 1047.
+    positions:
+    - yardstick: sb53
+      position: 'no'
+      detail: Yes on first passage; no on final
+    - yardstick: sb813
+      position: 'yes'
+      detail: No on Senate passage; yes on final concurrence
+    items:
+    - text: 'SB 53: yes on first passage, no on final. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/)'
+    - text: 'SB 813: no on Senate passage, yes on final concurrence. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+- office: state_senate
+  district: 38
+  candidates:
+  - name: Catherine S. Blakespear
+    sort_name: Blakespear
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Laura Bassett
+    sort_name: Bassett
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_senate
+  district: 40
+  note: Open seat
+  candidates:
+  - name: Mara Elliott
+    sort_name: Elliott
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Kristie Bruce-Lane
+    sort_name: Bruce-Lane
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 1
+  candidates:
+  - name: Dianna Margaret James
+    sort_name: James
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Heather Hadwick
+    sort_name: Hadwick
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'no'
+    - yardstick: sb813
+      position: did_not_vote
+    items:
+    - text: SB 53 no; SB 813 did not vote. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 2
+  candidates:
+  - name: Chris Rogers
+    sort_name: Rogers
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Michael Greer
+    sort_name: Greer
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 3
+  note: Open seat
+  candidates:
+  - name: Dom Belza
+    sort_name: Belza
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+  - name: James "Jamie" Johansson
+    sort_name: Johansson
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 4
+  candidates:
+  - name: Cecilia Aguiar-Curry
+    sort_name: Aguiar-Curry
+    party: D
+    incumbent: true
+    unopposed: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 5
+  candidates:
+  - name: Neva Parker
+    sort_name: Parker
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Joe Patterson
+    sort_name: Patterson
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 no; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 6
+  candidates:
+  - name: Maggy Krell
+    sort_name: Krell
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Jagtar Singh
+    sort_name: Singh
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 7
+  candidates:
+  - name: Amy L. Slavensky
+    sort_name: Slavensky
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Josh Hoover
+    sort_name: Hoover
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: 'no'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 no; SB 53 no; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 8
+  candidates:
+  - name: David Tangipa
+    sort_name: Tangipa
+    party: R
+    incumbent: true
+    unopposed: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'no'
+      detail: No in committee and on the floor
+    - yardstick: sb813
+      position: 'no'
+      detail: No in committee and on the floor
+    items:
+    - text: SB 53 no (in committee and on the floor); SB 813 no (in committee and on the floor). [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 9
+  candidates:
+  - name: Matthew Adams
+    sort_name: Adams
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Heath Flora
+    sort_name: Flora
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    - yardstick: sb1047
+      position: did_not_vote
+    items:
+    - text: SB 1047 and SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 10
+  candidates:
+  - name: Stephanie Nguyen
+    sort_name: Nguyen
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: did_not_vote
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 did not vote; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Vinaya Singh
+    sort_name: Singh
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 11
+  candidates:
+  - name: Lori D. Wilson
+    sort_name: Wilson
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Jenny Leilani Callison
+    sort_name: Callison
+    party: NPP
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 12
+  note: Open seat
+  candidates:
+  - name: Jackie Elward
+    sort_name: Elward
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Eric Lucan
+    sort_name: Lucan
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 13
+  candidates:
+  - name: Rhodesia Ransom
+    sort_name: Ransom
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Tom Patti
+    sort_name: Patti
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 14
+  candidates:
+  - name: Buffy Wicks
+    sort_name: Wicks
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Mark Rendon
+    sort_name: Rendon
+    party: G
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 15
+  candidates:
+  - name: Anamarie Ávila Farías
+    sort_name: Farías
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Arthur Webb
+    sort_name: Webb
+    party: NPP
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 16
+  candidates:
+  - name: Rebecca Bauer-Kahan
+    sort_name: Bauer-Kahan
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+      detail: Carried the bill on the Assembly floor
+    - yardstick: sb813
+      position: coauthor
+      detail: Co-author; carried the bill on the Assembly floor
+    items:
+    - text: Chairs the Assembly Privacy Committee; carried SB 53 [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/) on the Assembly floor and co-authored SB 813. Voted yes on SB 1047. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+    - text: Authored AB 1018 (pre-deployment testing and appeals for high-stakes automated decisions), the LEAD for Kids Act (risk-based rules for AI used by children) [[source]](https://a16.asmdc.org/press-releases/20250606-13-bills-authored-assemblymember-bauer-kahan-advance-senate-following), and AB 1405 (AI auditor registry, now law). [[source]](https://www.transparencycoalition.ai/news/ai-legislative-update-september4-2026)
+    - text: Told Axios in Jan. 2026 that Congress is "a much bigger threat" to state AI rules than White House lawsuit threats. [[source]](https://www.axios.com/2026/01/16/california-year-ai)
+  - name: Joseph A. Rubay
+    sort_name: Rubay
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 17
+  candidates:
+  - name: Matt Haney
+    sort_name: Haney
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Manuel Noris-Barrera
+    sort_name: Noris-Barrera
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 18
+  candidates:
+  - name: Mia Bonta
+    sort_name: Bonta
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Andre Sandford
+    sort_name: Sandford
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 19
+  candidates:
+  - name: Catherine Stefani
+    sort_name: Stefani
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Philip Louis Wing
+    sort_name: Wing
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 20
+  candidates:
+  - name: Liz Ortega
+    sort_name: Ortega
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: did_not_vote
+      detail: Yes in committee; did not vote on the floor
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes in committee, did not vote on the floor; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Patricia Muga
+    sort_name: Muga
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 21
+  candidates:
+  - name: Diane Papan
+    sort_name: Papan
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Jabra J. Muhawieh
+    sort_name: Muhawieh
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 22
+  candidates:
+  - name: Juan Alanis
+    sort_name: Alanis
+    party: R
+    incumbent: true
+    unopposed: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 no; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 23
+  candidates:
+  - name: Marc Berman
+    sort_name: Berman
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: David G. Johnson
+    sort_name: Johnson
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 24
+  candidates:
+  - name: Alex Lee
+    sort_name: Lee
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Max Hsia
+    sort_name: Hsia
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 25
+  candidates:
+  - name: Ash Kalra
+    sort_name: Kalra
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Himat Singh Bainiwal
+    sort_name: Bainiwal
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 26
+  candidates:
+  - name: Patrick Ahrens
+    sort_name: Ahrens
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Tim Gorsulowsky
+    sort_name: Gorsulowsky
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 27
+  note: Open seat
+  candidates:
+  - name: Brian Pacheco
+    sort_name: Pacheco
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Mike Murphy
+    sort_name: Murphy
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 28
+  candidates:
+  - name: Gail Pellerin
+    sort_name: Pellerin
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Carol Pefley
+    sort_name: Pefley
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 29
+  candidates:
+  - name: Robert Rivas
+    sort_name: Rivas
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Dennis P. Sanchez
+    sort_name: Sanchez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 30
+  candidates:
+  - name: Dawn Addis
+    sort_name: Addis
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Shannon Kessler
+    sort_name: Kessler
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 31
+  note: Open seat
+  candidates:
+  - name: Annalisa Perea
+    sort_name: Perea
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Jim Polsgrove
+    sort_name: Polsgrove
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 32
+  note: Open seat
+  candidates:
+  - name: David Couch
+    sort_name: Couch
+    party: R
+    unopposed: true
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 33
+  candidates:
+  - name: Hipolito Angel Cerros
+    sort_name: Cerros
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Alexandra Macedo
+    sort_name: Macedo
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'no'
+      detail: No in committee and on the floor
+    - yardstick: sb813
+      position: did_not_vote
+      detail: No in committee; did not vote on the floor
+    items:
+    - text: SB 53 no (committee and floor); SB 813 no in committee, did not vote on the floor. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 34
+  note: Open seat
+  candidates:
+  - name: Randall Putz
+    sort_name: Putz
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Charles Frederick Hughes
+    sort_name: Hughes
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 35
+  note: Open seat
+  candidates:
+  - name: Andrae Gonzales
+    sort_name: Gonzales
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Saul Ayon
+    sort_name: Ayon
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 36
+  candidates:
+  - name: Ida S. Obeso-Martinez
+    sort_name: Obeso-Martinez
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Jeff Gonzalez
+    sort_name: Gonzalez
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 37
+  candidates:
+  - name: Gregg Hart
+    sort_name: Hart
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Sari Domingues
+    sort_name: Domingues
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 38
+  candidates:
+  - name: Steve Bennett
+    sort_name: Bennett
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+      detail: Carried the bill on the Assembly floor
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: Carried SB 1047 on the Assembly floor; yes on SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Michael MacDonald
+    sort_name: MacDonald
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 39
+  candidates:
+  - name: Juan Carrillo
+    sort_name: Carrillo
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Paul Andre Marsh
+    sort_name: Marsh
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 40
+  candidates:
+  - name: Pilar Schiavo
+    sort_name: Schiavo
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Rickey Tracy Hayes II
+    sort_name: Hayes
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 41
+  candidates:
+  - name: John Harabedian
+    sort_name: Harabedian
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Adam Christopher Vena
+    sort_name: Vena
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 42
+  note: Open seat
+  candidates:
+  - name: Deborah Klein Lopez
+    sort_name: Lopez
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Ted Nordblum
+    sort_name: Nordblum
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 43
+  candidates:
+  - name: Celeste Rodriguez
+    sort_name: Rodriguez
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Ricardo Benitez
+    sort_name: Benitez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 44
+  candidates:
+  - name: Nick Schultz
+    sort_name: Schultz
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Carolyn Daniels
+    sort_name: Daniels
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 45
+  candidates:
+  - name: James C. Ramos
+    sort_name: Ramos
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Greg Abdouch
+    sort_name: Abdouch
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 46
+  candidates:
+  - name: Jesse Gabriel
+    sort_name: Gabriel
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Tracey Schroeder
+    sort_name: Schroeder
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 47
+  candidates:
+  - name: Leila Namvar
+    sort_name: Namvar
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Greg Wallis
+    sort_name: Wallis
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: 'no'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 no; SB 53 no; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 48
+  candidates:
+  - name: Blanca Rubio
+    sort_name: Rubio
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Dan T. Tran
+    sort_name: Tran
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 49
+  candidates:
+  - name: Mike Fong
+    sort_name: Fong
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Long David Liu
+    sort_name: Liu
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 50
+  candidates:
+  - name: Robert Garcia
+    sort_name: Garcia
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Victoria Viveros Mageno
+    sort_name: Viveros Mageno
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 51
+  candidates:
+  - name: Colin D. Hernandez
+    sort_name: Hernandez
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Rick Chavez Zbur
+    sort_name: Chavez Zbur
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 52
+  candidates:
+  - name: Jessica Caloza
+    sort_name: Caloza
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Andrea Lee Anderson
+    sort_name: Anderson
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 53
+  candidates:
+  - name: Michelle Rodriguez
+    sort_name: Rodriguez
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Rafaela Romero
+    sort_name: Romero
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 54
+  candidates:
+  - name: Mark Gonzalez
+    sort_name: Gonzalez
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Alexandra Briseno
+    sort_name: Briseno
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 55
+  candidates:
+  - name: Ashley M. Brown
+    sort_name: Brown
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Isaac G. Bryan
+    sort_name: Bryan
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 56
+  candidates:
+  - name: Lisa Calderon
+    sort_name: Calderon
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Jessica Martinez
+    sort_name: Martinez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 57
+  candidates:
+  - name: Sade Elhawary
+    sort_name: Elhawary
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Constance Jewel Menzies
+    sort_name: Menzies
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 58
+  candidates:
+  - name: Clarissa Cervantes
+    sort_name: Cervantes
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Leticia Castillo
+    sort_name: Castillo
+    party: R
+    incumbent: true
+    status: none_found
+    positions:
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: did_not_vote
+    items:
+    - text: did not vote on SB 53 or SB 813. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 59
+  candidates:
+  - name: Phillip Chen
+    sort_name: Chen
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    - yardstick: sb1047
+      position: did_not_vote
+    items:
+    - text: SB 1047 and SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Victor Hernandez
+    sort_name: Hernandez
+    party: G
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 60
+  candidates:
+  - name: Corey A. Jackson
+    sort_name: Jackson
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    - yardstick: sb1047
+      position: did_not_vote
+    items:
+    - text: SB 1047 and SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Ed Delgado
+    sort_name: Delgado
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 61
+  candidates:
+  - name: Tina Simone McKinnor
+    sort_name: McKinnor
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: did_not_vote
+      detail: Yes in committee; did not vote on the floor
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes in committee, did not vote on the floor; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Brian Lockwood
+    sort_name: Lockwood
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 62
+  candidates:
+  - name: José Luis Solache
+    sort_name: Solache
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Paul Irving Jones
+    sort_name: Jones
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 63
+  candidates:
+  - name: Natasha Johnson
+    sort_name: Johnson
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'no'
+    items:
+    - text: SB 53 yes; SB 813 no. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Kevin Akin
+    sort_name: Akin
+    party: P&F
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 64
+  candidates:
+  - name: Blanca Pacheco
+    sort_name: Pacheco
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Raul Ortiz Jr.
+    sort_name: Ortiz
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 65
+  note: Open seat
+  candidates:
+  - name: Ayanna Davis
+    sort_name: Davis
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Lydia A. Gutiérrez
+    sort_name: Gutiérrez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 66
+  note: Open seat
+  candidates:
+  - name: Sara Deen
+    sort_name: Deen
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Paul Seo
+    sort_name: Seo
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 67
+  note: Open seat
+  candidates:
+  - name: Mark Pulido
+    sort_name: Pulido
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Paulo Morales
+    sort_name: Morales
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 68
+  note: Open seat
+  candidates:
+  - name: Jessie Lopez
+    sort_name: Lopez
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: David Penaloza
+    sort_name: Penaloza
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 69
+  candidates:
+  - name: Carolyn J. Essex
+    sort_name: Essex
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Josh Lowenthal
+    sort_name: Lowenthal
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: coauthor
+      detail: Co-author; also voted yes
+    items:
+    - text: Co-author of SB 813; yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 70
+  candidates:
+  - name: Paula Swift
+    sort_name: Swift
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Tri Ta
+    sort_name: Ta
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'no'
+      detail: No in committee and on the floor
+    items:
+    - text: SB 1047 no; SB 53 did not vote; SB 813 no (committee and floor). [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 71
+  candidates:
+  - name: JJ Galvez
+    sort_name: Galvez
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Kate Sanchez
+    sort_name: Sanchez
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'no'
+    items:
+    - text: SB 1047 no; SB 53 yes; SB 813 no. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 72
+  note: Open seat
+  candidates:
+  - name: Chris Kluwe
+    sort_name: Kluwe
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Gracey Van Der Mark
+    sort_name: Van Der Mark
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 73
+  candidates:
+  - name: Cottie Petrie-Norris
+    sort_name: Petrie-Norris
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 no; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Urson Russell
+    sort_name: Russell
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 74
+  candidates:
+  - name: Sergio Farias
+    sort_name: Farias
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Laurie Davies
+    sort_name: Davies
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'no'
+    - yardstick: sb53
+      position: did_not_vote
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 no; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 75
+  candidates:
+  - name: Gerald C. Boursiquot
+    sort_name: Boursiquot
+    party: D
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Carl DeMaio
+    sort_name: DeMaio
+    party: R
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'no'
+    - yardstick: sb813
+      position: 'no'
+      detail: No in committee and on the floor
+    items:
+    - text: SB 53 no; SB 813 no (committee and floor). [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+- office: state_assembly
+  district: 76
+  candidates:
+  - name: Darshana Patel
+    sort_name: Patel
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Carrie S. Espinoza Villanueva
+    sort_name: Espinoza Villanueva
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 77
+  candidates:
+  - name: Tasha Boerner
+    sort_name: Boerner
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: did_not_vote
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 did not vote; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Trinity Hannaway
+    sort_name: Hannaway
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 78
+  candidates:
+  - name: Chris Ward
+    sort_name: Ward
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Payton Galvez
+    sort_name: Galvez
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 79
+  candidates:
+  - name: LaShae Sharp-Collins
+    sort_name: Sharp-Collins
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Andrew Lawson
+    sort_name: Lawson
+    party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: state_assembly
+  district: 80
+  candidates:
+  - name: David A. Alvarez
+    sort_name: Alvarez
+    party: D
+    incumbent: true
+    status: on_record
+    positions:
+    - yardstick: sb1047
+      position: 'yes'
+    - yardstick: sb53
+      position: 'yes'
+    - yardstick: sb813
+      position: 'yes'
+    items:
+    - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+  - name: Alejandro Galicia
+    sort_name: Galicia
+    party: R
+    status: none_found
+    search_note: No public AI statements found.

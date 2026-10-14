@@ -1,0 +1,47 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; }
+
+/* Status: how much public record exists. Same ink color for all three; only the fill differs. */
+.status { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; color: var(--ink); white-space: nowrap; }
+.status__dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--ink); flex: none; }
+.status--on_record .status__dot { background: var(--ink); }
+.status--ai_other .status__dot { background: linear-gradient(90deg, var(--ink) 50%, transparent 50%); }
+.status--none_found .status__dot { background: transparent; }
+.status--none_found { color: var(--muted); }
+.status--none_found .status__dot { border-color: var(--muted); }
+
+/* Position chips: identical styling for every value. */
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; font-size: 13px; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; background: var(--paper); }
+.chip__name { padding: 3px 8px; font-weight: 600; background: var(--sand); }
+.chip__value { padding: 3px 8px; }
+
+.positions { display: flex; flex-direction: column; gap: 10px; }
+.positions__row { display: grid; grid-template-columns: minmax(130px, 40%) 1fr; gap: 12px; }
+.positions dt a { font-weight: 600; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 3px; }
+.positions dt a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.positions__year { display: block; font-size: 13px; color: var(--muted); }
+.positions dd { display: flex; flex-direction: column; }
+.positions__detail { font-size: 14px; color: var(--muted); }
+
+.source-link {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 0 6px;
+  margin: 0 2px;
+  line-height: 1.6;
+  vertical-align: 1px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.source-link:hover { background: var(--sand); border-color: var(--accent); }
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; }
+.notice { background: var(--sand); border-left: 4px solid var(--ink); padding: 14px 18px; font-size: 15px; border-radius: 0 4px 4px 0; }
+.notice a { color: var(--accent); text-decoration: underline; }

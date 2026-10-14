@@ -1,0 +1,35 @@
+.cpanel {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 0;
+}
+.cpanel__head { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.cpanel__name { font-size: 1.5rem; }
+.cpanel__name a:hover { color: var(--accent); text-decoration: underline; }
+.cpanel__meta { color: var(--muted); font-size: 15px; }
+.cpanel__section { border-top: 1px solid var(--border); padding-top: 16px; }
+.cpanel__label {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.cpanel__hint { font-size: 14px; color: var(--muted); margin: -4px 0 10px; }
+.cpanel__items { padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
+.cpanel__items li::marker { color: var(--muted); }
+.cpanel__note {
+  font-size: 15px;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+.cpanel__section--funding { background: var(--sand); margin: 0 -24px; padding: 16px 24px; border-top: none; }

@@ -1,0 +1,13 @@
+.csearch__results { list-style: none; border: 1px solid var(--border); border-radius: 6px; background: var(--white); margin-top: -8px; }
+.csearch__results li + li { border-top: 1px solid var(--border); }
+.csearch__result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  flex-wrap: wrap;
+}
+.csearch__result:hover, .csearch__result:focus-visible { background: var(--sand); }
+.csearch__race { display: block; font-size: 14px; color: var(--muted); }
+.csearch__empty { color: var(--muted); font-size: 15px; margin-top: -8px; }

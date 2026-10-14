@@ -1,0 +1,25 @@
+# Ruby / Rails
+backend/.bundle
+backend/vendor/
+backend/log/*
+!backend/log/.keep
+backend/tmp/*
+!backend/tmp/.keep
+backend/*.env
+backend/.env*
+# Built frontend is copied into backend/public by the Dockerfile
+backend/public/*
+!backend/public/.keep
+
+# Claude
+.claude/
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+!frontend/.env.example
+frontend/*.local
+
+# OS
+.DS_Store

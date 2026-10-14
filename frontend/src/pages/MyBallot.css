@@ -1,0 +1,9 @@
+.ballot { padding-top: 28px; }
+.ballot__picker { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 16px 22px; }
+.ballot__picker summary { cursor: pointer; font-weight: 600; }
+.ballot__picker[open] summary { margin-bottom: 16px; }
+.ballot__group { margin-top: 36px; }
+.ballot__group h2 { font-size: 1.6rem; margin-bottom: 14px; }
+.ballot__list { display: flex; flex-direction: column; gap: 16px; }
+.ballot__more { margin-top: 36px; color: var(--muted); }
+.ballot__more a { color: var(--accent); text-decoration: underline; }
