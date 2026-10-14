@@ -1,18 +1,11 @@
 require "rails_helper"
 
 RSpec.describe "API", type: :request do
-  before do
-    $stdout = StringIO.new
-    load Rails.root.join("db/seeds.rb")
-  ensure
-    $stdout = STDOUT
-  end
-
   it "lists every race with candidates" do
     get "/api/v1/races"
     expect(response).to have_http_status(:ok)
     body = response.parsed_body
-    expect(body.size).to eq(Race.count)
+    expect(body.size).to eq(164)
     expect(body.first["slug"]).to eq("governor")
     expect(body.first["candidates"].map { |c| c["name"] }).to eq(["Xavier Becerra", "Steve Hilton"])
   end
@@ -31,6 +24,8 @@ RSpec.describe "API", type: :request do
 
   it "returns 404 for unknown slugs" do
     get "/api/v1/races/nope"
+    expect(response).to have_http_status(:not_found)
+    get "/api/v1/candidates/nope"
     expect(response).to have_http_status(:not_found)
   end
 

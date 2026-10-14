@@ -10,8 +10,6 @@ RUN npm run build
 FROM ruby:3.3.0-slim
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
-    libpq-dev \
-    postgresql-client \
     curl \
     git \
     && rm -rf /var/lib/apt/lists/*
@@ -29,5 +27,5 @@ ENV RAILS_SERVE_STATIC_FILES=true
 
 EXPOSE 3000
 
-# Seeding reloads db/data/*.yml on every deploy, so YAML edits go live with the next deploy.
-CMD ["sh", "-c", "(bundle exec rails db:migrate && bundle exec rails db:seed) & exec bundle exec puma -C config/puma.rb"]
+# Candidate data is read from db/data/*.yml at boot, so YAML edits go live with the next deploy.
+CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]

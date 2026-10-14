@@ -1,5 +1,9 @@
 class ApplicationController < ActionController::API
-  rescue_from ActiveRecord::RecordNotFound do
+  private
+
+  def guide = Guide.current
+
+  def not_found
     render json: { error: "Not found" }, status: :not_found
   end
 end

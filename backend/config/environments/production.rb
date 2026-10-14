@@ -15,8 +15,6 @@ Rails.application.configure do
   config.active_support.disallowed_deprecation = :log
   config.active_support.disallowed_deprecation_warnings = []
 
-  config.active_record.dump_schema_after_migration = false
-
   config.force_ssl = ENV["FORCE_SSL"].present?
   config.public_file_server.enabled = true
   config.middleware.use Rack::Deflater

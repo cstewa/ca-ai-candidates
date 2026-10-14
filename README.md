@@ -2,7 +2,7 @@
 
 A neutral, sourced guide to what every candidate on California's November 3, 2026 ballot has said and done about AI safety.
 
-- **Backend**: Ruby on Rails 7.1 API (PostgreSQL)
+- **Backend**: Ruby on Rails 7.1 API (no database: it reads the YAML files in `backend/db/data`)
 - **Frontend**: React + Vite
 - Same layout and deploy setup as `mama-california` (one Docker image; Rails serves the built React app)
 
@@ -15,13 +15,11 @@ ca-ai-candidates/
 ├── backend/                    # Rails API
 │   ├── app/
 │   │   ├── controllers/api/v1/ # races, candidates, yardsticks (read-only)
-│   │   └── models/             # Race, Candidate, Position, RecordItem, Yardstick
+│   │   └── models/guide.rb     # loads and validates the YAML
 │   ├── db/
-│   │   ├── data/
-│   │   │   ├── races.yml       # ← every race, candidate, vote and statement
-│   │   │   └── yardsticks.yml  # ← the benchmark bills, votes and letters
-│   │   ├── migrate/
-│   │   └── seeds.rb            # loads db/data/*.yml (replaces all rows)
+│   │   └── data/
+│   │       ├── races.yml       # ← every race, candidate, vote and statement
+│   │       └── yardsticks.yml  # ← the benchmark bills, votes and letters
 │   └── spec/                   # data checks + API tests
 └── frontend/                   # React + Vite
     └── src/
@@ -38,7 +36,6 @@ ca-ai-candidates/
 ```bash
 cd backend
 bundle install
-bin/rails db:create db:migrate db:seed
 bin/rails s -p 3000
 ```
 
@@ -81,7 +78,7 @@ cd backend && bundle exec rspec
 
 ## Editing the data
 
-`backend/db/data/races.yml` is the source of truth. It was generated from the Oct. 14, 2026 Google Doc, and is meant to be edited by hand from here on. Changes go live on the next deploy (seeding runs on every boot), or locally with `bin/rails db:seed`. Run `bundle exec rspec` after editing; it catches typos like unknown parties, missing sources or bad yardstick keys.
+`backend/db/data/races.yml` is the source of truth. It was generated from the Oct. 14, 2026 Google Doc, and is meant to be edited by hand from here on. Changes go live on the next deploy. Locally, the dev server picks them up on the next page load. Run `bundle exec rspec` after editing; it catches typos like unknown parties, missing sources or bad yardstick keys. If a typo slips through, the new deploy fails its health check and Railway keeps the previous version live.
 
 ```yaml
 - office: us_house            # governor, attorney_general, us_house, state_senate, state_assembly, board_of_equalization, ...
@@ -142,4 +139,4 @@ These were made while converting the doc and are worth checking:
 
 ## Deployment (Railway)
 
-Same as `mama-california`: `railway.toml` builds the `Dockerfile`, which builds the React app into `backend/public` and runs Rails. Set `DATABASE_URL` and `SECRET_KEY_BASE`. Health check: `/healthz`.
+Same as `mama-california`: `railway.toml` builds the `Dockerfile`, which builds the React app into `backend/public` and runs Rails. The only variable to set is `SECRET_KEY_BASE`; no database is needed. Health check: `/healthz`.

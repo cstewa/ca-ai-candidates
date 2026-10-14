@@ -13,9 +13,6 @@ Rails.application.configure do
 
   config.action_controller.perform_caching = false
 
-  config.active_record.migration_error = :page_load
-  config.active_record.verbose_query_logs = true
-
   config.log_level = :debug
   config.logger = ActiveSupport::Logger.new($stdout)
   config.logger.formatter = Logger::Formatter.new

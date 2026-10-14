@@ -13,8 +13,6 @@ Rails.application.configure do
   config.active_support.disallowed_deprecation = :raise
   config.active_support.disallowed_deprecation_warnings = []
 
-  config.active_record.maintain_test_schema = true
-
   config.log_level = :warn
   config.logger = ActiveSupport::Logger.new($stdout)
   config.logger.formatter = Logger::Formatter.new

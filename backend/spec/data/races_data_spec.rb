@@ -2,54 +2,45 @@ require "rails_helper"
 
 # Guards the hand-edited YAML in db/data against typos.
 RSpec.describe "db/data" do
-  races      = YAML.load_file(Rails.root.join("db/data/races.yml"))
-  yardsticks = YAML.load_file(Rails.root.join("db/data/yardsticks.yml"))
-  candidates = races.flat_map { |r| r["candidates"].map { |c| [r, c] } }
-  link       = /\]\(https?:\/\//
+  let(:guide) { Guide.new }
 
-  it "uses known offices and unique race slugs" do
-    expect(races.map { |r| r["office"] } - Race::OFFICES.keys).to be_empty
-    slugs = races.map { |r| Race.slug_for(r["office"], r["district"]) }
-    expect(slugs.tally.select { |_, n| n > 1 }).to be_empty
-  end
-
-  it "has at least one candidate in every race" do
-    expect(races.select { |r| r["candidates"].empty? }).to be_empty
-  end
-
-  it "uses known parties and statuses" do
-    candidates.each do |race, c|
-      where = "#{c['name']} (#{race['office']} #{race['district']})"
-      expect(Candidate::PARTIES.keys + [nil]).to include(c["party"]), where
-      expect(Candidate::STATUSES).to include(c["status"]), where
-      expect(c["sort_name"]).to be_present, where
-    end
-  end
-
-  it "only references yardsticks that exist, with known position values" do
-    keys = yardsticks.map { |y| y["key"] }
-    candidates.each do |_, c|
-      (c["positions"] || []).each do |p|
-        expect(keys).to include(p["yardstick"]), c["name"]
-        expect(Position::VALUES).to include(p["position"]), c["name"]
-      end
-    end
+  it "loads and validates without errors" do
+    expect { guide }.not_to raise_error
+    expect(guide.races.size).to eq(164)
+    expect(guide.candidates.size).to eq(324)
   end
 
   it "cites a source link in every record item" do
-    unsourced = candidates.flat_map { |_, c| (c["items"] || []).reject { |i| i["text"] =~ link }.map { |i| "#{c['name']}: #{i['text']}" } }
+    unsourced = guide.candidates.flat_map do |c|
+      c["items"].reject { |i| i["body"] =~ /\]\(https?:\/\// }.map { |i| "#{c['name']}: #{i['body']}" }
+    end
     expect(unsourced).to be_empty
   end
 
-  it "marks candidates with no record as none_found" do
-    candidates.each do |_, c|
+  it "only marks candidates with something on record as on_record or ai_other" do
+    guide.candidates.each do |c|
       next if c["status"] == "none_found"
-      expect(c["positions"].present? || c["items"].present?).to be(true), c["name"]
+      expect(c["positions"].any? || c["items"].any?).to be(true), c["name"]
     end
   end
 
-  it "seeds cleanly" do
-    expect { load Rails.root.join("db/seeds.rb") }.to output(/Seeded/).to_stdout
-    expect(Candidate.count).to eq(candidates.size)
+  it "gives every candidate a unique slug" do
+    slugs = guide.candidates.map { |c| c["slug"] }
+    expect(slugs.uniq.size).to eq(slugs.size)
+  end
+
+  it "lists candidates alphabetically by last name" do
+    expect(guide.race("assembly-72")["candidates"].map { |c| c["name"] }).to eq(["Chris Kluwe", "Gracey Van Der Mark"])
+  end
+
+  it "rejects bad values" do
+    Dir.mktmpdir do |dir|
+      dir = Pathname(dir)
+      FileUtils.cp(Guide::DATA_DIR.join("yardsticks.yml"), dir)
+      races = YAML.load_file(Guide::DATA_DIR.join("races.yml"))
+      races.first["candidates"].first["party"] = "Whig"
+      File.write(dir.join("races.yml"), races.to_yaml)
+      expect { Guide.new(dir) }.to raise_error(Guide::InvalidData, /unknown party "Whig"/)
+    end
   end
 end
