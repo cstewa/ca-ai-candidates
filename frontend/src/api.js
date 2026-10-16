@@ -8,5 +8,6 @@ export const getRaces      = ()     => api.get('/races')
 export const getRace       = (slug) => api.get(`/races/${slug}`)
 export const getCandidate  = (slug) => api.get(`/candidates/${slug}`)
 export const getYardsticks = ()     => api.get('/yardsticks')
+export const getZip        = (zip)  => api.get(`/zips/${zip}`)
 
 export default api

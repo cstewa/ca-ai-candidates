@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :races,      only: [:index, :show], param: :slug
       resources :candidates, only: [:show],         param: :slug
       resources :yardsticks, only: [:index]
+      get "zips/:zip", to: "zips#show"
     end
   end
 

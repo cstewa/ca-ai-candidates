@@ -16,6 +16,7 @@ class Guide
     "attorney_general"       => ["Attorney General", "statewide", "attorney-general"],
     "insurance_commissioner" => ["Insurance Commissioner", "statewide", "insurance-commissioner"],
     "superintendent"         => ["Superintendent of Public Instruction", "statewide", "superintendent"],
+    "mayor"                  => ["Mayor", "local", "mayor"],
     "board_of_equalization"  => ["Board of Equalization", "board_of_equalization", "boe"],
     "us_house"               => ["U.S. House", "us_house", "us-house"],
     "state_senate"           => ["State Senate", "state_senate", "state-senate"],
@@ -30,7 +31,8 @@ class Guide
   # Describes how much of a public record exists, not whether it is good or bad.
   STATUSES         = %w[on_record ai_other none_found].freeze
   POSITION_VALUES  = %w[yes no did_not_vote author coauthor sponsor cosponsor signed].freeze
-  ITEM_KINDS       = %w[record funding].freeze
+  # What kind of record each item is; shown as a label beside it.
+  ITEM_KINDS       = %w[vote bill letter statement platform official_action background funding].freeze
   YARDSTICK_FIELDS = %w[key name short_name full_title sponsors year level kind
                         what_it_does why_it_matters outcome caveat url].freeze
 
@@ -45,8 +47,8 @@ class Guide
       @current ||= new
     end
 
-    def slug_for(office, district)
-      [OFFICES.fetch(office)[2], district].compact.join("-")
+    def slug_for(office, district, city = nil)
+      [OFFICES.fetch(office)[2], district, city&.parameterize].compact.join("-")
     end
   end
 
@@ -60,7 +62,7 @@ class Guide
     @candidate_slugs = Set.new
     @races = YAML.load_file(dir.join("races.yml"))
       .map { |r| build_race(r) }
-      .sort_by { |r| [OFFICES.keys.index(r["office"]), r["district"].to_i] }
+      .sort_by { |r| [OFFICES.keys.index(r["office"]), r["district"].to_i, r["city"].to_s] }
 
     @race_by_slug = @races.index_by { |r| r["slug"] }
     check! @race_by_slug.size == @races.size, "duplicate race: #{@races.map { |r| r['slug'] }.tally.select { |_, n| n > 1 }.keys}"
@@ -94,7 +96,11 @@ class Guide
     office = r["office"]
     check! OFFICES.key?(office), "unknown office #{office.inspect}"
     label, category, = OFFICES[office]
-    slug = self.class.slug_for(office, r["district"])
+    if office == "mayor"
+      check! r["city"].present? && r["place_fips"].to_s.match?(/\A\d{5}\z/), "mayor race needs city and a 5-digit place_fips"
+      label = "Mayor of #{r['city']}"
+    end
+    slug = self.class.slug_for(office, r["district"], r["city"])
     check! r["candidates"].present?, "race #{slug} has no candidates"
 
     {
@@ -105,6 +111,8 @@ class Guide
       "office_label" => label,
       "category" => category,
       "title" => r["district"] ? "#{label}, District #{r['district']}" : label,
+      "city" => r["city"],
+      "place_fips" => r["place_fips"]&.to_s,
       # Alphabetical by last name, ignoring case and accents.
       "candidates" => r["candidates"]
         .map { |c| build_candidate(c, slug) }
@@ -130,9 +138,9 @@ class Guide
     check! positions.map { |p| p["yardstick"] }.uniq.size == positions.size, "#{where}: duplicate yardstick"
 
     items = (c["items"] || []).map do |i|
-      kind = i["kind"] || "record"
+      kind = i["kind"]
       check! i["text"].present?, "#{where}: empty item"
-      check! ITEM_KINDS.include?(kind), "#{where}: unknown item kind #{kind.inspect}"
+      check! ITEM_KINDS.include?(kind), "#{where}: item kind must be one of #{ITEM_KINDS.join(', ')}, got #{kind.inspect}"
       { "body" => i["text"], "kind" => kind }
     end
 

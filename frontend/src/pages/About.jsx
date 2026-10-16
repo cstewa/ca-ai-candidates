@@ -28,7 +28,8 @@ export default function About() {
         <h2>What this is</h2>
         <p>
           This guide lists every candidate on California's certified November 3, 2026 ballot, office by office,
-          with what each has said or done about AI and AI safety. By AI safety we mean catastrophic risk, loss of
+          plus mayoral races in large cities (Los Angeles so far), with what each has said or done about AI and
+          AI safety. By AI safety we mean catastrophic risk, loss of
           human control over AI systems, AI-enabled cyber and biological threats, and oversight of the companies
           building the most powerful models.
         </p>
@@ -41,6 +42,11 @@ export default function About() {
           <li>Letters a candidate signed</li>
           <li>Public statements in news coverage, debates and campaign websites</li>
         </ul>
+        <p>
+          Each item is labeled by type: Vote, Bill, Letter, Statement, Platform (a written campaign plan), Official
+          action (something done in office, such as an investigation), Background (context about the candidate or
+          their bill, not their own words) or Outside money.
+        </p>
         <p>
           For legislators, votes are often the clearest signal, since few challengers have spoken about
           catastrophic AI risk at all. Every item links to its source.
@@ -79,6 +85,11 @@ export default function About() {
 
         <h2>Limits</h2>
         <ul>
+          <li>
+            ZIP codes are matched to districts using 2020 Census blocks and the official district maps. When a ZIP
+            code crosses a district or city line, the site shows the district covering most of its residents and lets
+            you switch.
+          </li>
           <li>Debate content comes from written news coverage, not from watching the debates.</li>
           <li>
             District numbers follow the 2026 ballot. Proposition 50 (2025) redrew the congressional maps, so some

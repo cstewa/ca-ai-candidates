@@ -1,9 +1,38 @@
 .ballot { padding-top: 28px; }
-.ballot__picker { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 16px 22px; }
+.ballot__zip { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 18px 22px; }
+.ballot__empty { margin-top: 24px; color: var(--muted); }
+.ballot__problem { margin-top: 24px; }
+.ballot__picker { margin-top: 40px; background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 16px 22px; }
 .ballot__picker summary { cursor: pointer; font-weight: 600; }
 .ballot__picker[open] summary { margin-bottom: 16px; }
 .ballot__group { margin-top: 36px; }
 .ballot__group h2 { font-size: 1.6rem; margin-bottom: 14px; }
-.ballot__list { display: flex; flex-direction: column; gap: 16px; }
+.ballot__list, .ballot__stack { display: flex; flex-direction: column; gap: 16px; }
 .ballot__more { margin-top: 36px; color: var(--muted); }
-.ballot__more a { color: var(--accent); text-decoration: underline; }
+.ballot__more a, .ballot__problem a { color: var(--accent); text-decoration: underline; }
+
+/* Split ZIP / city choice: neutral buttons, numbers only. */
+.split { background: var(--sand); border-radius: 8px; padding: 14px 18px; }
+.split__note { font-size: 15px; margin-bottom: 10px; }
+.split__buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+.split__button {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 14px;
+  min-height: 44px;
+  border: 1.5px solid var(--ink);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--ink);
+  cursor: pointer;
+}
+.split__button:hover { background: var(--paper); }
+.split__button--on { background: var(--ink); color: var(--white); }
+.split__button--on:hover { background: var(--ink); }
+.split__hint { font-weight: 400; }
+
+.ballot__jump { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 20px; }
+.ballot__jump-label { font-size: 14px; font-weight: 600; color: var(--muted); margin-right: 4px; }
+.ballot__jump-link { font-size: 14px; font-weight: 600; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--white); }
+.ballot__jump-link:hover { border-color: var(--ink); }

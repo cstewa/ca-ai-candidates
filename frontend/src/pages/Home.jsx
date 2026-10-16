@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import DistrictPicker from '../components/DistrictPicker'
+import ZipForm from '../components/ZipForm'
 import CandidateSearch from '../components/CandidateSearch'
 import StatusBadge from '../components/StatusBadge'
 import { Loading, LoadError } from '../components/PageState'
@@ -18,27 +18,25 @@ export default function Home() {
       <section className="home-hero">
         <div className="container">
           <p className="page-hero__kicker">California General Election · {ELECTION_DAY}</p>
-          <h1>What have your candidates said and done about AI safety?</h1>
+          <h1>
+            <span className="home-hero__state">California</span>
+            AI Safety Candidate Lookup
+          </h1>
           <p className="home-hero__lede">
-            Votes, bills, letters and public statements on the risks of advanced AI, for every candidate
-            on California's ballot, with a source for each one. This guide reports records. It does not
-            endorse or rate anyone.
+            Enter your ZIP code to see what the candidates on your ballot have said and done about AI safety,
+            from governor and mayor to Congress and the Legislature.
           </p>
+          <div className="home-hero__form">
+            <ZipForm />
+          </div>
+          <p className="home-hero__neutral">A record of votes and statements, with sources. Not an endorsement.</p>
         </div>
       </section>
 
       <section className="section home-find">
         <div className="container home-find__grid">
           <div className="home-card">
-            <h2>Find the races on your ballot</h2>
-            <p className="home-card__intro">
-              Choose the districts you live in. Statewide races are always included.
-            </p>
-            <DistrictPicker />
-          </div>
-          <div className="home-card">
-            <h2>Look up a candidate</h2>
-            <p className="home-card__intro">Search everyone on the ballot, from governor to Assembly.</p>
+            <h2>Look up a candidate by name</h2>
             {loading && <Loading />}
             {error && <LoadError />}
             {data && <CandidateSearch candidates={data.candidates} />}
@@ -94,7 +92,7 @@ export default function Home() {
         <div className="container home-read">
           <h2 className="home-h2">How to read this guide</h2>
           <ul>
-            <li><strong>What counts as a record:</strong> recorded votes on the main AI-safety bills, bills authored or sponsored, signed letters, and public statements in news coverage, debates and campaign sites.</li>
+            <li><strong>Every item is labeled</strong> as a vote, bill, letter, statement, platform or official action, and links to its source.</li>
             <li><strong>“No public AI statements found”</strong> means a targeted search found nothing. It does not mean the candidate has no view. Asking them directly is the best way to fill the gap.</li>
             <li><strong>Every value looks the same.</strong> A “yes” and a “no” vote are styled identically, and parties are shown as text only.</li>
             <li><strong>Outside money is labeled separately.</strong> Spending by AI-policy groups is something done by others, not a statement by the candidate.</li>

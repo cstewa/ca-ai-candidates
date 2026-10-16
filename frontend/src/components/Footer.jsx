@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer__inner">
         <div className="footer__about">
-          <p className="footer__title">California Candidates on AI Safety</p>
+          <p className="footer__title">California AI Safety Candidate Lookup</p>
           <p>
             A record of what candidates on the November 3, 2026 ballot have said and done about AI safety.
             It does not endorse or rate any candidate.
@@ -15,7 +15,7 @@ export default function Footer() {
           <p className="footer__updated">Last updated {LAST_UPDATED}.</p>
         </div>
         <nav className="footer__links" aria-label="Footer">
-          <Link to="/my-ballot">Find my races</Link>
+          <Link to="/my-ballot">Find my candidates</Link>
           <Link to="/races">All races</Link>
           <Link to="/benchmarks">Bills &amp; letters</Link>
           <Link to="/about">How to read this</Link>

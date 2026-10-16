@@ -33,3 +33,22 @@
   padding-top: 14px;
 }
 .cpanel__section--funding { background: var(--sand); margin: 0 -24px; padding: 16px 24px; border-top: none; }
+
+/* Typed record items: a label, then the text. Every label looks the same. */
+.cpanel__items--typed { list-style: none; padding-left: 0; gap: 14px; }
+.cpanel__items--typed li { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 12px; align-items: baseline; }
+.kind-chip {
+  justify-self: start;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 2px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--sand);
+  color: var(--ink);
+  white-space: nowrap;
+}
+@media (max-width: 480px) {
+  .cpanel__items--typed li { grid-template-columns: 1fr; gap: 4px; }
+}

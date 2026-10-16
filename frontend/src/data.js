@@ -55,10 +55,16 @@ export const CATEGORIES = [
     intro: 'Every California voter sees these races. The Attorney General enforces SB 53, the state law on frontier AI safety.',
   },
   {
+    key: 'local',
+    label: 'Mayor',
+    intro: 'Mayoral races in large California cities. Los Angeles is covered so far; more cities will be added as their candidate lists are verified.',
+  },
+  {
     key: 'us_house',
     label: 'U.S. House',
     param: 'cd',
     districtLabel: 'Congressional district',
+    splitLabel: 'congressional districts',
     intro: 'Members of Congress may have signed letters, sponsored federal bills, or voted on the 2025 House reconciliation bill. Some candidates are current or former state legislators with votes on California bills. Proposition 50 (2025) redrew the congressional maps, so some incumbents are running in a different district number than the one they represent now.',
   },
   {
@@ -66,6 +72,7 @@ export const CATEGORIES = [
     label: 'State Senate',
     param: 'sd',
     districtLabel: 'State Senate district',
+    splitLabel: 'State Senate districts',
     intro: 'Senators and former Assemblymembers have recorded votes on SB 1047, SB 53 and SB 813. Only even-numbered Senate districts are on the 2026 ballot.',
   },
   {
@@ -73,14 +80,16 @@ export const CATEGORIES = [
     label: 'State Assembly',
     param: 'ad',
     districtLabel: 'Assembly district',
+    splitLabel: 'Assembly districts',
     intro: 'Incumbents have recorded Assembly floor votes on SB 1047 (2024), SB 53 (2025) and SB 813 (2026). Members first elected in 2024 had no SB 1047 vote.',
   },
   {
     key: 'board_of_equalization',
-    label: 'Board of Equalization',
+    label: 'Board of Equalization (state tax board)',
     param: 'boe',
     districtLabel: 'Board of Equalization district',
-    intro: 'The Board of Equalization has no role in AI policy. Some candidates are current or former legislators with votes on AI-safety bills.',
+    splitLabel: 'Board of Equalization districts',
+    intro: 'The Board of Equalization oversees some state taxes and has no role in AI policy. Some candidates are current or former legislators with votes on AI-safety bills.',
   },
 ]
 
@@ -91,6 +100,18 @@ export const STATUSES = {
   on_record:  { label: 'Public record on AI safety',        short: 'Record on AI safety' },
   ai_other:   { label: 'Has spoken on AI, not AI safety',   short: 'AI, not AI safety' },
   none_found: { label: 'No public AI statements found',     short: 'None found' },
+}
+
+// The type of each statement or action. Every type is styled the same way.
+export const ITEM_KINDS = {
+  vote: 'Vote',
+  bill: 'Bill',
+  letter: 'Letter',
+  statement: 'Statement',
+  platform: 'Platform',
+  official_action: 'Official action',
+  background: 'Background',
+  funding: 'Outside money',
 }
 
 export const POSITION_LABELS = {
@@ -121,4 +142,14 @@ export const STORAGE_KEY = 'ca-ai-candidates:districts'
 
 export function savedDistricts() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {} } catch { return {} }
+}
+
+export const ZIP_KEY = 'ca-ai-candidates:zip'
+
+export function savedZip() {
+  try { return localStorage.getItem(ZIP_KEY) || '' } catch { return '' }
+}
+
+export function saveZip(zip) {
+  try { localStorage.setItem(ZIP_KEY, zip) } catch { /* storage unavailable */ }
 }

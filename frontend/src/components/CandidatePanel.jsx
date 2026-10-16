@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import RecordText from './RecordText'
 import StatusBadge from './StatusBadge'
 import PositionList from './PositionList'
-import { candidateMeta } from '../data'
+import { candidateMeta, ITEM_KINDS } from '../data'
 import './CandidatePanel.css'
 
 export default function CandidatePanel({ candidate: c, yardsticks, linkName = true, headingLevel = 3 }) {
@@ -29,9 +29,14 @@ export default function CandidatePanel({ candidate: c, yardsticks, linkName = tr
 
       {record.length > 0 && (
         <section className="cpanel__section">
-          <h4 className="cpanel__label">Statements and actions</h4>
-          <ul className="cpanel__items">
-            {record.map((i, n) => <li key={n}><RecordText text={i.body} /></li>)}
+          <h4 className="cpanel__label">Record</h4>
+          <ul className="cpanel__items cpanel__items--typed">
+            {record.map((i, n) => (
+              <li key={n}>
+                <span className="kind-chip">{ITEM_KINDS[i.kind]}</span>
+                <span><RecordText text={i.body} /></span>
+              </li>
+            ))}
           </ul>
         </section>
       )}

@@ -17,8 +17,8 @@ export default function Navbar() {
         <Link to="/" className="navbar__logo" onClick={() => setOpen(false)}>
           <span className="navbar__mark" aria-hidden="true">CA</span>
           <span className="navbar__title">
-            Candidates on AI Safety
-            <span className="navbar__sub">2026 General Election</span>
+            AI Safety Candidate Lookup
+            <span className="navbar__sub">California · 2026 Election</span>
           </span>
         </Link>
 
@@ -44,7 +44,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <Link to="/my-ballot" className="btn btn--primary navbar__cta" onClick={() => setOpen(false)}>
-            Find my races
+            Find my candidates
           </Link>
         </div>
       </div>

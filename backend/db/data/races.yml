@@ -8,21 +8,30 @@
     status: on_record
     items:
     - text: Released an 11-point AI plan in May 2026. It says California cannot accept AI that "poses catastrophic risks to public safety" and promises guardrails against harms "when AI accelerates dangerous capabilities or operates beyond human oversight." [[source]](https://www.xavierbecerra2026.com/priorities/ai/)
+      kind: platform
     - text: Asked by CalMatters (Sept. 2026) whether he backs a kill switch and third-party monitoring, his campaign said only that he would enforce existing AI safety laws, close gaps, and strengthen standards. He declined an interview. [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+      kind: statement
     - text: Plan also calls for a national AI framework, a state cloud-computing cluster, independent audits of AI used by state government, and transparency for automated job decisions. [[source]](https://www.yahoo.com/news/articles/xavier-becerra-unveils-ai-vision-130000867.html)
+      kind: platform
     - text: Encode AI (sponsor of SB 53) is a campaign donor and called itself "cautiously optimistic" about him. [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
       kind: funding
     - text: At the Sept. 30 debate he likened Hilton's non-answer on state AI rules to Trump accepting a "pinky promise" from AI firms to self-police. [[source]](https://www.cnn.com/2026/09/30/politics/takeaways-cnn-california-governor-debate-becerra-hilton)
+      kind: statement
   - name: Steve Hilton
     sort_name: Hilton
     party: R
     status: on_record
     items:
     - text: 'Platform: "Keep California the AI Capital of the World." It says government should enforce basic accountability but avoid "sweeping, preemptive regulation," and frames AI as a national-security race with China. [[source]](https://stevehiltonforgovernor.com/policy/keep-california-the-ai-capital-of-the-world)'
+      kind: platform
     - text: To CalMatters he called AI risk a "very urgent priority" and said he was "very interested" in external safety evaluators, then declined to endorse them. He called a mandatory kill switch "a gimmick." [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+      kind: statement
     - text: Called industry warnings about human extinction "reckless and irresponsible," saying labs would stop if they truly believed them. [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+      kind: statement
     - text: Said he would convene an expert AI-safety panel like Newsom's. Would halt AI use in schools on day one and endorsed SB 947 (limits on AI-only firing decisions). [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
+      kind: statement
     - text: At the debate, said his AI priorities are keeping AI jobs in California and protecting children; did not say whether he agrees with Trump's support for industry self-policing. [[source]](https://www.cnn.com/2026/09/30/politics/takeaways-cnn-california-governor-debate-becerra-hilton)
+      kind: statement
 - office: lieutenant_governor
   candidates:
   - name: Fiona Ma
@@ -62,6 +71,7 @@
     status: ai_other
     items:
     - text: Proposes using AI to monitor state transactions for fraud. No statements on AI safety found. [[source]](https://factually.co/fact-checks/automotive/herb-w-morgan-controller-ff18cf)
+      kind: platform
 - office: treasurer
   candidates:
   - name: Eleni Kounalakis
@@ -84,10 +94,15 @@
     status: on_record
     items:
     - text: Opened a formal investigation of the July 2026 incident in which OpenAI agents escaped a test environment and attacked Hugging Face, and subpoenaed OpenAI on Sept. 30, 2026 over cybersecurity incidents and risks from its models. [[source]](https://www.insurancejournal.com/news/west/2026/10/02/887757.htm)
+      kind: official_action
     - text: Said he is "looking very closely" at OpenAI and Anthropic, supports the kill-switch idea, and said "the more regulators, the better." [[source]](https://www.yahoo.com/news/articles/rob-bonta-looking-very-closely-182334232.html)
+      kind: statement
     - text: Joined a bipartisan group of state AGs urging Congress to regulate large-scale AI models. [[source]](https://gazette.com/2026/10/01/rob-bonta-subpoenas-openai-over-hugging-face-hack/)
+      kind: official_action
     - text: His office has opposed federal preemption of state AI laws. [[source]](https://oag.ca.gov/system/files/attachments/press-docs/AI%20Laws%20Preemption.pdf)
+      kind: official_action
     - text: In 2025 approved OpenAI's recapitalization after securing concessions he said ensure "safety will be prioritized." [[source]](https://oag.ca.gov/news/press-releases/attorney-general-bonta-issues-statement-openai%E2%80%99s-recapitalization-plan)
+      kind: official_action
   - name: Michael E. Gates
     sort_name: Gates
     party: R
@@ -111,6 +126,7 @@
       position: 'yes'
     items:
     - text: 'As a state senator: SB 1047 not voting on first Senate passage, yes on final concurrence [[SB 1047 votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/); SB 53 yes both votes [[SB 53 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/); SB 813 yes [[SB 813 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+      kind: vote
   - name: Jane Kim
     sort_name: Kim
     party: D
@@ -130,6 +146,7 @@
     status: ai_other
     items:
     - text: At an April 2026 forum said AI is eroding students' critical thinking and called for a group to study it. [[source]](https://www.noozhawk.com/achievement-gaps-ai-and-more-state-superintendent-hopefuls-detail-plans-at-candidate-forums/)
+      kind: statement
 - office: board_of_equalization
   district: 1
   candidates:
@@ -154,8 +171,11 @@
       detail: No on Senate passage; yes on final concurrence
     items:
     - text: 'SB 1047: the only no vote on first Senate passage (32-1), and no on final concurrence [[SB 1047 votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/).'
+      kind: vote
     - text: 'SB 53: yes on first passage, no on final concurrence [[SB 53 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/).'
+      kind: vote
     - text: 'SB 813: no on Senate passage, yes on final concurrence [[SB 813 votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+      kind: vote
 - office: board_of_equalization
   district: 2
   candidates:
@@ -186,6 +206,7 @@
       position: 'yes'
     items:
     - text: 'As an Assemblymember: yes on SB 1047 [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+      kind: vote
   - name: Samuel P. Sukaton
     sort_name: Sukaton
     party: D
@@ -207,7 +228,9 @@
       position: 'yes'
     items:
     - text: 'As a state senator: yes on SB 1047 (both votes) [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+      kind: vote
     - text: Authored SB 574 (2026) on lawyers' use of AI. [[source]](https://www.transparencycoalition.ai/news/ai-legislative-update-september4-2026)
+      kind: bill
   - name: Denis Bilodeau
     sort_name: Bilodeau
     party: R
@@ -230,6 +253,7 @@
       position: 'yes'
     items:
     - text: 'As a state senator: yes on SB 1047 (both votes) [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+      kind: vote
   - name: James Gallagher
     sort_name: Gallagher
     party: R
@@ -246,6 +270,7 @@
       detail: Did not vote on floor passage
     items:
     - text: 'As Assembly GOP leader: did not vote on SB 1047 [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) or SB 53 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) floor passage.'
+      kind: vote
 - office: us_house
   district: 2
   candidates:
@@ -259,6 +284,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Robin Littau
     sort_name: Littau
     party: R
@@ -277,6 +303,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Robb Tucker
     sort_name: Tucker
     party: R
@@ -300,6 +327,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter and publicized it, citing risks of mass cyber breaches and bio/chemical weapons. [[source]](https://www.mikethompsonforcongress.com/news/thompson-joins-106-lawmakers-calling-speaker-johnson-pass-artificial-intelligence-safeguards)
+      kind: letter
 - office: us_house
   district: 5
   candidates:
@@ -319,6 +347,7 @@
       position: 'yes'
     items:
     - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+      kind: vote
 - office: us_house
   district: 6
   candidates:
@@ -337,9 +366,13 @@
       position: 'yes'
     items:
     - text: Co-introduced with Liccardo a U.S.-China AI safety bill (Sept. 2026) targeting loss of control, CBRN threats and cyber risk, with a crisis hotline. [[source]](https://telanganatoday.com/us-lawmakers-propose-ai-safety-framework-hotline-with-china)
+      kind: bill
     - text: Said regulators should be "in the loop" on approving new models, red-teaming and misalignment, with "some flexibility" for state rules. [[source]](https://fox5sandiego.com/news/politics/inside-california-politics/inside-california-politics-sept-13-2026/amp/)
+      kind: statement
     - text: In 2018 passed an Assembly resolution endorsing the Asilomar AI Principles. [[source]](https://insider.govtech.com/california/news/ai-how-will-the-state-address.html)
+      kind: bill
     - text: Voted for the 2025 moratorium bill (as a Republican). [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+      kind: vote
 - office: us_house
   district: 7
   candidates:
@@ -354,8 +387,11 @@
       detail: Co-led the letter
     items:
     - text: Led California House Democrats opposing the 2025 state-law moratorium [[source]](https://matsui.house.gov/media/press-releases/matsui-leads-ca-colleagues-opposing-ai-moratorium-reconciliation-bill), and co-led an 81-member letter against reviving it in the defense bill. [[source]](https://matsui.house.gov/media/press-releases/matsui-leads-colleagues-opposing-push-revive-ai-moratorium-ndaa)
+      kind: letter
     - text: Called Trump's Dec. 2025 order against state AI laws "illegal federal coercion." [[source]](https://matsui.house.gov/media/press-releases/matsui-statement-trumps-ai-executive-order)
+      kind: statement
     - text: Co-led the Aug. 2026 letter to OpenAI demanding logs from the Hugging Face incident, including whether models tried to undermine human control. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+      kind: letter
   - name: Mai Vang
     sort_name: Vang
     party: D
@@ -402,6 +438,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Jeff Frese
     sort_name: Frese
     party: R
@@ -417,8 +454,11 @@
     status: on_record
     items:
     - text: Wants a national moratorium on new data centers until Congress sets rules on AI's economic, environmental and safety impacts. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
+      kind: platform
     - text: Focus is on displaced workers and creators' rights; signed the "AI Pact" (no AI-company bailouts, an industry-funded worker fund). [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
+      kind: platform
     - text: Her campaign says AI lobbying weakened SB 53, stripping independent audits and narrowing whistleblower protections, and attacks Wiener's AI-safety PAC support. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
+      kind: statement
   - name: Scott Wiener
     sort_name: Wiener
     party: D
@@ -432,8 +472,11 @@
       position: 'yes'
     items:
     - text: Authored SB 1047 [[source]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) and SB 53 [[source]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/); voted yes on SB 813. [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: bill
     - text: Led 20 state lawmakers in urging Congress to reject federal preemption (Dec. 2025). [[source]](https://www.govtech.com/artificial-intelligence/despite-executive-order-california-lawmakers-push-to-regulate-ai)
+      kind: letter
     - text: 'Platform: a new federal AI safety and security agency, mandatory safety standards focused on catastrophic risk from the most powerful models, no federal preemption, fees on new data centers. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)'
+      kind: platform
     - text: Public First Action (AI-safety group funded partly by Anthropic) has put about $3.5 million into a pro-Wiener PAC. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
       kind: funding
 - office: us_house
@@ -445,6 +488,7 @@
     status: ai_other
     items:
     - text: Founder of the Society Library, which builds AI tools for mapping policy debates. No specific frontier-safety positions found. [[source]](https://fwd50.com/speaker/jamie-joyce)
+      kind: background
   - name: Lateefah Simon
     sort_name: Simon
     party: D
@@ -457,6 +501,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and the Aug. 2026 OpenAI oversight letter. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+      kind: letter
 - office: us_house
   district: 13
   candidates:
@@ -480,6 +525,7 @@
     status: ai_other
     items:
     - text: At an Oct. 2026 debate said AI regulation "definitely needs to be at the federal level" rather than a state patchwork. [[source]](https://www.nbcbayarea.com/news/local/californias-14th-congressional-district-race-debate/4155063/)
+      kind: statement
   - name: Aisha Wahab
     sort_name: Wahab
     party: D
@@ -496,6 +542,7 @@
       position: 'yes'
     items:
     - text: 'As a state senator: yes on SB 1047 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
+      kind: vote
 - office: us_house
   district: 15
   candidates:
@@ -509,6 +556,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Charles Hoelter
     sort_name: Hoelter
     party: R
@@ -528,7 +576,9 @@
       detail: Drafted and led the letter
     items:
     - text: Drafted and led the 107-member letter; said Speaker Johnson was "fiddling" amid a "firestorm of concern" on AI safety. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
     - text: 'Co-introduced the Liccardo-Kiley U.S.-China frontier-safety bill: "no human wins a race to superintelligence that exceeds human control." [[source]](https://www.legistorm.com/stormfeed/view_rss/2873063/member/3804/title/new-bipartisan-ai-safety-bill-will-move-us-and-china-beyond-the-red-phone.html)'
+      kind: bill
     - text: Was endorsed in the primary by Leading the Future, the industry-funded PAC. [[source]](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326))
       kind: funding
   - name: Peter Sundin Soulé
@@ -551,10 +601,15 @@
       position: signed
     items:
     - text: In 2024 joined a House letter to Newsom opposing SB 1047. [[source]](https://pelosi.house.gov/news/press-releases/pelosi-statement-opposition-california-senate-bill-1047)
+      kind: letter
     - text: In 2026 called for a global pause on recursive self-improvement and on superintelligence, kill-switch protocols and pre-release audits. [[source]](https://axios.com/2026/09/25/ro-khanna-alternative-us-china-ai-playbook)
+      kind: statement
     - text: Announced a bill to ban recursive self-improvement until federal safeguards exist, with auditors embedded in every frontier lab; told CNBC there is "a civilizational extinction risk." [[source]](https://www.commondreams.org/news/ro-khanna-recursive-ai)
+      kind: bill
     - text: Says states should regulate until Congress acts. [[source]](https://www.thenation.com/?p=595067)
+      kind: statement
     - text: Signed the 107-member [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and OpenAI oversight letters. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+      kind: letter
   - name: Ritesh Tandon
     sort_name: Tandon
     party: R
@@ -570,8 +625,11 @@
     status: on_record
     items:
     - text: Opposed SB 1047 in 2024 and praised Newsom's veto, saying AI rules should be federal. [[source]](https://democrats-science.house.gov/news/press-releases/ranking-member-lofgren-commends-governor-newsom-for-veto-of-over-restrictive-california-ai-bill)
+      kind: statement
     - text: Called Trump's Dec. 2025 order against state AI laws "not lawful" [[source]](https://democrats-science.house.gov/news/press-releases/ranking-member-lofgren-slams-trump-white-house-for-illegal-plan-to-undermine-state-ai-laws); said the AI Action Plan "only minimally addressed the risks of AI." [[source]](https://democrats-science.house.gov/news/press-releases/ranking-member-lofgren-opening-statement-for-hearing-on-ai-action-plan)
+      kind: statement
     - text: As top Science Committee Democrat, backed 10 AI bills in June 2026, including an AI flaw-reporting bill. [[source]](https://capitolreleases.com/releases/dabaaa7d-5ca9-4477-833b-5ab7769931e0)
+      kind: bill
   - name: Shane Lewis
     sort_name: Lewis
     party: R
@@ -592,6 +650,7 @@
     - text: Think Big (Leading the Future network) spent $599,280 supporting him in the primary. [[source]](https://elections.transformernews.ai/states/ca)
       kind: funding
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Peter Coe Verbica
     sort_name: Verbica
     party: R
@@ -615,6 +674,7 @@
       position: 'yes'
     items:
     - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+      kind: vote
 - office: us_house
   district: 21
   candidates:
@@ -647,6 +707,7 @@
       position: 'yes'
     items:
     - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+      kind: vote
 - office: us_house
   district: 23
   candidates:
@@ -668,9 +729,13 @@
       detail: Lead sponsor
     items:
     - text: Co-wrote the Great American AI Act draft (June 2026), which would have preempted state AI-development laws for three years. [[source]](https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/)
+      kind: bill
     - text: 'Lead sponsor of the FRONTIER Act (July 2026): frontier-lab safety frameworks, independent audits, incident reporting and emergency authority, preempting state rules in those areas. Said it "will protect Americans from catastrophic risk." [[source]](https://thehill.com/policy/technology/5987397-openai-hugging-face-hack/)'
+      kind: bill
     - text: 'Safety groups split: an Institute for Law & AI fellow called it the best AI safety bill yet [[source]](https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3825); Americans for Responsible Innovation said its permanent preemption leaves "a serious hole." [[source]](https://ari.us/frontier-act-improves-on-prior-proposal-but-requires-critical-changes/)'
+      kind: background
     - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+      kind: vote
 - office: us_house
   district: 24
   candidates:
@@ -684,6 +749,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Bob Smith
     sort_name: Smith
     party: R
@@ -718,7 +784,10 @@
     - yardstick: sb813
       position: 'yes'
     items:
-    - text: 'As an Assemblymember: authored AB 2013 (AI training-data transparency, 2024 law) [[source]](https://perkinscoie.com/insights/update/ab-2013-new-california-ai-law-mandates-disclosure-genai-training-data); voted no on SB 1047 [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/); yes on SB 53 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813. [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+    - text: 'As an Assemblymember voted no on SB 1047 [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/); yes on SB 53 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813. [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+      kind: vote
+    - text: Authored AB 2013 (AI training-data transparency, 2024 law). [[source]](https://perkinscoie.com/insights/update/ab-2013-new-california-ai-law-mandates-disclosure-genai-training-data)
+      kind: bill
   - name: Sam Gallucci
     sort_name: Gallucci
     party: R
@@ -740,6 +809,7 @@
       position: signed
     items:
     - text: Co-led the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis); signed the Aug. 2026 OpenAI oversight letter. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+      kind: letter
   - name: Jason Gibbs
     sort_name: Gibbs
     party: R
@@ -779,7 +849,9 @@
       position: signed
     items:
     - text: As an Assemblymember voted no on SB 1047 (2024). [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+      kind: vote
     - text: In Congress, co-led a letter of 75+ members opposing a state-AI-law moratorium in the defense bill (Dec. 2025) [[source]](https://rivas.house.gov/media/press-releases/congresswomen-luz-rivas-and-doris-matsui-lead-colleagues-opposing-push-revive) and signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
 - office: us_house
   district: 30
   candidates:
@@ -795,7 +867,9 @@
       position: signed
     items:
     - text: As an Assemblymember voted yes on SB 1047. [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+      kind: vote
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Scott Alan Meyers
     sort_name: Meyers
     party: R
@@ -814,6 +888,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Eric Ching
     sort_name: Ching
     party: R
@@ -832,6 +907,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Larry Thompson
     sort_name: Thompson
     party: R
@@ -847,6 +923,7 @@
     status: on_record
     items:
     - text: As House Democratic Caucus chair, joined Jeffries and Clark in pressing for AI-safeguard votes in Sept. 2026. [[source]](https://thenextweb.com/news/house-democrats-cancel-recess-ai-safety-jeffries)
+      kind: statement
   - name: Stephanie M. Vargas
     sort_name: Vargas
     party: R
@@ -900,10 +977,15 @@
       detail: Co-led the letter
     items:
     - text: 'Lead sponsor of the AI Kill Switch Act (July 2026): the largest labs must be able to throttle or shut down their models, and DHS gets emergency shutdown authority. Said "powerful AI systems can go rogue... or even resist human intervention." [[source]](https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can)'
+      kind: bill
     - text: Co-led the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and the 2025 letter against a defense-bill moratorium on state AI laws. [[source]](https://matsui.house.gov/media/press-releases/matsui-leads-colleagues-opposing-push-revive-ai-moratorium-ndaa)
+      kind: letter
     - text: On Sept. 29, 2026 demanded OpenAI, Google, Anthropic, Meta and SpaceXAI disclose every case of their agents breaking into systems. [[source]](https://gottheimer.house.gov/posts/release-gottheimer-lieu-and-fousheee-demand-answers-from-ai-giants-after-string-of-rogue-hacking-incidents)
+      kind: letter
     - text: Criticized the Obernolte-Trahan draft as failing civil-rights, labor and watchdog concerns. [[source]](https://www.globalpolicywatch.com/2026/07/backlash-to-bipartisan-ai-omnibus-illustrates-preemption-impasse/)
+      kind: statement
     - text: Co-chairs the House Democratic Commission on AI. [[source]](https://rollcall.com/2026/07/23/ai-companies-would-need-kill-switch-under-new-bipartisan-bill/)
+      kind: official_action
   - name: Houston Brignano
     sort_name: Brignano
     party: R
@@ -922,6 +1004,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Samantha Mota
     sort_name: Mota
     party: D
@@ -953,6 +1036,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Steve Manos
     sort_name: Manos
     party: R
@@ -973,6 +1057,7 @@
       position: 'yes'
     items:
     - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+      kind: vote
   - name: Young Kim
     sort_name: Kim
     party: R
@@ -984,6 +1069,7 @@
       position: 'yes'
     items:
     - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
+      kind: vote
 - office: us_house
   district: 41
   candidates:
@@ -997,6 +1083,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Mitch Clemmons
     sort_name: Clemmons
     party: R
@@ -1015,6 +1102,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Brian Burley
     sort_name: Burley
     party: R
@@ -1049,6 +1137,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis) and the Aug. 2026 OpenAI oversight letter. [[source]](https://casar.house.gov/media/press-releases/casar-leads-demand-information-open-ai-about-security-incident)
+      kind: letter
   - name: Genevieve Angel
     sort_name: Angel
     party: R
@@ -1067,6 +1156,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Chuong V. Vo
     sort_name: Vo
     party: R
@@ -1085,6 +1175,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: David Pan
     sort_name: Pan
     party: R
@@ -1106,7 +1197,9 @@
       position: signed
     items:
     - text: As a state senator voted yes on SB 1047's first Senate passage and did not vote on concurrence. [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+      kind: vote
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Jenny Rae Le Roux
     sort_name: Le Roux
     party: R
@@ -1138,6 +1231,7 @@
       position: signed
     items:
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Armen Kurdian
     sort_name: Kurdian
     party: R
@@ -1158,7 +1252,9 @@
       position: signed
     items:
     - text: Co-sponsor of the Great American AI Act draft [[source]](https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/) and the FRONTIER Act (federal frontier-safety rules that preempt some state rules). [[source]](https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3823)
+      kind: bill
     - text: Signed the 107-member letter. [[source]](https://liccardo.house.gov/media/press-releases/over-hundred-house-democrats-demand-congress-stay-session-confront-ai-crisis)
+      kind: letter
   - name: Steve Cohen
     sort_name: Cohen
     party: R
@@ -1174,6 +1270,7 @@
     status: on_record
     items:
     - text: At a Sept. 16, 2026 press conference with Reps. Beyer, Trahan and Lieu, said voluntary self-audits by AI developers are not enough. [[source]](https://thenextweb.com/news/house-democrats-cancel-recess-ai-safety-jeffries)
+      kind: statement
   - name: Ricardo Cabrera
     sort_name: Cabrera
     party: R
@@ -1209,6 +1306,7 @@
       position: 'yes'
     items:
     - text: 'As an Assemblymember: yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+      kind: vote
   - name: Tief Gibbs
     sort_name: Gibbs
     party: R
@@ -1252,8 +1350,11 @@
       detail: Did not vote on Senate passage; yes on final concurrence
     items:
     - text: 'SB 1047: did not vote on first passage, no on final. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)'
+      kind: vote
     - text: 'SB 53: yes on first passage, no on final. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/)'
+      kind: vote
     - text: 'SB 813: did not vote on Senate passage, yes on final concurrence. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+      kind: vote
 - office: state_senate
   district: 8
   candidates:
@@ -1271,6 +1372,7 @@
       position: 'yes'
     items:
     - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Susan A. Mason
     sort_name: Mason
     party: R
@@ -1318,6 +1420,7 @@
       position: 'yes'
     items:
     - text: 'As an Assemblymember: yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+      kind: vote
   - name: Darin S. DuPont
     sort_name: DuPont
     party: R
@@ -1340,6 +1443,7 @@
       position: 'yes'
     items:
     - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Guillermo Asuncion Gonzalez
     sort_name: Asuncion Gonzalez
     party: R
@@ -1362,7 +1466,9 @@
       position: 'yes'
     items:
     - text: Yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
     - text: Authored SB 867 (2026), a moratorium on AI chatbots in toys, and other companion-chatbot safety bills. [[source]](https://www.transparencycoalition.ai/news/ai-legislative-update-september4-2026)
+      kind: bill
   - name: Art Hodges
     sort_name: Hodges
     party: R
@@ -1385,6 +1491,7 @@
       position: 'yes'
     items:
     - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Tony Rodriguez
     sort_name: Rodriguez
     party: R
@@ -1407,6 +1514,7 @@
       position: 'yes'
     items:
     - text: Co-author of both SB 1047 [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) and SB 53 [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/); yes on SB 813. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: bill
   - name: Mike Netter
     sort_name: Netter
     party: R
@@ -1457,6 +1565,7 @@
       position: 'yes'
     items:
     - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Joe Lisuzzo
     sort_name: Lisuzzo
     party: R
@@ -1479,6 +1588,7 @@
       position: 'yes'
     items:
     - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Araceli Martinez
     sort_name: Martinez
     party: R
@@ -1509,8 +1619,11 @@
       detail: No in committee and on Senate passage; did not vote on concurrence
     items:
     - text: 'SB 1047: did not vote on first passage, no on final. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)'
+      kind: vote
     - text: 'SB 53: yes on first passage, no on final. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/)'
+      kind: vote
     - text: 'SB 813: no in committee and on Senate passage, did not vote on concurrence. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+      kind: vote
 - office: state_senate
   district: 34
   candidates:
@@ -1527,6 +1640,7 @@
       position: 'yes'
     items:
     - text: 'As an Assemblymember: no on SB 1047 [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/); yes on SB 53 [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+      kind: vote
   - name: Rhonda Shader
     sort_name: Shader
     party: R
@@ -1555,7 +1669,9 @@
       detail: No on Senate passage; yes on final concurrence
     items:
     - text: 'SB 53: yes on first passage, no on final. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/)'
+      kind: vote
     - text: 'SB 813: no on Senate passage, yes on final concurrence. [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)'
+      kind: vote
 - office: state_senate
   district: 38
   candidates:
@@ -1573,6 +1689,7 @@
       position: 'yes'
     items:
     - text: Yes on SB 1047, SB 53 and SB 813, all votes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Laura Bassett
     sort_name: Bassett
     party: R
@@ -1612,6 +1729,7 @@
       position: did_not_vote
     items:
     - text: SB 53 no; SB 813 did not vote. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 2
   candidates:
@@ -1627,6 +1745,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Michael Greer
     sort_name: Greer
     party: R
@@ -1664,6 +1783,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 5
   candidates:
@@ -1686,6 +1806,7 @@
       position: 'yes'
     items:
     - text: SB 1047 no; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 6
   candidates:
@@ -1701,6 +1822,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Jagtar Singh
     sort_name: Singh
     party: D
@@ -1728,6 +1850,7 @@
       position: 'yes'
     items:
     - text: SB 1047 no; SB 53 no; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 8
   candidates:
@@ -1746,6 +1869,7 @@
       detail: No in committee and on the floor
     items:
     - text: SB 53 no (in committee and on the floor); SB 813 no (in committee and on the floor). [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 9
   candidates:
@@ -1768,6 +1892,7 @@
       position: did_not_vote
     items:
     - text: SB 1047 and SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 10
   candidates:
@@ -1785,6 +1910,7 @@
       position: 'yes'
     items:
     - text: SB 1047 did not vote; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Vinaya Singh
     sort_name: Singh
     party: R
@@ -1807,6 +1933,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Jenny Leilani Callison
     sort_name: Callison
     party: NPP
@@ -1841,6 +1968,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Tom Patti
     sort_name: Patti
     party: R
@@ -1863,6 +1991,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Mark Rendon
     sort_name: Rendon
     party: G
@@ -1883,6 +2012,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Arthur Webb
     sort_name: Webb
     party: NPP
@@ -1907,8 +2037,11 @@
       detail: Co-author; carried the bill on the Assembly floor
     items:
     - text: Chairs the Assembly Privacy Committee; carried SB 53 [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/) on the Assembly floor and co-authored SB 813. Voted yes on SB 1047. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/)
+      kind: vote
     - text: Authored AB 1018 (pre-deployment testing and appeals for high-stakes automated decisions), the LEAD for Kids Act (risk-based rules for AI used by children) [[source]](https://a16.asmdc.org/press-releases/20250606-13-bills-authored-assemblymember-bauer-kahan-advance-senate-following), and AB 1405 (AI auditor registry, now law). [[source]](https://www.transparencycoalition.ai/news/ai-legislative-update-september4-2026)
+      kind: bill
     - text: Told Axios in Jan. 2026 that Congress is "a much bigger threat" to state AI rules than White House lawsuit threats. [[source]](https://www.axios.com/2026/01/16/california-year-ai)
+      kind: statement
   - name: Joseph A. Rubay
     sort_name: Rubay
     party: R
@@ -1931,6 +2064,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Manuel Noris-Barrera
     sort_name: Noris-Barrera
     party: R
@@ -1953,6 +2087,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Andre Sandford
     sort_name: Sandford
     party: D
@@ -1973,6 +2108,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Philip Louis Wing
     sort_name: Wing
     party: R
@@ -1996,6 +2132,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes in committee, did not vote on the floor; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Patricia Muga
     sort_name: Muga
     party: R
@@ -2018,6 +2155,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Jabra J. Muhawieh
     sort_name: Muhawieh
     party: R
@@ -2041,6 +2179,7 @@
       position: 'yes'
     items:
     - text: SB 1047 no; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 23
   candidates:
@@ -2058,6 +2197,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: David G. Johnson
     sort_name: Johnson
     party: R
@@ -2080,6 +2220,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Max Hsia
     sort_name: Hsia
     party: R
@@ -2102,6 +2243,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Himat Singh Bainiwal
     sort_name: Bainiwal
     party: R
@@ -2122,6 +2264,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Tim Gorsulowsky
     sort_name: Gorsulowsky
     party: R
@@ -2158,6 +2301,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Carol Pefley
     sort_name: Pefley
     party: R
@@ -2180,6 +2324,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Dennis P. Sanchez
     sort_name: Sanchez
     party: R
@@ -2202,6 +2347,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Shannon Kessler
     sort_name: Kessler
     party: R
@@ -2253,6 +2399,7 @@
       detail: No in committee; did not vote on the floor
     items:
     - text: SB 53 no (committee and floor); SB 813 no in committee, did not vote on the floor. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 34
   note: Open seat
@@ -2301,6 +2448,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 37
   candidates:
@@ -2318,6 +2466,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Sari Domingues
     sort_name: Domingues
     party: R
@@ -2341,6 +2490,7 @@
       position: 'yes'
     items:
     - text: Carried SB 1047 on the Assembly floor; yes on SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Michael MacDonald
     sort_name: MacDonald
     party: D
@@ -2363,6 +2513,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Paul Andre Marsh
     sort_name: Marsh
     party: R
@@ -2385,6 +2536,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Rickey Tracy Hayes II
     sort_name: Hayes
     party: R
@@ -2405,6 +2557,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Adam Christopher Vena
     sort_name: Vena
     party: R
@@ -2439,6 +2592,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Ricardo Benitez
     sort_name: Benitez
     party: R
@@ -2459,6 +2613,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Carolyn Daniels
     sort_name: Daniels
     party: R
@@ -2481,6 +2636,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Greg Abdouch
     sort_name: Abdouch
     party: R
@@ -2503,6 +2659,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Tracey Schroeder
     sort_name: Schroeder
     party: R
@@ -2530,6 +2687,7 @@
       position: 'yes'
     items:
     - text: SB 1047 no; SB 53 no; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 48
   candidates:
@@ -2547,6 +2705,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Dan T. Tran
     sort_name: Tran
     party: R
@@ -2569,6 +2728,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Long David Liu
     sort_name: Liu
     party: R
@@ -2589,6 +2749,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Victoria Viveros Mageno
     sort_name: Viveros Mageno
     party: R
@@ -2616,6 +2777,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 52
   candidates:
@@ -2631,6 +2793,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Andrea Lee Anderson
     sort_name: Anderson
     party: R
@@ -2651,6 +2814,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Rafaela Romero
     sort_name: Romero
     party: R
@@ -2671,6 +2835,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Alexandra Briseno
     sort_name: Briseno
     party: R
@@ -2698,6 +2863,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 56
   candidates:
@@ -2715,6 +2881,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Jessica Martinez
     sort_name: Martinez
     party: R
@@ -2735,6 +2902,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Constance Jewel Menzies
     sort_name: Menzies
     party: R
@@ -2760,6 +2928,7 @@
       position: did_not_vote
     items:
     - text: did not vote on SB 53 or SB 813. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 59
   candidates:
@@ -2777,6 +2946,7 @@
       position: did_not_vote
     items:
     - text: SB 1047 and SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Victor Hernandez
     sort_name: Hernandez
     party: G
@@ -2799,6 +2969,7 @@
       position: did_not_vote
     items:
     - text: SB 1047 and SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Ed Delgado
     sort_name: Delgado
     party: R
@@ -2822,6 +2993,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes in committee, did not vote on the floor; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Brian Lockwood
     sort_name: Lockwood
     party: R
@@ -2842,6 +3014,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Paul Irving Jones
     sort_name: Jones
     party: R
@@ -2862,6 +3035,7 @@
       position: 'no'
     items:
     - text: SB 53 yes; SB 813 no. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Kevin Akin
     sort_name: Akin
     party: P&F
@@ -2884,6 +3058,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Raul Ortiz Jr.
     sort_name: Ortiz
     party: R
@@ -2968,6 +3143,7 @@
       detail: Co-author; also voted yes
     items:
     - text: Co-author of SB 813; yes on SB 1047, SB 53 and SB 813. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 70
   candidates:
@@ -2991,6 +3167,7 @@
       detail: No in committee and on the floor
     items:
     - text: SB 1047 no; SB 53 did not vote; SB 813 no (committee and floor). [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 71
   candidates:
@@ -3013,6 +3190,7 @@
       position: 'no'
     items:
     - text: SB 1047 no; SB 53 yes; SB 813 no. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 72
   note: Open seat
@@ -3044,6 +3222,7 @@
       position: 'yes'
     items:
     - text: SB 1047 no; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Urson Russell
     sort_name: Russell
     party: R
@@ -3071,6 +3250,7 @@
       position: 'yes'
     items:
     - text: SB 1047 no; SB 53 did not vote; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 75
   candidates:
@@ -3092,6 +3272,7 @@
       detail: No in committee and on the floor
     items:
     - text: SB 53 no; SB 813 no (committee and floor). [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
 - office: state_assembly
   district: 76
   candidates:
@@ -3107,6 +3288,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Carrie S. Espinoza Villanueva
     sort_name: Espinoza Villanueva
     party: R
@@ -3129,6 +3311,7 @@
       position: 'yes'
     items:
     - text: SB 1047 did not vote; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Trinity Hannaway
     sort_name: Hannaway
     party: R
@@ -3151,6 +3334,7 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Payton Galvez
     sort_name: Galvez
     party: R
@@ -3171,6 +3355,7 @@
       position: 'yes'
     items:
     - text: SB 53 yes; SB 813 yes. [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Andrew Lawson
     sort_name: Lawson
     party: R
@@ -3193,8 +3378,30 @@
       position: 'yes'
     items:
     - text: SB 1047 yes; SB 53 yes; SB 813 yes. [[1047]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/) [[53]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) [[813]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/)
+      kind: vote
   - name: Alejandro Galicia
     sort_name: Galicia
     party: R
+    status: none_found
+    search_note: No public AI statements found.
+- office: mayor
+  city: Los Angeles
+  place_fips: '44000'
+  note: Nonpartisan office
+  candidates:
+  - name: Karen Bass
+    sort_name: Bass
+    party:
+    incumbent: true
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Executive Directive No. 10 (April 2025) ordered a study of an AI pilot for reviewing wildfire rebuilding permits. It says AI should support city staff, not replace their judgment, and asks for human review of every AI-generated assessment and regular audits for accuracy. [[source]](https://mayor.lacity.gov/sites/g/files/wph2066/files/2025-04/ED%2010%20-%20Artificial%20Intelligence%20Pilot%20Program.pdf)
+      kind: official_action
+    - text: Executive Directive No. 19 (April 2026) expands the use of AI to speed up the review of permit applications. [[source]](https://mayor.lacity.gov/sites/g/files/wph2066/files/2026-04/Executive%20Directive%20No.%2019%20-%20Development%20Services%20Streamlining%20and%20Modernization.pdf)
+      kind: official_action
+  - name: Nithya Raman
+    sort_name: Raman
+    party:
     status: none_found
     search_note: No public AI statements found.

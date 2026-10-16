@@ -6,8 +6,8 @@ RSpec.describe "db/data" do
 
   it "loads and validates without errors" do
     expect { guide }.not_to raise_error
-    expect(guide.races.size).to eq(164)
-    expect(guide.candidates.size).to eq(324)
+    expect(guide.races.size).to eq(165)
+    expect(guide.candidates.size).to eq(326)
   end
 
   it "cites a source link in every record item" do
@@ -31,6 +31,18 @@ RSpec.describe "db/data" do
 
   it "lists candidates alphabetically by last name" do
     expect(guide.race("assembly-72")["candidates"].map { |c| c["name"] }).to eq(["Chris Kluwe", "Gracey Van Der Mark"])
+  end
+
+  it "gives every record item a type label" do
+    kinds = guide.candidates.flat_map { |c| c["items"].map { |i| i["kind"] } }
+    expect(kinds - Guide::ITEM_KINDS).to be_empty
+  end
+
+  it "ties each mayor race to a city that the ZIP lookup knows" do
+    places = JSON.parse(File.read(ZipLookup::PATH))["zips"].values.flat_map { |z| (z["places"] || []).map(&:first) }.uniq
+    guide.races.select { |r| r["office"] == "mayor" }.each do |r|
+      expect(places).to include(r["place_fips"]), r["slug"]
+    end
   end
 
   it "rejects bad values" do
