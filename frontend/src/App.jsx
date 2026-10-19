@@ -13,9 +13,10 @@ import NotFound from './pages/NotFound'
 import './index.css'
 import './App.css'
 
+// New page: start at the top, unless the link points at a spot on it (#sb53).
 function ScrollToTop() {
-  const { pathname } = useLocation()
-  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  const { pathname, hash } = useLocation()
+  useEffect(() => { if (!hash) window.scrollTo(0, 0) }, [pathname, hash])
   return null
 }
 

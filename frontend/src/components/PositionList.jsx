@@ -2,16 +2,23 @@ import { Link } from 'react-router-dom'
 import { POSITION_LABELS } from '../data'
 
 // Compact chips: "SB 53 · Voted yes". Every value is styled the same way on purpose.
+// Each chip links to a plain-language explanation of the bill or letter.
 export function PositionChips({ positions, yardsticks }) {
   if (!positions.length) return null
   return (
     <ul className="chips" aria-label="Recorded positions">
-      {positions.map(p => (
-        <li key={p.yardstick} className="chip" title={p.detail || undefined}>
-          <span className="chip__name">{yardsticks[p.yardstick].short_name}</span>
-          <span className="chip__value">{POSITION_LABELS[p.value]}</span>
-        </li>
-      ))}
+      {positions.map(p => {
+        const y = yardsticks[p.yardstick]
+        return (
+          <li key={p.yardstick}>
+            <Link to={`/benchmarks#${y.key}`} className="chip" title={p.detail || `What ${y.short_name} does`}>
+              <span className="chip__name">{y.short_name}</span>
+              <span className="chip__value">{POSITION_LABELS[p.value]}</span>
+              <span className="visually-hidden">. What {y.short_name} does.</span>
+            </Link>
+          </li>
+        )
+      })}
     </ul>
   )
 }

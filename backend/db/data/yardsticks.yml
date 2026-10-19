@@ -1,4 +1,5 @@
 # Benchmark bills, votes and letters. Candidate positions in races.yml refer to these by key.
+# url = roll call votes or the main source; text_url = official bill text (optional).
 - key: sb1047
   name: SB 1047
   short_name: SB 1047
@@ -11,6 +12,7 @@
   why_it_matters: The most extensive frontier-AI safety requirements the Legislature has passed to date.
   outcome: Passed the Assembly 48-16 and the Senate 30-9. Vetoed by Gov. Newsom.
   url: https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/
+  text_url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047
 - key: sb53
   name: SB 53
   short_name: SB 53
@@ -23,9 +25,11 @@
   why_it_matters: Defines catastrophic risk as help with chemical, biological, radiological or nuclear weapons, autonomous cyberattacks, or a model evading human control.
   outcome: Passed 59-7 (Assembly) and 29-8 (Senate). Signed into law.
   url: https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/
+  text_url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53
 - key: sb813
   name: SB 813
   short_name: SB 813
+  full_title: Independent verification organizations
   sponsors: Sen. Jerry McNerney
   year: "2026"
   level: state
@@ -34,6 +38,7 @@
   why_it_matters: Basis for Gov. Newsom's Sept. 2026 order exploring embedded auditors and a kill switch.
   outcome: Passed 31-7 (Senate) and 67-6 (Assembly). Signed into law.
   url: https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/
+  text_url: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813
 - key: kill_switch_act
   name: AI Kill Switch Act
   short_name: Kill Switch Act

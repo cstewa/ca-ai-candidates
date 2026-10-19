@@ -4,7 +4,7 @@ import { saveZip, savedZip } from '../data'
 import './ZipForm.css'
 
 // One field: a 5-digit ZIP code. Submitting opens the visitor's races.
-export default function ZipForm({ initial, size = 'large', label = 'Your ZIP code' }) {
+export default function ZipForm({ initial, size = 'large', label = 'Your ZIP code', idPrefix = 'zip' }) {
   const navigate = useNavigate()
   const [zip, setZip] = useState(() => initial ?? savedZip())
   const [error, setError] = useState('')
@@ -19,14 +19,15 @@ export default function ZipForm({ initial, size = 'large', label = 'Your ZIP cod
     setError('')
     saveZip(clean)
     navigate(`/my-ballot?zip=${clean}`)
+    window.scrollTo({ top: 0, behavior: 'instant' })
   }
 
   return (
     <form className={`zipform zipform--${size}`} onSubmit={submit} noValidate>
-      <label htmlFor={`zip-${size}`} className="zipform__label">{label}</label>
+      <label htmlFor={`${idPrefix}-${size}`} className="zipform__label">{label}</label>
       <div className="zipform__row">
         <input
-          id={`zip-${size}`}
+          id={`${idPrefix}-${size}`}
           className="zipform__input"
           type="text"
           inputMode="numeric"
@@ -37,11 +38,11 @@ export default function ZipForm({ initial, size = 'large', label = 'Your ZIP cod
           value={zip}
           onChange={e => setZip(e.target.value.replace(/\D/g, '').slice(0, 5))}
           aria-invalid={!!error}
-          aria-describedby={error ? `zip-${size}-error` : undefined}
+          aria-describedby={error ? `${idPrefix}-${size}-error` : undefined}
         />
         <button type="submit" className="btn btn--primary zipform__button">See my candidates</button>
       </div>
-      {error && <p id={`zip-${size}-error`} className="zipform__error" role="alert">{error}</p>}
+      {error && <p id={`${idPrefix}-${size}-error`} className="zipform__error" role="alert">{error}</p>}
     </form>
   )
 }

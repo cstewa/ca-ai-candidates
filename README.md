@@ -69,12 +69,12 @@ cd backend && bundle exec rspec
 
 | Route | Page | Description |
 |-------|------|-------------|
-| `/` | Home | ZIP code field, name search, counts, browse by office |
+| `/` | Home | ZIP code field, name search, district finder ("I know / don't know my district numbers"), counts, browse by office |
 | `/my-ballot?zip=` | Your candidates | Statewide races + mayor + districts for a ZIP; split ZIPs get switch buttons (`&cd=32`, `&in-mayor-los-angeles=yes`). `?cd=&sd=&ad=&boe=` still works for known districts |
 | `/races` | All races | Filter by office, name or district number |
 | `/races/:slug` | Race | Side-by-side table + full record for each candidate |
 | `/candidates/:slug` | Candidate | One candidate's record, link to compare |
-| `/benchmarks` | Bills & letters | Each yardstick and who on the ballot has a position on it |
+| `/benchmarks` | Bills & letters | How to read a position, each yardstick with official bill text, and who on the ballot has a position on it. Bill chips elsewhere link to `#<key>` here |
 | `/about` | How to read this | Methodology, labels, limits, sources |
 
 ---

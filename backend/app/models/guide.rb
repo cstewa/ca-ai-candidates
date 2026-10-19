@@ -34,7 +34,7 @@ class Guide
   # What kind of record each item is; shown as a label beside it.
   ITEM_KINDS       = %w[vote bill letter statement platform official_action background funding].freeze
   YARDSTICK_FIELDS = %w[key name short_name full_title sponsors year level kind
-                        what_it_does why_it_matters outcome caveat url].freeze
+                        what_it_does why_it_matters outcome caveat url text_url].freeze
 
   class InvalidData < StandardError; end
 

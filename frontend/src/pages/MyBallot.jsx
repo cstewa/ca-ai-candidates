@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useSearchParams, Link } from 'react-router-dom'
-import DistrictPicker from '../components/DistrictPicker'
+import DistrictFinder from '../components/DistrictFinder'
 import RaceCard from '../components/RaceCard'
 import ZipForm from '../components/ZipForm'
 import { Loading, LoadError } from '../components/PageState'
@@ -113,13 +113,17 @@ export default function MyBallot() {
         <div className="container">
           <p className="page-hero__kicker">California · {ELECTION_DAY}</p>
           <h1>{zip && !zipProblem ? `Your candidates in ${zip}` : 'Your candidates'}</h1>
-          <p>Statewide races, plus the city and districts for your ZIP code. Your ZIP code stays on this device.</p>
+          <p>
+            {zip
+              ? 'Statewide races, plus the city and districts for your ZIP code. Your ZIP code stays on this device.'
+              : 'Statewide races, plus the districts you chose.'}
+          </p>
         </div>
       </section>
 
       <div className="container ballot">
         <div className="ballot__zip">
-          <ZipForm initial={zip} size="small" label={zip ? 'Change ZIP code' : 'Your ZIP code'} />
+          <ZipForm idPrefix="top" initial={zip} size="small" label={zip ? 'Change ZIP code' : 'Your ZIP code'} />
         </div>
 
         {(loading || lookup.loading) && <Loading />}
@@ -148,6 +152,12 @@ export default function MyBallot() {
               return <a key={cat.key} href={`#b-${cat.key}`} className="ballot__jump-link">{label}</a>
             })}
           </nav>
+        )}
+
+        {ready && !zipProblem && !nothingChosen && (
+          <p className="ballot__hint">
+            Tap a bill name, like <strong>SB 53</strong>, to see what it does and what a yes or no vote means.
+          </p>
         )}
 
         {ready && !zipProblem && !nothingChosen && CATEGORIES.map(cat => {
@@ -187,10 +197,13 @@ export default function MyBallot() {
           )
         })}
 
-        <details className="ballot__picker">
-          <summary>I know my district numbers</summary>
-          <DistrictPicker initial={typedDistricts} compact />
-        </details>
+        <div className="ballot__finder">
+          <DistrictFinder
+            idPrefix="ballot-finder"
+            zip={zip}
+            initial={Object.fromEntries(CATEGORIES.filter(c => c.param && chosen[c.key]).map(c => [c.param, chosen[c.key]]))}
+          />
+        </div>
 
         {data && (
           <p className="ballot__more">

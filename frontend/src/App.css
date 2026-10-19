@@ -13,7 +13,8 @@ main { flex: 1; }
 /* Position chips: identical styling for every value. */
 .chips { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { display: inline-flex; font-size: 13px; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; background: var(--paper); }
-.chip__name { padding: 3px 8px; font-weight: 600; background: var(--sand); }
+a.chip:hover { border-color: var(--ink); }
+.chip__name { padding: 3px 8px; font-weight: 600; background: var(--sand); text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 2px; }
 .chip__value { padding: 3px 8px; }
 
 .positions { display: flex; flex-direction: column; gap: 10px; }

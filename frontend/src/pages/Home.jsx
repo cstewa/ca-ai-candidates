@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import ZipForm from '../components/ZipForm'
+import DistrictFinder from '../components/DistrictFinder'
 import CandidateSearch from '../components/CandidateSearch'
 import StatusBadge from '../components/StatusBadge'
 import { Loading, LoadError } from '../components/PageState'
@@ -41,6 +42,7 @@ export default function Home() {
             {error && <LoadError />}
             {data && <CandidateSearch candidates={data.candidates} />}
           </div>
+          <DistrictFinder idPrefix="home-finder" />
         </div>
       </section>
 

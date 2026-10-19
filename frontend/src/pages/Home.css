@@ -6,7 +6,7 @@
 .home-hero__neutral { margin-top: 14px; font-size: 15px; color: rgba(255,255,255,0.7); }
 
 .home-find { padding-top: 40px; }
-.home-find__grid { display: grid; grid-template-columns: minmax(0, 640px); gap: 24px; }
+.home-find__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; }
 .home-card { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 28px; }
 .home-card h2 { font-size: 1.4rem; margin-bottom: 14px; }
 .home-card__intro { color: var(--muted); margin-bottom: 20px; }

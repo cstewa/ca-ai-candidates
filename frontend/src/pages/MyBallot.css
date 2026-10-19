@@ -2,9 +2,7 @@
 .ballot__zip { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 18px 22px; }
 .ballot__empty { margin-top: 24px; color: var(--muted); }
 .ballot__problem { margin-top: 24px; }
-.ballot__picker { margin-top: 40px; background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 16px 22px; }
-.ballot__picker summary { cursor: pointer; font-weight: 600; }
-.ballot__picker[open] summary { margin-bottom: 16px; }
+.ballot__finder { margin-top: 48px; }
 .ballot__group { margin-top: 36px; }
 .ballot__group h2 { font-size: 1.6rem; margin-bottom: 14px; }
 .ballot__list, .ballot__stack { display: flex; flex-direction: column; gap: 16px; }
@@ -36,3 +34,4 @@
 .ballot__jump-label { font-size: 14px; font-weight: 600; color: var(--muted); margin-right: 4px; }
 .ballot__jump-link { font-size: 14px; font-weight: 600; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--white); }
 .ballot__jump-link:hover { border-color: var(--ink); }
+.ballot__hint { margin-top: 14px; font-size: 15px; color: var(--muted); }
