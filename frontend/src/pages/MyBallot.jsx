@@ -156,7 +156,7 @@ export default function MyBallot() {
 
         {ready && !zipProblem && !nothingChosen && (
           <p className="ballot__hint">
-            Tap a bill name, like <strong>SB 53</strong>, to see what it does and what a yes or no vote means.
+            Tap a bill name, like <Link to="/benchmarks#sb53" className="bill-link">SB 53</Link>, to see what it does and what a yes or no vote means.
           </p>
         )}
 

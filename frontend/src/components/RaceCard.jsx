@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import StatusBadge from './StatusBadge'
+import RecordText from './RecordText'
 import { PositionChips } from './PositionList'
 import { candidateMeta } from '../data'
 import './RaceCard.css'
@@ -13,7 +14,7 @@ export default function RaceCard({ race, yardsticks, headingLevel = 3 }) {
         <H className="race-card__title">
           <Link to={`/races/${race.slug}`}>{race.title}</Link>
         </H>
-        {race.note && <span className="race-card__note">{race.note}</span>}
+        {race.note && <span className="race-card__note"><RecordText text={race.note} /></span>}
       </header>
       <ul className="race-card__candidates">
         {race.candidates.map(c => (

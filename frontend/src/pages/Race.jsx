@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import CandidatePanel from '../components/CandidatePanel'
+import RecordText from '../components/RecordText'
 import { Loading, LoadError } from '../components/PageState'
 import NotFound from './NotFound'
 import { useGuide, CATEGORY_BY_KEY, POSITION_LABELS } from '../data'
@@ -69,7 +70,7 @@ export default function Race() {
             <Link to="/races">All races</Link> / <Link to={`/races?office=${cat.key}`}>{cat.label}</Link>
           </nav>
           <h1>{race.title}</h1>
-          {race.note && <p>{race.note}</p>}
+          {race.note && <p><RecordText text={race.note} /></p>}
         </div>
       </section>
 

@@ -18,5 +18,7 @@ Rails.application.configure do
   config.force_ssl = ENV["FORCE_SSL"].present?
   config.public_file_server.enabled = true
   config.middleware.use Rack::Deflater
-  config.public_file_server.headers = { "Cache-Control" => "public, max-age=300" }
+  # Always revalidate, so a new deploy shows up right away. Built assets have hashed
+  # names, so unchanged ones still come back as quick 304s.
+  config.public_file_server.headers = { "Cache-Control" => "no-cache" }
 end

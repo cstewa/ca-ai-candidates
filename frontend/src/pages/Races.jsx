@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import RaceCard from '../components/RaceCard'
+import RecordText from '../components/RecordText'
 import { Loading, LoadError } from '../components/PageState'
 import { useGuide, CATEGORIES } from '../data'
 import './Races.css'
@@ -77,7 +78,7 @@ export default function Races() {
               return (
                 <section key={cat.key} className="races-group" aria-labelledby={`g-${cat.key}`}>
                   <h2 id={`g-${cat.key}`}>{cat.label}</h2>
-                  <p className="races-group__intro">{cat.intro}</p>
+                  <p className="races-group__intro"><RecordText text={cat.intro} /></p>
                   <div className="races-group__list">
                     {races.map(r => <RaceCard key={r.slug} race={r} yardsticks={data.yardsticks} />)}
                   </div>
