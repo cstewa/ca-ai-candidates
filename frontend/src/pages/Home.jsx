@@ -61,7 +61,7 @@ export default function Home() {
                   <StatusBadge status={key} />
                   <span className="home-stat__desc">
                     {key === 'on_record' && 'Votes on AI-safety bills, sponsored bills, signed letters, or public statements on AI risk.'}
-                    {key === 'ai_other' && 'Has spoken about AI, but not about AI safety specifically.'}
+                    {key === 'ai_other' && 'Positions or actions on other AI issues, such as AI in schools, jobs or government.'}
                     {key === 'none_found' && 'A search turned up nothing. This does not mean the candidate has no view.'}
                   </span>
                 </li>

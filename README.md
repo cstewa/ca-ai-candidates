@@ -125,7 +125,7 @@ The status describes **how much public record exists**, never whether it is good
 | Status | Shown as | Meaning |
 |--------|----------|---------|
 | `on_record` | Public record on AI safety | Voted on, wrote, sponsored or signed something on AI safety, or spoke publicly about AI risk |
-| `ai_other` | Has spoken on AI, not AI safety | AI comments only (schools, fraud detection, etc.) |
+| `ai_other` | Public record on other AI issues | Positions or actions on AI outside AI safety (schools, jobs, government use, fraud detection, etc.) |
 | `none_found` | No public AI statements found | Search found nothing; does not mean the candidate has no view |
 
 ### Judgment calls for review (Bridie)

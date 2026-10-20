@@ -58,7 +58,7 @@ export default function About() {
           <dt><StatusBadge status="on_record" /></dt>
           <dd>Has voted on, written, sponsored or signed something on AI safety, or spoken publicly about AI risk.</dd>
           <dt><StatusBadge status="ai_other" /></dt>
-          <dd>Has spoken about AI (for example, its use in schools or government) but not about AI safety specifically.</dd>
+          <dd>Has taken positions or acted on other AI issues, such as AI in schools, jobs or government services, but not on AI safety as defined above.</dd>
           <dt><StatusBadge status="none_found" /></dt>
           <dd>
             A targeted search of news, voter guides and vote records found nothing. This does not mean the candidate

@@ -100,7 +100,7 @@ export const CATEGORY_BY_KEY = Object.fromEntries(CATEGORIES.map(c => [c.key, c]
 // Describes how much public record exists — never whether it is good or bad.
 export const STATUSES = {
   on_record:  { label: 'Public record on AI safety',        short: 'Record on AI safety' },
-  ai_other:   { label: 'Has spoken on AI, not AI safety',   short: 'AI, not AI safety' },
+  ai_other:   { label: 'Public record on other AI issues',  short: 'Other AI issues' },
   none_found: { label: 'No public AI statements found',     short: 'None found' },
 }
 
