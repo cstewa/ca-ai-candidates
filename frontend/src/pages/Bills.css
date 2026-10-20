@@ -21,12 +21,24 @@
 .bench__how h2 { font-size: 1.3rem; margin-bottom: 12px; }
 .bench__how dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; }
 .bench__how dt { font-weight: 700; }
-.bench__jump { margin-top: 16px; font-size: 15px; }
-.bench__jump a { color: var(--accent); text-decoration: underline; }
 .bench__links { display: flex; flex-wrap: wrap; gap: 8px 24px; }
-.bench__item--focus { outline: 3px solid var(--gold); outline-offset: 2px; }
 @media (max-width: 560px) {
   .bench__how { padding: 18px 16px; }
   .bench__how dl { grid-template-columns: 1fr; gap: 0; }
   .bench__how dd { margin-bottom: 8px; }
 }
+
+.bills-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.bills-list li { display: flex; }
+.bills-list__item { display: flex; flex-direction: column; gap: 8px; width: 100%; background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 20px 22px; transition: border-color 0.15s, box-shadow 0.15s; }
+.bills-list__item:hover { border-color: var(--ink); box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+.bills-list__name { font-family: var(--font-display); font-weight: 600; font-size: 1.35rem; }
+.bills-list__what { color: var(--ink); font-size: 15px; flex: 1; }
+.bills-list__more { font-size: 14px; font-weight: 600; color: var(--accent); }
+.bill__back { margin-top: 16px; font-family: var(--font-body); font-size: 15px; font-weight: 600; color: var(--white); background: transparent; border: 1.5px solid rgba(255,255,255,0.6); border-radius: 6px; padding: 0 16px; min-height: 48px; cursor: pointer; }
+.bill__back:hover { border-color: var(--white); }
+.bill__h2 { font-size: 1.4rem; }
+.bill__others h2 { margin-bottom: 10px; }
+.bill__others ul { padding-left: 20px; columns: 2 260px; }
+.bill__others li { margin-bottom: 6px; }
+.bill__others a { font-weight: 600; text-decoration: underline; }

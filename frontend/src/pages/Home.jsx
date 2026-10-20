@@ -4,7 +4,7 @@ import DistrictFinder from '../components/DistrictFinder'
 import CandidateSearch from '../components/CandidateSearch'
 import StatusBadge from '../components/StatusBadge'
 import { Loading, LoadError } from '../components/PageState'
-import { useGuide, CATEGORIES, ELECTION_DAY, STATUSES } from '../data'
+import { useGuide, CATEGORIES, ELECTION_DAY, STATUSES, UPDATES_FORM_URL } from '../data'
 import './Home.css'
 
 export default function Home() {
@@ -100,6 +100,26 @@ export default function Home() {
             <li><strong>Outside money is labeled separately.</strong> Spending by AI-policy groups is something done by others, not a statement by the candidate.</li>
           </ul>
           <Link to="/about" className="btn btn--outline">Full methodology</Link>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="home-updates">
+            <div>
+              <h2 className="home-h2">Get updates</h2>
+              <p className="home-updates__text">
+                Leave your email to hear about AI safety and California's elections, including new races and
+                candidate records as they're added.
+              </p>
+            </div>
+            <div className="home-updates__action">
+              <a href={UPDATES_FORM_URL} target="_blank" rel="noreferrer" className="btn btn--primary">
+                Sign up for updates<span className="visually-hidden"> (opens a Google Form in a new tab)</span> ↗
+              </a>
+              <p className="home-updates__note">Opens a short Google Form. Only your email is asked for.</p>
+            </div>
+          </div>
         </div>
       </section>
     </>

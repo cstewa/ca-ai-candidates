@@ -78,6 +78,9 @@ export default function MyBallot() {
   const typedDistricts = hasParams ? urlDistricts : (zip ? {} : savedDistricts())
 
   const lookup = useZipLookup(zip)
+  // The "Change ZIP code" box closes by itself once a new ZIP is submitted.
+  const [editingFor, setEditingFor] = useState(null)
+  const editingZip = editingFor === (zip || 'none')
 
   function setParam(key, value) {
     const next = new URLSearchParams(params)
@@ -106,25 +109,43 @@ export default function MyBallot() {
   const ready = data && !lookup.loading
   const zipProblem = zip && lookup.error
   const nothingChosen = !zip && !Object.keys(typedDistricts).length
+  const showResults = ready && !zipProblem && !nothingChosen
+  const askForZip = nothingChosen || zipProblem
 
   return (
     <>
-      <section className="page-hero">
-        <div className="container">
-          <p className="page-hero__kicker">California · {ELECTION_DAY}</p>
-          <h1>{zip && !zipProblem ? `Your candidates in ${zip}` : 'Your candidates'}</h1>
-          <p>
-            {zip
-              ? 'Statewide races, plus the city and districts for your ZIP code. Your ZIP code stays on this device.'
-              : 'Statewide races, plus the districts you chose.'}
-          </p>
-        </div>
-      </section>
+      {askForZip ? (
+        // No ZIP yet (e.g. from the top-bar button): lead with the ZIP field, like the homepage.
+        <section className="page-hero">
+          <div className="container">
+            <p className="page-hero__kicker">California · {ELECTION_DAY}</p>
+            <h1>Find your candidates</h1>
+            <p>Enter your ZIP code to see everyone on your ballot, from governor to Assembly.</p>
+            <div className="ballot__hero-form">
+              <ZipForm idPrefix="top" initial={zip} />
+            </div>
+          </div>
+        </section>
+      ) : (
+        // Results: a short header, so candidate names show on the first screen.
+        <section className="page-hero ballot__hero">
+          <div className="container">
+            <p className="page-hero__kicker">California · {ELECTION_DAY}</p>
+            <h1>{zip ? `Your candidates in ${zip}` : 'Your candidates'}</h1>
+            {editingZip ? (
+              <div className="ballot__hero-form">
+                <ZipForm idPrefix="top" initial={zip} size="small" label="New ZIP code" />
+              </div>
+            ) : (
+              <button type="button" className="ballot__change" onClick={() => setEditingFor(zip || 'none')}>
+                {zip ? 'Change ZIP code' : 'Use a ZIP code instead'}
+              </button>
+            )}
+          </div>
+        </section>
+      )}
 
       <div className="container ballot">
-        <div className="ballot__zip">
-          <ZipForm idPrefix="top" initial={zip} size="small" label={zip ? 'Change ZIP code' : 'Your ZIP code'} />
-        </div>
 
         {(loading || lookup.loading) && <Loading />}
         {error && <LoadError />}
@@ -138,11 +159,7 @@ export default function MyBallot() {
         )}
         {zipProblem === 'failed' && <LoadError />}
 
-        {nothingChosen && (
-          <p className="ballot__empty">Enter your ZIP code to see the races on your ballot.</p>
-        )}
-
-        {ready && !zipProblem && !nothingChosen && (
+        {showResults && (
           <nav className="ballot__jump" aria-label="Jump to a race">
             <span className="ballot__jump-label">On your ballot:</span>
             {CATEGORIES.map(cat => {
@@ -154,13 +171,13 @@ export default function MyBallot() {
           </nav>
         )}
 
-        {ready && !zipProblem && !nothingChosen && (
+        {showResults && (
           <p className="ballot__hint">
-            Tap a bill name, like <Link to="/benchmarks#sb53" className="bill-link">SB 53</Link>, to see what it does and what a yes or no vote means.
+            Tap a bill name, like <Link to="/bills/sb53" className="bill-link">SB 53</Link>, to see what it does and what a yes or no vote means.
           </p>
         )}
 
-        {ready && !zipProblem && !nothingChosen && CATEGORIES.map(cat => {
+        {showResults && CATEGORIES.map(cat => {
           if (cat.key === 'statewide') {
             const races = data.races.filter(r => r.category === 'statewide')
             return <BallotGroup key={cat.key} id={cat.key} title={cat.label}>{races.map(r => <RaceCard key={r.slug} race={r} yardsticks={data.yardsticks} />)}</BallotGroup>

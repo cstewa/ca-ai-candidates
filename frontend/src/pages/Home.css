@@ -6,7 +6,7 @@
 .home-hero__neutral { margin-top: 14px; font-size: 15px; color: rgba(255,255,255,0.7); }
 
 .home-find { padding-top: 40px; }
-.home-find__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; }
+.home-find__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
 .home-card { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 28px; }
 .home-card h2 { font-size: 1.4rem; margin-bottom: 14px; }
 .home-card__intro { color: var(--muted); margin-bottom: 20px; }
@@ -34,3 +34,9 @@
 @media (max-width: 480px) {
   .home-card { padding: 20px 16px; }
 }
+
+.home-updates { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 40px; background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 28px; }
+.home-updates__text { color: var(--muted); max-width: 560px; }
+.home-updates__action { display: flex; flex-direction: column; gap: 8px; }
+.home-updates__note { font-size: 14px; color: var(--muted); }
+@media (max-width: 480px) { .home-updates { padding: 22px 16px; } .home-updates__action .btn { width: 100%; } }

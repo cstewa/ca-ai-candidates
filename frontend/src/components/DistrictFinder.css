@@ -1,14 +1,14 @@
 .dfinder { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 24px 26px; }
 .dfinder__title { font-size: 1.4rem; margin-bottom: 6px; }
 .dfinder__intro { color: var(--muted); margin-bottom: 16px; }
-.dfinder__options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.dfinder__options { display: grid; grid-template-columns: 1fr; gap: 10px; max-width: 420px; }
 .dfinder__option {
   font-family: var(--font-body);
   font-size: 16px;
   font-weight: 600;
   text-align: left;
-  padding: 14px 16px;
-  min-height: 56px;
+  padding: 10px 16px;
+  min-height: 48px;
   border: 1.5px solid var(--ink);
   border-radius: 6px;
   background: var(--white);
@@ -23,5 +23,4 @@
 
 @media (max-width: 560px) {
   .dfinder { padding: 20px 16px; }
-  .dfinder__options { grid-template-columns: 1fr; }
 }

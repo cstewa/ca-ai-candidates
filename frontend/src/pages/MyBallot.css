@@ -1,6 +1,3 @@
-.ballot { padding-top: 28px; }
-.ballot__zip { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 18px 22px; }
-.ballot__empty { margin-top: 24px; color: var(--muted); }
 .ballot__problem { margin-top: 24px; }
 .ballot__finder { margin-top: 48px; }
 .ballot__group { margin-top: 36px; }
@@ -17,8 +14,8 @@
   font-family: var(--font-body);
   font-size: 15px;
   font-weight: 600;
-  padding: 8px 14px;
-  min-height: 44px;
+  padding: 0 14px;
+  min-height: 48px;
   border: 1.5px solid var(--ink);
   border-radius: 6px;
   background: var(--white);
@@ -35,3 +32,19 @@
 .ballot__jump-link { font-size: 14px; font-weight: 600; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--white); }
 .ballot__jump-link:hover { border-color: var(--ink); }
 .ballot__hint { margin-top: 14px; font-size: 15px; color: var(--muted); }
+
+.ballot__hero { padding: 28px 0 24px; }
+.ballot__hero h1 { margin-bottom: 8px; }
+.ballot__change { font-family: var(--font-body); font-size: 15px; font-weight: 600; color: var(--white); background: transparent; border: 1.5px solid rgba(255,255,255,0.6); border-radius: 6px; padding: 0 16px; min-height: 48px; cursor: pointer; }
+.ballot__change:hover { border-color: var(--white); }
+.ballot__hero-form { margin-top: 18px; background: var(--paper); color: var(--ink); border-radius: 10px; padding: 18px 20px; max-width: 520px; }
+.ballot { padding-top: 20px; }
+.ballot__group:first-of-type { margin-top: 24px; }
+
+/* Phones: one scrollable row of jump links, so the races start sooner. */
+@media (max-width: 640px) {
+  .ballot__jump { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 0 16px 4px; scrollbar-width: none; }
+  .ballot__jump::-webkit-scrollbar { display: none; }
+  .ballot__jump-link, .ballot__jump-label { flex: none; white-space: nowrap; }
+  .ballot__hint { font-size: 14px; }
+}

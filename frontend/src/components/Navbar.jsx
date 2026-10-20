@@ -4,7 +4,7 @@ import './Navbar.css'
 
 const LINKS = [
   { to: '/races',      label: 'All races' },
-  { to: '/benchmarks', label: 'Bills & letters' },
+  { to: '/bills', label: 'Bills & letters' },
   { to: '/about',      label: 'How to read this' },
 ]
 

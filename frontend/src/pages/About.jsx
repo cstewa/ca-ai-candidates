@@ -37,7 +37,7 @@ export default function About() {
 
         <h2>What counts as a record</h2>
         <ul>
-          <li>Recorded floor votes on the main AI-safety bills (see <Link to="/benchmarks">Bills &amp; letters</Link>)</li>
+          <li>Recorded floor votes on the main AI-safety bills (see <Link to="/bills">Bills &amp; letters</Link>)</li>
           <li>Bills a candidate wrote, sponsored or co-sponsored</li>
           <li>Letters a candidate signed</li>
           <li>Public statements in news coverage, debates and campaign websites</li>

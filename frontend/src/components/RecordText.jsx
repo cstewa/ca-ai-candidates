@@ -32,7 +32,7 @@ function linkBills(text, keyBase) {
     const key = `${keyBase}-${m.index}`
     out.push(OFFICIAL[m[0]]
       ? <a key={key} href={OFFICIAL[m[0]]} target="_blank" rel="noreferrer" className="bill-link">{m[0]}<span className="visually-hidden"> (official bill text, opens in new tab)</span></a>
-      : <Link key={key} to={`/benchmarks#${billKey(m[0])}`} className="bill-link">{m[0]}</Link>)
+      : <Link key={key} to={`/bills/${billKey(m[0])}`} className="bill-link">{m[0]}</Link>)
     last = m.index + m[0].length
   }
   if (last < text.length) out.push(text.slice(last))

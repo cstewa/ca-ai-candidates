@@ -138,8 +138,11 @@
   - name: Richard Barrera
     sort_name: Barrera
     party:
-    status: none_found
-    search_note: No public AI-safety statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: As a San Diego Unified trustee, told Voice of San Diego (June 2026) that students don't need to learn to use AI in school, and that AI "is replacing kids' ability to learn core academic skills." [[source]](https://voiceofsandiego.org/2026/06/25/morning-report-san-diego-unified-restricts-tech/)
+      kind: statement
   - name: Sonja Shaw
     sort_name: Shaw
     party:

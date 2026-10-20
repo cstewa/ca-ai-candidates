@@ -11,7 +11,7 @@ export function PositionChips({ positions, yardsticks }) {
         const y = yardsticks[p.yardstick]
         return (
           <li key={p.yardstick}>
-            <Link to={`/benchmarks#${y.key}`} className="chip" title={p.detail || `What ${y.short_name} does`}>
+            <Link to={`/bills/${y.key}`} className="chip" title={p.detail || `What ${y.short_name} does`}>
               <span className="chip__name">{y.short_name}</span>
               <span className="chip__value">{POSITION_LABELS[p.value]}</span>
               <span className="visually-hidden">. What {y.short_name} does.</span>
@@ -33,7 +33,7 @@ export default function PositionList({ positions, yardsticks }) {
         return (
           <div key={p.yardstick} className="positions__row">
             <dt>
-              <Link to={`/benchmarks#${y.key}`}>{y.short_name}</Link>
+              <Link to={`/bills/${y.key}`}>{y.short_name}</Link>
               <span className="positions__year">{y.year}</span>
             </dt>
             <dd>

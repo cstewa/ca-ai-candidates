@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { LAST_UPDATED, BALLOT_LIST_URL } from '../data'
+import { LAST_UPDATED, BALLOT_LIST_URL, UPDATES_FORM_URL } from '../data'
 import './Footer.css'
 
 export default function Footer() {
@@ -17,9 +17,10 @@ export default function Footer() {
         <nav className="footer__links" aria-label="Footer">
           <Link to="/my-ballot">Find my candidates</Link>
           <Link to="/races">All races</Link>
-          <Link to="/benchmarks">Bills &amp; letters</Link>
+          <Link to="/bills">Bills &amp; letters</Link>
           <Link to="/about">How to read this</Link>
           <a href={BALLOT_LIST_URL} target="_blank" rel="noreferrer">Official candidate list (PDF)</a>
+          <a href={UPDATES_FORM_URL} target="_blank" rel="noreferrer">Sign up for updates ↗</a>
         </nav>
       </div>
     </footer>

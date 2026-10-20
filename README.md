@@ -74,7 +74,8 @@ cd backend && bundle exec rspec
 | `/races` | All races | Filter by office, name or district number |
 | `/races/:slug` | Race | Side-by-side table + full record for each candidate |
 | `/candidates/:slug` | Candidate | One candidate's record, link to compare |
-| `/benchmarks` | Bills & letters | How to read a position, each yardstick with official bill text, and who on the ballot has a position on it. Bill chips elsewhere link to `#<key>` here |
+| `/bills` | Bills & letters | Every bill, vote and letter, plus how to read a position |
+| `/bills/:key` | Bill | One bill: plain-language summary, official text, every candidate with a position. Bill chips and bill names elsewhere link here. Old `/benchmarks#key` links redirect |
 | `/about` | How to read this | Methodology, labels, limits, sources |
 
 ---
@@ -131,7 +132,7 @@ The status describes **how much public record exists**, never whether it is good
 
 These were made while converting the doc and are worth checking:
 
-- **`ai_other`**: Herb W. Morgan, Sonja Shaw, Jamie Joyce, Melissa Hernandez (Hernandez's comment was about *where* AI should be regulated, not safety itself).
+- **`ai_other`**: Herb W. Morgan, Sonja Shaw, Richard Barrera (added Oct. 20: AI in schools, from Voice of San Diego), Jamie Joyce, Melissa Hernandez (Hernandez's comment was about *where* AI should be regulated, not safety itself).
 - **`none_found` despite an entry**: Jimmy Gomez (only outside PAC spending), Michael E. Gates (platform note only), James Gallagher and Leticia Castillo (only "did not vote" records).
 - **Mixed votes** use the **final** floor vote as the position, with the full sequence in `detail` (e.g. Shannon Grove, Roger Niello, Kelly Seyarto, Tony Strickland, Ben Allen, Dave Min).
 - **2025 reconciliation bill**: only the votes the doc listed (Republican "yes" votes) are recorded. Democratic "no" votes were not in the doc, so they are not shown. The bill's page notes it was a broad budget bill, not a standalone AI vote.

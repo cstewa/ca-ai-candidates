@@ -46,6 +46,8 @@ export function useGuide() {
 export const LAST_UPDATED = 'October 14, 2026'
 export const ELECTION_DAY = 'November 3, 2026'
 export const FIND_DISTRICTS_URL = 'https://findyourrep.legislature.ca.gov/'
+// Email sign-up (public Google Form link, not the editor link).
+export const UPDATES_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSck48GvrSVTk60_nQCmhzJ9YDLV0WHDws75B-iEE5jSSgVHpA/viewform'
 export const BALLOT_LIST_URL = 'https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf'
 
 export const CATEGORIES = [
@@ -153,3 +155,6 @@ export function savedZip() {
 export function saveZip(zip) {
   try { localStorage.setItem(ZIP_KEY, zip) } catch { /* storage unavailable */ }
 }
+
+// Every bill, vote and letter has its own page.
+export const billPath = key => `/bills/${key}`

@@ -26,7 +26,7 @@ function CompareTable({ race, yardsticks }) {
             {keys.map(k => (
               <tr key={k}>
                 <th scope="row">
-                  <Link to={`/benchmarks#${k}`}>{yardsticks[k].short_name}</Link>
+                  <Link to={`/bills/${k}`}>{yardsticks[k].short_name}</Link>
                   <span className="compare__year">{yardsticks[k].year}</span>
                 </th>
                 {race.candidates.map(c => {
