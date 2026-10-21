@@ -3,6 +3,8 @@ import { useSearchParams, Link } from 'react-router-dom'
 import DistrictFinder from '../components/DistrictFinder'
 import RaceCard from '../components/RaceCard'
 import ZipForm from '../components/ZipForm'
+import Signup from '../components/Signup'
+import ShareButton from '../components/ShareButton'
 import { Loading, LoadError } from '../components/PageState'
 import { getZip } from '../api'
 import { useGuide, CATEGORIES, ELECTION_DAY, savedDistricts, savedZip } from '../data'
@@ -112,6 +114,17 @@ export default function MyBallot() {
   const showResults = ready && !zipProblem && !nothingChosen
   const askForZip = nothingChosen || zipProblem
 
+  // How many candidates are on this visitor's ballot, for the sign-up headline.
+  const shownRaces = !showResults ? [] : [
+    ...data.races.filter(r => r.category === 'statewide'),
+    ...cities.filter(c => c.inside).map(c => data.raceBySlug[c.race]),
+    ...CATEGORIES.filter(c => c.param && chosen[c.key])
+      .map(c => data.races.find(r => r.category === c.key && r.district === chosen[c.key]))
+      .filter(Boolean),
+  ]
+  const candidateCount = shownRaces.reduce((n, r) => n + r.candidates.length, 0)
+  const trackHeadline = `Track the ${candidateCount} candidates on your ballot`
+
   return (
     <>
       {askForZip ? (
@@ -130,16 +143,21 @@ export default function MyBallot() {
         // Results: a short header, so candidate names show on the first screen.
         <section className="page-hero ballot__hero">
           <div className="container">
-            <p className="page-hero__kicker">California · {ELECTION_DAY}</p>
+            <p className="page-hero__kicker">California · Nov. 3, 2026</p>
             <h1>{zip ? `Your candidates in ${zip}` : 'Your candidates'}</h1>
             {editingZip ? (
               <div className="ballot__hero-form">
                 <ZipForm idPrefix="top" initial={zip} size="small" label="New ZIP code" />
               </div>
             ) : (
-              <button type="button" className="ballot__change" onClick={() => setEditingFor(zip || 'none')}>
-                {zip ? 'Change ZIP code' : 'Use a ZIP code instead'}
-              </button>
+              <div className="ballot__hero-actions">
+                <button type="button" className="ballot__change" onClick={() => setEditingFor(zip || 'none')}>
+                  {zip ? 'Change ZIP code' : 'Use a ZIP code instead'}
+                </button>
+                {showResults && (
+                  <ShareButton className="ballot__change" label="Send to a friend" text="See where everyone on my California ballot stands on AI" />
+                )}
+              </div>
             )}
           </div>
         </section>
@@ -158,6 +176,10 @@ export default function MyBallot() {
           </div>
         )}
         {zipProblem === 'failed' && <LoadError />}
+
+        {showResults && (
+          <Signup source="results" zip={zip || undefined} idPrefix="results-signup" variant="strip" headline={trackHeadline} />
+        )}
 
         {showResults && (
           <nav className="ballot__jump" aria-label="Jump to a race">
@@ -213,6 +235,12 @@ export default function MyBallot() {
             </BallotGroup>
           )
         })}
+
+        {showResults && (
+          <div className="ballot__end-signup">
+            <Signup source="results" zip={zip || undefined} idPrefix="results-signup-end" headline={trackHeadline} />
+          </div>
+        )}
 
         <div className="ballot__finder">
           <DistrictFinder

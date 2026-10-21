@@ -30,3 +30,4 @@
 @media (max-width: 760px) {
   .race-card__candidate { grid-template-columns: 1fr; }
 }
+.race-card__ask { font-size: 14px; font-weight: 600; color: var(--accent); text-decoration: underline; justify-self: start; }

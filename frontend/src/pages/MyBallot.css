@@ -1,5 +1,5 @@
 .ballot__problem { margin-top: 24px; }
-.ballot__finder { margin-top: 48px; }
+.ballot__finder { margin-top: 24px; }
 .ballot__group { margin-top: 36px; }
 .ballot__group h2 { font-size: 1.6rem; margin-bottom: 14px; }
 .ballot__list, .ballot__stack { display: flex; flex-direction: column; gap: 16px; }
@@ -46,5 +46,11 @@
   .ballot__jump { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 0 16px 4px; scrollbar-width: none; }
   .ballot__jump::-webkit-scrollbar { display: none; }
   .ballot__jump-link, .ballot__jump-label { flex: none; white-space: nowrap; }
-  .ballot__hint { font-size: 14px; }
+  /* Phones: candidate names should show without scrolling past the sign-up. */
+  .ballot__hint { display: none; }
+  .ballot__hero .page-hero__kicker { display: none; }
 }
+
+.ballot__hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.ballot__end-signup { margin-top: 48px; }
+.ballot .signup--strip + .ballot__jump { margin-top: 16px; }

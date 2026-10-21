@@ -1,0 +1,3 @@
+.vote-banner { background: var(--gold); color: var(--ink); font-size: 14px; line-height: 1.4; }
+.vote-banner__inner { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; padding-top: 7px; padding-bottom: 7px; }
+.vote-banner a { font-weight: 600; text-decoration: underline; }

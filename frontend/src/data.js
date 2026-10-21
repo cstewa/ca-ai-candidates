@@ -46,8 +46,9 @@ export function useGuide() {
 export const LAST_UPDATED = 'October 14, 2026'
 export const ELECTION_DAY = 'November 3, 2026'
 export const FIND_DISTRICTS_URL = 'https://findyourrep.legislature.ca.gov/'
-// Email sign-up (public Google Form link, not the editor link).
-export const UPDATES_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSck48GvrSVTk60_nQCmhzJ9YDLV0WHDws75B-iEE5jSSgVHpA/viewform'
+export const BALLOT_STATUS_URL = 'https://www.sos.ca.gov/elections/ballot-status/wheres-my-ballot'
+// The election-day message shows until the end of Nov. 3 in California.
+export const VOTING_CLOSES = Date.parse('2026-11-04T08:00:00Z')
 export const BALLOT_LIST_URL = 'https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf'
 
 export const CATEGORIES = [
@@ -158,3 +159,15 @@ export function saveZip(zip) {
 
 // Every bill, vote and letter has its own page.
 export const billPath = key => `/bills/${key}`
+
+export const SIGNUP_KEY = 'ca-ai-candidates:signed-up'
+
+export function hasSignedUp() {
+  try { return localStorage.getItem(SIGNUP_KEY) === '1' } catch { return false }
+}
+
+export function markSignedUp() {
+  try { localStorage.setItem(SIGNUP_KEY, '1') } catch { /* storage unavailable */ }
+  // Let every sign-up box on the page switch to "You're signed up".
+  window.dispatchEvent(new Event(SIGNUP_KEY))
+}

@@ -24,7 +24,9 @@ export default function RaceCard({ race, yardsticks, headingLevel = 3 }) {
               <span className="race-card__meta">{candidateMeta(c)}</span>
             </div>
             <StatusBadge status={c.status} short />
-            <PositionChips positions={c.positions} yardsticks={yardsticks} />
+            {c.status === 'none_found'
+              ? <Link to={`/candidates/${c.slug}#ask`} className="race-card__ask">Ask them where they stand<span className="visually-hidden">: {c.name}</span> →</Link>
+              : <PositionChips positions={c.positions} yardsticks={yardsticks} />}
           </li>
         ))}
       </ul>

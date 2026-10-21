@@ -3,12 +3,14 @@ import CandidatePanel from '../components/CandidatePanel'
 import StatusBadge from '../components/StatusBadge'
 import { Loading, LoadError } from '../components/PageState'
 import NotFound from './NotFound'
+import { useHashScroll } from '../hooks'
 import { useGuide, candidateMeta } from '../data'
 import './Candidate.css'
 
 export default function Candidate() {
   const { slug } = useParams()
   const { data, loading, error } = useGuide()
+  useHashScroll(!!data)
 
   if (loading) return <Loading />
   if (error) return <LoadError />
@@ -29,7 +31,7 @@ export default function Candidate() {
       </section>
 
       <div className="container candidate-page">
-        <CandidatePanel candidate={c} yardsticks={data.yardsticks} linkName={false} headingLevel={2} />
+        <CandidatePanel candidate={c} race={c.race} yardsticks={data.yardsticks} linkName={false} headingLevel={2} askAnchor />
 
         <aside className="candidate-page__others" aria-labelledby="others-h">
           <h2 id="others-h">Also in this race</h2>

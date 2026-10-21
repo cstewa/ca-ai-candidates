@@ -84,7 +84,7 @@ export default function Race() {
 
         <h2 className="race-page__h2">Full records</h2>
         <div className={`race-page__panels race-page__panels--${Math.min(race.candidates.length, 2)}`}>
-          {race.candidates.map(c => <CandidatePanel key={c.slug} candidate={c} yardsticks={data.yardsticks} />)}
+          {race.candidates.map(c => <CandidatePanel key={c.slug} candidate={c} race={race} yardsticks={data.yardsticks} />)}
         </div>
       </div>
     </>

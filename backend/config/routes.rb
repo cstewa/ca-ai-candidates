@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :candidates, only: [:show],         param: :slug
       resources :yardsticks, only: [:index]
       get "zips/:zip", to: "zips#show"
+      post "signups", to: "signups#create"
     end
   end
 

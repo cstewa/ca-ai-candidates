@@ -62,6 +62,7 @@ cd backend && bundle exec rspec
 | GET | /api/v1/candidates/:slug | One candidate plus their race |
 | GET | /api/v1/yardsticks | The benchmark bills, votes and letters |
 | GET | /api/v1/zips/:zip | Districts and covered mayor races for a California ZIP code, with each one's share of residents |
+| POST | /api/v1/signups | Email sign-up (`email`, optional `zip`, `source`); forwarded to the Google Form |
 
 ---
 
@@ -143,6 +144,24 @@ These were made while converting the doc and are worth checking:
 - **Dropped from the doc**: editorial summary lines such as "the sharpest contrasts are in…", "the clearest 'no' records belong to…", "has the deepest AI record". Section intros on the site only describe what the votes are.
 
 ---
+
+## Email sign-ups
+
+Sign-up boxes (under "Your candidates in [ZIP]", at the end of the results, on the homepage, and "Get notified if they answer" on candidates with no record) submit in place. The server forwards each one to the Google Form **AI CA Political Activism** (`backend/app/models/google_form.rb`), so responses land in the form and its Sheet. Visitors never see Google.
+
+- **Segmenting by district:** add short-answer questions titled **ZIP code** and **Signed up from** to the form. The server matches questions by title (re-checked hourly), so they start filling in with no code change. "Signed up from" is `results`, `home` or `candidate`.
+- **Local development** logs sign-ups instead of sending them, so test clicks don't reach the form. Set `SIGNUP_LIVE=1` to send for real.
+- **Unsubscribe:** the sign-up copy promises "Unsubscribe anytime." With a Google Form, that's manual: delete the row when someone asks, and include a reply-to-unsubscribe line in every email.
+- Email addresses are filtered out of the server logs.
+
+## Measuring sign-ups
+
+The server logs one line per ZIP lookup and per sign-up. In Railway's logs for the app, search:
+
+- `event=zip_lookup found=yes`: ZIP lookups that found a California ZIP
+- `event=signup source=results`: sign-ups from the results page
+
+Sign-ups from results ÷ successful ZIP lookups = the share of lookups that end in a sign-up. Railway keeps logs for a limited time, so note the counts daily.
 
 ## Rebuilding the ZIP lookup
 

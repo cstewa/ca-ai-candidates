@@ -20,7 +20,7 @@ module CaAiCandidatesApi
         origins ENV.fetch("FRONTEND_URL", "http://localhost:5173")
         resource "*",
           headers: :any,
-          methods: [:get, :options, :head]
+          methods: [:get, :post, :options, :head]
       end
     end
 

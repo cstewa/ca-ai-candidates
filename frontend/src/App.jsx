@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-route
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import VoteBanner from './components/VoteBanner'
 import Home from './pages/Home'
 import Races from './pages/Races'
 import Race from './pages/Race'
@@ -34,6 +35,7 @@ export default function App() {
       <div className="app">
         <a href="#main" className="skip-link">Skip to content</a>
         <Navbar />
+        <VoteBanner />
         <main id="main">
           <Routes>
             <Route path="/"                  element={<Home />} />

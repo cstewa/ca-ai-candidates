@@ -4,11 +4,14 @@ import DistrictFinder from '../components/DistrictFinder'
 import CandidateSearch from '../components/CandidateSearch'
 import StatusBadge from '../components/StatusBadge'
 import { Loading, LoadError } from '../components/PageState'
-import { useGuide, CATEGORIES, ELECTION_DAY, STATUSES, UPDATES_FORM_URL } from '../data'
+import Signup from '../components/Signup'
+import { useHashScroll } from '../hooks'
+import { useGuide, CATEGORIES, STATUSES } from '../data'
 import './Home.css'
 
 export default function Home() {
   const { data, loading, error } = useGuide()
+  useHashScroll(true)
 
   const counts = data && Object.fromEntries(
     Object.keys(STATUSES).map(s => [s, data.candidates.filter(c => c.status === s).length])
@@ -18,14 +21,11 @@ export default function Home() {
     <>
       <section className="home-hero">
         <div className="container">
-          <p className="page-hero__kicker">California General Election · {ELECTION_DAY}</p>
-          <h1>
-            <span className="home-hero__state">California</span>
-            AI Safety Candidate Lookup
-          </h1>
+          <p className="page-hero__kicker">California AI Safety Candidate Lookup · Nov. 3, 2026</p>
+          <h1>See where everyone on your <span className="home-hero__state">California</span> ballot stands on AI</h1>
           <p className="home-hero__lede">
-            Enter your ZIP code to see what the candidates on your ballot have said and done about AI safety,
-            from governor and mayor to Congress and the Legislature.
+            Enter your ZIP code to see what your candidates for governor, mayor, Congress and the Legislature
+            have said and done about AI safety, with a source for every item.
           </p>
           <div className="home-hero__form">
             <ZipForm />
@@ -103,23 +103,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" id="track">
         <div className="container">
-          <div className="home-updates">
-            <div>
-              <h2 className="home-h2">Get updates</h2>
-              <p className="home-updates__text">
-                Leave your email to hear about AI safety and California's elections, including new races and
-                candidate records as they're added.
-              </p>
-            </div>
-            <div className="home-updates__action">
-              <a href={UPDATES_FORM_URL} target="_blank" rel="noreferrer" className="btn btn--primary">
-                Sign up for updates<span className="visually-hidden"> (opens a Google Form in a new tab)</span> ↗
-              </a>
-              <p className="home-updates__note">Opens a short Google Form. Only your email is asked for.</p>
-            </div>
-          </div>
+          <Signup source="home" idPrefix="home-signup" headline="Know when your candidates go on record about AI." />
         </div>
       </section>
     </>

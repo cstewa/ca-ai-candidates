@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom'
 import RecordText from './RecordText'
 import StatusBadge from './StatusBadge'
 import PositionList from './PositionList'
+import AskThem from './AskThem'
 import { candidateMeta, ITEM_KINDS } from '../data'
 import './CandidatePanel.css'
 
-export default function CandidatePanel({ candidate: c, yardsticks, linkName = true, headingLevel = 3 }) {
+export default function CandidatePanel({ candidate: c, race, yardsticks, linkName = true, headingLevel = 3, askAnchor = false }) {
   const H = `h${headingLevel}`
   const record = c.items.filter(i => i.kind !== 'funding')
   const funding = c.items.filter(i => i.kind === 'funding')
@@ -54,6 +55,8 @@ export default function CandidatePanel({ candidate: c, yardsticks, linkName = tr
       {c.search_note && (
         <p className="cpanel__note"><RecordText text={c.search_note} /></p>
       )}
+
+      {c.status === 'none_found' && race && <AskThem candidate={c} race={race} anchor={askAnchor} />}
     </article>
   )
 }
