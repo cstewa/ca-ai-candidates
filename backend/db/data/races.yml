@@ -22,7 +22,7 @@
     party: R
     status: on_record
     items:
-    - text: 'Platform: "Keep California the AI Capital of the World." It says government should enforce basic accountability but avoid "sweeping, preemptive regulation," and frames AI as a national-security race with China. [[source]](https://stevehiltonforgovernor.com/policy/keep-california-the-ai-capital-of-the-world)'
+    - text: '"Keep California the AI Capital of the World." It says government should enforce basic accountability but avoid "sweeping, preemptive regulation," and frames AI as a national-security race with China. [[source]](https://stevehiltonforgovernor.com/policy/keep-california-the-ai-capital-of-the-world)'
       kind: platform
     - text: To CalMatters he called AI risk a "very urgent priority" and said he was "very interested" in external safety evaluators, then declined to endorse them. He called a mandatory kill switch "a gimmick." [[source]](https://calmatters.org/politics/2026/09/california-governor-race-ai-safety/)
       kind: statement
@@ -318,8 +318,14 @@
   - name: Eric Jones
     sort_name: Jones
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: 'Says AI should be regulated strongly: “AI must never be able to harm or kill people,” with strong, enforceable federal rules as a floor and states like California free to go further. [[source]](https://www.ericjones.us/answers)'
+      kind: statement
+    - text: '“Make Big Tech Build Responsibly”: set privacy and accountability standards “before the technology outruns us,” prevent AI products from being designed to target and hook minors, and require new data centers to generate their own clean power and protect water. [[source]](https://www.ericjones.us/priorities/protect-our-future)'
+      kind: platform
+    - text: Supports a moratorium on new data centers in California until there are national standards for on-site clean power, water limits and job protections. [[source]](https://www.ericjones.us/answers)
+      kind: platform
   - name: Mike Thompson
     sort_name: Thompson
     party: D
@@ -398,8 +404,11 @@
   - name: Mai Vang
     sort_name: Vang
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: '“Protection from AI & Data Centers”: signed on to Sen. Bernie Sanders'' proposed moratorium on new data center construction, wants to end tax breaks for data center developers and make them cover the rate increases their energy use causes, and says she signed the “AI Pact.” [[source]](https://www.maiforus.com/platform)'
+      kind: platform
 - office: us_house
   district: 8
   candidates:
@@ -445,8 +454,11 @@
   - name: Jeff Frese
     sort_name: Frese
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Schools should “prepare kids for automation and AI.” [[source]](https://freseforcongress.com)'
+      kind: platform
 - office: us_house
   district: 11
   note: Open seat (Pelosi retiring)
@@ -478,7 +490,7 @@
       kind: bill
     - text: Led 20 state lawmakers in urging Congress to reject federal preemption (Dec. 2025). [[source]](https://www.govtech.com/artificial-intelligence/despite-executive-order-california-lawmakers-push-to-regulate-ai)
       kind: letter
-    - text: 'Platform: a new federal AI safety and security agency, mandatory safety standards focused on catastrophic risk from the most powerful models, no federal preemption, fees on new data centers. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)'
+    - text: 'A new federal AI safety and security agency, mandatory safety standards focused on catastrophic risk from the most powerful models, no federal preemption, fees on new data centers. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)'
       kind: platform
     - text: Public First Action (AI-safety group funded partly by Anthropic) has put about $3.5 million into a pro-Wiener PAC. [[source]](https://sfstandard.com/2026/10/13/scott-wiener-artificial-intelligence-connie-chan-nancy-pelosi/)
       kind: funding
@@ -512,8 +524,11 @@
     sort_name: Gray
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Asked by the Sacramento Bee about a data center moratorium, said bans rarely work out but that rules are needed and it would be “irresponsible of Congress” not to take the concerns seriously. [[source]](https://www.adamgrayforcongress.com/news/icymi-sacramento-bee-adam-gray-discusses-immigration-socialism-and-trump)
+      kind: statement
   - name: Kevin Lincoln
     sort_name: Lincoln
     party: R
@@ -698,8 +713,14 @@
   - name: Randy Villegas
     sort_name: Villegas
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: '“Regulate AI Safety for All”: age verification and parental consent for high-risk AI tools, requiring bots to screen for content related to unsafe behavior, and cracking down on AI-generated child sexual abuse material. Also wants consent before personal data is used to train AI models. [[source]](https://www.villegasforcongress.com/issues/artificial-intelligence)'
+      kind: platform
+    - text: 'Large AI companies should pay their fair share in taxes, and workers'' jobs should be protected against replacement by AI. [[source]](https://www.villegasforcongress.com/issues/artificial-intelligence)'
+      kind: platform
+    - text: Called for at least a one-year moratorium on new data centers in the Central Valley (Sept. 2026). [[source]](https://www.villegasforcongress.com/news)
+      kind: statement
   - name: David G. Valadao
     sort_name: Valadao
     party: R
@@ -717,8 +738,11 @@
   - name: Tessa Lynn Hodge
     sort_name: Hodge
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Campaign materials oppose AI data centers, including signs reading “Housing Over Data Centers.” [[source]](https://www.tessaforca.com/media-kit)
+      kind: statement
   - name: Jay Obernolte
     sort_name: Obernolte
     party: R
@@ -756,8 +780,11 @@
   - name: Bob Smith
     sort_name: Smith
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: '“Lead in artificial intelligence, space, and cyber defense.” [[source]](https://bobsmithforcongress.com/issues/)'
+      kind: platform
 - office: us_house
   district: 25
   candidates:
@@ -825,8 +852,10 @@
     sort_name: Chu
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: Co-led a 2024 bicameral letter asking Medicare to limit the use of AI tools to deny coverage in Medicare Advantage until they're evaluated, and to review AI tools used in prior authorization. [[source]](https://chu.house.gov/media-center/press-releases/reps-chu-nadler-sen-warren-lead-bicameral-letter-cms-urging-oversight)
+      kind: letter
   - name: April A. Verlato
     sort_name: Verlato
     party: R
@@ -838,8 +867,11 @@
   - name: Angélica María Dueñas
     sort_name: Dueñas
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Says her campaign takes no money from AI interests, among other industries. [[source]](https://angelica4congress.com/)
+      kind: platform
   - name: Luz Maria Rivas
     sort_name: Rivas
     party: D
@@ -914,8 +946,12 @@
   - name: Larry Thompson
     sort_name: Thompson
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: 'Proposes an “American AI Bill of Rights”: a human must remain legally responsible for decisions such as use of deadly force, military action and criminal sentencing; people should know when they''re dealing with AI, including AI-generated political ads; and developers of advanced AI should guard against cyberattacks, criminal misuse and malicious software generation. [[source]](https://content.campaignpartner.net/images/84090/The_American_AI_Bill_of_Rights.pdf)'
+      kind: platform
+    - text: The same plan says innovation should be encouraged unless there's a compelling public interest for targeted regulation, and that government shouldn't regulate lawful speech merely because AI helped create it. [[source]](https://content.campaignpartner.net/images/84090/The_American_AI_Bill_of_Rights.pdf)
+      kind: platform
 - office: us_house
   district: 33
   candidates:
@@ -947,8 +983,11 @@
   - name: Angela Gonzales-Torres
     sort_name: Gonzales-Torres
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: '“Stand Up to Big AI”: says AI companies are driving up electric bills and buying influence, and supports a moratorium on new data center construction until there are federal protections for workers, ratepayers and communities. [[source]](https://www.angela4congress.com/issues)'
+      kind: platform
 - office: us_house
   district: 35
   candidates:
@@ -992,8 +1031,11 @@
   - name: Houston Brignano
     sort_name: Brignano
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Wants to train young people to master AI and protect jobs from automation through reskilling programs. [[source]](https://www.voteforhouston.com)
+      kind: platform
 - office: us_house
   district: 37
   candidates:
@@ -1123,8 +1165,10 @@
   - name: Cristian Morales
     sort_name: Morales
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: '“Responsible Technology and AI”: keep the U.S. ahead of China in AI, criminalize AI-generated child sexual abuse material, protect workers and intellectual property from unlawful AI exploitation, prevent government use of AI for unconstitutional surveillance or censorship, and set “reasonable safeguards without crushing innovation.” [[source]](https://forallvoices.com/platform/)'
+      kind: platform
 - office: us_house
   district: 44
   candidates:
@@ -1291,8 +1335,11 @@
   - name: Jeff Belle
     sort_name: Belle
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Lists “AI student loan relief” among six bills he says he has proposed. [[source]](https://www.belleforcongress.com)
+      kind: platform
 - office: state_senate
   district: 2
   candidates:
@@ -1321,8 +1368,11 @@
   - name: Jaron Brandon
     sort_name: Brandon
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Lists modernizing local government cybersecurity, including early AI threat detection, among his accomplishments in office. [[source]](https://votejaron.com/about/)
+      kind: official_action
   - name: Alexandra Duarte
     sort_name: Duarte
     party: R
@@ -1535,8 +1585,10 @@
   - name: Brian Goldsmith
     sort_name: Goldsmith
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: 'Regulate 3D-printed weapons and the use of AI in building and converting weapons. [[source]](https://www.briangoldsmith.com/issues)'
+      kind: platform
 - office: state_senate
   district: 26
   note: Open seat
@@ -1544,13 +1596,24 @@
   - name: Sara Hernandez
     sort_name: Hernandez
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: 'Says tech billionaires “should not get to make the rules” and calls for strict AI rules with real enforcement and consequences for companies that break them. [[source]](https://www.sarahernandez.com/platform)'
+      kind: platform
+    - text: 'Companies must tell workers when AI is used to make decisions about hiring, pay, schedules or layoffs, and workers must be able to challenge those decisions and get human review. Supports regulating automated firings and workplace surveillance. [[source]](https://www.sarahernandez.com/platform)'
+      kind: platform
+    - text: 'AI companies should be required to test their products for risks to children, protect children''s private information and fix harmful features, with regulators able to investigate, require changes and impose penalties. Wants to keep AI from replacing teachers, counselors or tutors. [[source]](https://www.sarahernandez.com/platform)'
+      kind: platform
+    - text: 'Opposes data center construction unless projects use union labor, don''t use drinking water or groundwater for cooling, don''t raise residential electricity rates, and add clean generation and storage to the grid. [[source]](https://www.sarahernandez.com/platform)'
+      kind: platform
   - name: Sarah Rascón
     sort_name: Rascón
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Says neighborhoods should have a say before data centers are approved, citing a 49-megawatt data center in Vernon approved without notice to nearby residents, and criticizes the defeat of bills requiring data centers to report water use and pay their own power costs. [[source]](https://www.rasconforsenate.com/what-voters-need-to-know)
+      kind: statement
 - office: state_senate
   district: 28
   candidates:
@@ -1572,8 +1635,10 @@
   - name: Joe Lisuzzo
     sort_name: Lisuzzo
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: In a candidate questionnaire, said AI can be a “human asset or detriment”; supports using it for physically dangerous work, but is concerned about AI using people's identities without permission and says AI will have to be “adjudicated as a health and safety issue” case by case. [[source]](https://www.joelisuzzo.com/about)
+      kind: statement
 - office: state_senate
   district: 30
   candidates:
@@ -1949,8 +2014,11 @@
   - name: Jackie Elward
     sort_name: Elward
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: Says she will introduce a bill on her first day for an AI data center moratorium in California, citing energy bills and scarce water. [[source]](https://www.jackie4assembly.com/gallery)
+      kind: platform
   - name: Eric Lucan
     sort_name: Lucan
     party: D
@@ -1998,8 +2066,10 @@
   - name: Mark Rendon
     sort_name: Rendon
     party: G
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: 'Create an independent commission on AI safety and ethics with subpoena and regulation powers, and enact a statewide ban on hyperscale data centers. [[source]](https://www.markrendon4ad14.com/priorities)'
+      kind: platform
 - office: state_assembly
   district: 15
   candidates:
@@ -2094,8 +2164,11 @@
   - name: Andre Sandford
     sort_name: Sandford
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Proposes a “California Data Center Community Consent & Safety Act”: a temporary pause on new large-scale data centers while the state reviews impacts on electricity, water and communities, with public hearings and local consent. [[source]](https://andresandfordforassembly.com/)'
+      kind: platform
 - office: state_assembly
   district: 19
   candidates:
@@ -2162,8 +2235,11 @@
   - name: Jabra J. Muhawieh
     sort_name: Muhawieh
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'California should lead in AI with policies that let businesses grow “without excessive regulation,” while protecting privacy, data security and constitutional freedoms. [[source]](https://jabraforstateassembly.com/services)'
+      kind: platform
 - office: state_assembly
   district: 22
   candidates:
@@ -2437,8 +2513,10 @@
   - name: Ida S. Obeso-Martinez
     sort_name: Obeso-Martinez
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: Supports protecting children from high-risk AI systems, including AI chatbots, safeguarding children's personal information, giving parents more control, and strong safeguards on data centers' water, energy and public-health impacts. [[source]](https://www.idaforassembly.com/issues/blog-post-title-three-y3peb-4lwnz-bsm4z-4pjjs-w35ke)
+      kind: platform
   - name: Jeff Gonzalez
     sort_name: Gonzalez
     party: R
@@ -2497,8 +2575,11 @@
   - name: Michael MacDonald
     sort_name: MacDonald
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'As AI and data centers expand, push for “responsible growth” that protects water and energy and shares economic benefits; prepare workers for AI and automation before jobs disappear. [[source]](https://www.michaelmacdonaldforassembly.com/issues-policy-positions)'
+      kind: platform
 - office: state_assembly
   district: 39
   candidates:
@@ -2543,8 +2624,11 @@
   - name: Rickey Tracy Hayes II
     sort_name: Hayes
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Energy plan: make massive data centers generate more of their own electricity rather than passing grid costs to families. [[source]](https://rickeyhayesforassembly.com/lower-energy-costs-plan/)'
+      kind: platform
 - office: state_assembly
   district: 41
   candidates:
@@ -2573,8 +2657,11 @@
   - name: Deborah Klein Lopez
     sort_name: Lopez
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Names AI among the shifts upending the job market, and wants schools and colleges ready for AI, with “thoughtful classroom integration and student safeguards.” [[source]](https://deborahkleinlopez.com/issues/)'
+      kind: platform
   - name: Ted Nordblum
     sort_name: Nordblum
     party: R
@@ -2674,8 +2761,11 @@
   - name: Leila Namvar
     sort_name: Namvar
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Block new data centers that don''t sign community benefit agreements to offset their electricity, water and environmental costs and include local hiring. [[source]](https://www.leilanamvar.com/issues)'
+      kind: platform
   - name: Greg Wallis
     sort_name: Wallis
     party: R
@@ -2800,8 +2890,11 @@
   - name: Andrea Lee Anderson
     sort_name: Anderson
     party: R
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'AI “will assist in many ways, but we need to beware”; it isn''t infallible, and people can''t give up critical thinking. [[source]](https://andrealeeanderson.com/issues)'
+      kind: platform
 - office: state_assembly
   district: 53
   candidates:
@@ -2953,8 +3046,11 @@
   - name: Victor Hernandez
     sort_name: Hernandez
     party: G
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Place a moratorium on hyperscale data centers. [[source]](https://www.victorforassembly.com/issues)'
+      kind: platform
 - office: state_assembly
   district: 60
   candidates:
@@ -3042,8 +3138,11 @@
   - name: Kevin Akin
     sort_name: Akin
     party: P&F
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: In a candidate questionnaire, said he would stop permits for new data center projects, arguing they're wasteful and that developers should adopt systems using less power and water. [[source]](https://kevinakin4california.org/questionsandanswers/)
+      kind: statement
 - office: state_assembly
   district: 64
   candidates:
@@ -3116,8 +3215,11 @@
   - name: Jessie Lopez
     sort_name: Lopez
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: '“Keep Data Centers Out of the Region.” [[source]](https://www.votejessielopez.com/)'
+      kind: platform
   - name: David Penaloza
     sort_name: Penaloza
     party: D
@@ -3177,8 +3279,12 @@
   - name: JJ Galvez
     sort_name: Galvez
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    items:
+    - text: "“Human-First AI Policy”: wants liability laws that create large disincentives for AI labs, open or closed, to release models that aren't safe, citing risks of advanced models being used to hack financial systems or build bioweapons. Also wants users held liable when they use AI to harm someone. [[source]](https://jjgalvez.substack.com/p/human-first-ai-policy)"
+      kind: platform
+    - text: 'AI should be regulated to “protect, help, and center humanity”; data centers should not be built without community buy-in; students should use AI responsibly in school. [[source]](https://www.jjgalvez.com/priorities)'
+      kind: platform
   - name: Kate Sanchez
     sort_name: Sanchez
     party: R
@@ -3201,8 +3307,11 @@
   - name: Chris Kluwe
     sort_name: Kluwe
     party: D
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Will “ensure responsible AI that stops surveillance pricing.” [[source]](https://www.kluweoc.com/issues)'
+      kind: platform
   - name: Gracey Van Der Mark
     sort_name: Van Der Mark
     party: R
@@ -3406,5 +3515,8 @@
   - name: Nithya Raman
     sort_name: Raman
     party:
-    status: none_found
-    search_note: No public AI statements found.
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Supports a moratorium on new large-scale data centers until operators secure clean power, use cooling that doesn''t burden water and wastewater systems, and pay the full cost of the grid and water infrastructure they need. [[source]](https://www.nithyaforthecity.com/climate)'
+      kind: platform
