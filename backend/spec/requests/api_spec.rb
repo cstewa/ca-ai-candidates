@@ -5,7 +5,7 @@ RSpec.describe "API", type: :request do
     get "/api/v1/races"
     expect(response).to have_http_status(:ok)
     body = response.parsed_body
-    expect(body.size).to eq(165)
+    expect(body.size).to eq(171)
     expect(body.first["slug"]).to eq("governor")
     expect(body.first["candidates"].map { |c| c["name"] }).to eq(["Xavier Becerra", "Steve Hilton"])
   end

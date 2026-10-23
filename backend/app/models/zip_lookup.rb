@@ -16,7 +16,7 @@ class ZipLookup
   # nil when the ZIP isn't a residential California ZIP code.
   def find(zip, guide)
     entry = @zips[zip] or return nil
-    mayor_races = guide.races.select { |r| r["office"] == "mayor" }.index_by { |r| r["place_fips"] }
+    city_races = guide.races.select { |r| Guide::CITY_OFFICES.include?(r["office"]) }.group_by { |r| r["place_fips"] }
 
     {
       "zip" => zip,
@@ -24,9 +24,10 @@ class ZipLookup
       "districts" => OFFICE_KEYS.to_h do |key, office|
         [office, entry[key].map { |district, share| { "district" => district, "share" => share } }]
       end,
+      # Covered cities the ZIP overlaps, each with its citywide races (mayor, council).
       "cities" => (entry["places"] || []).filter_map do |fips, share|
-        race = mayor_races[fips] or next
-        { "race" => race["slug"], "city" => race["city"], "share" => share }
+        races = city_races[fips] or next
+        { "city" => races.first["city"], "slug" => races.first["city"].parameterize, "share" => share, "races" => races.map { |r| r["slug"] } }
       end,
     }
   end

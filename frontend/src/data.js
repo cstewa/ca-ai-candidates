@@ -59,8 +59,8 @@ export const CATEGORIES = [
   },
   {
     key: 'local',
-    label: 'Mayor',
-    intro: 'Mayoral races in large California cities. Los Angeles is covered so far; more cities will be added as their candidate lists are verified.',
+    label: 'City races',
+    intro: 'Mayoral races in Los Angeles, Oakland, Anaheim, Santa Ana, Irvine and Chula Vista, plus the Santa Monica City Council, which picks Santa Monica\'s mayor. Long Beach and San Bernardino re-elected their mayors outright in June, so those races aren\'t on the November ballot.',
   },
   {
     key: 'us_house',

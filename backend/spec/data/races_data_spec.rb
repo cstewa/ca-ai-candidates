@@ -6,8 +6,8 @@ RSpec.describe "db/data" do
 
   it "loads and validates without errors" do
     expect { guide }.not_to raise_error
-    expect(guide.races.size).to eq(165)
-    expect(guide.candidates.size).to eq(326)
+    expect(guide.races.size).to eq(171)
+    expect(guide.candidates.size).to eq(352)
   end
 
   it "cites a source link in every record item" do
@@ -40,7 +40,7 @@ RSpec.describe "db/data" do
 
   it "ties each mayor race to a city that the ZIP lookup knows" do
     places = JSON.parse(File.read(ZipLookup::PATH))["zips"].values.flat_map { |z| (z["places"] || []).map(&:first) }.uniq
-    guide.races.select { |r| r["office"] == "mayor" }.each do |r|
+    guide.races.select { |r| Guide::CITY_OFFICES.include?(r["office"]) }.each do |r|
       expect(places).to include(r["place_fips"]), r["slug"]
     end
   end

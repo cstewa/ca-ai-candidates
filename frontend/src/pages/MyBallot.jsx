@@ -104,9 +104,10 @@ export default function MyBallot() {
     if (picked) chosen[cat.key] = picked
   }
 
-  // Mayor races the ZIP touches; ask when the ZIP is only partly inside the city.
+  // Covered cities the ZIP touches (mayor, city council); ask when the ZIP is only partly inside.
+  // Older shared links used in-mayor-<city>, so accept that too.
   const cities = (lookup.data?.cities || []).map(city => {
-    const answer = params.get(`in-${city.race}`)
+    const answer = params.get(`in-${city.slug}`) || params.get(`in-mayor-${city.slug}`)
     const inside = answer ? answer === 'yes' : city.share >= 0.5
     return { ...city, inside, ask: city.share < CITY_SURE }
   })
@@ -120,7 +121,7 @@ export default function MyBallot() {
   // How many candidates are on this visitor's ballot, for the sign-up headline.
   const shownRaces = !showResults ? [] : [
     ...data.races.filter(r => r.category === 'statewide'),
-    ...cities.filter(c => c.inside).map(c => data.raceBySlug[c.race]),
+    ...cities.filter(c => c.inside).flatMap(c => c.races.map(slug => data.raceBySlug[slug])),
     ...CATEGORIES.filter(c => c.param && chosen[c.key])
       .map(c => data.races.find(r => r.category === c.key && r.district === chosen[c.key]))
       .filter(Boolean),
@@ -190,7 +191,7 @@ export default function MyBallot() {
             {BALLOT_ORDER.map(cat => {
               if (cat.key === 'local' && !cities.length) return null
               if (cat.param && !chosen[cat.key]) return null
-              const label = cat.key === 'statewide' ? 'Statewide' : cat.key === 'local' ? 'Mayor' : `${cat.label.replace(' (state tax board)', '')} ${chosen[cat.key]}`
+              const label = cat.key === 'statewide' ? 'Statewide' : cat.key === 'local' ? 'City' : `${cat.label.replace(' (state tax board)', '')} ${chosen[cat.key]}`
               return <a key={cat.key} href={`#b-${cat.key}`} className="ballot__jump-link">{label}</a>
             })}
           </nav>
@@ -211,13 +212,13 @@ export default function MyBallot() {
           if (cat.key === 'local') {
             if (!cities.length) return null
             return (
-              <BallotGroup key={cat.key} id={cat.key} title="Mayor">
+              <BallotGroup key={cat.key} id={cat.key} title={cat.label}>
                 {cities.map(city => (
-                  <div key={city.race} className="ballot__stack">
-                    {city.ask && <CityQuestion city={city} inside={city.inside} onAnswer={yes => setParam(`in-${city.race}`, yes ? 'yes' : 'no')} />}
+                  <div key={city.slug} className="ballot__stack">
+                    {city.ask && <CityQuestion city={city} inside={city.inside} onAnswer={yes => setParam(`in-${city.slug}`, yes ? 'yes' : 'no')} />}
                     {city.inside
-                      ? <RaceCard race={data.raceBySlug[city.race]} yardsticks={data.yardsticks} />
-                      : <p className="notice">No mayor's race shown. Outside the City of {city.city}, your city's mayor isn't covered yet.</p>}
+                      ? city.races.map(slug => <RaceCard key={slug} race={data.raceBySlug[slug]} yardsticks={data.yardsticks} />)
+                      : <p className="notice">No city races shown. Outside the City of {city.city}, your city's races aren't covered yet.</p>}
                   </div>
                 ))}
               </BallotGroup>

@@ -17,11 +17,15 @@ class Guide
     "insurance_commissioner" => ["Insurance Commissioner", "statewide", "insurance-commissioner"],
     "superintendent"         => ["Superintendent of Public Instruction", "statewide", "superintendent"],
     "mayor"                  => ["Mayor", "local", "mayor"],
+    "city_council"           => ["City Council", "local", "city-council"],
     "board_of_equalization"  => ["Board of Equalization", "board_of_equalization", "boe"],
     "us_house"               => ["U.S. House", "us_house", "us-house"],
     "state_senate"           => ["State Senate", "state_senate", "state-senate"],
     "state_assembly"         => ["State Assembly", "state_assembly", "assembly"],
   }.freeze
+
+  # Races elected citywide, matched to a ZIP by the city's Census place code.
+  CITY_OFFICES = %w[mayor city_council].freeze
 
   PARTIES = {
     "D" => "Democratic", "R" => "Republican", "NPP" => "No party preference",
@@ -96,9 +100,9 @@ class Guide
     office = r["office"]
     check! OFFICES.key?(office), "unknown office #{office.inspect}"
     label, category, = OFFICES[office]
-    if office == "mayor"
-      check! r["city"].present? && r["place_fips"].to_s.match?(/\A\d{5}\z/), "mayor race needs city and a 5-digit place_fips"
-      label = "Mayor of #{r['city']}"
+    if CITY_OFFICES.include?(office)
+      check! r["city"].present? && r["place_fips"].to_s.match?(/\A\d{5}\z/), "#{office} race needs city and a 5-digit place_fips"
+      label = office == "mayor" ? "Mayor of #{r['city']}" : "#{r['city']} City Council"
     end
     slug = self.class.slug_for(office, r["district"], r["city"])
     check! r["candidates"].present?, "race #{slug} has no candidates"

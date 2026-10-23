@@ -18,8 +18,13 @@ RSpec.describe "ZIP lookup", type: :request do
   it "includes mayor races the ZIP overlaps, with the share inside the city" do
     get "/api/v1/zips/90210"
     city = response.parsed_body["cities"].first
-    expect(city).to include("race" => "mayor-los-angeles", "city" => "Los Angeles")
+    expect(city).to include("city" => "Los Angeles", "slug" => "los-angeles", "races" => ["mayor-los-angeles"])
     expect(city["share"]).to be_between(0.3, 0.5)
+  end
+
+  it "includes citywide council races, like Santa Monica's" do
+    get "/api/v1/zips/90405"
+    expect(response.parsed_body["cities"]).to eq([{ "city" => "Santa Monica", "slug" => "santa-monica", "share" => 0.997, "races" => ["city-council-santa-monica"] }])
   end
 
   it "404s for non-California and malformed ZIPs" do

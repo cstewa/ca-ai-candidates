@@ -3520,3 +3520,182 @@
     items:
     - text: 'Supports a moratorium on new large-scale data centers until operators secure clean power, use cooling that doesn''t burden water and wastewater systems, and pay the full cost of the grid and water infrastructure they need. [[source]](https://www.nithyaforthecity.com/climate)'
       kind: platform
+- office: mayor
+  city: Oakland
+  place_fips: '53000'
+  note: Nonpartisan office · ranked-choice voting
+  candidates:
+  - name: Barbara Lee
+    sort_name: Lee
+    party:
+    incumbent: true
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Launched a November 2025 request inviting outside partners to pilot AI tools that make city services easier to use, saying any technology the city adopts should have “appropriate guardrails.” The city''s AI program includes a data policy that blocks sensitive data from AI tools. [[source]](https://www.oaklandca.gov/News-Releases/ITD/AI-Pilot-Program)'
+      kind: official_action
+    - text: 'In her October 2026 State of the City address, backed a proposed 45-day pause on new data center approvals so residents have more time to weigh in. [[source]](https://www.nbcbayarea.com/news/local/oakland-state-of-the-city-barbara-lee-budget-crime/4154239/)'
+      kind: statement
+    - text: 'Her campaign lists starting a study of a responsible citywide AI policy among her first-year actions as mayor. [[source]](https://barbaralee4oakland.com/365days)'
+      kind: official_action
+  - name: Brenda Grisham
+    sort_name: Grisham
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Mindy Pechenuk
+    sort_name: Pechenuk
+    party:
+    status: ai_other
+    search_note: No public statements on AI safety found.
+    items:
+    - text: 'Opposes the proposed 45-day pause on data center approvals in Oakland, saying “scare tactics about data centers and AI” are blocking progress. [[source]](https://electmindy.com/news)'
+      kind: statement
+    - text: 'Proposes “Physical AI” apprenticeship programs to train and hire Oakland residents for robotics and advanced manufacturing jobs. [[source]](https://electmindy.com/)'
+      kind: platform
+  - name: Julius Robinson
+    sort_name: Robinson
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+- office: mayor
+  city: Anaheim
+  place_fips: '02000'
+  note: Nonpartisan office
+  candidates:
+  - name: Ashleigh Aitken
+    sort_name: Aitken
+    party:
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Alfredo Rodriguez
+    sort_name: Rodriguez
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Imran Sharief
+    sort_name: Sharief
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+- office: mayor
+  city: Santa Ana
+  place_fips: '69000'
+  note: Nonpartisan office
+  candidates:
+  - name: Valerie Amezcua
+    sort_name: Amezcua
+    party:
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Dan Shimell
+    sort_name: Shimell
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Dwayne Shipp
+    sort_name: Shipp
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+- office: mayor
+  city: Irvine
+  place_fips: '36770'
+  note: Nonpartisan office
+  candidates:
+  - name: Larry Agran
+    sort_name: Agran
+    party:
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Maksim Egorov
+    sort_name: Egorov
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+- office: mayor
+  city: Chula Vista
+  place_fips: '13392'
+  note: Nonpartisan office
+  candidates:
+  - name: John McCann
+    sort_name: McCann
+    party:
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Francisco Tamayo
+    sort_name: Tamayo
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+- office: city_council
+  city: Santa Monica
+  place_fips: '70000'
+  note: 3 seats; the top 3 vote-getters win. Nonpartisan. The council chooses the mayor from its members.
+  candidates:
+  - name: Phil Brock
+    sort_name: Brock
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Lindsay Davis
+    sort_name: Davis
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Eli Gill
+    sort_name: Gill
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Daniel Ivanov
+    sort_name: Ivanov
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Wade Kelley
+    sort_name: Kelley
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Ericka Lesley
+    sort_name: Lesley
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Brett Morrow
+    sort_name: Morrow
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Lana Negrete
+    sort_name: Negrete
+    party:
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Ashley Oelsen
+    sort_name: Oelsen
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Caroline Torosis
+    sort_name: Torosis
+    party:
+    incumbent: true
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Derrick Townsend
+    sort_name: Townsend
+    party:
+    status: none_found
+    search_note: No public AI statements found.
+  - name: Doug Trussler
+    sort_name: Trussler
+    party:
+    status: none_found
+    search_note: No public AI statements found.
