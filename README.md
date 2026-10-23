@@ -61,7 +61,7 @@ cd backend && bundle exec rspec
 | GET | /api/v1/races/:slug | One race (`governor`, `us-house-11`, `assembly-16`, `state-senate-2`, `boe-1`) |
 | GET | /api/v1/candidates/:slug | One candidate plus their race |
 | GET | /api/v1/yardsticks | The benchmark bills, votes and letters |
-| GET | /api/v1/zips/:zip | Districts and covered mayor races for a California ZIP code, with each one's share of residents |
+| GET | /api/v1/zips/:zip | Districts for a California ZIP code, with each one's share of residents |
 | POST | /api/v1/signups | Email sign-up (`email`, optional `zip`, `source`); forwarded to the Google Form |
 
 ---
@@ -71,7 +71,7 @@ cd backend && bundle exec rspec
 | Route | Page | Description |
 |-------|------|-------------|
 | `/` | Home | ZIP code field, name search, district finder ("I know / don't know my district numbers"), counts, browse by office |
-| `/my-ballot?zip=` | Your candidates | Statewide races + mayor + districts for a ZIP; split ZIPs get switch buttons (`&cd=32`, `&in-mayor-los-angeles=yes`). `?cd=&sd=&ad=&boe=` still works for known districts |
+| `/my-ballot?zip=` | Your candidates | Statewide races + districts for a ZIP; split ZIPs get switch buttons (`&cd=32`). `?cd=&sd=&ad=&boe=` still works for known districts |
 | `/races` | All races | Filter by office, name or district number |
 | `/races/:slug` | Race | Side-by-side table + full record for each candidate |
 | `/candidates/:slug` | Candidate | One candidate's record, link to compare |
@@ -86,7 +86,7 @@ cd backend && bundle exec rspec
 `backend/db/data/races.yml` is the source of truth. It was generated from the Oct. 14, 2026 Google Doc, and is meant to be edited by hand from here on. Changes go live on the next deploy. Locally, the dev server picks them up on the next page load. Run `bundle exec rspec` after editing; it catches typos like unknown parties, missing sources or bad yardstick keys. If a typo slips through, the new deploy fails its health check and Railway keeps the previous version live.
 
 ```yaml
-- office: us_house            # governor, attorney_general, mayor, us_house, state_senate, state_assembly, board_of_equalization, ...
+- office: us_house            # governor, attorney_general, us_house, state_senate, state_assembly, board_of_equalization, ...
   district: 11
   note: Open seat (Pelosi retiring)
   candidates:
@@ -105,16 +105,6 @@ cd backend && bundle exec rspec
       kind: letter             # required: vote, bill, letter, statement, platform, official_action, background, funding
     - text: Public First Action ... put about $3.5 million into a pro-Wiener PAC. [[source]](https://...)
       kind: funding            # outside spending / endorsements, shown in their own section
-```
-
-A mayor's race names its city and that city's 5-digit Census place code, which the ZIP lookup uses to tell whether a ZIP is inside the city:
-
-```yaml
-- office: mayor
-  city: Los Angeles
-  place_fips: '44000'          # from the Census list of California places
-  note: Nonpartisan office
-  candidates: ...
 ```
 
 Link labels are rewritten for display: `[[source]]` shows the site's domain, `[[1047]]` or `[[votes]]` shows "roll call".
@@ -139,14 +129,13 @@ These were made while converting the doc and are worth checking:
 - **2025 reconciliation bill**: only the votes the doc listed (Republican "yes" votes) are recorded. Democratic "no" votes were not in the doc, so they are not shown. The bill's page notes it was a broad budget bill, not a standalone AI vote.
 - **OpenAI incident letter** (Aug. 2026) was added as its own yardstick since five candidates signed it.
 - **Record type labels** (`kind`) were assigned from each item's wording, then hand-checked. Judgment calls: Kiley's 2018 Asilomar resolution = bill; Wiener's preemption push and Lieu's demand to AI companies = letter; Lieu's commission co-chair = official action; Chan's AI Pact and Morgan's fraud proposal = platform; Joyce's Society Library and the reactions to Obernolte's FRONTIER Act = background. Irwin's AB 2013 authorship was split from her votes.
-- **LA mayor** (added Oct. 16): Bass = `ai_other` (two executive directives on using AI in city permitting, with human review and audits; nothing on AI safety). Raman = `none_found`. Worth a targeted check of council votes and forum coverage.
+- **City and school board races removed** (Oct. 23): the site covers only statewide and district races (House, State Senate, Assembly, Board of Equalization), which every voter has and where AI law gets written. Mayor races (LA, Oakland, Anaheim, Santa Ana, Irvine, Chula Vista) and the Santa Monica City Council were added and then taken out; they're in git history (commit 073fe91) if they come back. `zip_lookup.json` still records each ZIP's city shares, unused.
 - **Campaign-site check (Oct. 21):** every candidate marked `none_found` had their campaign site checked (found via Ballotpedia, or a web search when Ballotpedia listed none). Sites were scanned for AI, data center, deepfake and chatbot mentions, and every hit was read before anything was added. 35 candidates changed:
     - **Now `on_record`:** Sara Hernandez (after her campaign wrote in; her platform page confirms it), Eric Jones, Mark Rendón, JJ Galvez, Randy Villegas, Ida Obeso-Martinez, Cristian Morales, Larry Thompson, Brian Goldsmith, Joe Lisuzzo, Judy Chu (her 2024 letter on AI in Medicare coverage decisions).
     - **Now `ai_other`:** Angela Gonzales-Torres, Angélica María Dueñas, Andrea Lee Anderson, Deborah Klein Lopez, Houston Brignano, Jabra Muhawieh, Jackie Elward, Jaron Brandon, Jeff Frese, Jessie Lopez, Chris Kluwe, Kevin Akin, Leila Namvar, Mai Vang, Nithya Raman, Rickey Hayes II, Victor Hernandez, Adam Gray, Tessa Lynn Hodge, Sarah Rascón, Michael MacDonald, Andre Sandford, Jeff Belle, Bob Smith.
     - **Rule used to tell the two apart:** `on_record` = the candidate calls for preventing harm from AI systems themselves (testing, oversight bodies, liability, safeguards, or limits on harmful uses such as AI chatbots aimed at kids, AI-generated abuse images, AI-built weapons, or AI denying medical care). `ai_other` = AI's effects on jobs, energy, schools, costs or competitiveness, including data centers. Closest calls: Lisuzzo and Goldsmith (`on_record`), Raman (data centers only, no mention of AI).
     - **Left out on purpose:** attacks on opponents (Amy Slavensky's release about her opponent's AI ad; Sarah Rascón's and Eric Jones's lines about their opponents' donors), passing mentions (Shane Lewis: AI raising grid demand; Adam Gray: a building with "automation technology"), AI-ad disclosures (Jennifer Hawks), and "addictive algorithms" in social-media bills (Stephanie Vargas).
     - **Couldn't check:** no campaign site found for Kevin Lincoln, Peter Sundin Soulé, Susan Mason, Araceli Martinez, Jagtar Singh, Tom Patti, Manuel Noris-Barrera, David G. Johnson, Adam Vena, Ricardo Benitez, Dan Tran, Trinity Hannaway, Payton Galvez, Alejandro Galicia; sites that wouldn't load or need a login: Malia Cohen (official bio), Scott Meyers, Lydia Gutiérrez, Tony Rodriguez, Jessica Martinez. Matthew Adams discussed data centers in a video interview, but his position isn't stated in text, so nothing was added.
-- **Big-city mayors and Santa Monica council** (added Oct. 23): Oakland, Anaheim, Santa Ana, Irvine and Chula Vista mayor races were added. Long Beach (Richardson) and San Bernardino (Tran) re-elected their mayors outright in June, so they have no Nov. 3 mayor race. Santa Monica's council picks its own mayor, so its council race (3 seats) is covered instead. Only Barbara Lee and Mindy Pechenuk had AI items (both `ai_other`: AI in city services and the data center pause). Julius Robinson has no campaign site; Kelley, Lesley and Negrete list none, so only their city candidate statements were checked. An AI line in hidden code on Lindsay Davis's site was not shown to visitors and was left out.
 - **Funding items** (`kind: funding`) were tagged by keyword: Becerra (Encode AI donor), Wiener, Liccardo, Panetta, Gomez. Connie Chan's criticism of PAC spending stays a statement.
 - **Dropped from the doc**: editorial summary lines such as "the sharpest contrasts are in…", "the clearest 'no' records belong to…", "has the deepest AI record". Section intros on the site only describe what the votes are.
 

@@ -58,11 +58,6 @@ export const CATEGORIES = [
     intro: 'Every California voter sees these races. The Attorney General enforces SB 53, the state law on frontier AI safety.',
   },
   {
-    key: 'local',
-    label: 'City races',
-    intro: 'Mayoral races in Los Angeles, Oakland, Anaheim, Santa Ana, Irvine and Chula Vista, plus the Santa Monica City Council, which picks Santa Monica\'s mayor. Long Beach and San Bernardino re-elected their mayors outright in June, so those races aren\'t on the November ballot.',
-  },
-  {
     key: 'us_house',
     label: 'U.S. House',
     param: 'cd',

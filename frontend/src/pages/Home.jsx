@@ -24,7 +24,7 @@ export default function Home() {
           <p className="page-hero__kicker">California AI Safety Candidate Lookup · Nov. 3, 2026</p>
           <h1>See where everyone on your <span className="home-hero__state">California</span> ballot stands on AI</h1>
           <p className="home-hero__lede">
-            Enter your ZIP code to see what your candidates for governor, mayor, Congress and the Legislature
+            Enter your ZIP code to see what your candidates for governor, Congress and the Legislature
             have said and done about AI safety, with a source for every item.
           </p>
           <div className="home-hero__form">

@@ -6,25 +6,12 @@ RSpec.describe "ZIP lookup", type: :request do
     body = response.parsed_body
     expect(body["districts"]["us_house"]).to eq([{ "district" => 11, "share" => 1.0 }])
     expect(body["districts"]["state_assembly"].first["district"]).to eq(17)
-    expect(body["cities"]).to eq([])
   end
 
   it "lists split districts largest first" do
     get "/api/v1/zips/90210"
     house = response.parsed_body["districts"]["us_house"].map { |d| d["district"] }
     expect(house).to eq([36, 32])
-  end
-
-  it "includes mayor races the ZIP overlaps, with the share inside the city" do
-    get "/api/v1/zips/90210"
-    city = response.parsed_body["cities"].first
-    expect(city).to include("city" => "Los Angeles", "slug" => "los-angeles", "races" => ["mayor-los-angeles"])
-    expect(city["share"]).to be_between(0.3, 0.5)
-  end
-
-  it "includes citywide council races, like Santa Monica's" do
-    get "/api/v1/zips/90405"
-    expect(response.parsed_body["cities"]).to eq([{ "city" => "Santa Monica", "slug" => "santa-monica", "share" => 0.997, "races" => ["city-council-santa-monica"] }])
   end
 
   it "404s for non-California and malformed ZIPs" do

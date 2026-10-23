@@ -1,4 +1,4 @@
-# Which districts and cities a California ZIP code falls in, from
+# Which districts a California ZIP code falls in, from
 # db/data/zip_lookup.json (built by scripts/build_zip_lookup.py).
 #
 # A ZIP can straddle district lines, so each office lists every district with
@@ -14,20 +14,14 @@ class ZipLookup
   end
 
   # nil when the ZIP isn't a residential California ZIP code.
-  def find(zip, guide)
+  def find(zip)
     entry = @zips[zip] or return nil
-    city_races = guide.races.select { |r| Guide::CITY_OFFICES.include?(r["office"]) }.group_by { |r| r["place_fips"] }
 
     {
       "zip" => zip,
       "population" => entry["pop"],
       "districts" => OFFICE_KEYS.to_h do |key, office|
         [office, entry[key].map { |district, share| { "district" => district, "share" => share } }]
-      end,
-      # Covered cities the ZIP overlaps, each with its citywide races (mayor, council).
-      "cities" => (entry["places"] || []).filter_map do |fips, share|
-        races = city_races[fips] or next
-        { "city" => races.first["city"], "slug" => races.first["city"].parameterize, "share" => share, "races" => races.map { |r| r["slug"] } }
       end,
     }
   end

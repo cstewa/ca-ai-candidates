@@ -16,16 +16,11 @@ class Guide
     "attorney_general"       => ["Attorney General", "statewide", "attorney-general"],
     "insurance_commissioner" => ["Insurance Commissioner", "statewide", "insurance-commissioner"],
     "superintendent"         => ["Superintendent of Public Instruction", "statewide", "superintendent"],
-    "mayor"                  => ["Mayor", "local", "mayor"],
-    "city_council"           => ["City Council", "local", "city-council"],
     "board_of_equalization"  => ["Board of Equalization", "board_of_equalization", "boe"],
     "us_house"               => ["U.S. House", "us_house", "us-house"],
     "state_senate"           => ["State Senate", "state_senate", "state-senate"],
     "state_assembly"         => ["State Assembly", "state_assembly", "assembly"],
   }.freeze
-
-  # Races elected citywide, matched to a ZIP by the city's Census place code.
-  CITY_OFFICES = %w[mayor city_council].freeze
 
   PARTIES = {
     "D" => "Democratic", "R" => "Republican", "NPP" => "No party preference",
@@ -51,8 +46,8 @@ class Guide
       @current ||= new
     end
 
-    def slug_for(office, district, city = nil)
-      [OFFICES.fetch(office)[2], district, city&.parameterize].compact.join("-")
+    def slug_for(office, district)
+      [OFFICES.fetch(office)[2], district].compact.join("-")
     end
   end
 
@@ -66,7 +61,7 @@ class Guide
     @candidate_slugs = Set.new
     @races = YAML.load_file(dir.join("races.yml"))
       .map { |r| build_race(r) }
-      .sort_by { |r| [OFFICES.keys.index(r["office"]), r["district"].to_i, r["city"].to_s] }
+      .sort_by { |r| [OFFICES.keys.index(r["office"]), r["district"].to_i] }
 
     @race_by_slug = @races.index_by { |r| r["slug"] }
     check! @race_by_slug.size == @races.size, "duplicate race: #{@races.map { |r| r['slug'] }.tally.select { |_, n| n > 1 }.keys}"
@@ -100,11 +95,7 @@ class Guide
     office = r["office"]
     check! OFFICES.key?(office), "unknown office #{office.inspect}"
     label, category, = OFFICES[office]
-    if CITY_OFFICES.include?(office)
-      check! r["city"].present? && r["place_fips"].to_s.match?(/\A\d{5}\z/), "#{office} race needs city and a 5-digit place_fips"
-      label = office == "mayor" ? "Mayor of #{r['city']}" : "#{r['city']} City Council"
-    end
-    slug = self.class.slug_for(office, r["district"], r["city"])
+    slug = self.class.slug_for(office, r["district"])
     check! r["candidates"].present?, "race #{slug} has no candidates"
 
     {
@@ -115,8 +106,6 @@ class Guide
       "office_label" => label,
       "category" => category,
       "title" => r["district"] ? "#{label}, District #{r['district']}" : label,
-      "city" => r["city"],
-      "place_fips" => r["place_fips"]&.to_s,
       # Alphabetical by last name, ignoring case and accents.
       "candidates" => r["candidates"]
         .map { |c| build_candidate(c, slug) }

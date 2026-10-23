@@ -14,8 +14,6 @@ const DISTRICT_PARAMS = ['cd', 'sd', 'ad', 'boe']
 // Races specific to the visitor's ZIP come first; statewide races (the same for every
 // Californian) follow. Otherwise, on a phone, district races start several screens down.
 const BALLOT_ORDER = [...CATEGORIES.filter(c => c.key !== 'statewide'), ...CATEGORIES.filter(c => c.key === 'statewide')]
-// A city covering at least this share of a ZIP's residents is shown without asking.
-const CITY_SURE = 0.98
 
 function useZipLookup(zip) {
   const [state, setState] = useState({ zip: null, data: null, error: null })
@@ -59,18 +57,6 @@ function SplitChooser({ category, options, chosen, onChoose }) {
   )
 }
 
-function CityQuestion({ city, inside, onAnswer }) {
-  return (
-    <div className="split" role="group" aria-label={`Do you live in the City of ${city.city}?`}>
-      <p className="split__note">Part of your ZIP code is in the City of {city.city}. Do you live in the city?</p>
-      <div className="split__buttons">
-        <button type="button" className={`split__button ${inside ? 'split__button--on' : ''}`} aria-pressed={inside} onClick={() => onAnswer(true)}>Yes</button>
-        <button type="button" className={`split__button ${!inside ? 'split__button--on' : ''}`} aria-pressed={!inside} onClick={() => onAnswer(false)}>No</button>
-      </div>
-    </div>
-  )
-}
-
 export default function MyBallot() {
   const { data, loading, error } = useGuide()
   const [params, setParams] = useSearchParams()
@@ -104,14 +90,6 @@ export default function MyBallot() {
     if (picked) chosen[cat.key] = picked
   }
 
-  // Covered cities the ZIP touches (mayor, city council); ask when the ZIP is only partly inside.
-  // Older shared links used in-mayor-<city>, so accept that too.
-  const cities = (lookup.data?.cities || []).map(city => {
-    const answer = params.get(`in-${city.slug}`) || params.get(`in-mayor-${city.slug}`)
-    const inside = answer ? answer === 'yes' : city.share >= 0.5
-    return { ...city, inside, ask: city.share < CITY_SURE }
-  })
-
   const ready = data && !lookup.loading
   const zipProblem = zip && lookup.error
   const nothingChosen = !zip && !Object.keys(typedDistricts).length
@@ -121,7 +99,6 @@ export default function MyBallot() {
   // How many candidates are on this visitor's ballot, for the sign-up headline.
   const shownRaces = !showResults ? [] : [
     ...data.races.filter(r => r.category === 'statewide'),
-    ...cities.filter(c => c.inside).flatMap(c => c.races.map(slug => data.raceBySlug[slug])),
     ...CATEGORIES.filter(c => c.param && chosen[c.key])
       .map(c => data.races.find(r => r.category === c.key && r.district === chosen[c.key]))
       .filter(Boolean),
@@ -189,9 +166,8 @@ export default function MyBallot() {
           <nav className="ballot__jump" aria-label="Jump to a race">
             <span className="ballot__jump-label">On your ballot:</span>
             {BALLOT_ORDER.map(cat => {
-              if (cat.key === 'local' && !cities.length) return null
               if (cat.param && !chosen[cat.key]) return null
-              const label = cat.key === 'statewide' ? 'Statewide' : cat.key === 'local' ? 'City' : `${cat.label.replace(' (state tax board)', '')} ${chosen[cat.key]}`
+              const label = cat.key === 'statewide' ? 'Statewide' : `${cat.label.replace(' (state tax board)', '')} ${chosen[cat.key]}`
               return <a key={cat.key} href={`#b-${cat.key}`} className="ballot__jump-link">{label}</a>
             })}
           </nav>
@@ -207,22 +183,6 @@ export default function MyBallot() {
           if (cat.key === 'statewide') {
             const races = data.races.filter(r => r.category === 'statewide')
             return <BallotGroup key={cat.key} id={cat.key} title={cat.label}>{races.map(r => <RaceCard key={r.slug} race={r} yardsticks={data.yardsticks} />)}</BallotGroup>
-          }
-
-          if (cat.key === 'local') {
-            if (!cities.length) return null
-            return (
-              <BallotGroup key={cat.key} id={cat.key} title={cat.label}>
-                {cities.map(city => (
-                  <div key={city.slug} className="ballot__stack">
-                    {city.ask && <CityQuestion city={city} inside={city.inside} onAnswer={yes => setParam(`in-${city.slug}`, yes ? 'yes' : 'no')} />}
-                    {city.inside
-                      ? city.races.map(slug => <RaceCard key={slug} race={data.raceBySlug[slug]} yardsticks={data.yardsticks} />)
-                      : <p className="notice">No city races shown. Outside the City of {city.city}, your city's races aren't covered yet.</p>}
-                  </div>
-                ))}
-              </BallotGroup>
-            )
           }
 
           const d = chosen[cat.key]

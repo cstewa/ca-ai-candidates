@@ -28,7 +28,7 @@ export default function About() {
         <h2>What this is</h2>
         <p>
           This guide lists every candidate on California's certified November 3, 2026 ballot, office by office,
-          plus mayoral races in large cities (Los Angeles, Oakland, Anaheim, Santa Ana, Irvine and Chula Vista) and the Santa Monica City Council, with what each has said or done about AI and
+          with what each has said or done about AI and
           AI safety. By AI safety we mean catastrophic risk, loss of
           human control over AI systems, AI-enabled cyber and biological threats, and oversight of the companies
           building the most powerful models.
@@ -87,7 +87,7 @@ export default function About() {
         <ul>
           <li>
             ZIP codes are matched to districts using 2020 Census blocks and the official district maps. When a ZIP
-            code crosses a district or city line, the site shows the district covering most of its residents and lets
+            code crosses a district line, the site shows the district covering most of its residents and lets
             you switch.
           </li>
           <li>Debate content comes from written news coverage, not from watching the debates.</li>

@@ -2,11 +2,11 @@
 .ballot__finder { margin-top: 24px; }
 .ballot__group { margin-top: 36px; }
 .ballot__group h2 { font-size: 1.6rem; margin-bottom: 14px; }
-.ballot__list, .ballot__stack { display: flex; flex-direction: column; gap: 16px; }
+.ballot__list { display: flex; flex-direction: column; gap: 16px; }
 .ballot__more { margin-top: 36px; color: var(--muted); }
 .ballot__more a, .ballot__problem a { color: var(--accent); text-decoration: underline; }
 
-/* Split ZIP / city choice: neutral buttons, numbers only. */
+/* Split ZIP choice: neutral buttons, numbers only. */
 .split { background: var(--sand); border-radius: 8px; padding: 14px 18px; }
 .split__note { font-size: 15px; margin-bottom: 10px; }
 .split__buttons { display: flex; flex-wrap: wrap; gap: 8px; }
