@@ -11,6 +11,9 @@ import { useGuide, CATEGORIES, ELECTION_DAY, savedDistricts, savedZip } from '..
 import './MyBallot.css'
 
 const DISTRICT_PARAMS = ['cd', 'sd', 'ad', 'boe']
+// Races specific to the visitor's ZIP come first; statewide races (the same for every
+// Californian) follow. Otherwise, on a phone, district races start several screens down.
+const BALLOT_ORDER = [...CATEGORIES.filter(c => c.key !== 'statewide'), ...CATEGORIES.filter(c => c.key === 'statewide')]
 // A city covering at least this share of a ZIP's residents is shown without asking.
 const CITY_SURE = 0.98
 
@@ -184,7 +187,7 @@ export default function MyBallot() {
         {showResults && (
           <nav className="ballot__jump" aria-label="Jump to a race">
             <span className="ballot__jump-label">On your ballot:</span>
-            {CATEGORIES.map(cat => {
+            {BALLOT_ORDER.map(cat => {
               if (cat.key === 'local' && !cities.length) return null
               if (cat.param && !chosen[cat.key]) return null
               const label = cat.key === 'statewide' ? 'Statewide' : cat.key === 'local' ? 'Mayor' : `${cat.label.replace(' (state tax board)', '')} ${chosen[cat.key]}`
@@ -199,7 +202,7 @@ export default function MyBallot() {
           </p>
         )}
 
-        {showResults && CATEGORIES.map(cat => {
+        {showResults && BALLOT_ORDER.map(cat => {
           if (cat.key === 'statewide') {
             const races = data.races.filter(r => r.category === 'statewide')
             return <BallotGroup key={cat.key} id={cat.key} title={cat.label}>{races.map(r => <RaceCard key={r.slug} race={r} yardsticks={data.yardsticks} />)}</BallotGroup>
