@@ -1,0 +1,156 @@
+# U.S. Senate and House races in Minnesota. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: MN
+  candidates:
+  - name: Peggy Flanagan
+    sort_name: Flanagan
+    party: D
+    ballotpedia: https://ballotpedia.org/Peggy_Flanagan
+    status: not_reviewed
+  - name: Michele Tafoya
+    sort_name: Tafoya
+    party: R
+    ballotpedia: https://ballotpedia.org/Michele_Tafoya
+    status: not_reviewed
+  - name: Rebecca Whiting
+    sort_name: Whiting
+    party: L
+    ballotpedia: https://ballotpedia.org/Rebecca_Whiting
+    status: not_reviewed
+  - name: Marisa Simonetti
+    sort_name: Simonetti
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Marisa_Simonetti
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 1
+  candidates:
+  - name: Brad Finstad
+    sort_name: Finstad
+    party: R
+    incumbent: true
+    bioguide: F000475
+    ballotpedia: https://ballotpedia.org/Brad_Finstad
+    status: not_reviewed
+  - name: Jake Johnson
+    sort_name: Johnson
+    party: D
+    ballotpedia: https://ballotpedia.org/Jake_Johnson_(Minnesota)
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 2
+  candidates:
+  - name: Matt Little
+    sort_name: Little
+    party: D
+    ballotpedia: https://ballotpedia.org/Matt_Little
+    status: not_reviewed
+  - name: Eric Pratt
+    sort_name: Pratt
+    party: R
+    ballotpedia: https://ballotpedia.org/Eric_Pratt_(Minnesota)
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 3
+  candidates:
+  - name: Kelly Morrison
+    sort_name: Morrison
+    party: D
+    incumbent: true
+    bioguide: M001234
+    ballotpedia: https://ballotpedia.org/Kelly_Morrison
+    status: not_reviewed
+  - name: Tyler Bass
+    sort_name: Bass
+    party: R
+    ballotpedia: https://ballotpedia.org/Tyler_Bass
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 4
+  candidates:
+  - name: Betty McCollum
+    sort_name: McCollum
+    party: D
+    incumbent: true
+    bioguide: M001143
+    ballotpedia: https://ballotpedia.org/Betty_McCollum
+    status: not_reviewed
+  - name: Paul Wikstrom
+    sort_name: Wikstrom
+    party: R
+    ballotpedia: https://ballotpedia.org/Paul_Wikstrom
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 5
+  candidates:
+  - name: Ilhan Omar
+    sort_name: Omar
+    party: D
+    incumbent: true
+    bioguide: O000173
+    ballotpedia: https://ballotpedia.org/Ilhan_Omar
+    status: not_reviewed
+  - name: John Nagel
+    sort_name: Nagel
+    party: R
+    ballotpedia: https://ballotpedia.org/John_Nagel
+    status: not_reviewed
+  - name: DeVelle Jackson
+    sort_name: Jackson
+    party: I
+    ballotpedia: https://ballotpedia.org/DeVelle_Jackson
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 6
+  candidates:
+  - name: Tom Emmer
+    sort_name: Emmer
+    party: R
+    incumbent: true
+    bioguide: E000294
+    ballotpedia: https://ballotpedia.org/Tom_Emmer
+    status: not_reviewed
+  - name: Doug Chapin
+    sort_name: Chapin
+    party: D
+    ballotpedia: https://ballotpedia.org/Doug_Chapin
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 7
+  candidates:
+  - name: Michelle Fischbach
+    sort_name: Fischbach
+    party: R
+    incumbent: true
+    bioguide: F000470
+    ballotpedia: https://ballotpedia.org/Michelle_Fischbach
+    status: not_reviewed
+  - name: Erik Osberg
+    sort_name: Osberg
+    party: D
+    ballotpedia: https://ballotpedia.org/Erik_Osberg
+    status: not_reviewed
+- office: us_house
+  state: MN
+  district: 8
+  candidates:
+  - name: Pete Stauber
+    sort_name: Stauber
+    party: R
+    incumbent: true
+    bioguide: S001212
+    ballotpedia: https://ballotpedia.org/Pete_Stauber
+    status: not_reviewed
+  - name: Trina Swanson
+    sort_name: Swanson
+    party: D
+    ballotpedia: https://ballotpedia.org/Trina_Swanson
+    status: not_reviewed

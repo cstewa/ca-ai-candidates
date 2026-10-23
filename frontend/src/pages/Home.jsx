@@ -6,7 +6,7 @@ import StatusBadge from '../components/StatusBadge'
 import { Loading, LoadError } from '../components/PageState'
 import Signup from '../components/Signup'
 import { useHashScroll } from '../hooks'
-import { useGuide, CATEGORIES, STATUSES } from '../data'
+import { useGuide, CATEGORIES, STATUSES, STATES } from '../data'
 import './Home.css'
 
 export default function Home() {
@@ -21,11 +21,11 @@ export default function Home() {
     <>
       <section className="home-hero">
         <div className="container">
-          <p className="page-hero__kicker">California AI Safety Candidate Lookup · Nov. 3, 2026</p>
-          <h1>See where everyone on your <span className="home-hero__state">California</span> ballot stands on AI</h1>
+          <p className="page-hero__kicker">AI Vote Watch · Nov. 3, 2026</p>
+          <h1>See where your candidates for <span className="home-hero__state">Congress</span> stand on AI</h1>
           <p className="home-hero__lede">
-            Enter your ZIP code to see what your candidates for governor, Congress and the Legislature
-            have said and done about AI safety, with a source for every item.
+            Enter your ZIP code to see what your U.S. House and Senate candidates have said and done about
+            AI safety, with a source for every item. In California, you'll also see governor, Legislature and other state races.
           </p>
           <div className="home-hero__form">
             <ZipForm />
@@ -51,7 +51,7 @@ export default function Home() {
           <div className="container">
             <h2 className="home-h2">At a glance</h2>
             <p className="home-sub">
-              {data.candidates.length} candidates in {data.races.length} races. Each candidate falls into one of three groups,
+              {data.candidates.length} candidates in {data.races.length} races. Each candidate falls into one of these groups,
               based on how much public record we could find, not on what that record says.
             </p>
             <ul className="home-stats">
@@ -63,6 +63,7 @@ export default function Home() {
                     {key === 'on_record' && 'Votes on AI-safety bills, sponsored bills, signed letters, or public statements on AI risk.'}
                     {key === 'ai_other' && 'Positions or actions on other AI issues, such as AI in schools, jobs or government.'}
                     {key === 'none_found' && 'A search turned up nothing. This does not mean the candidate has no view.'}
+                    {key === 'not_reviewed' && 'We haven\'t finished reviewing this race yet. Official votes still show.'}
                   </span>
                 </li>
               ))}
@@ -86,6 +87,17 @@ export default function Home() {
                 </li>
               )
             })}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <h2 className="home-h2">Browse by state</h2>
+          <ul className="home-states">
+            {Object.entries(STATES).map(([abbr, name]) => (
+              <li key={abbr}><Link to={`/states/${abbr.toLowerCase()}`}>{name}</Link></li>
+            ))}
           </ul>
         </div>
       </section>

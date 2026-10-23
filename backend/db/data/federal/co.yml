@@ -1,0 +1,248 @@
+# U.S. Senate and House races in Colorado. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: CO
+  candidates:
+  - name: John Hickenlooper
+    sort_name: Hickenlooper
+    party: D
+    incumbent: true
+    bioguide: H000273
+    ballotpedia: https://ballotpedia.org/John_Hickenlooper
+    status: not_reviewed
+  - name: Mark Baisley
+    sort_name: Baisley
+    party: R
+    ballotpedia: https://ballotpedia.org/Mark_Baisley
+    status: not_reviewed
+  - name: Chris Baum
+    sort_name: Baum
+    party_name: Approval Voting Party
+    ballotpedia: https://ballotpedia.org/Chris_Baum
+    status: not_reviewed
+  - name: Bob Chew
+    sort_name: Chew
+    party_name: Colorado Forward Party
+    ballotpedia: https://ballotpedia.org/Bob_Chew
+    status: not_reviewed
+  - name: Blake Huber
+    sort_name: Huber
+    party: L
+    ballotpedia: https://ballotpedia.org/Blake_Huber
+    status: not_reviewed
+  - name: Adam Withrow
+    sort_name: Withrow
+    party_name: Unity Party
+    ballotpedia: https://ballotpedia.org/Adam_Withrow
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 1
+  candidates:
+  - name: Melat Kiros
+    sort_name: Kiros
+    party: D
+    ballotpedia: https://ballotpedia.org/Melat_Kiros
+    status: not_reviewed
+  - name: Christy Peterson
+    sort_name: Peterson
+    party: R
+    ballotpedia: https://ballotpedia.org/Christy_Peterson
+    status: not_reviewed
+  - name: Chad Humphrey
+    sort_name: Humphrey
+    party: L
+    ballotpedia: https://ballotpedia.org/Chad_Humphrey_(Colorado)
+    status: not_reviewed
+  - name: Shimon Blau
+    sort_name: Blau
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Shimon_Blau
+    status: not_reviewed
+  - name: Critter Milton
+    sort_name: Milton
+    party_name: Unity Party
+    ballotpedia: https://ballotpedia.org/Critter_Milton
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 2
+  candidates:
+  - name: Joe Neguse
+    sort_name: Neguse
+    party: D
+    incumbent: true
+    bioguide: N000191
+    ballotpedia: https://ballotpedia.org/Joe_Neguse
+    status: not_reviewed
+  - name: Kelley Dennison
+    sort_name: Dennison
+    party: R
+    ballotpedia: https://ballotpedia.org/Kelley_Dennison
+    status: not_reviewed
+  - name: Gaylon Kent
+    sort_name: Kent
+    party: L
+    ballotpedia: https://ballotpedia.org/Gaylon_Kent
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 3
+  candidates:
+  - name: Jeff Hurd
+    sort_name: Hurd
+    party: R
+    incumbent: true
+    bioguide: H001100
+    ballotpedia: https://ballotpedia.org/Jeff_Hurd
+    status: not_reviewed
+  - name: Dwayne Romero
+    sort_name: Romero
+    party: D
+    ballotpedia: https://ballotpedia.org/Dwayne_Romero
+    status: not_reviewed
+  - name: Cory Robertson
+    sort_name: Robertson
+    party: L
+    ballotpedia: https://ballotpedia.org/Cory_Robertson
+    status: not_reviewed
+  - name: Clifton Brown
+    sort_name: Brown
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Clifton_Brown
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 4
+  candidates:
+  - name: Lauren Boebert
+    sort_name: Boebert
+    party: R
+    incumbent: true
+    bioguide: B000825
+    ballotpedia: https://ballotpedia.org/Lauren_Boebert
+    status: not_reviewed
+  - name: Eileen Laubacher
+    sort_name: Laubacher
+    party: D
+    ballotpedia: https://ballotpedia.org/Eileen_Laubacher
+    status: not_reviewed
+  - name: Douglas Mangeris
+    sort_name: Mangeris
+    party: L
+    ballotpedia: https://ballotpedia.org/Douglas_Mangeris
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 5
+  candidates:
+  - name: Jeff Crank
+    sort_name: Crank
+    party: R
+    incumbent: true
+    bioguide: C001137
+    ballotpedia: https://ballotpedia.org/Jeff_Crank
+    status: not_reviewed
+  - name: Jessica Killin
+    sort_name: Killin
+    party: D
+    ballotpedia: https://ballotpedia.org/Jessica_Killin
+    status: not_reviewed
+  - name: Christopher Mitchell
+    sort_name: Mitchell
+    party_name: American Constitution Party
+    ballotpedia: https://ballotpedia.org/Christopher_Mitchell
+    status: not_reviewed
+  - name: Mark Elworth Jr.
+    sort_name: Elworth
+    party: L
+    ballotpedia: https://ballotpedia.org/Mark_Elworth_Jr.
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 6
+  candidates:
+  - name: Jason Crow
+    sort_name: Crow
+    party: D
+    incumbent: true
+    bioguide: C001121
+    ballotpedia: https://ballotpedia.org/Jason_Crow
+    status: not_reviewed
+  - name: Jason Ray Clark
+    sort_name: Clark
+    party: R
+    ballotpedia: https://ballotpedia.org/Jason_Ray_Clark_(Colorado)
+    status: not_reviewed
+  - name: Patty McMahon
+    sort_name: McMahon
+    party: L
+    ballotpedia: https://ballotpedia.org/Patty_McMahon
+    status: not_reviewed
+  - name: Samir Witta
+    sort_name: Witta
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Samir_Witta
+    status: not_reviewed
+  - name: Meredith Ryan
+    sort_name: Ryan
+    party_name: Unity Party
+    ballotpedia: https://ballotpedia.org/Meredith_Ryan
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 7
+  candidates:
+  - name: Brittany Pettersen
+    sort_name: Pettersen
+    party: D
+    incumbent: true
+    bioguide: P000620
+    ballotpedia: https://ballotpedia.org/Brittany_Pettersen
+    status: not_reviewed
+  - name: Timothy Bennett
+    sort_name: Bennett
+    party: R
+    ballotpedia: https://ballotpedia.org/Timothy_Bennett
+    status: not_reviewed
+  - name: Lawrence Clark
+    sort_name: Clark
+    party_name: American Constitution Party
+    ballotpedia: https://ballotpedia.org/Lawrence_Clark_(Colorado)
+    status: not_reviewed
+  - name: Dan Sallis
+    sort_name: Sallis
+    party: L
+    ballotpedia: https://ballotpedia.org/Dan_Sallis
+    status: not_reviewed
+  - name: Joe Krzeczkowski
+    sort_name: Krzeczkowski
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Joe_Krzeczkowski
+    status: not_reviewed
+  - name: Susan Hall
+    sort_name: Hall
+    party_name: Unity Party
+    ballotpedia: https://ballotpedia.org/Susan_Hall
+    status: not_reviewed
+- office: us_house
+  state: CO
+  district: 8
+  candidates:
+  - name: Gabe Evans
+    sort_name: Evans
+    party: R
+    incumbent: true
+    bioguide: E000300
+    ballotpedia: https://ballotpedia.org/Gabe_Evans
+    status: not_reviewed
+  - name: Manny Rutinel
+    sort_name: Rutinel
+    party: D
+    ballotpedia: https://ballotpedia.org/Manny_Rutinel
+    status: not_reviewed
+  - name: David Wood
+    sort_name: Wood
+    party: L
+    ballotpedia: https://ballotpedia.org/David_Wood_(Colorado)
+    status: not_reviewed

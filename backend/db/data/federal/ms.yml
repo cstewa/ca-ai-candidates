@@ -1,0 +1,106 @@
+# U.S. Senate and House races in Mississippi. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: MS
+  candidates:
+  - name: Cindy Hyde-Smith
+    sort_name: Hyde-Smith
+    party: R
+    incumbent: true
+    bioguide: H001079
+    ballotpedia: https://ballotpedia.org/Cindy_Hyde-Smith
+    status: not_reviewed
+  - name: Scott Colom
+    sort_name: Colom
+    party: D
+    ballotpedia: https://ballotpedia.org/Scott_Colom
+    status: not_reviewed
+  - name: Ty Pinkins
+    sort_name: Pinkins
+    party: I
+    ballotpedia: https://ballotpedia.org/Ty_Pinkins
+    status: not_reviewed
+- office: us_house
+  state: MS
+  district: 1
+  candidates:
+  - name: Trent Kelly
+    sort_name: Kelly
+    party: R
+    incumbent: true
+    bioguide: K000388
+    ballotpedia: https://ballotpedia.org/Trent_Kelly
+    status: not_reviewed
+  - name: Cliff Johnson
+    sort_name: Johnson
+    party: D
+    ballotpedia: https://ballotpedia.org/Cliff_Johnson_(Mississippi)
+    status: not_reviewed
+  - name: Johnny Baucom
+    sort_name: Baucom
+    party: L
+    ballotpedia: https://ballotpedia.org/Johnny_Baucom_(Mississippi)
+    status: not_reviewed
+- office: us_house
+  state: MS
+  district: 2
+  candidates:
+  - name: Bennie Thompson
+    sort_name: Thompson
+    party: D
+    incumbent: true
+    bioguide: T000193
+    ballotpedia: https://ballotpedia.org/Bennie_Thompson
+    status: not_reviewed
+  - name: Ron Eller
+    sort_name: Eller
+    party: R
+    ballotpedia: https://ballotpedia.org/Ron_Eller
+    status: not_reviewed
+  - name: Bennie Foster
+    sort_name: Foster
+    party: I
+    ballotpedia: https://ballotpedia.org/Bennie_Foster
+    status: not_reviewed
+- office: us_house
+  state: MS
+  district: 3
+  candidates:
+  - name: Michael Guest
+    sort_name: Guest
+    party: R
+    incumbent: true
+    bioguide: G000591
+    ballotpedia: https://ballotpedia.org/Michael_Guest
+    status: not_reviewed
+  - name: Michael Chiaradio
+    sort_name: Chiaradio
+    party: D
+    ballotpedia: https://ballotpedia.org/Michael_Chiaradio
+    status: not_reviewed
+  - name: Erik Kiehle
+    sort_name: Kiehle
+    party: L
+    ballotpedia: https://ballotpedia.org/Erik_Kiehle
+    status: not_reviewed
+- office: us_house
+  state: MS
+  district: 4
+  candidates:
+  - name: Mike Ezell
+    sort_name: Ezell
+    party: R
+    incumbent: true
+    bioguide: E000235
+    ballotpedia: https://ballotpedia.org/Mike_Ezell
+    status: not_reviewed
+  - name: Jeffrey Hulum III
+    sort_name: Hulum
+    party: D
+    ballotpedia: https://ballotpedia.org/Jeffrey_Hulum_III
+    status: not_reviewed
+  - name: Carl Boyanton
+    sort_name: Boyanton
+    party: I
+    ballotpedia: https://ballotpedia.org/Carl_Boyanton
+    status: not_reviewed

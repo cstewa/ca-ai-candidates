@@ -1,0 +1,270 @@
+# U.S. Senate and House races in New Jersey. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: NJ
+  candidates:
+  - name: Cory Booker
+    sort_name: Booker
+    party: D
+    incumbent: true
+    bioguide: B001288
+    ballotpedia: https://ballotpedia.org/Cory_Booker
+    status: not_reviewed
+  - name: Justin Murphy
+    sort_name: Murphy
+    party: R
+    ballotpedia: https://ballotpedia.org/Justin_Murphy
+    status: not_reviewed
+  - name: Veronica Fernandez
+    sort_name: Fernandez
+    party_name: End the Corruption! Party
+    ballotpedia: https://ballotpedia.org/Veronica_Fernandez
+    status: not_reviewed
+  - name: Joanne Kuniansky
+    sort_name: Kuniansky
+    party_name: Socialist Workers Party
+    ballotpedia: https://ballotpedia.org/Joanne_Kuniansky
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 1
+  candidates:
+  - name: Donald Norcross
+    sort_name: Norcross
+    party: D
+    incumbent: true
+    bioguide: N000188
+    ballotpedia: https://ballotpedia.org/Donald_Norcross
+    status: not_reviewed
+  - name: Damon Galdo
+    sort_name: Galdo
+    party: R
+    ballotpedia: https://ballotpedia.org/Damon_Galdo
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 2
+  candidates:
+  - name: Jeff Van Drew
+    sort_name: Van Drew
+    party: R
+    incumbent: true
+    bioguide: V000133
+    ballotpedia: https://ballotpedia.org/Jeff_Van_Drew
+    status: not_reviewed
+  - name: Zack Mullock
+    sort_name: Mullock
+    party: D
+    ballotpedia: https://ballotpedia.org/Zack_Mullock
+    status: not_reviewed
+  - name: Ramon Mora Jr.
+    sort_name: Mora
+    party: I
+    ballotpedia: https://ballotpedia.org/Ramon_Mora_Jr.
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 3
+  candidates:
+  - name: Herbert C. Conaway Jr.
+    sort_name: Conaway
+    party: D
+    incumbent: true
+    bioguide: C001136
+    ballotpedia: https://ballotpedia.org/Herbert_Conaway_Jr.
+    status: not_reviewed
+  - name: Michael McGuire
+    sort_name: McGuire
+    party: R
+    ballotpedia: https://ballotpedia.org/Michael_McGuire_(New_Jersey)
+    status: not_reviewed
+  - name: Ryan Kelly
+    sort_name: Kelly
+    party_name: Affordability, Accountability, People Party
+    ballotpedia: https://ballotpedia.org/Ryan_Kelly_(New_Jersey)
+    status: not_reviewed
+  - name: Steven Welzer
+    sort_name: Welzer
+    party: G
+    ballotpedia: https://ballotpedia.org/Steven_Welzer
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 4
+  candidates:
+  - name: Chris Smith
+    sort_name: Smith
+    party: R
+    incumbent: true
+    bioguide: S000522
+    ballotpedia: https://ballotpedia.org/Chris_Smith_(New_Jersey_congressional_representative)
+    status: not_reviewed
+  - name: Rachel Peace
+    sort_name: Peace
+    party: D
+    ballotpedia: https://ballotpedia.org/Rachel_Peace
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 5
+  candidates:
+  - name: Josh Gottheimer
+    sort_name: Gottheimer
+    party: D
+    incumbent: true
+    bioguide: G000583
+    ballotpedia: https://ballotpedia.org/Josh_Gottheimer
+    status: not_reviewed
+  - name: Sean Kirrane
+    sort_name: Kirrane
+    party: R
+    ballotpedia: https://ballotpedia.org/Sean_Kirrane
+    status: not_reviewed
+  - name: Adam Rueda
+    sort_name: Rueda
+    party_name: Humane Sustainable Future Party
+    ballotpedia: https://ballotpedia.org/Adam_Rueda
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 6
+  candidates:
+  - name: Frank Pallone Jr.
+    sort_name: Pallone
+    party: D
+    ballotpedia: https://ballotpedia.org/Frank_Pallone_Jr.
+    status: not_reviewed
+  - name: Hillary Herzig
+    sort_name: Herzig
+    party: R
+    ballotpedia: https://ballotpedia.org/Hillary_Herzig
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 7
+  candidates:
+  - name: Thomas Kean Jr.
+    sort_name: Kean
+    party: R
+    incumbent: true
+    bioguide: K000398
+    ballotpedia: https://ballotpedia.org/Thomas_Kean_Jr.
+    status: not_reviewed
+  - name: Rebecca Bennett
+    sort_name: Bennett
+    party: D
+    ballotpedia: https://ballotpedia.org/Rebecca_Bennett_(New_Jersey)
+    status: not_reviewed
+  - name: Seamus O'Toole
+    sort_name: O'Toole
+    party_name: Stop Israel's Genocide Party
+    ballotpedia: https://ballotpedia.org/Seamus_O'Toole
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 8
+  candidates:
+  - name: Robert Menendez Jr.
+    sort_name: Menendez
+    party: D
+    incumbent: true
+    bioguide: M001226
+    ballotpedia: https://ballotpedia.org/Rob_Menendez_(New_Jersey)
+    status: not_reviewed
+  - name: Craig Honts
+    sort_name: Honts
+    party_name: Socialist Workers Party
+    ballotpedia: https://ballotpedia.org/Craig_Honts
+    status: not_reviewed
+  - name: Da'Shone Hughey
+    sort_name: Hughey
+    party_name: We The People Party
+    ballotpedia: https://ballotpedia.org/Da'Shone_Hughey
+    status: not_reviewed
+  - name: Aristotle Eliopoulos
+    sort_name: Eliopoulos
+    party: I
+    ballotpedia: https://ballotpedia.org/Aristotle_Eliopoulos
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 9
+  candidates:
+  - name: Nellie Pou
+    sort_name: Pou
+    party: D
+    incumbent: true
+    bioguide: P000621
+    ballotpedia: https://ballotpedia.org/Nellie_Pou
+    status: not_reviewed
+  - name: Rosemary Pino
+    sort_name: Pino
+    party: R
+    ballotpedia: https://ballotpedia.org/Rosemary_Pino
+    status: not_reviewed
+  - name: Terrisa Bukovinac
+    sort_name: Bukovinac
+    party_name: Save Our Babies Party
+    ballotpedia: https://ballotpedia.org/Terrisa_Bukovinac
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 10
+  candidates:
+  - name: LaMonica McIver
+    sort_name: McIver
+    party: D
+    incumbent: true
+    bioguide: M001229
+    ballotpedia: https://ballotpedia.org/LaMonica_McIver
+    status: not_reviewed
+  - name: Carmen Bucco
+    sort_name: Bucco
+    party: R
+    ballotpedia: https://ballotpedia.org/Carmen_Bucco
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 11
+  candidates:
+  - name: Analilia Mejia
+    sort_name: Mejia
+    party: D
+    incumbent: true
+    bioguide: M001246
+    ballotpedia: https://ballotpedia.org/Analilia_Mejia
+    status: not_reviewed
+  - name: Joe Hathaway
+    sort_name: Hathaway
+    party: R
+    ballotpedia: https://ballotpedia.org/Joe_Hathaway
+    status: not_reviewed
+  - name: Alan Bond
+    sort_name: Bond
+    party_name: Hope for Tomorrow Party
+    ballotpedia: https://ballotpedia.org/Alan_Bond
+    status: not_reviewed
+- office: us_house
+  state: NJ
+  district: 12
+  candidates:
+  - name: Adam Hamawy
+    sort_name: Hamawy
+    party: D
+    ballotpedia: https://ballotpedia.org/Adam_Hamawy
+    status: not_reviewed
+  - name: Gregg Mele
+    sort_name: Mele
+    party: R
+    ballotpedia: https://ballotpedia.org/Gregg_Mele
+    status: not_reviewed
+  - name: Winston Jordan
+    sort_name: Jordan
+    party_name: Get Money Out Party
+    ballotpedia: https://ballotpedia.org/Winston_Jordan
+    status: not_reviewed
+  - name: Andres Jinete
+    sort_name: Jinete
+    party: G
+    ballotpedia: https://ballotpedia.org/Andres_Jinete
+    status: not_reviewed

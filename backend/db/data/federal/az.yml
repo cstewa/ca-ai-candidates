@@ -1,0 +1,172 @@
+# U.S. Senate and House races in Arizona. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: AZ
+  district: 1
+  candidates:
+  - name: Amish Shah
+    sort_name: Shah
+    party: D
+    ballotpedia: https://ballotpedia.org/Amish_Shah
+    status: not_reviewed
+  - name: Jay Feely
+    sort_name: Feely
+    party: R
+    ballotpedia: https://ballotpedia.org/Jay_Feely
+    status: not_reviewed
+  - name: Monica Alponte
+    sort_name: Alponte
+    party: L
+    ballotpedia: https://ballotpedia.org/Monica_Alponte
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 2
+  candidates:
+  - name: Eli Crane
+    sort_name: Crane
+    party: R
+    incumbent: true
+    bioguide: C001132
+    ballotpedia: https://ballotpedia.org/Eli_Crane
+    status: not_reviewed
+  - name: Jonathan Nez
+    sort_name: Nez
+    party: D
+    ballotpedia: https://ballotpedia.org/Jonathan_Nez
+    status: not_reviewed
+  - name: Curtis Goodwin
+    sort_name: Goodwin
+    party: L
+    ballotpedia: https://ballotpedia.org/Curtis_Goodwin
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 3
+  candidates:
+  - name: Yassamin Ansari
+    sort_name: Ansari
+    party: D
+    incumbent: true
+    bioguide: A000381
+    ballotpedia: https://ballotpedia.org/Yassamin_Ansari
+    status: not_reviewed
+  - name: David Redkey
+    sort_name: Redkey
+    party: G
+    ballotpedia: https://ballotpedia.org/David_Redkey
+    status: not_reviewed
+  - name: Alan Aversa
+    sort_name: Aversa
+    party_name: No Labels Party
+    ballotpedia: https://ballotpedia.org/Alan_Aversa
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 4
+  candidates:
+  - name: Greg Stanton
+    sort_name: Stanton
+    party: D
+    incumbent: true
+    bioguide: S001211
+    ballotpedia: https://ballotpedia.org/Greg_Stanton
+    status: not_reviewed
+  - name: Zuhdi Jasser
+    sort_name: Jasser
+    party: R
+    ballotpedia: https://ballotpedia.org/Zuhdi_Jasser
+    status: not_reviewed
+  - name: Tisha Benoit
+    sort_name: Benoit
+    party_name: No Labels Party
+    ballotpedia: https://ballotpedia.org/Tisha_Benoit
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 5
+  candidates:
+  - name: Elizabeth Lee
+    sort_name: Lee
+    party: D
+    ballotpedia: https://ballotpedia.org/Elizabeth_Lee_(Arizona)
+    status: not_reviewed
+  - name: Mark Lamb
+    sort_name: Lamb
+    party: R
+    ballotpedia: https://ballotpedia.org/Mark_Lamb
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 6
+  candidates:
+  - name: Juan Ciscomani
+    sort_name: Ciscomani
+    party: R
+    incumbent: true
+    bioguide: C001133
+    ballotpedia: https://ballotpedia.org/Juan_Ciscomani
+    status: not_reviewed
+  - name: JoAnna Mendoza
+    sort_name: Mendoza
+    party: D
+    ballotpedia: https://ballotpedia.org/JoAnna_Mendoza
+    status: not_reviewed
+  - name: Gary Swing
+    sort_name: Swing
+    party: G
+    ballotpedia: https://ballotpedia.org/Gary_Swing
+    status: not_reviewed
+  - name: Jereme Peters
+    sort_name: Peters
+    party: L
+    ballotpedia: https://ballotpedia.org/Jereme_Peters
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 7
+  candidates:
+  - name: Adelita Grijalva
+    sort_name: Grijalva
+    party: D
+    incumbent: true
+    bioguide: G000606
+    ballotpedia: https://ballotpedia.org/Adelita_Grijalva
+    status: not_reviewed
+  - name: Daniel Butierez Sr.
+    sort_name: Butierez
+    party: R
+    ballotpedia: https://ballotpedia.org/Daniel_Butierez_Sr.
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 8
+  candidates:
+  - name: Abraham Hamadeh
+    sort_name: Hamadeh
+    party: R
+    incumbent: true
+    bioguide: H001098
+    ballotpedia: https://ballotpedia.org/Abraham_Hamadeh
+    status: not_reviewed
+  - name: Bernadette Greene Placentia
+    sort_name: Placentia
+    party: D
+    ballotpedia: https://ballotpedia.org/Bernadette_Greene_Placentia
+    status: not_reviewed
+- office: us_house
+  state: AZ
+  district: 9
+  candidates:
+  - name: Paul Gosar
+    sort_name: Gosar
+    party: R
+    incumbent: true
+    bioguide: G000565
+    ballotpedia: https://ballotpedia.org/Paul_Gosar
+    status: not_reviewed
+  - name: Danielle Sterbinsky
+    sort_name: Sterbinsky
+    party: D
+    ballotpedia: https://ballotpedia.org/Danielle_Sterbinsky
+    status: not_reviewed

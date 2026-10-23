@@ -1,0 +1,158 @@
+# U.S. Senate and House races in Washington. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: WA
+  district: 1
+  candidates:
+  - name: Suzan DelBene
+    sort_name: DelBene
+    party: D
+    incumbent: true
+    bioguide: D000617
+    ballotpedia: https://ballotpedia.org/Suzan_DelBene
+    status: not_reviewed
+  - name: Mary Silva
+    sort_name: Silva
+    party: R
+    ballotpedia: https://ballotpedia.org/Mary_Silva_(Washington)
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 2
+  candidates:
+  - name: Rick Larsen
+    sort_name: Larsen
+    party: D
+    incumbent: true
+    bioguide: L000560
+    ballotpedia: https://ballotpedia.org/Rick_Larsen_(Washington)
+    status: not_reviewed
+  - name: Edwin Feller
+    sort_name: Feller
+    party: R
+    ballotpedia: https://ballotpedia.org/Edwin_Feller
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 3
+  candidates:
+  - name: Marie Gluesenkamp Perez
+    sort_name: Gluesenkamp Perez
+    party: D
+    incumbent: true
+    bioguide: G000600
+    ballotpedia: https://ballotpedia.org/Marie_Gluesenkamp_Perez
+    status: not_reviewed
+  - name: John Braun
+    sort_name: Braun
+    party: R
+    ballotpedia: https://ballotpedia.org/John_Braun
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 4
+  candidates:
+  - name: John Duresky
+    sort_name: Duresky
+    party: D
+    ballotpedia: https://ballotpedia.org/John_Duresky
+    status: not_reviewed
+  - name: Amanda McKinney
+    sort_name: McKinney
+    party: R
+    ballotpedia: https://ballotpedia.org/Amanda_McKinney_(Washington)
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 5
+  candidates:
+  - name: Michael Baumgartner
+    sort_name: Baumgartner
+    party: R
+    incumbent: true
+    bioguide: B001322
+    ballotpedia: https://ballotpedia.org/Michael_Baumgartner_(Washington)
+    status: not_reviewed
+  - name: Carmela Conroy
+    sort_name: Conroy
+    party: D
+    ballotpedia: https://ballotpedia.org/Carmela_Conroy
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 6
+  candidates:
+  - name: Emily Randall
+    sort_name: Randall
+    party: D
+    incumbent: true
+    bioguide: R000621
+    ballotpedia: https://ballotpedia.org/Emily_Randall
+    status: not_reviewed
+  - name: Teresa Fox
+    sort_name: Fox
+    party: R
+    ballotpedia: https://ballotpedia.org/Teresa_Fox
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 7
+  candidates:
+  - name: Pramila Jayapal
+    sort_name: Jayapal
+    party: D
+    incumbent: true
+    bioguide: J000298
+    ballotpedia: https://ballotpedia.org/Pramila_Jayapal
+    status: not_reviewed
+  - name: Nirav Sheth
+    sort_name: Sheth
+    party: R
+    ballotpedia: https://ballotpedia.org/Nirav_Sheth
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 8
+  candidates:
+  - name: Kim Schrier
+    sort_name: Schrier
+    party: D
+    incumbent: true
+    bioguide: S001216
+    ballotpedia: https://ballotpedia.org/Kim_Schrier
+    status: not_reviewed
+  - name: Spencer Meline
+    sort_name: Meline
+    party: R
+    ballotpedia: https://ballotpedia.org/Spencer_Meline
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 9
+  candidates:
+  - name: D. Adam Smith
+    sort_name: Smith
+    party: D
+    ballotpedia: https://ballotpedia.org/Adam_Smith_(Washington)
+    status: not_reviewed
+  - name: Douglas Michael Basler
+    sort_name: Basler
+    party: R
+    ballotpedia: https://ballotpedia.org/Doug_Basler
+    status: not_reviewed
+- office: us_house
+  state: WA
+  district: 10
+  candidates:
+  - name: Marilyn Strickland
+    sort_name: Strickland
+    party: D
+    incumbent: true
+    bioguide: S001159
+    ballotpedia: https://ballotpedia.org/Marilyn_Strickland
+    status: not_reviewed
+  - name: Chris Chung
+    sort_name: Chung
+    party: R
+    ballotpedia: https://ballotpedia.org/Chris_Chung
+    status: not_reviewed

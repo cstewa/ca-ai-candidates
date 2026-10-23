@@ -1,0 +1,84 @@
+# U.S. Senate and House races in Idaho. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: ID
+  candidates:
+  - name: Jim Risch
+    sort_name: Risch
+    party: R
+    incumbent: true
+    bioguide: R000584
+    ballotpedia: https://ballotpedia.org/Jim_Risch
+    status: not_reviewed
+  - name: Matt Loesby
+    sort_name: Loesby
+    party: L
+    ballotpedia: https://ballotpedia.org/Matt_Loesby
+    status: not_reviewed
+  - name: Todd Achilles
+    sort_name: Achilles
+    party: I
+    ballotpedia: https://ballotpedia.org/Todd_Achilles
+    status: not_reviewed
+  - name: Natalie Fleming
+    sort_name: Fleming
+    party: I
+    ballotpedia: https://ballotpedia.org/Natalie_Fleming_(Idaho)
+    status: not_reviewed
+- office: us_house
+  state: ID
+  district: 1
+  candidates:
+  - name: Russ Fulcher
+    sort_name: Fulcher
+    party: R
+    incumbent: true
+    bioguide: F000469
+    ballotpedia: https://ballotpedia.org/Russ_Fulcher
+    status: not_reviewed
+  - name: Kaylee Peterson
+    sort_name: Peterson
+    party: D
+    ballotpedia: https://ballotpedia.org/Kaylee_Peterson
+    status: not_reviewed
+  - name: Brendan Gomez
+    sort_name: Gomez
+    party: C
+    ballotpedia: https://ballotpedia.org/Brendan_Gomez
+    status: not_reviewed
+  - name: Sarah Zabel
+    sort_name: Zabel
+    party: I
+    ballotpedia: https://ballotpedia.org/Sarah_Zabel_(Idaho)
+    status: not_reviewed
+- office: us_house
+  state: ID
+  district: 2
+  candidates:
+  - name: Michael K. Simpson
+    sort_name: Simpson
+    party: R
+    incumbent: true
+    bioguide: S001148
+    ballotpedia: https://ballotpedia.org/Michael_Simpson_(Idaho)
+    status: not_reviewed
+  - name: Elinor Gilbreath
+    sort_name: Gilbreath
+    party: D
+    ballotpedia: https://ballotpedia.org/Elinor_Gilbreath
+    status: not_reviewed
+  - name: Will Johanson
+    sort_name: Johanson
+    party: L
+    ballotpedia: https://ballotpedia.org/Will_Johanson
+    status: not_reviewed
+  - name: Emre Houser
+    sort_name: Houser
+    party: I
+    ballotpedia: https://ballotpedia.org/Emre_Houser
+    status: not_reviewed
+  - name: Tripp Hutchinson
+    sort_name: Hutchinson
+    party: I
+    ballotpedia: https://ballotpedia.org/Tripp_Hutchinson
+    status: not_reviewed

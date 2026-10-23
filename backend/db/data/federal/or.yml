@@ -1,0 +1,133 @@
+# U.S. Senate and House races in Oregon. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: OR
+  candidates:
+  - name: Jeff Merkley
+    sort_name: Merkley
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: M001176
+    ballotpedia: https://ballotpedia.org/Jeff_Merkley
+    status: not_reviewed
+  - name: David Brock Smith
+    sort_name: Smith
+    party: R
+    ballotpedia: https://ballotpedia.org/David_Brock_Smith_(Oregon_state_senator)
+    status: not_reviewed
+  - name: Gary Dye
+    sort_name: Dye
+    party: L
+    ballotpedia: https://ballotpedia.org/Gary_Dye
+    status: not_reviewed
+  - name: Chris Henry
+    sort_name: Henry
+    party_name: Pacific Green Party of Oregon / Progressive Party
+    ballotpedia: https://ballotpedia.org/Chris_Henry_(Oregon)
+    status: not_reviewed
+- office: us_house
+  state: OR
+  district: 1
+  candidates:
+  - name: Suzanne Bonamici
+    sort_name: Bonamici
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: B001278
+    ballotpedia: https://ballotpedia.org/Suzanne_Bonamici
+    status: not_reviewed
+  - name: Barbara Kahl
+    sort_name: Kahl
+    party: R
+    ballotpedia: https://ballotpedia.org/Barbara_Kahl
+    status: not_reviewed
+- office: us_house
+  state: OR
+  district: 2
+  candidates:
+  - name: Cliff Bentz
+    sort_name: Bentz
+    party: R
+    incumbent: true
+    bioguide: B000668
+    ballotpedia: https://ballotpedia.org/Cliff_Bentz
+    status: not_reviewed
+  - name: Chris Beck
+    sort_name: Beck
+    party_name: Democratic / Independent Party of Oregon
+    ballotpedia: https://ballotpedia.org/Chris_Beck
+    status: not_reviewed
+- office: us_house
+  state: OR
+  district: 3
+  candidates:
+  - name: Maxine Dexter
+    sort_name: Dexter
+    party: D
+    incumbent: true
+    bioguide: D000635
+    ballotpedia: https://ballotpedia.org/Maxine_Dexter
+    status: not_reviewed
+  - name: Loran Ayles
+    sort_name: Ayles
+    party: R
+    ballotpedia: https://ballotpedia.org/Loran_Ayles
+    status: not_reviewed
+- office: us_house
+  state: OR
+  district: 4
+  candidates:
+  - name: Val Hoyle
+    sort_name: Hoyle
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: H001094
+    ballotpedia: https://ballotpedia.org/Val_Hoyle
+    status: not_reviewed
+  - name: Monique DeSpain
+    sort_name: DeSpain
+    party_name: Republican / Libertarian
+    ballotpedia: https://ballotpedia.org/Monique_DeSpain
+    status: not_reviewed
+  - name: Justin Filip
+    sort_name: Filip
+    party_name: Pacific Green Party of Oregon / Progressive Party
+    ballotpedia: https://ballotpedia.org/Justin_Filip
+    status: not_reviewed
+- office: us_house
+  state: OR
+  district: 5
+  candidates:
+  - name: Janelle Bynum
+    sort_name: Bynum
+    party: D
+    incumbent: true
+    bioguide: B001326
+    ballotpedia: https://ballotpedia.org/Janelle_Bynum
+    status: not_reviewed
+  - name: Patti Adair
+    sort_name: Adair
+    party_name: Republican / Libertarian
+    ballotpedia: https://ballotpedia.org/Patti_Adair
+    status: not_reviewed
+  - name: Andrea Townsend
+    sort_name: Townsend
+    party_name: Pacific Green Party of Oregon
+    ballotpedia: https://ballotpedia.org/Andrea_Townsend_(Oregon)
+    status: not_reviewed
+- office: us_house
+  state: OR
+  district: 6
+  candidates:
+  - name: Andrea Salinas
+    sort_name: Salinas
+    party_name: Democratic / Independent Party of Oregon
+    incumbent: true
+    bioguide: S001226
+    ballotpedia: https://ballotpedia.org/Andrea_Salinas
+    status: not_reviewed
+  - name: David Russ
+    sort_name: Russ
+    party: R
+    ballotpedia: https://ballotpedia.org/David_Russ_(Oregon)
+    status: not_reviewed

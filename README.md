@@ -1,6 +1,6 @@
-# California Candidates on AI Safety — 2026 General Election
+# AI Vote Watch — 2026 General Election
 
-A neutral, sourced guide to what every candidate on California's November 3, 2026 ballot has said and done about AI safety.
+A neutral, sourced guide to what candidates on the November 3, 2026 ballot have said and done about AI safety: every U.S. House and Senate candidate in all 50 states, plus every candidate on California's state ballot. Live at https://aivotewatch.org.
 
 - **Backend**: Ruby on Rails 7.1 API (no database: it reads the YAML files in `backend/db/data`)
 - **Frontend**: React + Vite
@@ -18,11 +18,14 @@ ca-ai-candidates/
 │   │   └── models/             # guide.rb loads the YAML; zip_lookup.rb answers ZIP lookups
 │   ├── db/
 │   │   └── data/
-│   │       ├── races.yml       # ← every race, candidate, vote and statement
+│   │       ├── races.yml       # ← California: every race, candidate, vote and statement
+│   │       ├── federal/*.yml   # ← U.S. Senate and House races in every other state, one file per state
+│   │       ├── federal_votes.yml # official roll calls and cosponsorships by Bioguide ID (generated)
 │   │       ├── yardsticks.yml  # ← the benchmark bills, votes and letters
-│   │       └── zip_lookup.json # ZIP code → districts and cities (generated)
+│   │       └── zip_lookup.json # ZIP code → districts (generated)
 │   └── spec/                   # data checks + API tests
 ├── scripts/build_zip_lookup.py # rebuilds zip_lookup.json from Census files
+├── scripts/import_federal.rb   # imports federal races (Ballotpedia) and official votes
 └── frontend/                   # React + Vite
     └── src/
         ├── pages/              # Home, MyBallot, Races, Race, Candidate, Benchmarks, About
@@ -83,7 +86,7 @@ cd backend && bundle exec rspec
 
 ## Editing the data
 
-`backend/db/data/races.yml` is the source of truth. It was generated from the Oct. 14, 2026 Google Doc, and is meant to be edited by hand from here on. Changes go live on the next deploy. Locally, the dev server picks them up on the next page load. Run `bundle exec rspec` after editing; it catches typos like unknown parties, missing sources or bad yardstick keys. If a typo slips through, the new deploy fails its health check and Railway keeps the previous version live.
+`backend/db/data/races.yml` (California) and `backend/db/data/federal/<state>.yml` (other states' U.S. Senate and House races) are the source of truth. `races.yml` was generated from the Oct. 14, 2026 Google Doc; the federal files were imported from Ballotpedia on Oct. 23 (see "Importing federal races"). Both are meant to be edited by hand from here on. Changes go live on the next deploy. Locally, the dev server picks them up on the next page load. Run `bundle exec rspec` after editing; it catches typos like unknown parties, missing sources or bad yardstick keys. If a typo slips through, the new deploy fails its health check and Railway keeps the previous version live.
 
 ```yaml
 - office: us_house            # governor, attorney_general, us_house, state_senate, state_assembly, board_of_equalization, ...
@@ -92,9 +95,10 @@ cd backend && bundle exec rspec
   candidates:
   - name: Scott Wiener
     sort_name: Wiener          # candidates are listed alphabetically by this
-    party: D                   # D, R, NPP, L, G, P&F, or blank for nonpartisan offices
+    party: D                   # D, R, NPP, L, G, P&F, I, C; or blank, with party_name: for any other party
     incumbent: true            # optional; also incumbent_note, unopposed
-    status: on_record          # on_record | ai_other | none_found  (see below)
+    bioguide: W000830          # members of Congress: pulls in their official votes from federal_votes.yml
+    status: on_record          # on_record | ai_other | none_found | not_reviewed  (see below)
     search_note: No campaign AI statements found.   # optional, shown in italics
     positions:                 # structured votes/sponsorships/signatures, keyed to yardsticks.yml
     - yardstick: sb1047
@@ -107,6 +111,10 @@ cd backend && bundle exec rspec
       kind: funding            # outside spending / endorsements, shown in their own section
 ```
 
+Federal race files add `state:` (two-letter) and use `office: us_senate` or `us_house`; at-large House seats use `district: 0`. Their slugs carry the state (`us-house-tx-12`, `us-house-wy-at-large`, `us-senate-tx`); California's keep their original slugs (`us-house-11`) so shared links still work.
+
+Positions written by hand win over imported ones for the same yardstick.
+
 Link labels are rewritten for display: `[[source]]` shows the site's domain, `[[1047]]` or `[[votes]]` shows "roll call".
 
 ### Status labels
@@ -118,15 +126,21 @@ The status describes **how much public record exists**, never whether it is good
 | `on_record` | Public record on AI safety | Voted on, wrote, sponsored or signed something on AI safety, or spoke publicly about AI risk |
 | `ai_other` | Public record on other AI issues | Positions or actions on AI outside AI safety (schools, jobs, government use, fraud detection, etc.) |
 | `none_found` | No public AI statements found | Search found nothing; does not mean the candidate has no view |
+| `not_reviewed` | Record not yet reviewed | The race hasn't been researched yet. Official votes still show. Every candidate in a race moves off this status together |
+
+**Review order for federal races** (set Oct. 23, before review began): every Senate race first, then House races alphabetically by state, then by district. A race is marked reviewed only when every candidate in it is done.
 
 ### Judgment calls for review (Bridie)
 
 These were made while converting the doc and are worth checking:
 
 - **`ai_other`**: Herb W. Morgan, Sonja Shaw, Richard Barrera (added Oct. 20: AI in schools, from Voice of San Diego), Jamie Joyce, Melissa Hernandez (Hernandez's comment was about *where* AI should be regulated, not safety itself).
-- **`none_found` despite an entry**: Jimmy Gomez (only outside PAC spending), Michael E. Gates (platform note only), James Gallagher and Leticia Castillo (only "did not vote" records).
+- **`none_found` despite an entry**: Michael E. Gates (platform note only) and Leticia Castillo (only "did not vote" records).
+- **Moved to `on_record` by official House votes (Oct. 23):** once roll calls were imported, 10 California House members had recorded votes on federal yardsticks (the reconciliation bill, the TAKE IT DOWN Act or the KIDS Act): James Gallagher, John Garamendi, Josh Harder, Adam Gray (was `ai_other`), Jim Costa, Raul Ruiz, Jimmy Gomez, Norma J. Torres, Maxine Waters and Juan Vargas. Recorded votes on AI-safety yardsticks count as a record, as they do for state legislators.
 - **Mixed votes** use the **final** floor vote as the position, with the full sequence in `detail` (e.g. Shannon Grove, Roger Niello, Kelly Seyarto, Tony Strickland, Ben Allen, Dave Min).
-- **2025 reconciliation bill**: only the votes the doc listed (Republican "yes" votes) are recorded. Democratic "no" votes were not in the doc, so they are not shown. The bill's page notes it was a broad budget bill, not a standalone AI vote.
+- **2025 reconciliation bill**: the doc listed only Republican "yes" votes. Since Oct. 23 every House member's vote comes from the official roll call (`federal_votes.yml`), so "no" votes show too. The bill's page notes it was a broad budget bill, not a standalone AI vote.
+- **Federal yardsticks (Oct. 23):** added the Senate vote to strip the AI moratorium (99-1), the TAKE IT DOWN Act House vote (409-2), the KIDS Act House vote (267-117; a broad child online safety package that includes chatbot rules, noted on its page), and cosponsorship of the GUARD Act, the AI Risk Evaluation Act and the GUARDRAILS Act. Approved as drafted in the national-expansion PRD.
+- **Write-in candidates** aren't listed for federal races, since they aren't printed on the ballot.
 - **OpenAI incident letter** (Aug. 2026) was added as its own yardstick since five candidates signed it.
 - **Record type labels** (`kind`) were assigned from each item's wording, then hand-checked. Judgment calls: Kiley's 2018 Asilomar resolution = bill; Wiener's preemption push and Lieu's demand to AI companies = letter; Lieu's commission co-chair = official action; Chan's AI Pact and Morgan's fraud proposal = platform; Joyce's Society Library and the reactions to Obernolte's FRONTIER Act = background. Irwin's AB 2013 authorship was split from her votes.
 - **City and school board races removed** (Oct. 23): the site covers only statewide and district races (House, State Senate, Assembly, Board of Equalization), which every voter has and where AI law gets written. Mayor races (LA, Oakland, Anaheim, Santa Ana, Irvine, Chula Vista) and the Santa Monica City Council were added and then taken out; they're in git history (commit 073fe91) if they come back. `zip_lookup.json` still records each ZIP's city shares, unused.
@@ -161,22 +175,43 @@ Sign-ups from results ÷ successful ZIP lookups = the share of lookups that end 
 
 ## Rebuilding the ZIP lookup
 
-`backend/db/data/zip_lookup.json` maps each California ZIP code (Census ZCTA) to the share of its 2020 residents in each congressional, State Senate, Assembly and Board of Equalization district, and in each city. It only needs rebuilding if district lines change. Download these into a folder outside the repo, then run the script:
+`backend/db/data/zip_lookup.json` maps each U.S. ZIP code (Census ZCTA) to its congressional districts on the 2026 maps, with the share of the ZIP in each, plus California's State Senate, Assembly and Board of Equalization districts. It only needs rebuilding if district lines change. `scripts/build_zip_lookup.py` uses three sources:
+
+- **California:** carried over from the California-only lookup (commit 1cbb604), built from 2020 Census blocks weighted by population. See that commit's README for its inputs.
+- **The 8 other redrawn states** (AL, FL, LA, NC, OH, TN, TX, UT): each census tract's 2020 population is split among districts by its blocks, and each ZIP takes its share of the tracts it overlaps, by land area.
+- **Every other state:** the Census ZIP-to-119th-district file, weighted by land area, since those maps are unchanged. Missouri is in this group: its new map is on hold, so the 2024 map is used on Nov. 3.
+
+Download these into a folder outside the repo:
 
 | File | Source |
 |------|--------|
-| `tab20_zcta520_tabblock20_natl.txt` (filter to rows whose block starts with `06`) | [Census 2020 ZCTA relationship files](https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/) |
-| `cageo2020.pl` (block populations) | [2020 P.L. 94-171 data for California](https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/California/) |
-| `CD120_06.txt` (Prop 50 congressional map) | [Census 120th Congress block files](https://www.census.gov/geographies/mapping-files/2027/dec/rdo/120-congressional-district-bef.html) |
-| `06_CA_SLDU22.txt`, `06_CA_SLDL22.txt` | [Census 2022 state legislative block files](https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2023/2022-state-legislative-bef/) |
-| `BOE_Final equiv.csv` | [2021 Citizens Redistricting Commission final maps](https://wedrawthelines.ca.gov/final-maps/) |
-| `BlockAssign_ST06_CA_INCPLACE_CDP.txt` | [Census 2020 block assignment files](https://www2.census.gov/geo/docs/maps-data/data/baf2020/) |
+| `tab20_cd11920_zcta520_natl.txt` | [Census CD-to-ZCTA relationship files](https://www2.census.gov/geo/docs/maps-data/data/rel2020/cd-sld/) |
+| `NationalCD120.txt` (inside `cd120.zip`; regenerated Oct. 7, 2026 for Missouri) | [Census 120th Congress block files](https://www.census.gov/geographies/mapping-files/2027/dec/rdo/120-congressional-district-bef.html) |
+| `tab20_zcta520_tract20_natl.txt` | [Census 2020 ZCTA relationship files](https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/) |
+| `algeo2020.pl`, `flgeo2020.pl`, `lageo2020.pl`, `ncgeo2020.pl`, `ohgeo2020.pl`, `tngeo2020.pl`, `txgeo2020.pl`, `utgeo2020.pl` (from each state's `xx2020.pl.zip`) | [2020 P.L. 94-171 data](https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/) |
 
 ```bash
-python3 scripts/build_zip_lookup.py --zcta zcta_block_ca.txt --geo cageo2020.pl --cd CD120_06.txt --sd 06_CA_SLDU22.txt --ad 06_CA_SLDL22.txt --boe "BOE_Final equiv.csv" --place BlockAssign_ST06_CA_INCPLACE_CDP.txt --out backend/db/data/zip_lookup.json
+git show 1cbb604:backend/db/data/zip_lookup.json > ca_zip_lookup.json
+python3 scripts/build_zip_lookup.py --ca ca_zip_lookup.json --cd119 tab20_cd11920_zcta520_natl.txt --cd120 NationalCD120.txt --zcta tab20_zcta520_tract20_natl.txt --geo-dir . --out backend/db/data/zip_lookup.json
 ```
 
-The Census Senate and Assembly files match the Commission's final equivalency files block for block. Districts holding under 2% of a ZIP's residents are dropped as slivers.
+Districts holding under 2% of a ZIP are dropped as slivers. Washington, D.C. (non-voting delegate) isn't covered.
+
+## Importing federal races
+
+`scripts/import_federal.rb` writes `backend/db/data/federal/<state>.yml` (races and candidates outside California, all starting as `not_reviewed`) and regenerates `federal_votes.yml` (official votes and cosponsorships). It never overwrites an existing state file unless given `--force`, since those files hold hand-written research. Inputs:
+
+| Input | Source |
+|-------|--------|
+| General-election candidates, one JSON entry per Ballotpedia district or Senate page | [Ballotpedia](https://ballotpedia.org/United_States_House_of_Representatives_elections,_2026), read through a browser (Ballotpedia blocks scripts), about 3 seconds apart |
+| `legislators-current.json`, `legislators-historical.json` (Bioguide IDs, matched to Ballotpedia pages) | [unitedstates/congress-legislators](https://unitedstates.github.io/congress-legislators/) |
+| House roll calls `h2025-145.xml` (reconciliation bill), `h2025-104.xml` (TAKE IT DOWN Act), `kids_act.xml` (2026 roll 228) | `https://clerk.house.gov/evs/<year>/roll<NNN>.xml` |
+| Senate roll call 119-1-363 (moratorium amendment), as `LIS_ID:Vote,...` | [senate.gov](https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.xml) (blocks scripts; read through a browser) |
+| `bs_s3062.xml`, `bs_s2938.xml`, `bs_hr8031.xml`, `bs_s4216.xml` (sponsors and cosponsors) | `https://www.govinfo.gov/bulkdata/BILLSTATUS/119/<type>/BILLSTATUS-119<bill>.xml` |
+
+```bash
+ruby scripts/import_federal.rb --ballotpedia ballotpedia.json --legislators . --rolls rolls --bills . --senate senate_363.txt
+```
 
 ---
 

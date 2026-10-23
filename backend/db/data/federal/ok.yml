@@ -1,0 +1,129 @@
+# U.S. Senate and House races in Oklahoma. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: OK
+  candidates:
+  - name: N'Kiyla Thomas
+    sort_name: Thomas
+    party: D
+    ballotpedia: https://ballotpedia.org/N'Kiyla_Thomas
+    status: not_reviewed
+  - name: Kevin Hern
+    sort_name: Hern
+    party: R
+    bioguide: H001082
+    ballotpedia: https://ballotpedia.org/Kevin_Hern
+    status: not_reviewed
+  - name: Sevier White
+    sort_name: White
+    party: L
+    ballotpedia: https://ballotpedia.org/Sevier_White
+    status: not_reviewed
+  - name: Ron Meinhardt
+    sort_name: Meinhardt
+    party: I
+    ballotpedia: https://ballotpedia.org/Ron_Meinhardt
+    status: not_reviewed
+  - name: Curtis Stinnett
+    sort_name: Stinnett
+    party: I
+    ballotpedia: https://ballotpedia.org/Curtis_Stinnett
+    status: not_reviewed
+- office: us_house
+  state: OK
+  district: 1
+  candidates:
+  - name: John Croisant
+    sort_name: Croisant
+    party: D
+    ballotpedia: https://ballotpedia.org/John_Croisant
+    status: not_reviewed
+  - name: Mark Tedford
+    sort_name: Tedford
+    party: R
+    ballotpedia: https://ballotpedia.org/Mark_Tedford
+    status: not_reviewed
+- office: us_house
+  state: OK
+  district: 2
+  candidates:
+  - name: Josh Brecheen
+    sort_name: Brecheen
+    party: R
+    incumbent: true
+    bioguide: B001317
+    ballotpedia: https://ballotpedia.org/Josh_Brecheen
+    status: not_reviewed
+  - name: Brandon Wade
+    sort_name: Wade
+    party: D
+    ballotpedia: https://ballotpedia.org/Brandon_Wade
+    status: not_reviewed
+  - name: Ronnie Hopkins
+    sort_name: Hopkins
+    party: I
+    ballotpedia: https://ballotpedia.org/Ronnie_Hopkins
+    status: not_reviewed
+- office: us_house
+  state: OK
+  district: 3
+  candidates:
+  - name: Frank Lucas
+    sort_name: Lucas
+    party: R
+    incumbent: true
+    bioguide: L000491
+    ballotpedia: https://ballotpedia.org/Frank_Lucas
+    status: not_reviewed
+  - name: Suzie Byrd
+    sort_name: Byrd
+    party: D
+    ballotpedia: https://ballotpedia.org/Suzie_Byrd
+    status: not_reviewed
+- office: us_house
+  state: OK
+  district: 4
+  candidates:
+  - name: Tom Cole
+    sort_name: Cole
+    party: R
+    incumbent: true
+    bioguide: C001053
+    ballotpedia: https://ballotpedia.org/Tom_Cole_(Oklahoma)
+    status: not_reviewed
+  - name: Mitchell Jacob
+    sort_name: Jacob
+    party: D
+    ballotpedia: https://ballotpedia.org/Mitchell_Jacob
+    status: not_reviewed
+  - name: Rocco Bonacci
+    sort_name: Bonacci
+    party: I
+    ballotpedia: https://ballotpedia.org/Rocco_Bonacci
+    status: not_reviewed
+- office: us_house
+  state: OK
+  district: 5
+  candidates:
+  - name: Stephanie Bice
+    sort_name: Bice
+    party: R
+    incumbent: true
+    bioguide: B000740
+    ballotpedia: https://ballotpedia.org/Stephanie_Bice
+    status: not_reviewed
+  - name: Jena Nelson
+    sort_name: Nelson
+    party: D
+    ballotpedia: https://ballotpedia.org/Jena_Nelson
+    status: not_reviewed
+  - name: Robert Henri
+    sort_name: Henri
+    party: I
+    ballotpedia: https://ballotpedia.org/Robert_Henri
+    status: not_reviewed
+  - name: Austin Nieves
+    sort_name: Nieves
+    party: I
+    ballotpedia: https://ballotpedia.org/Austin_Nieves
+    status: not_reviewed

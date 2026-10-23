@@ -9,6 +9,8 @@ main { flex: 1; }
 .status--none_found .status__dot { background: transparent; }
 .status--none_found { color: var(--muted); }
 .status--none_found .status__dot { border-color: var(--muted); }
+.status--not_reviewed { color: var(--muted); }
+.status--not_reviewed .status__dot { background: transparent; border-color: var(--muted); border-style: dashed; }
 
 /* Position chips: identical styling for every value. */
 .chips { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }

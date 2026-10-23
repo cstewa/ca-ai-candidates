@@ -1,0 +1,94 @@
+# U.S. Senate and House races in Nevada. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: NV
+  district: 1
+  candidates:
+  - name: Dina Titus
+    sort_name: Titus
+    party: D
+    incumbent: true
+    bioguide: T000468
+    ballotpedia: https://ballotpedia.org/Dina_Titus
+    status: not_reviewed
+  - name: Carrie Buck
+    sort_name: Buck
+    party: R
+    ballotpedia: https://ballotpedia.org/Carrie_Buck_(Nevada)
+    status: not_reviewed
+  - name: Steven St John
+    sort_name: John
+    party_name: No Political Party
+    ballotpedia: https://ballotpedia.org/Steven_St_John
+    status: not_reviewed
+  - name: Bobby Khan
+    sort_name: Khan
+    party_name: No Political Party
+    ballotpedia: https://ballotpedia.org/Bobby_Khan
+    status: not_reviewed
+- office: us_house
+  state: NV
+  district: 2
+  candidates:
+  - name: Teresa Benitez-Thompson
+    sort_name: Benitez-Thompson
+    party: D
+    ballotpedia: https://ballotpedia.org/Teresa_Benitez-Thompson
+    status: not_reviewed
+  - name: David Flippo
+    sort_name: Flippo
+    party: R
+    ballotpedia: https://ballotpedia.org/David_Flippo
+    status: not_reviewed
+  - name: Lynn Chapman
+    sort_name: Chapman
+    party_name: Independent American Party
+    ballotpedia: https://ballotpedia.org/Lynn_Chapman
+    status: not_reviewed
+- office: us_house
+  state: NV
+  district: 3
+  candidates:
+  - name: Susie Lee
+    sort_name: Lee
+    party: D
+    incumbent: true
+    bioguide: L000590
+    ballotpedia: https://ballotpedia.org/Susie_Lee
+    status: not_reviewed
+  - name: Marty O'Donnell
+    sort_name: O'Donnell
+    party: R
+    ballotpedia: https://ballotpedia.org/Marty_O'Donnell_(Nevada)
+    status: not_reviewed
+  - name: Jon Kamerath
+    sort_name: Kamerath
+    party_name: Independent American Party
+    ballotpedia: https://ballotpedia.org/Jon_Kamerath
+    status: not_reviewed
+- office: us_house
+  state: NV
+  district: 4
+  candidates:
+  - name: Steven Horsford
+    sort_name: Horsford
+    party: D
+    incumbent: true
+    bioguide: H001066
+    ballotpedia: https://ballotpedia.org/Steven_Horsford
+    status: not_reviewed
+  - name: Cody Whipple
+    sort_name: Whipple
+    party: R
+    ballotpedia: https://ballotpedia.org/Cody_Whipple
+    status: not_reviewed
+  - name: Russell Best
+    sort_name: Best
+    party_name: Independent American Party
+    ballotpedia: https://ballotpedia.org/Russell_Best
+    status: not_reviewed
+  - name: William Johnson
+    sort_name: Johnson
+    party_name: No Political Party
+    ballotpedia: https://ballotpedia.org/William_Johnson_(Nevada)
+    status: not_reviewed

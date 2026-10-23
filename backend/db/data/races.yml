@@ -258,11 +258,12 @@
     - text: 'As a state senator: yes on SB 1047 (both votes) [[votes]](https://fastdemocracy.com/bill-search/ca/2023-2024/bills/CAB00031416/), SB 53 (both) [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00033508/) and SB 813 [[votes]](https://fastdemocracy.com/bill-search/ca/2025-2026/bills/CAB00035450/).'
       kind: vote
   - name: James Gallagher
+    bioguide: G000607
     sort_name: Gallagher
     party: R
     incumbent: true
     incumbent_note: since 2026 special
-    status: none_found
+    status: on_record
     search_note: No AI statements found.
     positions:
     - yardstick: sb1047
@@ -278,6 +279,7 @@
   district: 2
   candidates:
   - name: Jared Huffman
+    bioguide: H001068
     sort_name: Huffman
     party: D
     incumbent: true
@@ -297,6 +299,7 @@
   district: 3
   candidates:
   - name: Ami Bera
+    bioguide: B001287
     sort_name: Bera
     party: D
     incumbent: true
@@ -327,6 +330,7 @@
     - text: Supports a moratorium on new data centers in California until there are national standards for on-site clean power, water limits and job protections. [[source]](https://www.ericjones.us/answers)
       kind: platform
   - name: Mike Thompson
+    bioguide: T000460
     sort_name: Thompson
     party: D
     incumbent: true
@@ -346,6 +350,7 @@
     status: none_found
     search_note: No public AI statements found.
   - name: Tom McClintock
+    bioguide: M001177
     sort_name: McClintock
     party: R
     incumbent: true
@@ -366,6 +371,7 @@
     status: none_found
     search_note: No public AI statements found (left the state Senate before the major AI bills).
   - name: Kevin Kiley
+    bioguide: K000401
     sort_name: Kiley
     party: NPP
     incumbent: true
@@ -386,6 +392,7 @@
   district: 7
   candidates:
   - name: Doris Matsui
+    bioguide: M001163
     sort_name: Matsui
     party: D
     incumbent: true
@@ -413,11 +420,12 @@
   district: 8
   candidates:
   - name: John Garamendi
+    bioguide: G000559
     sort_name: Garamendi
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    search_note: No AI statements found beyond the votes shown.
   - name: Rudy Recile
     sort_name: Recile
     party: R
@@ -427,11 +435,12 @@
   district: 9
   candidates:
   - name: Josh Harder
+    bioguide: H001090
     sort_name: Harder
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    search_note: No AI statements found beyond the votes shown.
   - name: John McBride
     sort_name: McBride
     party: R
@@ -441,6 +450,7 @@
   district: 10
   candidates:
   - name: Mark DeSaulnier
+    bioguide: D000623
     sort_name: DeSaulnier
     party: D
     incumbent: true
@@ -505,6 +515,7 @@
     - text: Founder of the Society Library, which builds AI tools for mapping policy debates. No specific frontier-safety positions found. [[source]](https://fwd50.com/speaker/jamie-joyce)
       kind: background
   - name: Lateefah Simon
+    bioguide: S001231
     sort_name: Simon
     party: D
     incumbent: true
@@ -521,10 +532,11 @@
   district: 13
   candidates:
   - name: Adam Gray
+    bioguide: G000605
     sort_name: Gray
     party: D
     incumbent: true
-    status: ai_other
+    status: on_record
     search_note: No public statements on AI safety found.
     items:
     - text: Asked by the Sacramento Bee about a data center moratorium, said bans rarely work out but that rules are needed and it would be “irresponsible of Congress” not to take the concerns seriously. [[source]](https://www.adamgrayforcongress.com/news/icymi-sacramento-bee-adam-gray-discusses-immigration-socialism-and-trump)
@@ -545,6 +557,7 @@
     - text: At an Oct. 2026 debate said AI regulation "definitely needs to be at the federal level" rather than a state patchwork. [[source]](https://www.nbcbayarea.com/news/local/californias-14th-congressional-district-race-debate/4155063/)
       kind: statement
   - name: Aisha Wahab
+    bioguide: W000832
     sort_name: Wahab
     party: D
     incumbent: true
@@ -565,6 +578,7 @@
   district: 15
   candidates:
   - name: Kevin Mullin
+    bioguide: M001225
     sort_name: Mullin
     party: D
     incumbent: true
@@ -584,6 +598,7 @@
   district: 16
   candidates:
   - name: Sam Liccardo
+    bioguide: L000607
     sort_name: Liccardo
     party: D
     incumbent: true
@@ -608,6 +623,7 @@
   district: 17
   candidates:
   - name: Ro Khanna
+    bioguide: K000389
     sort_name: Khanna
     party: D
     incumbent: true
@@ -637,6 +653,7 @@
   district: 18
   candidates:
   - name: Zoe Lofgren
+    bioguide: L000397
     sort_name: Lofgren
     party: D
     incumbent: true
@@ -657,6 +674,7 @@
   district: 19
   candidates:
   - name: Jimmy Panetta
+    bioguide: P000613
     sort_name: Panetta
     party: D
     incumbent: true
@@ -683,6 +701,7 @@
     status: none_found
     search_note: No public AI statements found.
   - name: Vince Fong
+    bioguide: F000480
     sort_name: Fong
     party: R
     incumbent: true
@@ -697,11 +716,12 @@
   district: 21
   candidates:
   - name: Jim Costa
+    bioguide: C001059
     sort_name: Costa
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    search_note: No AI statements found beyond the votes shown.
   - name: Kyle Kirkland
     sort_name: Kirkland
     party: R
@@ -722,6 +742,7 @@
     - text: Called for at least a one-year moratorium on new data centers in the Central Valley (Sept. 2026). [[source]](https://www.villegasforcongress.com/news)
       kind: statement
   - name: David G. Valadao
+    bioguide: V000129
     sort_name: Valadao
     party: R
     incumbent: true
@@ -744,6 +765,7 @@
     - text: Campaign materials oppose AI data centers, including signs reading “Housing Over Data Centers.” [[source]](https://www.tessaforca.com/media-kit)
       kind: statement
   - name: Jay Obernolte
+    bioguide: O000019
     sort_name: Obernolte
     party: R
     incumbent: true
@@ -767,6 +789,7 @@
   district: 24
   candidates:
   - name: Salud Carbajal
+    bioguide: C001112
     sort_name: Carbajal
     party: D
     incumbent: true
@@ -789,11 +812,12 @@
   district: 25
   candidates:
   - name: Raul Ruiz
+    bioguide: R000599
     sort_name: Ruiz
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    search_note: No AI statements found beyond the votes shown.
   - name: Joe Males
     sort_name: Males
     party: R
@@ -827,6 +851,7 @@
   district: 27
   candidates:
   - name: George Whitesides
+    bioguide: W000830
     sort_name: Whitesides
     party: D
     incumbent: true
@@ -849,6 +874,7 @@
   district: 28
   candidates:
   - name: Judy Chu
+    bioguide: C001080
     sort_name: Chu
     party: D
     incumbent: true
@@ -873,6 +899,7 @@
     - text: Says her campaign takes no money from AI interests, among other industries. [[source]](https://angelica4congress.com/)
       kind: platform
   - name: Luz Maria Rivas
+    bioguide: R000620
     sort_name: Rivas
     party: D
     incumbent: true
@@ -891,6 +918,7 @@
   district: 30
   candidates:
   - name: Laura Friedman
+    bioguide: F000483
     sort_name: Friedman
     party: D
     incumbent: true
@@ -914,6 +942,7 @@
   district: 31
   candidates:
   - name: Gil Cisneros
+    bioguide: C001123
     sort_name: Cisneros
     party: D
     incumbent: true
@@ -933,6 +962,7 @@
   district: 32
   candidates:
   - name: Brad Sherman
+    bioguide: S000344
     sort_name: Sherman
     party: D
     incumbent: true
@@ -956,6 +986,7 @@
   district: 33
   candidates:
   - name: Pete Aguilar
+    bioguide: A000371
     sort_name: Aguilar
     party: D
     incumbent: true
@@ -972,10 +1003,11 @@
   district: 34
   candidates:
   - name: Jimmy Gomez
+    bioguide: G000585
     sort_name: Gomez
     party: D
     incumbent: true
-    status: none_found
+    status: on_record
     search_note: No public AI statements by Gomez found.
     items:
     - text: The pro-safety Guardrails Alliance PAC spent $412,000 opposing him (Oct. 2026). [[source]](https://elections.transformernews.ai/states/ca)
@@ -992,11 +1024,12 @@
   district: 35
   candidates:
   - name: Norma J. Torres
+    bioguide: T000474
     sort_name: Torres
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    search_note: No AI statements found beyond the votes shown.
   - name: Mike Cargile
     sort_name: Cargile
     party: R
@@ -1006,6 +1039,7 @@
   district: 36
   candidates:
   - name: Ted W. Lieu
+    bioguide: L000582
     sort_name: Lieu
     party: D
     incumbent: true
@@ -1040,6 +1074,7 @@
   district: 37
   candidates:
   - name: Sydney Kamlager-Dove
+    bioguide: K000400
     sort_name: Kamlager-Dove
     party: D
     incumbent: true
@@ -1072,6 +1107,7 @@
   district: 39
   candidates:
   - name: Mark Takano
+    bioguide: T000472
     sort_name: Takano
     party: D
     incumbent: true
@@ -1092,6 +1128,7 @@
   note: Two incumbents running against each other after redistricting
   candidates:
   - name: Ken Calvert
+    bioguide: C000059
     sort_name: Calvert
     party: R
     incumbent: true
@@ -1104,6 +1141,7 @@
     - text: Voted for the 2025 moratorium bill. [[source]](https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/)
       kind: vote
   - name: Young Kim
+    bioguide: K000397
     sort_name: Kim
     party: R
     incumbent: true
@@ -1119,6 +1157,7 @@
   district: 41
   candidates:
   - name: Linda Sánchez
+    bioguide: S001156
     sort_name: Sánchez
     party: D
     incumbent: true
@@ -1138,6 +1177,7 @@
   district: 42
   candidates:
   - name: Robert Garcia
+    bioguide: G000598
     sort_name: Garcia
     party: D
     incumbent: true
@@ -1157,11 +1197,12 @@
   district: 43
   candidates:
   - name: Maxine Waters
+    bioguide: W000187
     sort_name: Waters
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    search_note: No AI statements found beyond the votes shown.
   - name: Cristian Morales
     sort_name: Morales
     party: R
@@ -1173,6 +1214,7 @@
   district: 44
   candidates:
   - name: Nanette Diaz Barragán
+    bioguide: B001300
     sort_name: Diaz Barragán
     party: D
     incumbent: true
@@ -1194,6 +1236,7 @@
   district: 45
   candidates:
   - name: Derek Tran
+    bioguide: T000491
     sort_name: Tran
     party: D
     incumbent: true
@@ -1213,6 +1256,7 @@
   district: 46
   candidates:
   - name: Lou Correa
+    bioguide: C001110
     sort_name: Correa
     party: D
     incumbent: true
@@ -1232,6 +1276,7 @@
   district: 47
   candidates:
   - name: Dave Min
+    bioguide: M001241
     sort_name: Min
     party: D
     incumbent: true
@@ -1269,6 +1314,7 @@
   district: 49
   candidates:
   - name: Mike Levin
+    bioguide: L000593
     sort_name: Levin
     party: D
     incumbent: true
@@ -1288,6 +1334,7 @@
   district: 50
   candidates:
   - name: Scott Peters
+    bioguide: P000608
     sort_name: Peters
     party: D
     incumbent: true
@@ -1311,6 +1358,7 @@
   district: 51
   candidates:
   - name: Sara Jacobs
+    bioguide: J000305
     sort_name: Jacobs
     party: D
     incumbent: true
@@ -1327,11 +1375,12 @@
   district: 52
   candidates:
   - name: Juan Vargas
+    bioguide: V000130
     sort_name: Vargas
     party: D
     incumbent: true
-    status: none_found
-    search_note: No public AI statements found.
+    status: on_record
+    search_note: No AI statements found beyond the votes shown.
   - name: Jeff Belle
     sort_name: Belle
     party: R

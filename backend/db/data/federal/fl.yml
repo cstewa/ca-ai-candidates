@@ -1,0 +1,555 @@
+# U.S. Senate and House races in Florida. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: FL
+  note: Special election for the last two years of the term Marco Rubio won in 2022.
+  candidates:
+  - name: Ashley B. Moody
+    sort_name: Moody
+    party: R
+    incumbent: true
+    bioguide: M001244
+    ballotpedia: https://ballotpedia.org/Ashley_B._Moody
+    status: not_reviewed
+  - name: Angie Nixon
+    sort_name: Nixon
+    party: D
+    ballotpedia: https://ballotpedia.org/Angie_Nixon
+    status: not_reviewed
+  - name: Neil Gillespie
+    sort_name: Gillespie
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Neil_Gillespie
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 1
+  candidates:
+  - name: Jimmy Patronis
+    sort_name: Patronis
+    party: R
+    incumbent: true
+    bioguide: P000622
+    ballotpedia: https://ballotpedia.org/Jimmy_Patronis
+    status: not_reviewed
+  - name: Gay Valimont
+    sort_name: Valimont
+    party: D
+    ballotpedia: https://ballotpedia.org/Gay_Valimont
+    status: not_reviewed
+  - name: Tyler Davis
+    sort_name: Davis
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Tyler_Davis_(Florida)
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 2
+  candidates:
+  - name: Amanda Green
+    sort_name: Green
+    party: D
+    ballotpedia: https://ballotpedia.org/Amanda_Green_(Florida)
+    status: not_reviewed
+  - name: Austin Rogers
+    sort_name: Rogers
+    party: R
+    ballotpedia: https://ballotpedia.org/Austin_Rogers
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 3
+  candidates:
+  - name: Kat Cammack
+    sort_name: Cammack
+    party: R
+    incumbent: true
+    bioguide: C001039
+    ballotpedia: https://ballotpedia.org/Kat_Cammack
+    status: not_reviewed
+  - name: Seth Harp
+    sort_name: Harp
+    party: D
+    ballotpedia: https://ballotpedia.org/Seth_Harp_(Florida)
+    status: not_reviewed
+  - name: Mike Klein
+    sort_name: Klein
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Mike_Klein_(Florida)
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 4
+  candidates:
+  - name: Aaron Bean
+    sort_name: Bean
+    party: R
+    incumbent: true
+    bioguide: B001314
+    ballotpedia: https://ballotpedia.org/Aaron_Bean
+    status: not_reviewed
+  - name: LaShonda Holloway
+    sort_name: Holloway
+    party: D
+    ballotpedia: https://ballotpedia.org/L.J._Holloway
+    status: not_reviewed
+  - name: Mike Sell
+    sort_name: Sell
+    party_name: Florida Forward Party
+    ballotpedia: https://ballotpedia.org/Mike_Sell
+    status: not_reviewed
+  - name: Todd Schaefer
+    sort_name: Schaefer
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Todd_Schaefer
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 5
+  candidates:
+  - name: John Rutherford
+    sort_name: Rutherford
+    party: R
+    incumbent: true
+    bioguide: R000609
+    ballotpedia: https://ballotpedia.org/John_Rutherford_(Florida)
+    status: not_reviewed
+  - name: Rachel Grage
+    sort_name: Grage
+    party: D
+    ballotpedia: https://ballotpedia.org/Rachel_Grage
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 6
+  candidates:
+  - name: Randy Fine
+    sort_name: Fine
+    party: R
+    incumbent: true
+    bioguide: F000484
+    ballotpedia: https://ballotpedia.org/Randy_Fine
+    status: not_reviewed
+  - name: Eric Yonce
+    sort_name: Yonce
+    party: D
+    ballotpedia: https://ballotpedia.org/Eric_Yonce
+    status: not_reviewed
+  - name: Andrew Parrott
+    sort_name: Parrott
+    party: L
+    ballotpedia: https://ballotpedia.org/Andrew_Parrott
+    status: not_reviewed
+  - name: Michael Gist
+    sort_name: Gist
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Michael_Gist
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 7
+  candidates:
+  - name: Bale Dalton
+    sort_name: Dalton
+    party: D
+    ballotpedia: https://ballotpedia.org/Bale_Dalton
+    status: not_reviewed
+  - name: Ryan Elijah
+    sort_name: Elijah
+    party: R
+    ballotpedia: https://ballotpedia.org/Ryan_Elijah
+    status: not_reviewed
+  - name: Christopher Dennison
+    sort_name: Dennison
+    party: L
+    ballotpedia: https://ballotpedia.org/Christopher_Dennison
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 8
+  candidates:
+  - name: Mike Haridopolos
+    sort_name: Haridopolos
+    party: R
+    incumbent: true
+    bioguide: H001099
+    ballotpedia: https://ballotpedia.org/Mike_Haridopolos
+    status: not_reviewed
+  - name: Jennifer Jenkins
+    sort_name: Jenkins
+    party: D
+    ballotpedia: https://ballotpedia.org/Jennifer_Jenkins
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 9
+  candidates:
+  - name: Darren Soto
+    sort_name: Soto
+    party: D
+    incumbent: true
+    bioguide: S001200
+    ballotpedia: https://ballotpedia.org/Darren_Soto
+    status: not_reviewed
+  - name: Dan Green
+    sort_name: Green
+    party: R
+    ballotpedia: https://ballotpedia.org/Dan_Green_(Florida_congressional_candidate)
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 10
+  note: Unopposed. Florida doesn't print unopposed races, so this one isn't on the
+    Nov. 3 ballot.
+  candidates:
+  - name: Maxwell Alejandro Frost
+    sort_name: Frost
+    party: D
+    incumbent: true
+    bioguide: F000476
+    ballotpedia: https://ballotpedia.org/Maxwell_Alejandro_Frost
+    status: not_reviewed
+    unopposed: true
+- office: us_house
+  state: FL
+  district: 11
+  candidates:
+  - name: James Pericola
+    sort_name: Pericola
+    party: D
+    ballotpedia: https://ballotpedia.org/James_Pericola
+    status: not_reviewed
+  - name: Joe Strada
+    sort_name: Strada
+    party: R
+    ballotpedia: https://ballotpedia.org/Joe_Strada
+    status: not_reviewed
+  - name: Ralph Groves
+    sort_name: Groves
+    party: L
+    ballotpedia: https://ballotpedia.org/Ralph_Groves
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 12
+  candidates:
+  - name: Gus M. Bilirakis
+    sort_name: Bilirakis
+    party: R
+    incumbent: true
+    bioguide: B001257
+    ballotpedia: https://ballotpedia.org/Gus_Bilirakis
+    status: not_reviewed
+  - name: Kimberly Overman
+    sort_name: Overman
+    party: D
+    ballotpedia: https://ballotpedia.org/Kimberly_Overman
+    status: not_reviewed
+  - name: Branden Scrivener
+    sort_name: Scrivener
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Branden_Scrivener
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 13
+  candidates:
+  - name: Anna Paulina Luna
+    sort_name: Luna
+    party: R
+    incumbent: true
+    bioguide: L000596
+    ballotpedia: https://ballotpedia.org/Anna_Paulina_Luna
+    status: not_reviewed
+  - name: Leela Gray
+    sort_name: Gray
+    party: D
+    ballotpedia: https://ballotpedia.org/Leela_Gray
+    status: not_reviewed
+  - name: Tony D'Arrigo
+    sort_name: D'Arrigo
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Tony_D'Arrigo
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 14
+  candidates:
+  - name: Kathy Castor
+    sort_name: Castor
+    party: D
+    incumbent: true
+    bioguide: C001066
+    ballotpedia: https://ballotpedia.org/Kathy_Castor
+    status: not_reviewed
+  - name: Mike Beltran
+    sort_name: Beltran
+    party: R
+    ballotpedia: https://ballotpedia.org/Mike_Beltran
+    status: not_reviewed
+  - name: Brian Lambert
+    sort_name: Lambert
+    party: L
+    ballotpedia: https://ballotpedia.org/Brian_Lambert
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 15
+  candidates:
+  - name: Laurel Lee
+    sort_name: Lee
+    party: R
+    incumbent: true
+    bioguide: L000597
+    ballotpedia: https://ballotpedia.org/Laurel_Lee
+    status: not_reviewed
+  - name: Robert People
+    sort_name: People
+    party: D
+    ballotpedia: https://ballotpedia.org/Robert_People_(Florida)
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 16
+  candidates:
+  - name: Kelly Kirschner
+    sort_name: Kirschner
+    party: D
+    ballotpedia: https://ballotpedia.org/Kelly_Kirschner
+    status: not_reviewed
+  - name: Sydney Gruters
+    sort_name: Gruters
+    party: R
+    ballotpedia: https://ballotpedia.org/Sydney_Gruters
+    status: not_reviewed
+  - name: Mark Davis
+    sort_name: Davis
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Mark_Davis_(Florida)
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 17
+  candidates:
+  - name: Greg Steube
+    sort_name: Steube
+    party: R
+    incumbent: true
+    bioguide: S001214
+    ballotpedia: https://ballotpedia.org/Greg_Steube
+    status: not_reviewed
+  - name: Matthew Montavon
+    sort_name: Montavon
+    party: D
+    ballotpedia: https://ballotpedia.org/Matthew_Montavon
+    status: not_reviewed
+  - name: Michael Quirk
+    sort_name: Quirk
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Michael_Quirk
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 18
+  candidates:
+  - name: Scott Franklin
+    sort_name: Franklin
+    party: R
+    incumbent: true
+    bioguide: F000472
+    ballotpedia: https://ballotpedia.org/Scott_Franklin
+    status: not_reviewed
+  - name: Curtis Gibson
+    sort_name: Gibson
+    party: D
+    ballotpedia: https://ballotpedia.org/Curtis_Gibson
+    status: not_reviewed
+  - name: Deva Simmons
+    sort_name: Simmons
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Deva_Simmons
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 19
+  candidates:
+  - name: Victor Arias
+    sort_name: Arias
+    party: D
+    ballotpedia: https://ballotpedia.org/Victor_Arias
+    status: not_reviewed
+  - name: Jim Schwartzel
+    sort_name: Schwartzel
+    party: R
+    ballotpedia: https://ballotpedia.org/Jim_Schwartzel
+    status: not_reviewed
+  - name: Seth Haskin
+    sort_name: Haskin
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Seth_Haskin
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 20
+  candidates:
+  - name: Debbie Wasserman Schultz
+    sort_name: Wasserman Schultz
+    party: D
+    incumbent: true
+    bioguide: W000797
+    ballotpedia: https://ballotpedia.org/Debbie_Wasserman_Schultz
+    status: not_reviewed
+  - name: Brent Andersen
+    sort_name: Andersen
+    party: R
+    ballotpedia: https://ballotpedia.org/Brent_Andersen
+    status: not_reviewed
+  - name: Kedner Maxime
+    sort_name: Maxime
+    party_name: Independent Party of Florida
+    ballotpedia: https://ballotpedia.org/Kedner_Maxime
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 21
+  candidates:
+  - name: Brian Mast
+    sort_name: Mast
+    party: R
+    incumbent: true
+    bioguide: M001199
+    ballotpedia: https://ballotpedia.org/Brian_Mast
+    status: not_reviewed
+  - name: James Martin
+    sort_name: Martin
+    party: D
+    ballotpedia: https://ballotpedia.org/James_Martin_(Florida)
+    status: not_reviewed
+  - name: Alexander Cooke
+    sort_name: Cooke
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Alexander_Cooke
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 22
+  candidates:
+  - name: Pia Dandiya
+    sort_name: Dandiya
+    party: D
+    ballotpedia: https://ballotpedia.org/Pia_Dandiya
+    status: not_reviewed
+  - name: Casey Askar
+    sort_name: Askar
+    party: R
+    ballotpedia: https://ballotpedia.org/Casey_Askar
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 23
+  candidates:
+  - name: Lois Frankel
+    sort_name: Frankel
+    party: D
+    incumbent: true
+    bioguide: F000462
+    ballotpedia: https://ballotpedia.org/Lois_Frankel
+    status: not_reviewed
+  - name: Deborah Adeimy
+    sort_name: Adeimy
+    party: R
+    ballotpedia: https://ballotpedia.org/Deborah_Adeimy
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 24
+  candidates:
+  - name: Oliver Gilbert
+    sort_name: Gilbert
+    party: D
+    ballotpedia: https://ballotpedia.org/Oliver_Gilbert
+    status: not_reviewed
+  - name: Tedora Brown
+    sort_name: Brown
+    party: R
+    ballotpedia: https://ballotpedia.org/Tedora_Brown
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 25
+  candidates:
+  - name: Jared Evan Moskowitz
+    sort_name: Moskowitz
+    party: D
+    incumbent: true
+    bioguide: M001217
+    ballotpedia: https://ballotpedia.org/Jared_Moskowitz
+    status: not_reviewed
+  - name: Scott Singer
+    sort_name: Singer
+    party: R
+    ballotpedia: https://ballotpedia.org/Scott_Singer
+    status: not_reviewed
+  - name: Peter Jassenoff
+    sort_name: Jassenoff
+    party: L
+    ballotpedia: https://ballotpedia.org/Peter_Jassenoff
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 26
+  candidates:
+  - name: Mario Diaz-Balart
+    sort_name: Diaz-Balart
+    party: R
+    incumbent: true
+    bioguide: D000600
+    ballotpedia: https://ballotpedia.org/Mario_Diaz-Balart
+    status: not_reviewed
+  - name: Nicole Locklin
+    sort_name: Locklin
+    party: D
+    ballotpedia: https://ballotpedia.org/Nicole_Locklin
+    status: not_reviewed
+  - name: Deborah Meidinger Hosey
+    sort_name: Hosey
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Deborah_Meidinger_Hosey
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 27
+  candidates:
+  - name: Maria Elvira Salazar
+    sort_name: Salazar
+    party: R
+    incumbent: true
+    bioguide: S000168
+    ballotpedia: https://ballotpedia.org/Maria_Elvira_Salazar
+    status: not_reviewed
+  - name: Eliott Rodriguez
+    sort_name: Rodriguez
+    party: D
+    ballotpedia: https://ballotpedia.org/Eliott_Rodriguez
+    status: not_reviewed
+- office: us_house
+  state: FL
+  district: 28
+  candidates:
+  - name: Carlos Gimenez
+    sort_name: Gimenez
+    party: R
+    incumbent: true
+    bioguide: G000593
+    ballotpedia: https://ballotpedia.org/Carlos_Gimenez
+    status: not_reviewed
+  - name: Phil Ehr
+    sort_name: Ehr
+    party: D
+    ballotpedia: https://ballotpedia.org/Phil_Ehr
+    status: not_reviewed
+  - name: Eddy Rojas
+    sort_name: Rojas
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Eddy_Rojas
+    status: not_reviewed

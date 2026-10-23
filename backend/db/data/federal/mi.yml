@@ -1,0 +1,417 @@
+# U.S. Senate and House races in Michigan. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: MI
+  candidates:
+  - name: Abdul El-Sayed
+    sort_name: El-Sayed
+    party: D
+    ballotpedia: https://ballotpedia.org/Abdul_El-Sayed
+    status: not_reviewed
+  - name: Mike Rogers
+    sort_name: Rogers
+    party: R
+    ballotpedia: https://ballotpedia.org/Mike_Rogers_(Michigan)
+    status: not_reviewed
+  - name: Douglas P. Marsh
+    sort_name: Marsh
+    party: G
+    ballotpedia: https://ballotpedia.org/Douglas_P._Marsh
+    status: not_reviewed
+  - name: Lydia Christensen
+    sort_name: Christensen
+    party: L
+    ballotpedia: https://ballotpedia.org/Lydia_Christensen
+    status: not_reviewed
+  - name: Walter Kristy
+    sort_name: Kristy
+    party_name: Natural Law Party in Michigan
+    ballotpedia: https://ballotpedia.org/Walter_Kristy
+    status: not_reviewed
+  - name: Timothy Long
+    sort_name: Long
+    party_name: U.S. Taxpayers Party
+    ballotpedia: https://ballotpedia.org/Timothy_Long
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 1
+  candidates:
+  - name: Jack Bergman
+    sort_name: Bergman
+    party: R
+    incumbent: true
+    bioguide: B001301
+    ballotpedia: https://ballotpedia.org/Jack_Bergman
+    status: not_reviewed
+  - name: Callie Barr
+    sort_name: Barr
+    party: D
+    ballotpedia: https://ballotpedia.org/Callie_Barr
+    status: not_reviewed
+  - name: LaVeta Davenport
+    sort_name: Davenport
+    party: G
+    ballotpedia: https://ballotpedia.org/LaVeta_Davenport
+    status: not_reviewed
+  - name: Arnett Satterla
+    sort_name: Satterla
+    party: L
+    ballotpedia: https://ballotpedia.org/Arnett_Satterla
+    status: not_reviewed
+  - name: Doc Kovaly
+    sort_name: Kovaly
+    party_name: U.S. Taxpayers Party
+    ballotpedia: https://ballotpedia.org/Doc_Kovaly
+    status: not_reviewed
+  - name: Liz Hakola
+    sort_name: Hakola
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Liz_Hakola
+    status: not_reviewed
+  - name: Zebulon Featherly
+    sort_name: Featherly
+    party: I
+    ballotpedia: https://ballotpedia.org/Zebulon_Featherly
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 2
+  candidates:
+  - name: John Moolenaar
+    sort_name: Moolenaar
+    party: R
+    incumbent: true
+    bioguide: M001194
+    ballotpedia: https://ballotpedia.org/John_Moolenaar
+    status: not_reviewed
+  - name: Ben Ambrose
+    sort_name: Ambrose
+    party: D
+    ballotpedia: https://ballotpedia.org/Ben_Ambrose
+    status: not_reviewed
+  - name: Charlotte Magoon
+    sort_name: Magoon
+    party: G
+    ballotpedia: https://ballotpedia.org/Charlotte_Magoon
+    status: not_reviewed
+  - name: Richard Sills
+    sort_name: Sills
+    party_name: Natural Law Party in Michigan
+    ballotpedia: https://ballotpedia.org/Richard_Sills
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 3
+  candidates:
+  - name: Hillary Scholten
+    sort_name: Scholten
+    party: D
+    incumbent: true
+    bioguide: S001221
+    ballotpedia: https://ballotpedia.org/Hillary_Scholten
+    status: not_reviewed
+  - name: Terri DeBoer
+    sort_name: DeBoer
+    party: R
+    ballotpedia: https://ballotpedia.org/Terri_DeBoer
+    status: not_reviewed
+  - name: Joe Jock
+    sort_name: Jock
+    party: G
+    ballotpedia: https://ballotpedia.org/Joe_Jock
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 4
+  candidates:
+  - name: Bill Huizenga
+    sort_name: Huizenga
+    party: R
+    incumbent: true
+    bioguide: H001058
+    ballotpedia: https://ballotpedia.org/Bill_Huizenga
+    status: not_reviewed
+  - name: Sean McCann
+    sort_name: McCann
+    party: D
+    ballotpedia: https://ballotpedia.org/Sean_McCann
+    status: not_reviewed
+  - name: Shafina Barnett
+    sort_name: Barnett
+    party: G
+    ballotpedia: https://ballotpedia.org/Shafina_Barnett
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 5
+  candidates:
+  - name: Tim Walberg
+    sort_name: Walberg
+    party: R
+    incumbent: true
+    bioguide: W000798
+    ballotpedia: https://ballotpedia.org/Tim_Walberg
+    status: not_reviewed
+  - name: Christian Vukasovich
+    sort_name: Vukasovich
+    party: D
+    ballotpedia: https://ballotpedia.org/Christian_Vukasovich
+    status: not_reviewed
+  - name: James Bronke
+    sort_name: Bronke
+    party: G
+    ballotpedia: https://ballotpedia.org/James_Bronke
+    status: not_reviewed
+  - name: Ronald Muszynski
+    sort_name: Muszynski
+    party: L
+    ballotpedia: https://ballotpedia.org/Ronald_Muszynski
+    status: not_reviewed
+  - name: Sharon Renier
+    sort_name: Renier
+    party_name: U.S. Taxpayers Party
+    ballotpedia: https://ballotpedia.org/Sharon_Renier
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 6
+  candidates:
+  - name: Debbie Dingell
+    sort_name: Dingell
+    party: D
+    incumbent: true
+    bioguide: D000624
+    ballotpedia: https://ballotpedia.org/Debbie_Dingell
+    status: not_reviewed
+  - name: Heather Smiley
+    sort_name: Smiley
+    party: R
+    ballotpedia: https://ballotpedia.org/Heather_Smiley
+    status: not_reviewed
+  - name: Clyde Shabazz
+    sort_name: Shabazz
+    party: G
+    ballotpedia: https://ballotpedia.org/Clyde_Shabazz
+    status: not_reviewed
+  - name: Tim Teagan
+    sort_name: Teagan
+    party: L
+    ballotpedia: https://ballotpedia.org/Tim_Teagan
+    status: not_reviewed
+  - name: Michael Mickevicius
+    sort_name: Mickevicius
+    party_name: U.S. Taxpayers Party
+    ballotpedia: https://ballotpedia.org/Michael_Mickevicius
+    status: not_reviewed
+  - name: Linda Rayburn
+    sort_name: Rayburn
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Linda_Rayburn
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 7
+  candidates:
+  - name: Tom Barrett
+    sort_name: Barrett
+    party: R
+    incumbent: true
+    bioguide: B001321
+    ballotpedia: https://ballotpedia.org/Tom_Barrett_(Michigan)
+    status: not_reviewed
+  - name: William Lawrence
+    sort_name: Lawrence
+    party: D
+    ballotpedia: https://ballotpedia.org/William_Lawrence_(Michigan)
+    status: not_reviewed
+  - name: Shane Dedrick
+    sort_name: Dedrick
+    party: G
+    ballotpedia: https://ballotpedia.org/Shane_Dedrick
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 8
+  candidates:
+  - name: Kristen McDonald Rivet
+    sort_name: McDonald Rivet
+    party: D
+    incumbent: true
+    bioguide: M001237
+    ballotpedia: https://ballotpedia.org/Kristen_McDonald_Rivet
+    status: not_reviewed
+  - name: Thomas J. Smith
+    sort_name: Smith
+    party: R
+    ballotpedia: https://ballotpedia.org/Thomas_J._Smith_(Michigan)
+    status: not_reviewed
+  - name: Jim Casha
+    sort_name: Casha
+    party: G
+    ballotpedia: https://ballotpedia.org/Jim_Casha
+    status: not_reviewed
+  - name: C. Mia Pettus
+    sort_name: Pettus
+    party: L
+    ballotpedia: https://ballotpedia.org/C._Mia_Pettus
+    status: not_reviewed
+  - name: Kathy Goodwin
+    sort_name: Goodwin
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Kathy_Goodwin
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 9
+  candidates:
+  - name: Lisa McClain
+    sort_name: McClain
+    party: R
+    incumbent: true
+    bioguide: M001136
+    ballotpedia: https://ballotpedia.org/Lisa_McClain
+    status: not_reviewed
+  - name: Ray Pooley
+    sort_name: Pooley
+    party: D
+    ballotpedia: https://ballotpedia.org/Ray_Pooley
+    status: not_reviewed
+  - name: Destiny Clayton
+    sort_name: Clayton
+    party: G
+    ballotpedia: https://ballotpedia.org/Destiny_Clayton
+    status: not_reviewed
+  - name: Kevin Vayko
+    sort_name: Vayko
+    party: L
+    ballotpedia: https://ballotpedia.org/Kevin_Vayko
+    status: not_reviewed
+  - name: John Vlahos
+    sort_name: Vlahos
+    party_name: U.S. Taxpayers Party
+    ballotpedia: https://ballotpedia.org/John_Vlahos
+    status: not_reviewed
+  - name: Jim Walkowicz
+    sort_name: Walkowicz
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Jim_Walkowicz
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 10
+  candidates:
+  - name: Christina Hines
+    sort_name: Hines
+    party: D
+    ballotpedia: https://ballotpedia.org/Christina_Hines
+    status: not_reviewed
+  - name: Michael Bouchard
+    sort_name: Bouchard
+    party: R
+    ballotpedia: https://ballotpedia.org/Michael_Bouchard_(Michigan_congressional_candidate)
+    status: not_reviewed
+  - name: Kwabena Nkromo
+    sort_name: Nkromo
+    party: G
+    ballotpedia: https://ballotpedia.org/Kwabena_Nkromo
+    status: not_reviewed
+  - name: Mike Saliba
+    sort_name: Saliba
+    party: L
+    ballotpedia: https://ballotpedia.org/Mike_Saliba
+    status: not_reviewed
+  - name: Andrea Kirby
+    sort_name: Kirby
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Andrea_Kirby
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 11
+  candidates:
+  - name: Jeremy Moss
+    sort_name: Moss
+    party: D
+    ballotpedia: https://ballotpedia.org/Jeremy_Moss
+    status: not_reviewed
+  - name: Ethan Baker
+    sort_name: Baker
+    party: R
+    ballotpedia: https://ballotpedia.org/Ethan_Baker
+    status: not_reviewed
+  - name: Ryan Teasdale
+    sort_name: Teasdale
+    party: G
+    ballotpedia: https://ballotpedia.org/Ryan_Teasdale
+    status: not_reviewed
+  - name: Farid Ishac
+    sort_name: Ishac
+    party: L
+    ballotpedia: https://ballotpedia.org/Farid_Ishac
+    status: not_reviewed
+  - name: Anil Kumar
+    sort_name: Kumar
+    party: I
+    ballotpedia: https://ballotpedia.org/Anil_Kumar
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 12
+  candidates:
+  - name: Rashida Tlaib
+    sort_name: Tlaib
+    party: D
+    incumbent: true
+    bioguide: T000481
+    ballotpedia: https://ballotpedia.org/Rashida_Tlaib
+    status: not_reviewed
+  - name: James Hooper
+    sort_name: Hooper
+    party: R
+    ballotpedia: https://ballotpedia.org/James_Hooper
+    status: not_reviewed
+  - name: Brenda Sanders
+    sort_name: Sanders
+    party: G
+    ballotpedia: https://ballotpedia.org/Brenda_Sanders
+    status: not_reviewed
+  - name: Marc Joseph Sosnowski
+    sort_name: Sosnowski
+    party_name: U.S. Taxpayers Party
+    ballotpedia: https://ballotpedia.org/Marc_Joseph_Sosnowski
+    status: not_reviewed
+  - name: Gary Walkowicz
+    sort_name: Walkowicz
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Gary_Walkowicz
+    status: not_reviewed
+- office: us_house
+  state: MI
+  district: 13
+  candidates:
+  - name: Donavan McKinney
+    sort_name: McKinney
+    party: D
+    ballotpedia: https://ballotpedia.org/Donavan_McKinney
+    status: not_reviewed
+  - name: Taras Nykoriak
+    sort_name: Nykoriak
+    party: R
+    ballotpedia: https://ballotpedia.org/Taras_Nykoriak
+    status: not_reviewed
+  - name: Raelyn Light
+    sort_name: Light
+    party: G
+    ballotpedia: https://ballotpedia.org/Raelyn_Light
+    status: not_reviewed
+  - name: Christopher Dardzinski
+    sort_name: Dardzinski
+    party_name: U.S. Taxpayers Party
+    ballotpedia: https://ballotpedia.org/Christopher_Dardzinski
+    status: not_reviewed
+  - name: Simone Coleman
+    sort_name: Coleman
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Simone_Coleman
+    status: not_reviewed

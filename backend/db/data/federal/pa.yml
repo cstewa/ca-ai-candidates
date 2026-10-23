@@ -1,0 +1,272 @@
+# U.S. Senate and House races in Pennsylvania. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: PA
+  district: 1
+  candidates:
+  - name: Brian Fitzpatrick
+    sort_name: Fitzpatrick
+    party: R
+    incumbent: true
+    bioguide: F000466
+    ballotpedia: https://ballotpedia.org/Brian_Fitzpatrick
+    status: not_reviewed
+  - name: Bob Harvie
+    sort_name: Harvie
+    party: D
+    ballotpedia: https://ballotpedia.org/Bob_Harvie
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 2
+  candidates:
+  - name: Brendan Boyle
+    sort_name: Boyle
+    party: D
+    incumbent: true
+    bioguide: B001296
+    ballotpedia: https://ballotpedia.org/Brendan_Boyle
+    status: not_reviewed
+  - name: Jessica Arriaga
+    sort_name: Arriaga
+    party: R
+    ballotpedia: https://ballotpedia.org/Jessica_Arriaga
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 3
+  candidates:
+  - name: Christopher Rabb
+    sort_name: Rabb
+    party: D
+    ballotpedia: https://ballotpedia.org/Christopher_Rabb
+    status: not_reviewed
+  - name: Dennis Mahoney
+    sort_name: Mahoney
+    party_name: Independent Party
+    ballotpedia: https://ballotpedia.org/Dennis_Mahoney_(Pennsylvania)
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 4
+  candidates:
+  - name: Madeleine Dean
+    sort_name: Dean
+    party: D
+    incumbent: true
+    bioguide: D000631
+    ballotpedia: https://ballotpedia.org/Madeleine_Dean
+    status: not_reviewed
+  - name: Aurora Stuski
+    sort_name: Stuski
+    party: R
+    ballotpedia: https://ballotpedia.org/Aurora_Stuski
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 5
+  candidates:
+  - name: Mary Gay Scanlon
+    sort_name: Scanlon
+    party: D
+    incumbent: true
+    bioguide: S001205
+    ballotpedia: https://ballotpedia.org/Mary_Gay_Scanlon
+    status: not_reviewed
+  - name: Nick Manganaro
+    sort_name: Manganaro
+    party: R
+    ballotpedia: https://ballotpedia.org/Nick_Manganaro
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 6
+  candidates:
+  - name: Chrissy Houlahan
+    sort_name: Houlahan
+    party: D
+    incumbent: true
+    bioguide: H001085
+    ballotpedia: https://ballotpedia.org/Chrissy_Houlahan
+    status: not_reviewed
+  - name: Marty Young
+    sort_name: Young
+    party: R
+    ballotpedia: https://ballotpedia.org/Marty_Young
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 7
+  candidates:
+  - name: Ryan Mackenzie
+    sort_name: Mackenzie
+    party: R
+    incumbent: true
+    bioguide: M001230
+    ballotpedia: https://ballotpedia.org/Ryan_Mackenzie
+    status: not_reviewed
+  - name: Bob Brooks
+    sort_name: Brooks
+    party: D
+    ballotpedia: https://ballotpedia.org/Bob_Brooks_(Pennsylvania)
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 8
+  candidates:
+  - name: Rob Bresnahan Jr.
+    sort_name: Bresnahan
+    party: R
+    incumbent: true
+    bioguide: B001327
+    ballotpedia: https://ballotpedia.org/Rob_Bresnahan_Jr.
+    status: not_reviewed
+  - name: Paige Cognetti
+    sort_name: Cognetti
+    party: D
+    ballotpedia: https://ballotpedia.org/Paige_Cognetti
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 9
+  candidates:
+  - name: Dan Meuser
+    sort_name: Meuser
+    party: R
+    incumbent: true
+    bioguide: M001204
+    ballotpedia: https://ballotpedia.org/Dan_Meuser
+    status: not_reviewed
+  - name: Rachel Wallace
+    sort_name: Wallace
+    party: D
+    ballotpedia: https://ballotpedia.org/Rachel_Wallace_(Pennsylvania)
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 10
+  candidates:
+  - name: Scott Perry
+    sort_name: Perry
+    party: R
+    incumbent: true
+    bioguide: P000605
+    ballotpedia: https://ballotpedia.org/Scott_Perry
+    status: not_reviewed
+  - name: Janelle Stelson
+    sort_name: Stelson
+    party: D
+    ballotpedia: https://ballotpedia.org/Janelle_Stelson
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 11
+  candidates:
+  - name: Lloyd Smucker
+    sort_name: Smucker
+    party: R
+    incumbent: true
+    bioguide: S001199
+    ballotpedia: https://ballotpedia.org/Lloyd_Smucker
+    status: not_reviewed
+  - name: Nancy Mannion
+    sort_name: Mannion
+    party: D
+    ballotpedia: https://ballotpedia.org/Nancy_Mannion
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 12
+  candidates:
+  - name: Summer Lee
+    sort_name: Lee
+    party: D
+    incumbent: true
+    bioguide: L000602
+    ballotpedia: https://ballotpedia.org/Summer_Lee
+    status: not_reviewed
+  - name: James Hayes
+    sort_name: Hayes
+    party: R
+    ballotpedia: https://ballotpedia.org/James_Hayes_(Pennsylvania)
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 13
+  candidates:
+  - name: John Joyce
+    sort_name: Joyce
+    party: R
+    incumbent: true
+    bioguide: J000302
+    ballotpedia: https://ballotpedia.org/John_Joyce_(Pennsylvania)
+    status: not_reviewed
+  - name: Beth Farnham
+    sort_name: Farnham
+    party: D
+    ballotpedia: https://ballotpedia.org/Beth_Farnham
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 14
+  candidates:
+  - name: Guy Reschenthaler
+    sort_name: Reschenthaler
+    party: R
+    incumbent: true
+    bioguide: R000610
+    ballotpedia: https://ballotpedia.org/Guy_Reschenthaler
+    status: not_reviewed
+  - name: Alan Bradstock
+    sort_name: Bradstock
+    party: D
+    ballotpedia: https://ballotpedia.org/Alan_Bradstock
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 15
+  candidates:
+  - name: Glenn Thompson
+    sort_name: Thompson
+    party: R
+    incumbent: true
+    bioguide: T000467
+    ballotpedia: https://ballotpedia.org/Glenn_Thompson_(Pennsylvania)
+    status: not_reviewed
+  - name: Ray Bilger
+    sort_name: Bilger
+    party: D
+    ballotpedia: https://ballotpedia.org/Ray_Bilger
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 16
+  candidates:
+  - name: Mike Kelly
+    sort_name: Kelly
+    party: R
+    incumbent: true
+    bioguide: K000376
+    ballotpedia: https://ballotpedia.org/Mike_Kelly_(Pennsylvania)
+    status: not_reviewed
+  - name: Justin Wagner
+    sort_name: Wagner
+    party: D
+    ballotpedia: https://ballotpedia.org/Justin_Wagner_(Pennsylvania)
+    status: not_reviewed
+- office: us_house
+  state: PA
+  district: 17
+  candidates:
+  - name: Chris Deluzio
+    sort_name: Deluzio
+    party: D
+    incumbent: true
+    bioguide: D000530
+    ballotpedia: https://ballotpedia.org/Chris_Deluzio
+    status: not_reviewed
+  - name: Tony Guy
+    sort_name: Guy
+    party: R
+    ballotpedia: https://ballotpedia.org/Tony_Guy
+    status: not_reviewed

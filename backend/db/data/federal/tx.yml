@@ -1,0 +1,643 @@
+# U.S. Senate and House races in Texas. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: TX
+  candidates:
+  - name: James Talarico
+    sort_name: Talarico
+    party: D
+    ballotpedia: https://ballotpedia.org/James_Talarico
+    status: not_reviewed
+  - name: Ken Paxton
+    sort_name: Paxton
+    party: R
+    ballotpedia: https://ballotpedia.org/Ken_Paxton
+    status: not_reviewed
+  - name: Ted Brown
+    sort_name: Brown
+    party: L
+    ballotpedia: https://ballotpedia.org/Ted_Brown_(Texas)
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 1
+  candidates:
+  - name: Nathaniel Moran
+    sort_name: Moran
+    party: R
+    incumbent: true
+    bioguide: M001224
+    ballotpedia: https://ballotpedia.org/Nathaniel_Moran
+    status: not_reviewed
+  - name: Yolanda Prince
+    sort_name: Prince
+    party: D
+    ballotpedia: https://ballotpedia.org/Yolanda_Prince
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 2
+  candidates:
+  - name: Shaun Finnie
+    sort_name: Finnie
+    party: D
+    ballotpedia: https://ballotpedia.org/Shaun_Finnie
+    status: not_reviewed
+  - name: Steve Toth
+    sort_name: Toth
+    party: R
+    ballotpedia: https://ballotpedia.org/Steve_Toth
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 3
+  candidates:
+  - name: Keith Self
+    sort_name: Self
+    party: R
+    incumbent: true
+    bioguide: S001224
+    ballotpedia: https://ballotpedia.org/Keith_Self
+    status: not_reviewed
+  - name: Evan Hunt
+    sort_name: Hunt
+    party: D
+    ballotpedia: https://ballotpedia.org/Evan_Hunt_(Texas)
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 4
+  candidates:
+  - name: Pat Fallon
+    sort_name: Fallon
+    party: R
+    incumbent: true
+    bioguide: F000246
+    ballotpedia: https://ballotpedia.org/Pat_Fallon
+    status: not_reviewed
+  - name: Jason Pearce
+    sort_name: Pearce
+    party: D
+    ballotpedia: https://ballotpedia.org/Jason_Pearce
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 5
+  candidates:
+  - name: Lance Gooden
+    sort_name: Gooden
+    party: R
+    incumbent: true
+    bioguide: G000589
+    ballotpedia: https://ballotpedia.org/Lance_Gooden
+    status: not_reviewed
+  - name: Chelsey Hockett
+    sort_name: Hockett
+    party: D
+    ballotpedia: https://ballotpedia.org/Chelsey_Hockett
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 6
+  candidates:
+  - name: Jake Ellzey
+    sort_name: Ellzey
+    party: R
+    incumbent: true
+    bioguide: E000071
+    ballotpedia: https://ballotpedia.org/Jake_Ellzey
+    status: not_reviewed
+  - name: Danny Minton
+    sort_name: Minton
+    party: D
+    ballotpedia: https://ballotpedia.org/Danny_Minton
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 7
+  candidates:
+  - name: Lizzie Pannill Fletcher
+    sort_name: Fletcher
+    party: D
+    incumbent: true
+    bioguide: F000468
+    ballotpedia: https://ballotpedia.org/Lizzie_Pannill_Fletcher
+    status: not_reviewed
+  - name: Alexander Hale
+    sort_name: Hale
+    party: R
+    ballotpedia: https://ballotpedia.org/Alexander_Hale
+    status: not_reviewed
+  - name: Espoir Ngabo
+    sort_name: Ngabo
+    party: G
+    ballotpedia: https://ballotpedia.org/Espoir_Ngabo
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 8
+  candidates:
+  - name: Laura Jones
+    sort_name: Jones
+    party: D
+    ballotpedia: https://ballotpedia.org/Laura_Jones_(Texas)
+    status: not_reviewed
+  - name: Jessica Steinmann
+    sort_name: Steinmann
+    party: R
+    ballotpedia: https://ballotpedia.org/Jessica_Steinmann
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 9
+  candidates:
+  - name: Leticia Gutierrez
+    sort_name: Gutierrez
+    party: D
+    ballotpedia: https://ballotpedia.org/Leticia_Gutierrez
+    status: not_reviewed
+  - name: Alex Mealer
+    sort_name: Mealer
+    party: R
+    ballotpedia: https://ballotpedia.org/Alex_Mealer
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 10
+  candidates:
+  - name: Caitlin Rourk
+    sort_name: Rourk
+    party: D
+    ballotpedia: https://ballotpedia.org/Caitlin_Rourk
+    status: not_reviewed
+  - name: Chris Gober
+    sort_name: Gober
+    party: R
+    ballotpedia: https://ballotpedia.org/Chris_Gober
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 11
+  candidates:
+  - name: August Pfluger
+    sort_name: Pfluger
+    party: R
+    incumbent: true
+    bioguide: P000048
+    ballotpedia: https://ballotpedia.org/August_Pfluger
+    status: not_reviewed
+  - name: Claire Reynolds
+    sort_name: Reynolds
+    party: D
+    ballotpedia: https://ballotpedia.org/Claire_Reynolds
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 12
+  candidates:
+  - name: Craig Goldman
+    sort_name: Goldman
+    party: R
+    incumbent: true
+    bioguide: G000601
+    ballotpedia: https://ballotpedia.org/Craig_Goldman
+    status: not_reviewed
+  - name: Heli Rodriguez Prilliman
+    sort_name: Prilliman
+    party: D
+    ballotpedia: https://ballotpedia.org/Heli_Rodriguez_Prilliman
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 13
+  candidates:
+  - name: Ronny L. Jackson
+    sort_name: Jackson
+    party: R
+    incumbent: true
+    bioguide: J000304
+    ballotpedia: https://ballotpedia.org/Ronny_Jackson
+    status: not_reviewed
+  - name: Mark Nair
+    sort_name: Nair
+    party: D
+    ballotpedia: https://ballotpedia.org/Mark_Nair
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 14
+  candidates:
+  - name: Randy Weber
+    sort_name: Weber
+    party: R
+    incumbent: true
+    bioguide: W000814
+    ballotpedia: https://ballotpedia.org/Randy_Weber
+    status: not_reviewed
+  - name: Thurman Bill Bartie
+    sort_name: Bartie
+    party: D
+    ballotpedia: https://ballotpedia.org/Thurman_Bill_Bartie
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 15
+  candidates:
+  - name: Monica De La Cruz
+    sort_name: De La Cruz
+    party: R
+    incumbent: true
+    bioguide: D000594
+    ballotpedia: https://ballotpedia.org/Monica_De_La_Cruz
+    status: not_reviewed
+  - name: Bobby Pulido
+    sort_name: Pulido
+    party: D
+    ballotpedia: https://ballotpedia.org/Bobby_Pulido
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 16
+  candidates:
+  - name: Veronica Escobar
+    sort_name: Escobar
+    party: D
+    incumbent: true
+    bioguide: E000299
+    ballotpedia: https://ballotpedia.org/Veronica_Escobar
+    status: not_reviewed
+  - name: Adam Bauman
+    sort_name: Bauman
+    party: R
+    ballotpedia: https://ballotpedia.org/Adam_Bauman
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 17
+  candidates:
+  - name: Pete Sessions
+    sort_name: Sessions
+    party: R
+    incumbent: true
+    bioguide: S000250
+    ballotpedia: https://ballotpedia.org/Pete_Sessions
+    status: not_reviewed
+  - name: Casey Shepard
+    sort_name: Shepard
+    party: D
+    ballotpedia: https://ballotpedia.org/Casey_Shepard
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 18
+  candidates:
+  - name: Christian Menefee
+    sort_name: Menefee
+    party: D
+    incumbent: true
+    bioguide: M001245
+    ballotpedia: https://ballotpedia.org/Christian_Menefee
+    status: not_reviewed
+  - name: Ronald Whitfield
+    sort_name: Whitfield
+    party: R
+    ballotpedia: https://ballotpedia.org/Ronald_Whitfield
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 19
+  candidates:
+  - name: Kyle Rable
+    sort_name: Rable
+    party: D
+    ballotpedia: https://ballotpedia.org/Kyle_Rable
+    status: not_reviewed
+  - name: Tom Sell
+    sort_name: Sell
+    party: R
+    ballotpedia: https://ballotpedia.org/Tom_Sell
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 20
+  candidates:
+  - name: Joaquin Castro
+    sort_name: Castro
+    party: D
+    incumbent: true
+    bioguide: C001091
+    ballotpedia: https://ballotpedia.org/Joaquin_Castro
+    status: not_reviewed
+  - name: Edgardo Baez
+    sort_name: Baez
+    party: R
+    ballotpedia: https://ballotpedia.org/Edgardo_Baez
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 21
+  candidates:
+  - name: Kristin Hook
+    sort_name: Hook
+    party: D
+    ballotpedia: https://ballotpedia.org/Kristin_Hook
+    status: not_reviewed
+  - name: Mark Teixeira
+    sort_name: Teixeira
+    party: R
+    ballotpedia: https://ballotpedia.org/Mark_Teixeira
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 22
+  candidates:
+  - name: Marquette Greene-Scott
+    sort_name: Greene-Scott
+    party: D
+    ballotpedia: https://ballotpedia.org/Marquette_Greene-Scott
+    status: not_reviewed
+  - name: Trever Nehls
+    sort_name: Nehls
+    party: R
+    ballotpedia: https://ballotpedia.org/Trever_Nehls
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 23
+  candidates:
+  - name: Katy Padilla Stout
+    sort_name: Stout
+    party: D
+    ballotpedia: https://ballotpedia.org/Katy_Padilla_Stout
+    status: not_reviewed
+  - name: Brandon Herrera
+    sort_name: Herrera
+    party: R
+    ballotpedia: https://ballotpedia.org/Brandon_Herrera
+    status: not_reviewed
+  - name: Ben Mendoza
+    sort_name: Mendoza
+    party: I
+    ballotpedia: https://ballotpedia.org/Ben_Mendoza
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 24
+  candidates:
+  - name: Beth Van Duyne
+    sort_name: Van Duyne
+    party: R
+    incumbent: true
+    bioguide: V000134
+    ballotpedia: https://ballotpedia.org/Beth_Van_Duyne
+    status: not_reviewed
+  - name: Kevin Burge
+    sort_name: Burge
+    party: D
+    ballotpedia: https://ballotpedia.org/Kevin_Burge_(Texas)
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 25
+  candidates:
+  - name: Roger Williams
+    sort_name: Williams
+    party: R
+    incumbent: true
+    bioguide: W000816
+    ballotpedia: https://ballotpedia.org/Roger_Williams_(Texas)
+    status: not_reviewed
+  - name: Dione Sims
+    sort_name: Sims
+    party: D
+    ballotpedia: https://ballotpedia.org/Dione_Sims
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 26
+  candidates:
+  - name: Brandon Gill
+    sort_name: Gill
+    party: R
+    incumbent: true
+    bioguide: G000603
+    ballotpedia: https://ballotpedia.org/Brandon_Gill
+    status: not_reviewed
+  - name: Steven Shook
+    sort_name: Shook
+    party: D
+    ballotpedia: https://ballotpedia.org/Steven_Shook
+    status: not_reviewed
+  - name: Phil Gray
+    sort_name: Gray
+    party: L
+    ballotpedia: https://ballotpedia.org/Phil_Gray
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 27
+  candidates:
+  - name: Michael Cloud
+    sort_name: Cloud
+    party: R
+    incumbent: true
+    bioguide: C001115
+    ballotpedia: https://ballotpedia.org/Michael_Cloud_(Texas)
+    status: not_reviewed
+  - name: Tanya Lloyd
+    sort_name: Lloyd
+    party: D
+    ballotpedia: https://ballotpedia.org/Tanya_Lloyd
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 28
+  candidates:
+  - name: Henry Cuellar
+    sort_name: Cuellar
+    party: D
+    incumbent: true
+    bioguide: C001063
+    ballotpedia: https://ballotpedia.org/Henry_Cuellar
+    status: not_reviewed
+  - name: Tano Tijerina
+    sort_name: Tijerina
+    party: R
+    ballotpedia: https://ballotpedia.org/Tano_Tijerina
+    status: not_reviewed
+  - name: Marlon Duran
+    sort_name: Duran
+    party: G
+    ballotpedia: https://ballotpedia.org/Marlon_Duran
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 29
+  candidates:
+  - name: Sylvia Garcia
+    sort_name: Garcia
+    party: D
+    incumbent: true
+    bioguide: G000587
+    ballotpedia: https://ballotpedia.org/Sylvia_Garcia
+    status: not_reviewed
+  - name: Martha Fierro
+    sort_name: Fierro
+    party: R
+    ballotpedia: https://ballotpedia.org/Martha_Fierro
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 30
+  candidates:
+  - name: Frederick Haynes
+    sort_name: Haynes
+    party: D
+    ballotpedia: https://ballotpedia.org/Frederick_Haynes
+    status: not_reviewed
+  - name: Everett Jackson
+    sort_name: Jackson
+    party: R
+    ballotpedia: https://ballotpedia.org/Everett_Jackson
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 31
+  candidates:
+  - name: John Carter
+    sort_name: Carter
+    party: R
+    incumbent: true
+    bioguide: C001051
+    ballotpedia: https://ballotpedia.org/John_Carter_(Texas)
+    status: not_reviewed
+  - name: Justin Early
+    sort_name: Early
+    party: D
+    ballotpedia: https://ballotpedia.org/Justin_Early
+    status: not_reviewed
+  - name: Greg Stoker
+    sort_name: Stoker
+    party: G
+    ballotpedia: https://ballotpedia.org/Greg_Stoker
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 32
+  candidates:
+  - name: Dan Barrios
+    sort_name: Barrios
+    party: D
+    ballotpedia: https://ballotpedia.org/Dan_Barrios
+    status: not_reviewed
+  - name: Jace Yarbrough
+    sort_name: Yarbrough
+    party: R
+    ballotpedia: https://ballotpedia.org/Jace_Yarbrough
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 33
+  candidates:
+  - name: Colin Allred
+    sort_name: Allred
+    party: D
+    bioguide: A000376
+    ballotpedia: https://ballotpedia.org/Colin_Allred
+    status: not_reviewed
+  - name: Patrick Gillespie
+    sort_name: Gillespie
+    party: R
+    ballotpedia: https://ballotpedia.org/Patrick_Gillespie_(Texas)
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 34
+  candidates:
+  - name: Vicente Gonzalez Jr.
+    sort_name: Gonzalez
+    party: D
+    incumbent: true
+    bioguide: G000581
+    ballotpedia: https://ballotpedia.org/Vicente_Gonzalez_Jr.
+    status: not_reviewed
+  - name: Eric Flores
+    sort_name: Flores
+    party: R
+    ballotpedia: https://ballotpedia.org/Eric_Flores_(Texas)
+    status: not_reviewed
+  - name: Eddie Espinoza
+    sort_name: Espinoza
+    party: G
+    ballotpedia: https://ballotpedia.org/Eddie_Espinoza
+    status: not_reviewed
+  - name: Chris Royal
+    sort_name: Royal
+    party: L
+    ballotpedia: https://ballotpedia.org/Chris_Royal
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 35
+  candidates:
+  - name: Johnny Garcia
+    sort_name: Garcia
+    party: D
+    ballotpedia: https://ballotpedia.org/Johnny_Garcia_(Texas_congressional_candidate)
+    status: not_reviewed
+  - name: Carlos De La Cruz
+    sort_name: Cruz
+    party: R
+    ballotpedia: https://ballotpedia.org/Carlos_De_La_Cruz
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 36
+  candidates:
+  - name: Brian Babin
+    sort_name: Babin
+    party: R
+    incumbent: true
+    bioguide: B001291
+    ballotpedia: https://ballotpedia.org/Brian_Babin
+    status: not_reviewed
+  - name: Rhonda Hart
+    sort_name: Hart
+    party: D
+    ballotpedia: https://ballotpedia.org/Rhonda_Hart
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 37
+  candidates:
+  - name: Greg Casar
+    sort_name: Casar
+    party: D
+    incumbent: true
+    bioguide: C001131
+    ballotpedia: https://ballotpedia.org/Greg_Casar
+    status: not_reviewed
+  - name: Lauren Peña
+    sort_name: Peña
+    party: R
+    ballotpedia: https://ballotpedia.org/Lauren_Peña
+    status: not_reviewed
+- office: us_house
+  state: TX
+  district: 38
+  candidates:
+  - name: Melissa McDonough
+    sort_name: McDonough
+    party: D
+    ballotpedia: https://ballotpedia.org/Melissa_McDonough
+    status: not_reviewed
+  - name: Jon Bonck
+    sort_name: Bonck
+    party: R
+    ballotpedia: https://ballotpedia.org/Jon_Bonck
+    status: not_reviewed
+  - name: Alex McMenemy
+    sort_name: McMenemy
+    party: G
+    ballotpedia: https://ballotpedia.org/Alex_McMenemy
+    status: not_reviewed

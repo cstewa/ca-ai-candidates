@@ -1,0 +1,127 @@
+# U.S. Senate and House races in Alabama. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: AL
+  candidates:
+  - name: Everett Wess
+    sort_name: Wess
+    party: D
+    ballotpedia: https://ballotpedia.org/Everett_Wess
+    status: not_reviewed
+  - name: Barry Moore
+    sort_name: Moore
+    party: R
+    bioguide: M001212
+    ballotpedia: https://ballotpedia.org/Barry_Moore_(Alabama_U.S._representative)
+    status: not_reviewed
+- office: us_house
+  state: AL
+  district: 1
+  candidates:
+  - name: Clyde Jones
+    sort_name: Jones
+    party: D
+    ballotpedia: https://ballotpedia.org/Clyde_W._Jones_Jr._(Alabama_congressional_candidate)
+    status: not_reviewed
+  - name: Jerry Carl
+    sort_name: Carl
+    party: R
+    bioguide: C001054
+    ballotpedia: https://ballotpedia.org/Jerry_Carl
+    status: not_reviewed
+- office: us_house
+  state: AL
+  district: 2
+  candidates:
+  - name: Shomari Figures
+    sort_name: Figures
+    party: D
+    incumbent: true
+    bioguide: F000481
+    ballotpedia: https://ballotpedia.org/Shomari_Figures
+    status: not_reviewed
+  - name: Rhett Marques
+    sort_name: Marques
+    party: R
+    ballotpedia: https://ballotpedia.org/Rhett_Marques
+    status: not_reviewed
+- office: us_house
+  state: AL
+  district: 3
+  candidates:
+  - name: Mike Rogers
+    sort_name: Rogers
+    party: R
+    incumbent: true
+    bioguide: R000575
+    ballotpedia: https://ballotpedia.org/Mike_Rogers_(Alabama)
+    status: not_reviewed
+  - name: Lee McInnis
+    sort_name: McInnis
+    party: D
+    ballotpedia: https://ballotpedia.org/Lee_McInnis
+    status: not_reviewed
+- office: us_house
+  state: AL
+  district: 4
+  candidates:
+  - name: Robert Aderholt
+    sort_name: Aderholt
+    party: R
+    incumbent: true
+    bioguide: A000055
+    ballotpedia: https://ballotpedia.org/Robert_Aderholt
+    status: not_reviewed
+  - name: Amanda Pusczek
+    sort_name: Pusczek
+    party: D
+    ballotpedia: https://ballotpedia.org/Amanda_Pusczek
+    status: not_reviewed
+- office: us_house
+  state: AL
+  district: 5
+  candidates:
+  - name: Dale Strong
+    sort_name: Strong
+    party: R
+    incumbent: true
+    bioguide: S001220
+    ballotpedia: https://ballotpedia.org/Dale_Strong
+    status: not_reviewed
+  - name: Andrew Sneed
+    sort_name: Sneed
+    party: D
+    ballotpedia: https://ballotpedia.org/Andrew_Sneed
+    status: not_reviewed
+- office: us_house
+  state: AL
+  district: 6
+  candidates:
+  - name: Gary Palmer
+    sort_name: Palmer
+    party: R
+    incumbent: true
+    bioguide: P000609
+    ballotpedia: https://ballotpedia.org/Gary_Palmer
+    status: not_reviewed
+  - name: Maurice Mercer
+    sort_name: Mercer
+    party: D
+    ballotpedia: https://ballotpedia.org/Maurice_Mercer
+    status: not_reviewed
+- office: us_house
+  state: AL
+  district: 7
+  candidates:
+  - name: Terri Sewell
+    sort_name: Sewell
+    party: D
+    incumbent: true
+    bioguide: S001185
+    ballotpedia: https://ballotpedia.org/Terri_Sewell
+    status: not_reviewed
+  - name: Ammie Akin
+    sort_name: Akin
+    party: R
+    ballotpedia: https://ballotpedia.org/Ammie_Akin
+    status: not_reviewed

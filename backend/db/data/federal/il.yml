@@ -1,0 +1,292 @@
+# U.S. Senate and House races in Illinois. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: IL
+  candidates:
+  - name: Juliana Stratton
+    sort_name: Stratton
+    party: D
+    ballotpedia: https://ballotpedia.org/Juliana_Stratton
+    status: not_reviewed
+  - name: Don Tracy
+    sort_name: Tracy
+    party: R
+    ballotpedia: https://ballotpedia.org/Don_Tracy
+    status: not_reviewed
+  - name: Whitfield Harrington Jr.
+    sort_name: Harrington
+    party_name: American Center Party
+    ballotpedia: https://ballotpedia.org/Whitfield_Harrington_Jr._(Illinois)
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 1
+  candidates:
+  - name: Jonathan Jackson
+    sort_name: Jackson
+    party: D
+    incumbent: true
+    bioguide: J000309
+    ballotpedia: https://ballotpedia.org/Jonathan_Jackson_(Illinois)
+    status: not_reviewed
+  - name: Christian Maxwell
+    sort_name: Maxwell
+    party: R
+    ballotpedia: https://ballotpedia.org/Christian_Maxwell
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 2
+  candidates:
+  - name: Donna Miller
+    sort_name: Miller
+    party: D
+    ballotpedia: https://ballotpedia.org/Donna_Miller_(Illinois)
+    status: not_reviewed
+  - name: Mike Noack
+    sort_name: Noack
+    party: R
+    ballotpedia: https://ballotpedia.org/Mike_Noack
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 3
+  candidates:
+  - name: Delia Ramirez
+    sort_name: Ramirez
+    party: D
+    incumbent: true
+    bioguide: R000617
+    ballotpedia: https://ballotpedia.org/Delia_Ramirez
+    status: not_reviewed
+  - name: Angel Oakley
+    sort_name: Oakley
+    party: R
+    ballotpedia: https://ballotpedia.org/Angel_Oakley
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 4
+  candidates:
+  - name: Patty Garcia
+    sort_name: Garcia
+    party: D
+    ballotpedia: https://ballotpedia.org/Patty_Garcia
+    status: not_reviewed
+  - name: Lupe Castillo
+    sort_name: Castillo
+    party: R
+    ballotpedia: https://ballotpedia.org/Lupe_Castillo
+    status: not_reviewed
+  - name: Ed Hershey
+    sort_name: Hershey
+    party_name: Working Class Party
+    ballotpedia: https://ballotpedia.org/Ed_Hershey
+    status: not_reviewed
+  - name: Chris Getty
+    sort_name: Getty
+    party: I
+    ballotpedia: https://ballotpedia.org/Chris_Getty
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 5
+  candidates:
+  - name: Mike Quigley
+    sort_name: Quigley
+    party: D
+    incumbent: true
+    bioguide: Q000023
+    ballotpedia: https://ballotpedia.org/Mike_Quigley
+    status: not_reviewed
+  - name: Tom Hanson
+    sort_name: Hanson
+    party: R
+    ballotpedia: https://ballotpedia.org/Tom_Hanson
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 6
+  candidates:
+  - name: Sean Casten
+    sort_name: Casten
+    party: D
+    incumbent: true
+    bioguide: C001117
+    ballotpedia: https://ballotpedia.org/Sean_Casten
+    status: not_reviewed
+  - name: Niki Conforti
+    sort_name: Conforti
+    party: R
+    ballotpedia: https://ballotpedia.org/Niki_Conforti
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 7
+  candidates:
+  - name: La Shawn Ford
+    sort_name: Ford
+    party: D
+    ballotpedia: https://ballotpedia.org/La_Shawn_K._Ford
+    status: not_reviewed
+  - name: Chad Koppie
+    sort_name: Koppie
+    party: R
+    ballotpedia: https://ballotpedia.org/Chad_Koppie
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 8
+  candidates:
+  - name: Melissa Bean
+    sort_name: Bean
+    party: D
+    ballotpedia: https://ballotpedia.org/Melissa_Bean
+    status: not_reviewed
+  - name: Jennifer Davis
+    sort_name: Davis
+    party: R
+    ballotpedia: https://ballotpedia.org/Jennifer_Davis_(Illinois)
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 9
+  candidates:
+  - name: Daniel K. Biss
+    sort_name: Biss
+    party: D
+    ballotpedia: https://ballotpedia.org/Daniel_K._Biss
+    status: not_reviewed
+  - name: John Elleson
+    sort_name: Elleson
+    party: R
+    ballotpedia: https://ballotpedia.org/John_Elleson
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 10
+  candidates:
+  - name: Brad Schneider
+    sort_name: Schneider
+    party: D
+    incumbent: true
+    bioguide: S001190
+    ballotpedia: https://ballotpedia.org/Brad_Schneider
+    status: not_reviewed
+  - name: Carl Lambrecht
+    sort_name: Lambrecht
+    party: R
+    ballotpedia: https://ballotpedia.org/Carl_Lambrecht
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 11
+  candidates:
+  - name: Bill Foster
+    sort_name: Foster
+    party: D
+    incumbent: true
+    bioguide: F000454
+    ballotpedia: https://ballotpedia.org/Bill_Foster_(Illinois)
+    status: not_reviewed
+  - name: Jeffrey Walter
+    sort_name: Walter
+    party: R
+    ballotpedia: https://ballotpedia.org/Jeffrey_Walter
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 12
+  candidates:
+  - name: Mike Bost
+    sort_name: Bost
+    party: R
+    incumbent: true
+    bioguide: B001295
+    ballotpedia: https://ballotpedia.org/Mike_Bost
+    status: not_reviewed
+  - name: Julie Fortier
+    sort_name: Fortier
+    party: D
+    ballotpedia: https://ballotpedia.org/Julie_Fortier
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 13
+  candidates:
+  - name: Nikki Budzinski
+    sort_name: Budzinski
+    party: D
+    incumbent: true
+    bioguide: B001315
+    ballotpedia: https://ballotpedia.org/Nikki_Budzinski
+    status: not_reviewed
+  - name: Jeff Wilson
+    sort_name: Wilson
+    party: R
+    ballotpedia: https://ballotpedia.org/Jeff_Wilson_(Illinois's_13th_Congressional_District)
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 14
+  candidates:
+  - name: Lauren Underwood
+    sort_name: Underwood
+    party: D
+    incumbent: true
+    bioguide: U000040
+    ballotpedia: https://ballotpedia.org/Lauren_Underwood
+    status: not_reviewed
+  - name: Jim Marter
+    sort_name: Marter
+    party: R
+    ballotpedia: https://ballotpedia.org/Jim_Marter
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 15
+  candidates:
+  - name: Mary Miller
+    sort_name: Miller
+    party: R
+    incumbent: true
+    bioguide: M001211
+    ballotpedia: https://ballotpedia.org/Mary_Miller_(Illinois)
+    status: not_reviewed
+  - name: Jennifer Todd
+    sort_name: Todd
+    party: D
+    ballotpedia: https://ballotpedia.org/Jennifer_Todd
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 16
+  candidates:
+  - name: Darin LaHood
+    sort_name: LaHood
+    party: R
+    incumbent: true
+    bioguide: L000585
+    ballotpedia: https://ballotpedia.org/Darin_LaHood
+    status: not_reviewed
+  - name: Paul Nolley
+    sort_name: Nolley
+    party: D
+    ballotpedia: https://ballotpedia.org/Paul_Nolley
+    status: not_reviewed
+- office: us_house
+  state: IL
+  district: 17
+  candidates:
+  - name: Eric Sorensen
+    sort_name: Sorensen
+    party: D
+    incumbent: true
+    bioguide: S001225
+    ballotpedia: https://ballotpedia.org/Eric_Sorensen
+    status: not_reviewed
+  - name: Dillan Vancil
+    sort_name: Vancil
+    party: R
+    ballotpedia: https://ballotpedia.org/Dillan_Vancil_(Illinois)
+    status: not_reviewed

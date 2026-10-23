@@ -1,0 +1,168 @@
+# U.S. Senate and House races in Missouri. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: MO
+  district: 1
+  candidates:
+  - name: Wesley Bell
+    sort_name: Bell
+    party: D
+    incumbent: true
+    bioguide: B001324
+    ballotpedia: https://ballotpedia.org/Wesley_Bell
+    status: not_reviewed
+  - name: Paul Berry
+    sort_name: Berry
+    party: R
+    ballotpedia: https://ballotpedia.org/Paul_Berry_(Missouri)
+    status: not_reviewed
+  - name: Tom Schmitz
+    sort_name: Schmitz
+    party: L
+    ballotpedia: https://ballotpedia.org/Tom_Schmitz
+    status: not_reviewed
+- office: us_house
+  state: MO
+  district: 2
+  candidates:
+  - name: Ann Wagner
+    sort_name: Wagner
+    party: R
+    incumbent: true
+    bioguide: W000812
+    ballotpedia: https://ballotpedia.org/Ann_Wagner
+    status: not_reviewed
+  - name: Frederick Wellman
+    sort_name: Wellman
+    party: D
+    ballotpedia: https://ballotpedia.org/Frederick_Wellman
+    status: not_reviewed
+  - name: Brandon Daugherty
+    sort_name: Daugherty
+    party: L
+    ballotpedia: https://ballotpedia.org/Brandon_Daugherty
+    status: not_reviewed
+- office: us_house
+  state: MO
+  district: 3
+  candidates:
+  - name: Bob Onder
+    sort_name: Onder
+    party: R
+    incumbent: true
+    bioguide: O000177
+    ballotpedia: https://ballotpedia.org/Bob_Onder
+    status: not_reviewed
+  - name: Bethany Mann
+    sort_name: Mann
+    party: D
+    ballotpedia: https://ballotpedia.org/Bethany_Mann
+    status: not_reviewed
+  - name: Jim Higgins
+    sort_name: Higgins
+    party: L
+    ballotpedia: https://ballotpedia.org/Jim_Higgins
+    status: not_reviewed
+- office: us_house
+  state: MO
+  district: 4
+  candidates:
+  - name: Mark Alford
+    sort_name: Alford
+    party: R
+    incumbent: true
+    bioguide: A000379
+    ballotpedia: https://ballotpedia.org/Mark_Alford
+    status: not_reviewed
+  - name: Jordan Herrera
+    sort_name: Herrera
+    party: D
+    ballotpedia: https://ballotpedia.org/Jordan_Herrera
+    status: not_reviewed
+  - name: Thomas Holbrook
+    sort_name: Holbrook
+    party: L
+    ballotpedia: https://ballotpedia.org/Thomas_Holbrook_(Missouri)
+    status: not_reviewed
+- office: us_house
+  state: MO
+  district: 5
+  candidates:
+  - name: Emanuel Cleaver
+    sort_name: Cleaver
+    party: D
+    incumbent: true
+    bioguide: C001061
+    ballotpedia: https://ballotpedia.org/Emanuel_Cleaver
+    status: not_reviewed
+  - name: Rick Brattin
+    sort_name: Brattin
+    party: R
+    ballotpedia: https://ballotpedia.org/Rick_Brattin
+    status: not_reviewed
+  - name: Randy Langkraehr
+    sort_name: Langkraehr
+    party: L
+    ballotpedia: https://ballotpedia.org/Randy_Langkraehr
+    status: not_reviewed
+- office: us_house
+  state: MO
+  district: 6
+  candidates:
+  - name: Josh Smead
+    sort_name: Smead
+    party: D
+    ballotpedia: https://ballotpedia.org/Josh_Smead
+    status: not_reviewed
+  - name: Chris Stigall
+    sort_name: Stigall
+    party: R
+    ballotpedia: https://ballotpedia.org/Chris_Stigall
+    status: not_reviewed
+  - name: Andy Maidment
+    sort_name: Maidment
+    party: L
+    ballotpedia: https://ballotpedia.org/Andy_Maidment
+    status: not_reviewed
+- office: us_house
+  state: MO
+  district: 7
+  candidates:
+  - name: Eric Burlison
+    sort_name: Burlison
+    party: R
+    incumbent: true
+    bioguide: B001316
+    ballotpedia: https://ballotpedia.org/Eric_Burlison
+    status: not_reviewed
+  - name: Missi Hesketh
+    sort_name: Hesketh
+    party: D
+    ballotpedia: https://ballotpedia.org/Missi_Hesketh
+    status: not_reviewed
+  - name: Kevin Craig
+    sort_name: Craig
+    party: L
+    ballotpedia: https://ballotpedia.org/Kevin_Craig_(Missouri)
+    status: not_reviewed
+- office: us_house
+  state: MO
+  district: 8
+  candidates:
+  - name: Jason Smith
+    sort_name: Smith
+    party: R
+    incumbent: true
+    bioguide: S001195
+    ballotpedia: https://ballotpedia.org/Jason_Smith_(Missouri_congressional_representative)
+    status: not_reviewed
+  - name: Christopher Reichard
+    sort_name: Reichard
+    party: D
+    ballotpedia: https://ballotpedia.org/Christopher_Reichard
+    status: not_reviewed
+  - name: Rebecca Sharpe Lombard
+    sort_name: Lombard
+    party: L
+    ballotpedia: https://ballotpedia.org/Rebecca_Sharpe_Lombard
+    status: not_reviewed

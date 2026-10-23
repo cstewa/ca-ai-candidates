@@ -1,0 +1,96 @@
+# U.S. Senate and House races in Arkansas. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: AR
+  candidates:
+  - name: Tom Cotton
+    sort_name: Cotton
+    party: R
+    incumbent: true
+    bioguide: C001095
+    ballotpedia: https://ballotpedia.org/Tom_Cotton
+    status: not_reviewed
+  - name: Hallie Shoffner
+    sort_name: Shoffner
+    party: D
+    ballotpedia: https://ballotpedia.org/Hallie_Shoffner
+    status: not_reviewed
+  - name: Jeff Wadlin
+    sort_name: Wadlin
+    party: L
+    ballotpedia: https://ballotpedia.org/Jeff_Wadlin
+    status: not_reviewed
+- office: us_house
+  state: AR
+  district: 1
+  candidates:
+  - name: Rick Crawford
+    sort_name: Crawford
+    party: R
+    incumbent: true
+    bioguide: C001087
+    ballotpedia: https://ballotpedia.org/Rick_Crawford_(Arkansas)
+    status: not_reviewed
+  - name: Terri Yarbrough Green
+    sort_name: Green
+    party: D
+    ballotpedia: https://ballotpedia.org/Terri_Yarbrough_Green
+    status: not_reviewed
+  - name: Steve Parsons
+    sort_name: Parsons
+    party: L
+    ballotpedia: https://ballotpedia.org/Steve_Parsons
+    status: not_reviewed
+- office: us_house
+  state: AR
+  district: 2
+  candidates:
+  - name: French Hill
+    sort_name: Hill
+    party: R
+    incumbent: true
+    bioguide: H001072
+    ballotpedia: https://ballotpedia.org/French_Hill
+    status: not_reviewed
+  - name: Chris Jones
+    sort_name: Jones
+    party: D
+    ballotpedia: https://ballotpedia.org/Chris_Jones_(Arkansas_congressional_candidate)
+    status: not_reviewed
+- office: us_house
+  state: AR
+  district: 3
+  candidates:
+  - name: Steve Womack
+    sort_name: Womack
+    party: R
+    incumbent: true
+    bioguide: W000809
+    ballotpedia: https://ballotpedia.org/Steve_Womack
+    status: not_reviewed
+  - name: Robb Ryerse
+    sort_name: Ryerse
+    party: D
+    ballotpedia: https://ballotpedia.org/Robb_Ryerse
+    status: not_reviewed
+  - name: Bobby Wilson
+    sort_name: Wilson
+    party: L
+    ballotpedia: https://ballotpedia.org/Bobby_Wilson_(Arkansas)
+    status: not_reviewed
+- office: us_house
+  state: AR
+  district: 4
+  candidates:
+  - name: Bruce Westerman
+    sort_name: Westerman
+    party: R
+    incumbent: true
+    bioguide: W000821
+    ballotpedia: https://ballotpedia.org/Bruce_Westerman
+    status: not_reviewed
+  - name: James Russell
+    sort_name: Russell
+    party: D
+    ballotpedia: https://ballotpedia.org/James_Russell_(Arkansas)
+    status: not_reviewed

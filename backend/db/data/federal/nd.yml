@@ -1,0 +1,28 @@
+# U.S. Senate and House races in North Dakota. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: ND
+  district: 0
+  candidates:
+  - name: Julie Fedorchak
+    sort_name: Fedorchak
+    party: R
+    incumbent: true
+    bioguide: F000482
+    ballotpedia: https://ballotpedia.org/Julie_Fedorchak
+    status: not_reviewed
+  - name: Trygve Hammer
+    sort_name: Hammer
+    party: D
+    ballotpedia: https://ballotpedia.org/Trygve_Hammer
+    status: not_reviewed
+  - name: Helene Neville
+    sort_name: Neville
+    party: I
+    ballotpedia: https://ballotpedia.org/Helene_Neville
+    status: not_reviewed
+  - name: Charles Tuttle
+    sort_name: Tuttle
+    party: I
+    ballotpedia: https://ballotpedia.org/Charles_Tuttle
+    status: not_reviewed

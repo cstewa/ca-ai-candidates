@@ -1,0 +1,297 @@
+# U.S. Senate and House races in North Carolina. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: NC
+  candidates:
+  - name: Roy Cooper
+    sort_name: Cooper
+    party: D
+    ballotpedia: https://ballotpedia.org/Roy_Cooper
+    status: not_reviewed
+  - name: Michael Whatley
+    sort_name: Whatley
+    party: R
+    ballotpedia: https://ballotpedia.org/Michael_Whatley
+    status: not_reviewed
+  - name: Michael Dublin
+    sort_name: Dublin
+    party: G
+    ballotpedia: https://ballotpedia.org/Michael_Dublin
+    status: not_reviewed
+  - name: Shannon Bray
+    sort_name: Bray
+    party: L
+    ballotpedia: https://ballotpedia.org/Shannon_Bray
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 1
+  candidates:
+  - name: Donald Davis
+    sort_name: Davis
+    party: D
+    incumbent: true
+    bioguide: D000230
+    ballotpedia: https://ballotpedia.org/Donald_Davis
+    status: not_reviewed
+  - name: Laurie Buckhout
+    sort_name: Buckhout
+    party: R
+    ballotpedia: https://ballotpedia.org/Laurie_Buckhout
+    status: not_reviewed
+  - name: Tom Bailey
+    sort_name: Bailey
+    party: L
+    ballotpedia: https://ballotpedia.org/Tom_Bailey_(North_Carolina)
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 2
+  candidates:
+  - name: Deborah Ross
+    sort_name: Ross
+    party: D
+    incumbent: true
+    bioguide: R000305
+    ballotpedia: https://ballotpedia.org/Deborah_Ross
+    status: not_reviewed
+  - name: Eugene Douglass
+    sort_name: Douglass
+    party: R
+    ballotpedia: https://ballotpedia.org/Eugene_Douglass
+    status: not_reviewed
+  - name: Matthew Laszacs
+    sort_name: Laszacs
+    party: L
+    ballotpedia: https://ballotpedia.org/Matthew_Laszacs
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 3
+  candidates:
+  - name: Gregory Murphy
+    sort_name: Murphy
+    party: R
+    incumbent: true
+    bioguide: M001210
+    ballotpedia: https://ballotpedia.org/Gregory_Murphy
+    status: not_reviewed
+  - name: Raymond Smith Jr.
+    sort_name: Smith
+    party: D
+    ballotpedia: https://ballotpedia.org/Raymond_Smith_Jr.
+    status: not_reviewed
+  - name: Daniel Cavender
+    sort_name: Cavender
+    party: L
+    ballotpedia: https://ballotpedia.org/Daniel_Cavender
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 4
+  candidates:
+  - name: Valerie Foushee
+    sort_name: Foushee
+    party: D
+    incumbent: true
+    bioguide: F000477
+    ballotpedia: https://ballotpedia.org/Valerie_Foushee
+    status: not_reviewed
+  - name: Mahesh Ganorkar
+    sort_name: Ganorkar
+    party: R
+    ballotpedia: https://ballotpedia.org/Mahesh_Ganorkar
+    status: not_reviewed
+  - name: Guy Meilleur
+    sort_name: Meilleur
+    party: L
+    ballotpedia: https://ballotpedia.org/Guy_Meilleur
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 5
+  candidates:
+  - name: Virginia Foxx
+    sort_name: Foxx
+    party: R
+    incumbent: true
+    bioguide: F000450
+    ballotpedia: https://ballotpedia.org/Virginia_Foxx
+    status: not_reviewed
+  - name: Chuck Hubbard
+    sort_name: Hubbard
+    party: D
+    ballotpedia: https://ballotpedia.org/Chuck_Hubbard
+    status: not_reviewed
+  - name: Robert Luffman
+    sort_name: Luffman
+    party: L
+    ballotpedia: https://ballotpedia.org/Robert_Luffman
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 6
+  candidates:
+  - name: Addison McDowell
+    sort_name: McDowell
+    party: R
+    incumbent: true
+    bioguide: M001240
+    ballotpedia: https://ballotpedia.org/Addison_McDowell
+    status: not_reviewed
+  - name: Cyril Jefferson
+    sort_name: Jefferson
+    party: D
+    ballotpedia: https://ballotpedia.org/Cyril_Jefferson
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 7
+  candidates:
+  - name: David Rouzer
+    sort_name: Rouzer
+    party: R
+    incumbent: true
+    bioguide: R000603
+    ballotpedia: https://ballotpedia.org/David_Rouzer
+    status: not_reviewed
+  - name: Kimberly Hardy
+    sort_name: Hardy
+    party: D
+    ballotpedia: https://ballotpedia.org/Kimberly_Hardy
+    status: not_reviewed
+  - name: Maad Abu-Ghazalah
+    sort_name: Abu-Ghazalah
+    party: L
+    ballotpedia: https://ballotpedia.org/Maad_Abu-Ghazalah
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 8
+  candidates:
+  - name: Mark Harris
+    sort_name: Harris
+    party: R
+    incumbent: true
+    bioguide: H001102
+    ballotpedia: https://ballotpedia.org/Mark_Harris_(North_Carolina)
+    status: not_reviewed
+  - name: Colby Watson
+    sort_name: Watson
+    party: D
+    ballotpedia: https://ballotpedia.org/Colby_Watson
+    status: not_reviewed
+  - name: Bo Whitehead
+    sort_name: Whitehead
+    party: G
+    ballotpedia: https://ballotpedia.org/Bo_Whitehead
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 9
+  candidates:
+  - name: Richard Hudson
+    sort_name: Hudson
+    party: R
+    incumbent: true
+    bioguide: H001067
+    ballotpedia: https://ballotpedia.org/Richard_Hudson
+    status: not_reviewed
+  - name: Richard Ojeda
+    sort_name: Ojeda
+    party: D
+    ballotpedia: https://ballotpedia.org/Richard_Ojeda
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 10
+  candidates:
+  - name: Pat Harrigan
+    sort_name: Harrigan
+    party: R
+    incumbent: true
+    bioguide: H001101
+    ballotpedia: https://ballotpedia.org/Pat_Harrigan
+    status: not_reviewed
+  - name: Ashley Bell
+    sort_name: Bell
+    party: D
+    ballotpedia: https://ballotpedia.org/Ashley_Bell_(North_Carolina)
+    status: not_reviewed
+  - name: Steven Feldman
+    sort_name: Feldman
+    party: L
+    ballotpedia: https://ballotpedia.org/Steven_Feldman_(North_Carolina)
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 11
+  candidates:
+  - name: Jamie Ager
+    sort_name: Ager
+    party: D
+    ballotpedia: https://ballotpedia.org/Jamie_Ager
+    status: not_reviewed
+  - name: Jennifer Balkcom
+    sort_name: Balkcom
+    party: R
+    ballotpedia: https://ballotpedia.org/Jennifer_Balkcom
+    status: not_reviewed
+  - name: Travis Groo
+    sort_name: Groo
+    party: L
+    ballotpedia: https://ballotpedia.org/Travis_Groo
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 12
+  candidates:
+  - name: Alma Adams
+    sort_name: Adams
+    party: D
+    incumbent: true
+    bioguide: A000370
+    ballotpedia: https://ballotpedia.org/Alma_Adams
+    status: not_reviewed
+  - name: Jack Codiga
+    sort_name: Codiga
+    party: R
+    ballotpedia: https://ballotpedia.org/Jack_Codiga
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 13
+  candidates:
+  - name: Brad Knott
+    sort_name: Knott
+    party: R
+    incumbent: true
+    bioguide: K000405
+    ballotpedia: https://ballotpedia.org/Brad_Knott
+    status: not_reviewed
+  - name: Paul Barringer
+    sort_name: Barringer
+    party: D
+    ballotpedia: https://ballotpedia.org/Paul_Barringer
+    status: not_reviewed
+  - name: Steven Swinton
+    sort_name: Swinton
+    party: L
+    ballotpedia: https://ballotpedia.org/Steven_Swinton
+    status: not_reviewed
+- office: us_house
+  state: NC
+  district: 14
+  candidates:
+  - name: Timothy K. Moore
+    sort_name: Moore
+    party: R
+    incumbent: true
+    bioguide: M001236
+    ballotpedia: https://ballotpedia.org/Timothy_K._Moore
+    status: not_reviewed
+  - name: Lakesha Womack
+    sort_name: Womack
+    party: D
+    ballotpedia: https://ballotpedia.org/Lakesha_Womack
+    status: not_reviewed

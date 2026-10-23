@@ -1,0 +1,59 @@
+# U.S. Senate and House races in Rhode Island. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: RI
+  candidates:
+  - name: Jack Reed
+    sort_name: Reed
+    party: D
+    incumbent: true
+    bioguide: R000122
+    ballotpedia: https://ballotpedia.org/Jack_Reed
+    status: not_reviewed
+  - name: Raymond McKay
+    sort_name: McKay
+    party: R
+    ballotpedia: https://ballotpedia.org/Raymond_McKay
+    status: not_reviewed
+  - name: Michael Bahry
+    sort_name: Bahry
+    party: I
+    ballotpedia: https://ballotpedia.org/Michael_Bahry
+    status: not_reviewed
+- office: us_house
+  state: RI
+  district: 1
+  candidates:
+  - name: Gabe Amo
+    sort_name: Amo
+    party: D
+    incumbent: true
+    bioguide: A000380
+    ballotpedia: https://ballotpedia.org/Gabe_Amo
+    status: not_reviewed
+  - name: Kellie Keenan
+    sort_name: Keenan
+    party: R
+    ballotpedia: https://ballotpedia.org/Kellie_Keenan
+    status: not_reviewed
+  - name: Pedro Soares de Souza
+    sort_name: Souza
+    party: I
+    ballotpedia: https://ballotpedia.org/Pedro_Soares_de_Souza
+    status: not_reviewed
+- office: us_house
+  state: RI
+  district: 2
+  candidates:
+  - name: Seth Magaziner
+    sort_name: Magaziner
+    party: D
+    incumbent: true
+    bioguide: M001223
+    ballotpedia: https://ballotpedia.org/Seth_Magaziner
+    status: not_reviewed
+  - name: Victor Mellor
+    sort_name: Mellor
+    party: R
+    ballotpedia: https://ballotpedia.org/Victor_Mellor
+    status: not_reviewed

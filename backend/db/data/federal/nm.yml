@@ -1,0 +1,65 @@
+# U.S. Senate and House races in New Mexico. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: NM
+  candidates:
+  - name: Ben Ray Luján
+    sort_name: Luján
+    party: D
+    incumbent: true
+    bioguide: L000570
+    ballotpedia: https://ballotpedia.org/Ben_Ray_Luján
+    status: not_reviewed
+  - name: Larry E. Marker
+    sort_name: Marker
+    party: R
+    ballotpedia: https://ballotpedia.org/Larry_Marker
+    status: not_reviewed
+- office: us_house
+  state: NM
+  district: 1
+  candidates:
+  - name: Melanie Ann Stansbury
+    sort_name: Stansbury
+    party: D
+    incumbent: true
+    bioguide: S001218
+    ballotpedia: https://ballotpedia.org/Melanie_Ann_Stansbury
+    status: not_reviewed
+  - name: Ndidiamaka Okpareke
+    sort_name: Okpareke
+    party: R
+    ballotpedia: https://ballotpedia.org/Ndidiamaka_Okpareke
+    status: not_reviewed
+- office: us_house
+  state: NM
+  district: 2
+  candidates:
+  - name: Gabriel Vasquez
+    sort_name: Vasquez
+    party: D
+    incumbent: true
+    bioguide: V000136
+    ballotpedia: https://ballotpedia.org/Gabriel_Vasquez
+    status: not_reviewed
+  - name: Greg Cunningham
+    sort_name: Cunningham
+    party: R
+    ballotpedia: https://ballotpedia.org/Greg_Cunningham
+    status: not_reviewed
+- office: us_house
+  state: NM
+  district: 3
+  candidates:
+  - name: Teresa Leger Fernandez
+    sort_name: Leger Fernandez
+    party: D
+    incumbent: true
+    bioguide: L000273
+    ballotpedia: https://ballotpedia.org/Teresa_Leger_Fernandez
+    status: not_reviewed
+  - name: Martin Ruben Zamora
+    sort_name: Zamora
+    party: R
+    ballotpedia: https://ballotpedia.org/Martin_Ruben_Zamora
+    status: not_reviewed

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BALLOT_STATUS_URL, VOTING_CLOSES } from '../data'
+import { VOTE_GOV_URL, VOTING_CLOSES } from '../data'
 import './VoteBanner.css'
 
 // Shown until polls close on Nov. 3; disappears on its own afterward.
@@ -9,9 +9,9 @@ export default function VoteBanner() {
   return (
     <div className="vote-banner" role="note">
       <div className="container vote-banner__inner">
-        <strong>Ballots are out. Vote by Nov. 3.</strong>
-        <a href={BALLOT_STATUS_URL} target="_blank" rel="noreferrer">
-          Track your ballot<span className="visually-hidden"> on the Secretary of State's site (opens in new tab)</span> ↗
+        <strong>Election Day is Nov. 3.</strong>
+        <a href={VOTE_GOV_URL} target="_blank" rel="noreferrer">
+          Voting rules in your state<span className="visually-hidden"> on vote.gov (opens in new tab)</span> ↗
         </a>
       </div>
     </div>

@@ -1,0 +1,167 @@
+# U.S. Senate and House races in Massachusetts. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: MA
+  candidates:
+  - name: Edward J. Markey
+    sort_name: Markey
+    party: D
+    incumbent: true
+    bioguide: M000133
+    ballotpedia: https://ballotpedia.org/Edward_Markey
+    status: not_reviewed
+  - name: John Deaton
+    sort_name: Deaton
+    party: R
+    ballotpedia: https://ballotpedia.org/John_Deaton_(Massachusetts)
+    status: not_reviewed
+  - name: Joseph Tache
+    sort_name: Tache
+    party_name: Party for Socialism and Liberation
+    ballotpedia: https://ballotpedia.org/Joseph_Tache
+    status: not_reviewed
+  - name: Shiva Ayyadurai
+    sort_name: Ayyadurai
+    party_name: Unenrolled
+    ballotpedia: https://ballotpedia.org/Shiva_Ayyadurai
+    status: not_reviewed
+- office: us_house
+  state: MA
+  district: 1
+  candidates:
+  - name: Richard Neal
+    sort_name: Neal
+    party: D
+    incumbent: true
+    bioguide: N000015
+    ballotpedia: https://ballotpedia.org/Richard_Neal
+    status: not_reviewed
+  - name: Nadia Milleron
+    sort_name: Milleron
+    party_name: Unenrolled
+    ballotpedia: https://ballotpedia.org/Nadia_Milleron
+    status: not_reviewed
+- office: us_house
+  state: MA
+  district: 2
+  candidates:
+  - name: Jim McGovern
+    sort_name: McGovern
+    party: D
+    incumbent: true
+    bioguide: M000312
+    ballotpedia: https://ballotpedia.org/Jim_McGovern_(Massachusetts)
+    status: not_reviewed
+    unopposed: true
+- office: us_house
+  state: MA
+  district: 3
+  candidates:
+  - name: Lori Trahan
+    sort_name: Trahan
+    party: D
+    incumbent: true
+    bioguide: T000482
+    ballotpedia: https://ballotpedia.org/Lori_Trahan
+    status: not_reviewed
+  - name: Gary Grossi
+    sort_name: Grossi
+    party: R
+    ballotpedia: https://ballotpedia.org/Gary_Grossi
+    status: not_reviewed
+  - name: Dennis Conlon
+    sort_name: Conlon
+    party_name: Unenrolled
+    ballotpedia: https://ballotpedia.org/Dennis_Conlon
+    status: not_reviewed
+- office: us_house
+  state: MA
+  district: 4
+  candidates:
+  - name: Jake Auchincloss
+    sort_name: Auchincloss
+    party: D
+    incumbent: true
+    bioguide: A000148
+    ballotpedia: https://ballotpedia.org/Jake_Auchincloss
+    status: not_reviewed
+  - name: Thomas Stalcup
+    sort_name: Stalcup
+    party: R
+    ballotpedia: https://ballotpedia.org/Thomas_Stalcup
+    status: not_reviewed
+- office: us_house
+  state: MA
+  district: 5
+  candidates:
+  - name: Katherine Clark
+    sort_name: Clark
+    party: D
+    incumbent: true
+    bioguide: C001101
+    ballotpedia: https://ballotpedia.org/Katherine_Clark
+    status: not_reviewed
+    unopposed: true
+- office: us_house
+  state: MA
+  district: 6
+  candidates:
+  - name: Dan Koh
+    sort_name: Koh
+    party: D
+    ballotpedia: https://ballotpedia.org/Dan_Koh
+    status: not_reviewed
+  - name: Micah Jones
+    sort_name: Jones
+    party: R
+    ballotpedia: https://ballotpedia.org/Micah_Jones
+    status: not_reviewed
+- office: us_house
+  state: MA
+  district: 7
+  candidates:
+  - name: Ayanna Pressley
+    sort_name: Pressley
+    party: D
+    incumbent: true
+    bioguide: P000617
+    ballotpedia: https://ballotpedia.org/Ayanna_Pressley
+    status: not_reviewed
+    unopposed: true
+- office: us_house
+  state: MA
+  district: 8
+  candidates:
+  - name: Stephen Lynch
+    sort_name: Lynch
+    party: D
+    incumbent: true
+    bioguide: L000562
+    ballotpedia: https://ballotpedia.org/Stephen_Lynch
+    status: not_reviewed
+  - name: Robert Burke
+    sort_name: Burke
+    party: R
+    ballotpedia: https://ballotpedia.org/Robert_Burke_(Massachusetts)
+    status: not_reviewed
+  - name: Rasheed Walters
+    sort_name: Walters
+    party_name: Unenrolled
+    ballotpedia: https://ballotpedia.org/Rasheed_Walters
+    status: not_reviewed
+- office: us_house
+  state: MA
+  district: 9
+  candidates:
+  - name: Bill Keating
+    sort_name: Keating
+    party: D
+    incumbent: true
+    bioguide: K000375
+    ballotpedia: https://ballotpedia.org/Bill_Keating
+    status: not_reviewed
+  - name: R. Tyler MacAllister
+    sort_name: MacAllister
+    party: R
+    ballotpedia: https://ballotpedia.org/R._Tyler_MacAllister
+    status: not_reviewed

@@ -1,0 +1,261 @@
+# U.S. Senate and House races in Virginia. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: VA
+  candidates:
+  - name: Mark Warner
+    sort_name: Warner
+    party: D
+    incumbent: true
+    bioguide: W000805
+    ballotpedia: https://ballotpedia.org/Mark_Warner
+    status: not_reviewed
+  - name: Bert Mizusawa
+    sort_name: Mizusawa
+    party: R
+    ballotpedia: https://ballotpedia.org/Bert_Mizusawa
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 1
+  candidates:
+  - name: Robert J. Wittman
+    sort_name: Wittman
+    party: R
+    incumbent: true
+    bioguide: W000804
+    ballotpedia: https://ballotpedia.org/Rob_Wittman
+    status: not_reviewed
+  - name: Shannon Taylor
+    sort_name: Taylor
+    party: D
+    ballotpedia: https://ballotpedia.org/Shannon_Taylor_(Virginia)
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 2
+  candidates:
+  - name: Jennifer Kiggans
+    sort_name: Kiggans
+    party: R
+    incumbent: true
+    bioguide: K000399
+    ballotpedia: https://ballotpedia.org/Jennifer_Kiggans
+    status: not_reviewed
+  - name: Elaine Luria
+    sort_name: Luria
+    party: D
+    ballotpedia: https://ballotpedia.org/Elaine_Luria
+    status: not_reviewed
+  - name: J. Matt Baker
+    sort_name: Baker
+    party: I
+    ballotpedia: https://ballotpedia.org/J._Matt_Baker
+    status: not_reviewed
+  - name: Bishop Staten
+    sort_name: Staten
+    party: I
+    ballotpedia: https://ballotpedia.org/Bishop_Staten
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 3
+  candidates:
+  - name: Robert C. Scott
+    sort_name: Scott
+    party: D
+    ballotpedia: https://ballotpedia.org/Bobby_Scott_(Virginia)
+    status: not_reviewed
+  - name: Edwin Rivera
+    sort_name: Rivera
+    party: R
+    ballotpedia: https://ballotpedia.org/Edwin_Rivera
+    status: not_reviewed
+  - name: Makiba Gaines
+    sort_name: Gaines
+    party: I
+    ballotpedia: https://ballotpedia.org/Makiba_Gaines
+    status: not_reviewed
+  - name: Stephen Woll
+    sort_name: Woll
+    party: I
+    ballotpedia: https://ballotpedia.org/Stephen_Woll
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 4
+  candidates:
+  - name: Jennifer McClellan
+    sort_name: McClellan
+    party: D
+    incumbent: true
+    bioguide: M001227
+    ballotpedia: https://ballotpedia.org/Jennifer_McClellan
+    status: not_reviewed
+  - name: Robert Murray Jr.
+    sort_name: Murray
+    party: R
+    ballotpedia: https://ballotpedia.org/Robert_Murray_Jr._(Virginia)
+    status: not_reviewed
+  - name: Joan Bell
+    sort_name: Bell
+    party: I
+    ballotpedia: https://ballotpedia.org/Joan_Bell_(Virginia)
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 5
+  candidates:
+  - name: John McGuire
+    sort_name: McGuire
+    party: R
+    incumbent: true
+    bioguide: M001239
+    ballotpedia: https://ballotpedia.org/John_McGuire
+    status: not_reviewed
+  - name: Tom Perriello
+    sort_name: Perriello
+    party: D
+    ballotpedia: https://ballotpedia.org/Tom_Perriello
+    status: not_reviewed
+  - name: Cooke Harvey
+    sort_name: Harvey
+    party: I
+    ballotpedia: https://ballotpedia.org/Cooke_Harvey
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 6
+  candidates:
+  - name: Benjamin Lee Cline
+    sort_name: Cline
+    party: R
+    incumbent: true
+    bioguide: C001118
+    ballotpedia: https://ballotpedia.org/Ben_Cline
+    status: not_reviewed
+  - name: Beth Macy
+    sort_name: Macy
+    party: D
+    ballotpedia: https://ballotpedia.org/Beth_Macy
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 7
+  candidates:
+  - name: Eugene Vindman
+    sort_name: Vindman
+    party: D
+    incumbent: true
+    bioguide: V000138
+    ballotpedia: https://ballotpedia.org/Eugene_Vindman
+    status: not_reviewed
+  - name: Douglas Ollivant
+    sort_name: Ollivant
+    party: R
+    ballotpedia: https://ballotpedia.org/Douglas_Ollivant
+    status: not_reviewed
+  - name: Taner Demirci Lopez
+    sort_name: Lopez
+    party: L
+    ballotpedia: https://ballotpedia.org/Taner_Lopez
+    status: not_reviewed
+  - name: Alaha Ahrar
+    sort_name: Ahrar
+    party: I
+    ballotpedia: https://ballotpedia.org/Alaha_Ahrar
+    status: not_reviewed
+  - name: Joshua Ertle
+    sort_name: Ertle
+    party: I
+    ballotpedia: https://ballotpedia.org/Joshua_Ertle
+    status: not_reviewed
+  - name: Randall Terry
+    sort_name: Terry
+    party: I
+    ballotpedia: https://ballotpedia.org/Randall_Terry
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 8
+  candidates:
+  - name: Donald Sternoff Beyer Jr.
+    sort_name: Beyer
+    party: D
+    incumbent: true
+    bioguide: B001292
+    ballotpedia: https://ballotpedia.org/Don_Beyer
+    status: not_reviewed
+  - name: Tony Sabio
+    sort_name: Sabio
+    party: R
+    ballotpedia: https://ballotpedia.org/Tony_Sabio
+    status: not_reviewed
+  - name: Shelly Arnoldi
+    sort_name: Arnoldi
+    party: L
+    ballotpedia: https://ballotpedia.org/Shelly_Arnoldi
+    status: not_reviewed
+  - name: Tim Sharman
+    sort_name: Sharman
+    party: I
+    ballotpedia: https://ballotpedia.org/Tim_Sharman
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 9
+  candidates:
+  - name: H. Morgan Griffith
+    sort_name: Griffith
+    party: R
+    incumbent: true
+    bioguide: G000568
+    ballotpedia: https://ballotpedia.org/Morgan_Griffith
+    status: not_reviewed
+  - name: Joy Powers
+    sort_name: Powers
+    party: D
+    ballotpedia: https://ballotpedia.org/Joy_Powers
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 10
+  candidates:
+  - name: Suhas Subramanyam
+    sort_name: Subramanyam
+    party: D
+    incumbent: true
+    bioguide: S001230
+    ballotpedia: https://ballotpedia.org/Suhas_Subramanyam
+    status: not_reviewed
+  - name: Dave Beckwith
+    sort_name: Beckwith
+    party: R
+    ballotpedia: https://ballotpedia.org/Dave_Beckwith
+    status: not_reviewed
+  - name: Ahsen Malik
+    sort_name: Malik
+    party: I
+    ballotpedia: https://ballotpedia.org/Ahsen_Malik
+    status: not_reviewed
+- office: us_house
+  state: VA
+  district: 11
+  candidates:
+  - name: James Walkinshaw
+    sort_name: Walkinshaw
+    party: D
+    incumbent: true
+    bioguide: W000831
+    ballotpedia: https://ballotpedia.org/James_Walkinshaw
+    status: not_reviewed
+  - name: Arthur Purves
+    sort_name: Purves
+    party: R
+    ballotpedia: https://ballotpedia.org/Arthur_Purves
+    status: not_reviewed
+  - name: Dianne Blais
+    sort_name: Blais
+    party: G
+    ballotpedia: https://ballotpedia.org/Dianne_Blais
+    status: not_reviewed

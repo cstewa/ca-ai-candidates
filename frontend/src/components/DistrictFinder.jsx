@@ -13,7 +13,7 @@ export default function DistrictFinder({ idPrefix, initial = {}, zip, headingLev
     <section className="dfinder" aria-labelledby={`${idPrefix}-h`}>
       <H id={`${idPrefix}-h`} className="dfinder__title">Find your district candidates</H>
       <p className="dfinder__intro">
-        Your districts decide which candidates for Congress, State Senate and Assembly are on your ballot.
+        Your districts decide which candidates for Congress (and in California, State Senate and Assembly) are on your ballot.
       </p>
 
       <div className="dfinder__options" role="group" aria-label="Do you know your district numbers?">
@@ -21,7 +21,7 @@ export default function DistrictFinder({ idPrefix, initial = {}, zip, headingLev
           I don't know my district numbers
         </button>
         <button type="button" className="dfinder__option" aria-pressed={mode === 'know'} aria-expanded={mode === 'know'} onClick={() => setMode('know')}>
-          I know my district numbers
+          I know my California district numbers
         </button>
       </div>
 
@@ -33,7 +33,7 @@ export default function DistrictFinder({ idPrefix, initial = {}, zip, headingLev
             <a href={FIND_DISTRICTS_URL} target="_blank" rel="noreferrer">
               Look them up by street address<span className="visually-hidden"> on the State Legislature's site (opens in new tab)</span> ↗
             </a>
-            , then come back and choose “I know my district numbers.”
+             (California), then come back and choose “I know my California district numbers.”
           </p>
         </div>
       )}

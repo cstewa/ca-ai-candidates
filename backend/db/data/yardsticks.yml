@@ -95,3 +95,78 @@
   outcome: Passed the House 215-214 with Republican votes. The Senate later stripped the moratorium 99-1.
   caveat: This was a broad budget bill. A yes vote covered much more than the AI provision, so it is not a standalone vote on the moratorium.
   url: https://www.americanprogressaction.org/article/almost-every-house-republican-voted-to-block-state-and-local-governments-ability-to-protect-residents-from-ai-data-centers/
+- key: senate_moratorium_2025
+  name: Senate vote to strip the AI moratorium
+  short_name: Senate moratorium vote
+  full_title: Blackburn Amendment No. 2814 to H.R. 1 (2025 reconciliation bill)
+  sponsors: Sen. Marsha Blackburn, with Sen. Maria Cantwell
+  year: "2025"
+  level: federal
+  kind: vote
+  what_it_does: Removed the 10-year ban on enforcing state AI laws from the 2025 reconciliation bill.
+  why_it_matters: Decided whether states could keep enforcing their own AI-safety laws, such as California's SB 53.
+  outcome: Agreed to 99-1 on July 1, 2025. Only Sen. Thom Tillis voted no.
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm
+- key: take_it_down_act
+  name: TAKE IT DOWN Act
+  short_name: TAKE IT DOWN Act
+  full_title: Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act (S. 146)
+  sponsors: Sens. Ted Cruz and Amy Klobuchar
+  year: "2025"
+  level: federal
+  kind: vote
+  what_it_does: Makes it a crime to publish intimate images of someone without consent, including AI-generated deepfakes, and requires sites to remove them within 48 hours of a request.
+  why_it_matters: The first federal law aimed at a specific harm from AI-generated content.
+  outcome: Passed the Senate by unanimous consent (no roll call) and the House 409-2 on April 28, 2025. Signed into law May 19, 2025.
+  url: https://clerk.house.gov/Votes/2025104
+  text_url: https://www.congress.gov/bill/119th-congress/senate-bill/146
+- key: kids_act
+  name: KIDS Act
+  short_name: KIDS Act
+  full_title: KIDS Act (H.R. 7757)
+  sponsors: Rep. Brett Guthrie
+  year: "2026"
+  level: federal
+  kind: vote
+  what_it_does: A package of online safety bills for children, including the SAFE BOTs Act's requirements for AI chatbots that interact with minors.
+  why_it_matters: The House's only floor vote so far on safeguards for AI chatbots.
+  outcome: Passed the House 267-117 on June 29, 2026; in Senate committee.
+  caveat: The package covers much more than AI chatbots, including social media and gaming rules, so a vote on it is not a standalone vote on AI.
+  url: https://clerk.house.gov/Votes/2026228
+  text_url: https://www.congress.gov/bill/119th-congress/house-bill/7757
+- key: guard_act
+  name: GUARD Act
+  short_name: GUARD Act
+  full_title: GUARD Act (S. 3062)
+  sponsors: Sen. Josh Hawley, with Sen. Richard Blumenthal
+  year: "2025"
+  level: federal
+  kind: bill
+  what_it_does: Requires AI chatbot companies to verify users' ages, bars AI companions for minors, and requires chatbots to say they are not human.
+  why_it_matters: Sets federal safeguards for AI chatbots used by children.
+  outcome: Introduced Oct. 2025; placed on the Senate calendar May 2026.
+  url: https://www.congress.gov/bill/119th-congress/senate-bill/3062
+- key: ai_risk_evaluation_act
+  name: Artificial Intelligence Risk Evaluation Act
+  short_name: AI Risk Evaluation Act
+  full_title: Artificial Intelligence Risk Evaluation Act of 2025 (S. 2938)
+  sponsors: Sen. Josh Hawley, with Sen. Richard Blumenthal
+  year: "2025"
+  level: federal
+  kind: bill
+  what_it_does: Requires developers of the most advanced AI systems to have them evaluated by the Department of Energy before release.
+  why_it_matters: Federal testing of frontier AI models before they reach the public.
+  outcome: Introduced Sept. 2025; committee hearing held Sept. 2026.
+  url: https://www.congress.gov/bill/119th-congress/senate-bill/2938
+- key: guardrails_act
+  name: GUARDRAILS Act
+  short_name: GUARDRAILS Act
+  full_title: GUARDRAILS Act (H.R. 8031 in the House, S. 4216 in the Senate)
+  sponsors: Rep. Don Beyer (House) and Sen. Brian Schatz (Senate)
+  year: "2026"
+  level: federal
+  kind: bill
+  what_it_does: Would cancel the Dec. 11, 2025 executive order that directs federal agencies to challenge state AI laws, and bar federal funds from carrying it out.
+  why_it_matters: Decides whether the federal government can act against state AI laws without a vote of Congress.
+  outcome: Introduced March 2026; in committee.
+  url: https://www.congress.gov/bill/119th-congress/house-bill/8031

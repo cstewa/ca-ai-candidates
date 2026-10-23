@@ -1,0 +1,155 @@
+# U.S. Senate and House races in South Carolina. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: SC
+  candidates:
+  - name: Darline Graham
+    sort_name: Graham Nordone
+    party: R
+    incumbent: true
+    bioguide: G000608
+    ballotpedia: https://ballotpedia.org/Darline_Graham
+    status: not_reviewed
+  - name: Annie Andrews
+    sort_name: Andrews
+    party: D
+    ballotpedia: https://ballotpedia.org/Annie_Andrews
+    status: not_reviewed
+  - name: Mark Hackett
+    sort_name: Hackett
+    party: C
+    ballotpedia: https://ballotpedia.org/Mark_Hackett
+    status: not_reviewed
+  - name: Kasie Whitener
+    sort_name: Whitener
+    party: L
+    ballotpedia: https://ballotpedia.org/Kasie_Whitener
+    status: not_reviewed
+- office: us_house
+  state: SC
+  district: 1
+  candidates:
+  - name: Nancy Lacore
+    sort_name: Lacore
+    party: D
+    ballotpedia: https://ballotpedia.org/Nancy_Lacore
+    status: not_reviewed
+  - name: Jenny Honeycutt
+    sort_name: Honeycutt
+    party: R
+    ballotpedia: https://ballotpedia.org/Jenny_Honeycutt
+    status: not_reviewed
+  - name: Bill Reeside
+    sort_name: Reeside
+    party: L
+    ballotpedia: https://ballotpedia.org/Bill_Reeside
+    status: not_reviewed
+- office: us_house
+  state: SC
+  district: 2
+  candidates:
+  - name: Joe Wilson
+    sort_name: Wilson
+    party: R
+    incumbent: true
+    bioguide: W000795
+    ballotpedia: https://ballotpedia.org/Joe_Wilson_(South_Carolina)
+    status: not_reviewed
+  - name: Zyon Khalifa
+    sort_name: Khalifa
+    party: D
+    ballotpedia: https://ballotpedia.org/Zyon_Khalifa
+    status: not_reviewed
+  - name: Dayna Alane Smith
+    sort_name: Smith
+    party_name: Workers Party
+    ballotpedia: https://ballotpedia.org/Dayna_Alane_Smith
+    status: not_reviewed
+- office: us_house
+  state: SC
+  district: 3
+  candidates:
+  - name: Sheri Biggs
+    sort_name: Biggs
+    party: R
+    incumbent: true
+    bioguide: B001325
+    ballotpedia: https://ballotpedia.org/Sheri_Biggs
+    status: not_reviewed
+  - name: Eunice Lehmacher
+    sort_name: Lehmacher
+    party: D
+    ballotpedia: https://ballotpedia.org/Eunice_Lehmacher
+    status: not_reviewed
+  - name: Brian Corriea
+    sort_name: Corriea
+    party: L
+    ballotpedia: https://ballotpedia.org/Brian_Corriea
+    status: not_reviewed
+- office: us_house
+  state: SC
+  district: 4
+  candidates:
+  - name: William Timmons
+    sort_name: Timmons
+    party: R
+    incumbent: true
+    bioguide: T000480
+    ballotpedia: https://ballotpedia.org/William_Timmons
+    status: not_reviewed
+  - name: Courtney McClain
+    sort_name: McClain
+    party: D
+    ballotpedia: https://ballotpedia.org/Courtney_McClain
+    status: not_reviewed
+  - name: Jessica Ethridge
+    sort_name: Ethridge
+    party: L
+    ballotpedia: https://ballotpedia.org/Jessica_Ethridge
+    status: not_reviewed
+- office: us_house
+  state: SC
+  district: 5
+  candidates:
+  - name: Mallory Dittmer
+    sort_name: Dittmer
+    party: D
+    ballotpedia: https://ballotpedia.org/Mallory_Dittmer
+    status: not_reviewed
+  - name: Wes Climer
+    sort_name: Climer
+    party: R
+    ballotpedia: https://ballotpedia.org/Wes_Climer
+    status: not_reviewed
+- office: us_house
+  state: SC
+  district: 6
+  candidates:
+  - name: James Clyburn
+    sort_name: Clyburn
+    party: D
+    incumbent: true
+    bioguide: C000537
+    ballotpedia: https://ballotpedia.org/James_Clyburn
+    status: not_reviewed
+  - name: John Peterson
+    sort_name: Peterson
+    party: R
+    ballotpedia: https://ballotpedia.org/John_Peterson_(South_Carolina)
+    status: not_reviewed
+- office: us_house
+  state: SC
+  district: 7
+  candidates:
+  - name: Russell Fry
+    sort_name: Fry
+    party: R
+    incumbent: true
+    bioguide: F000478
+    ballotpedia: https://ballotpedia.org/Russell_Fry
+    status: not_reviewed
+  - name: John Vincent
+    sort_name: Vincent
+    party: D
+    ballotpedia: https://ballotpedia.org/John_Vincent_(South_Carolina)
+    status: not_reviewed

@@ -1,0 +1,44 @@
+# U.S. Senate and House races in Hawaii. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: HI
+  district: 1
+  candidates:
+  - name: Ed Case
+    sort_name: Case
+    party: D
+    incumbent: true
+    bioguide: C001055
+    ballotpedia: https://ballotpedia.org/Ed_Case
+    status: not_reviewed
+  - name: Adriel Lam
+    sort_name: Lam
+    party: R
+    ballotpedia: https://ballotpedia.org/Adriel_Lam
+    status: not_reviewed
+  - name: Jordan Conley
+    sort_name: Conley
+    party: G
+    ballotpedia: https://ballotpedia.org/Jordan_Conley
+    status: not_reviewed
+  - name: Nathan Berning
+    sort_name: Berning
+    party_name: Nonpartisan
+    ballotpedia: https://ballotpedia.org/Nathan_Berning
+    status: not_reviewed
+- office: us_house
+  state: HI
+  district: 2
+  candidates:
+  - name: Jill Tokuda
+    sort_name: Tokuda
+    party: D
+    incumbent: true
+    bioguide: T000487
+    ballotpedia: https://ballotpedia.org/Jill_Tokuda
+    status: not_reviewed
+  - name: Brenton Awa
+    sort_name: Awa
+    party: R
+    ballotpedia: https://ballotpedia.org/Brenton_Awa
+    status: not_reviewed

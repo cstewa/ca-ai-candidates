@@ -1,0 +1,249 @@
+# U.S. Senate and House races in Georgia. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: GA
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Jon Ossoff
+    sort_name: Ossoff
+    party: D
+    incumbent: true
+    bioguide: O000174
+    ballotpedia: https://ballotpedia.org/Jon_Ossoff
+    status: not_reviewed
+  - name: Mike Collins
+    sort_name: Collins
+    party: R
+    bioguide: C001129
+    ballotpedia: https://ballotpedia.org/Mike_Collins_(Georgia)
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 1
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Amanda Hollowell
+    sort_name: Hollowell
+    party: D
+    ballotpedia: https://ballotpedia.org/Amanda_Hollowell
+    status: not_reviewed
+  - name: James Kingston
+    sort_name: Kingston
+    party: R
+    ballotpedia: https://ballotpedia.org/James_Kingston_(Georgia)
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 2
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Sanford Bishop Jr.
+    sort_name: Bishop
+    party: D
+    incumbent: true
+    bioguide: B000490
+    ballotpedia: https://ballotpedia.org/Sanford_Bishop_Jr.
+    status: not_reviewed
+  - name: Matt Day
+    sort_name: Day
+    party: R
+    ballotpedia: https://ballotpedia.org/Matt_Day_(Georgia)
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 3
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Brian Jack
+    sort_name: Jack
+    party: R
+    incumbent: true
+    bioguide: J000311
+    ballotpedia: https://ballotpedia.org/Brian_Jack
+    status: not_reviewed
+  - name: Maura Keller
+    sort_name: Keller
+    party: D
+    ballotpedia: https://ballotpedia.org/Maura_Keller
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 4
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Hank Johnson
+    sort_name: Johnson
+    party: D
+    incumbent: true
+    bioguide: J000288
+    ballotpedia: https://ballotpedia.org/Hank_Johnson_(Georgia)
+    status: not_reviewed
+  - name: James Duffie
+    sort_name: Duffie
+    party: R
+    ballotpedia: https://ballotpedia.org/James_Duffie
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 5
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Nikema Williams
+    sort_name: Williams
+    party: D
+    incumbent: true
+    bioguide: W000788
+    ballotpedia: https://ballotpedia.org/Nikema_Williams
+    status: not_reviewed
+  - name: John Salvesen
+    sort_name: Salvesen
+    party: R
+    ballotpedia: https://ballotpedia.org/John_Salvesen
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 6
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Lucy McBath
+    sort_name: McBath
+    party: D
+    incumbent: true
+    bioguide: M001208
+    ballotpedia: https://ballotpedia.org/Lucy_McBath
+    status: not_reviewed
+  - name: Kevin Martin
+    sort_name: Martin
+    party: R
+    ballotpedia: https://ballotpedia.org/Kevin_Martin_(Georgia)
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 7
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Rich McCormick
+    sort_name: McCormick
+    party: R
+    incumbent: true
+    bioguide: M001218
+    ballotpedia: https://ballotpedia.org/Rich_McCormick
+    status: not_reviewed
+  - name: Tony Kozycki
+    sort_name: Kozycki
+    party: D
+    ballotpedia: https://ballotpedia.org/Tony_Kozycki
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 8
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Austin Scott
+    sort_name: Scott
+    party: R
+    incumbent: true
+    bioguide: S001189
+    ballotpedia: https://ballotpedia.org/Austin_Scott
+    status: not_reviewed
+  - name: Kelly Esti
+    sort_name: Esti
+    party: D
+    ballotpedia: https://ballotpedia.org/Kelly_Esti
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 9
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Andrew Clyde
+    sort_name: Clyde
+    party: R
+    incumbent: true
+    bioguide: C001116
+    ballotpedia: https://ballotpedia.org/Andrew_Clyde
+    status: not_reviewed
+  - name: Caitlyn Gegen
+    sort_name: Gegen
+    party: D
+    ballotpedia: https://ballotpedia.org/Caitlyn_Gegen
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 10
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Pamela DeLancy
+    sort_name: DeLancy
+    party: D
+    ballotpedia: https://ballotpedia.org/Pamela_DeLancy
+    status: not_reviewed
+  - name: Houston Gaines
+    sort_name: Gaines
+    party: R
+    ballotpedia: https://ballotpedia.org/Houston_Gaines
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 11
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Chris Harden
+    sort_name: Harden
+    party: D
+    ballotpedia: https://ballotpedia.org/Chris_Harden
+    status: not_reviewed
+  - name: John Cowan
+    sort_name: Cowan
+    party: R
+    ballotpedia: https://ballotpedia.org/John_Cowan
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 12
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Rick Allen
+    sort_name: Allen
+    party: R
+    incumbent: true
+    bioguide: A000372
+    ballotpedia: https://ballotpedia.org/Rick_Allen
+    status: not_reviewed
+  - name: Ceretta Smith
+    sort_name: Smith
+    party: D
+    ballotpedia: https://ballotpedia.org/Ceretta_Smith
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 13
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Jasmine Clark
+    sort_name: Clark
+    party: D
+    ballotpedia: https://ballotpedia.org/Jasmine_Clark
+    status: not_reviewed
+  - name: Jonathan Chavez
+    sort_name: Chavez
+    party: R
+    ballotpedia: https://ballotpedia.org/Jonathan_Chavez
+    status: not_reviewed
+- office: us_house
+  state: GA
+  district: 14
+  note: If no one wins a majority, the top two meet in a Dec. 1 runoff.
+  candidates:
+  - name: Clayton Fuller
+    sort_name: Fuller
+    party: R
+    incumbent: true
+    bioguide: F000485
+    ballotpedia: https://ballotpedia.org/Clayton_Fuller
+    status: not_reviewed
+  - name: Shawn Harris
+    sort_name: Harris
+    party: D
+    ballotpedia: https://ballotpedia.org/Shawn_Harris_(Georgia)
+    status: not_reviewed

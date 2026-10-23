@@ -42,6 +42,7 @@ export default function App() {
             <Route path="/my-ballot"         element={<MyBallot />} />
             <Route path="/races"             element={<Races />} />
             <Route path="/races/:slug"       element={<Race />} />
+            <Route path="/states/:st"        element={<Races />} />
             <Route path="/candidates/:slug"  element={<Candidate />} />
             <Route path="/bills"             element={<Bills />} />
             <Route path="/bills/:key"        element={<Bill />} />

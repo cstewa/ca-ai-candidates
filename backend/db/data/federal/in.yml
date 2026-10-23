@@ -1,0 +1,161 @@
+# U.S. Senate and House races in Indiana. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: IN
+  district: 1
+  candidates:
+  - name: Frank Mrvan
+    sort_name: Mrvan
+    party: D
+    incumbent: true
+    bioguide: M001214
+    ballotpedia: https://ballotpedia.org/Frank_Mrvan_(Indiana_congressional_member)
+    status: not_reviewed
+  - name: Barb Regnitz
+    sort_name: Regnitz
+    party: R
+    ballotpedia: https://ballotpedia.org/Barb_Regnitz
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 2
+  candidates:
+  - name: Rudy Yakym
+    sort_name: Yakym
+    party: R
+    incumbent: true
+    bioguide: Y000067
+    ballotpedia: https://ballotpedia.org/Rudy_Yakym
+    status: not_reviewed
+  - name: Jamee Decio
+    sort_name: Decio
+    party: D
+    ballotpedia: https://ballotpedia.org/Jamee_Decio
+    status: not_reviewed
+  - name: William Henry
+    sort_name: Henry
+    party: L
+    ballotpedia: https://ballotpedia.org/William_Henry_(Indiana)
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 3
+  candidates:
+  - name: Marlin A. Stutzman
+    sort_name: Stutzman
+    party: R
+    incumbent: true
+    bioguide: S001188
+    ballotpedia: https://ballotpedia.org/Marlin_Stutzman
+    status: not_reviewed
+  - name: Kelly Thompson
+    sort_name: Thompson
+    party: D
+    ballotpedia: https://ballotpedia.org/Kelly_Thompson_(Indiana)
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 4
+  candidates:
+  - name: Jim Baird
+    sort_name: Baird
+    party: R
+    incumbent: true
+    bioguide: B001307
+    ballotpedia: https://ballotpedia.org/James_Baird
+    status: not_reviewed
+  - name: Drew Cox
+    sort_name: Cox
+    party: D
+    ballotpedia: https://ballotpedia.org/Drew_Cox
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 5
+  candidates:
+  - name: Victoria Spartz
+    sort_name: Spartz
+    party: R
+    incumbent: true
+    bioguide: S000929
+    ballotpedia: https://ballotpedia.org/Victoria_Spartz
+    status: not_reviewed
+  - name: J.D. Ford
+    sort_name: Ford
+    party: D
+    ballotpedia: https://ballotpedia.org/J.D._Ford
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 6
+  candidates:
+  - name: Jefferson Shreve
+    sort_name: Shreve
+    party: R
+    incumbent: true
+    bioguide: S001229
+    ballotpedia: https://ballotpedia.org/Jefferson_Shreve
+    status: not_reviewed
+  - name: Cynthia Wirth
+    sort_name: Wirth
+    party: D
+    ballotpedia: https://ballotpedia.org/Cynthia_Wirth
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 7
+  candidates:
+  - name: André Carson
+    sort_name: Carson
+    party: D
+    incumbent: true
+    bioguide: C001072
+    ballotpedia: https://ballotpedia.org/André_Carson
+    status: not_reviewed
+  - name: Patrick McAuley
+    sort_name: McAuley
+    party: R
+    ballotpedia: https://ballotpedia.org/Patrick_McAuley
+    status: not_reviewed
+  - name: James Sceniak
+    sort_name: Sceniak
+    party: L
+    ballotpedia: https://ballotpedia.org/James_Sceniak
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 8
+  candidates:
+  - name: Mark Messmer
+    sort_name: Messmer
+    party: R
+    incumbent: true
+    bioguide: M001233
+    ballotpedia: https://ballotpedia.org/Mark_Messmer
+    status: not_reviewed
+  - name: Mary Allen
+    sort_name: Allen
+    party: D
+    ballotpedia: https://ballotpedia.org/Mary_Allen_(Indiana)
+    status: not_reviewed
+- office: us_house
+  state: IN
+  district: 9
+  candidates:
+  - name: Erin Houchin
+    sort_name: Houchin
+    party: R
+    incumbent: true
+    bioguide: H001093
+    ballotpedia: https://ballotpedia.org/Erin_Houchin
+    status: not_reviewed
+  - name: Brad Meyer
+    sort_name: Meyer
+    party: D
+    ballotpedia: https://ballotpedia.org/Brad_Meyer
+    status: not_reviewed
+  - name: Tonya Hudson
+    sort_name: Hudson
+    party: L
+    ballotpedia: https://ballotpedia.org/Tonya_Hudson
+    status: not_reviewed

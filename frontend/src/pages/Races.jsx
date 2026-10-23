@@ -1,9 +1,9 @@
 import { useMemo } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useParams, useSearchParams } from 'react-router-dom'
 import RaceCard from '../components/RaceCard'
 import RecordText from '../components/RecordText'
 import { Loading, LoadError } from '../components/PageState'
-import { useGuide, CATEGORIES } from '../data'
+import { useGuide, CATEGORIES, STATES } from '../data'
 import './Races.css'
 
 const fold = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
@@ -11,6 +11,9 @@ const fold = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 export default function Races() {
   const { data, loading, error } = useGuide()
   const [params, setParams] = useSearchParams()
+  // /states/tx is the same list, filtered to one state.
+  const { st } = useParams()
+  const state = (st || params.get('state') || '').toUpperCase()
   const office = params.get('office') || ''
   const q = params.get('q') || ''
   const onlyRecord = params.get('record') === '1'
@@ -25,25 +28,38 @@ export default function Races() {
     if (!data) return []
     const term = fold(q.trim())
     return data.races.filter(r => {
+      if (state && r.state !== state) return false
       if (office && r.category !== office) return false
       if (onlyRecord && !r.candidates.some(c => c.status === 'on_record')) return false
       if (!term) return true
       if (/^\d+$/.test(term)) return r.district === Number(term)
       return fold(r.title).includes(term) || r.candidates.some(c => fold(c.name).includes(term))
     })
-  }, [data, office, q, onlyRecord])
+  }, [data, state, office, q, onlyRecord])
 
   return (
     <>
       <section className="page-hero">
         <div className="container">
-          <h1>All races</h1>
-          <p>Every race on California's November 2026 ballot. Candidates are listed alphabetically by last name.</p>
+          <h1>{STATES[state] ? `Races in ${STATES[state]}` : 'All races'}</h1>
+          <p>
+            {STATES[state] && state !== 'CA'
+              ? `Every U.S. Senate and House race in ${STATES[state]} on the Nov. 3, 2026 ballot.`
+              : 'Every U.S. Senate and House race on the Nov. 3, 2026 ballot, plus California\'s state races.'}{' '}
+            Candidates are listed alphabetically by last name.
+          </p>
         </div>
       </section>
 
       <div className="container">
         <form className="races-filters" role="search" onSubmit={e => e.preventDefault()}>
+          <div className="form-group">
+            <label htmlFor="f-state">State</label>
+            <select id="f-state" value={state} onChange={e => update('state', e.target.value)} disabled={!!st}>
+              <option value="">All states</option>
+              {Object.entries(STATES).map(([abbr, name]) => <option key={abbr} value={abbr}>{name}</option>)}
+            </select>
+          </div>
           <div className="form-group">
             <label htmlFor="f-office">Office</label>
             <select id="f-office" value={office} onChange={e => update('office', e.target.value)}>
@@ -53,7 +69,7 @@ export default function Races() {
           </div>
           <div className="form-group races-filters__q">
             <label htmlFor="f-q">Name or district number</label>
-            <input id="f-q" type="search" value={q} placeholder="e.g. Lofgren or 17" onChange={e => update('q', e.target.value)} />
+            <input id="f-q" type="search" value={q} placeholder="e.g. Lofgren, Texas or 17" onChange={e => update('q', e.target.value)} />
           </div>
           <label className="races-filters__check">
             <input type="checkbox" checked={onlyRecord} onChange={e => update('record', e.target.checked ? '1' : '')} />
@@ -72,7 +88,7 @@ export default function Races() {
             {filtered.length === 0 && (
               <div className="empty-state"><h3>No races match</h3><p>Try a different name, district or office.</p></div>
             )}
-            {CATEGORIES.map(cat => {
+            {CATEGORIES.filter(cat => !cat.caOnly || !state || state === 'CA').map(cat => {
               const races = filtered.filter(r => r.category === cat.key)
               if (!races.length) return null
               return (

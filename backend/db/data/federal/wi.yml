@@ -1,0 +1,154 @@
+# U.S. Senate and House races in Wisconsin. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: WI
+  district: 1
+  candidates:
+  - name: Bryan Steil
+    sort_name: Steil
+    party: R
+    incumbent: true
+    bioguide: S001213
+    ballotpedia: https://ballotpedia.org/Bryan_Steil
+    status: not_reviewed
+  - name: Mitchell Berman
+    sort_name: Berman
+    party: D
+    ballotpedia: https://ballotpedia.org/Mitchell_Berman
+    status: not_reviewed
+- office: us_house
+  state: WI
+  district: 2
+  candidates:
+  - name: Mark Pocan
+    sort_name: Pocan
+    party: D
+    incumbent: true
+    bioguide: P000607
+    ballotpedia: https://ballotpedia.org/Mark_Pocan
+    status: not_reviewed
+    unopposed: true
+- office: us_house
+  state: WI
+  district: 3
+  candidates:
+  - name: Derrick Van Orden
+    sort_name: Van Orden
+    party: R
+    incumbent: true
+    bioguide: V000135
+    ballotpedia: https://ballotpedia.org/Derrick_Van_Orden
+    status: not_reviewed
+  - name: Rebecca Cooke
+    sort_name: Cooke
+    party: D
+    ballotpedia: https://ballotpedia.org/Rebecca_Cooke
+    status: not_reviewed
+  - name: Alexander Valiensi Kent
+    sort_name: Kent
+    party: I
+    ballotpedia: https://ballotpedia.org/Alexander_Valiensi_Kent
+    status: not_reviewed
+  - name: Rustin Provance
+    sort_name: Provance
+    party: I
+    ballotpedia: https://ballotpedia.org/Rustin_Provance
+    status: not_reviewed
+- office: us_house
+  state: WI
+  district: 4
+  candidates:
+  - name: Gwen Moore
+    sort_name: Moore
+    party: D
+    incumbent: true
+    bioguide: M001160
+    ballotpedia: https://ballotpedia.org/Gwen_Moore
+    status: not_reviewed
+  - name: Tim Rogers
+    sort_name: Rogers
+    party: R
+    ballotpedia: https://ballotpedia.org/Tim_Rogers_(Wisconsin)
+    status: not_reviewed
+  - name: Arthur Burks
+    sort_name: Burks
+    party: I
+    ballotpedia: https://ballotpedia.org/Arthur_Burks
+    status: not_reviewed
+- office: us_house
+  state: WI
+  district: 5
+  candidates:
+  - name: Scott Fitzgerald
+    sort_name: Fitzgerald
+    party: R
+    incumbent: true
+    bioguide: F000471
+    ballotpedia: https://ballotpedia.org/Scott_Fitzgerald
+    status: not_reviewed
+  - name: Andrew Beck
+    sort_name: Beck
+    party: D
+    ballotpedia: https://ballotpedia.org/Andrew_Beck
+    status: not_reviewed
+- office: us_house
+  state: WI
+  district: 6
+  candidates:
+  - name: Glenn Grothman
+    sort_name: Grothman
+    party: R
+    incumbent: true
+    bioguide: G000576
+    ballotpedia: https://ballotpedia.org/Glenn_Grothman
+    status: not_reviewed
+  - name: Bradley Smith
+    sort_name: Smith
+    party: D
+    ballotpedia: https://ballotpedia.org/Bradley_Smith_(Wisconsin)
+    status: not_reviewed
+  - name: Matthew Arndt
+    sort_name: Arndt
+    party: G
+    ballotpedia: https://ballotpedia.org/Matthew_Arndt
+    status: not_reviewed
+  - name: Elizabeth Fitzgibbon
+    sort_name: Fitzgibbon
+    party: I
+    ballotpedia: https://ballotpedia.org/Elizabeth_Fitzgibbon
+    status: not_reviewed
+  - name: Mike Thurow
+    sort_name: Thurow
+    party: I
+    ballotpedia: https://ballotpedia.org/Mike_Thurow
+    status: not_reviewed
+- office: us_house
+  state: WI
+  district: 7
+  candidates:
+  - name: Fred Clark
+    sort_name: Clark
+    party: D
+    ballotpedia: https://ballotpedia.org/Fred_Clark
+    status: not_reviewed
+  - name: Michael Alfonso
+    sort_name: Alfonso
+    party: R
+    ballotpedia: https://ballotpedia.org/Michael_Alfonso
+    status: not_reviewed
+- office: us_house
+  state: WI
+  district: 8
+  candidates:
+  - name: Tony Wied
+    sort_name: Wied
+    party: R
+    incumbent: true
+    bioguide: W000829
+    ballotpedia: https://ballotpedia.org/Tony_Wied
+    status: not_reviewed
+  - name: Rick Crosson
+    sort_name: Crosson
+    party: D
+    ballotpedia: https://ballotpedia.org/Rick_Crosson
+    status: not_reviewed

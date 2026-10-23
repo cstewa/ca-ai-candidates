@@ -1,0 +1,119 @@
+# U.S. Senate and House races in Utah. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: UT
+  district: 1
+  candidates:
+  - name: Ben McAdams
+    sort_name: McAdams
+    party: D
+    ballotpedia: https://ballotpedia.org/Ben_McAdams_(Utah)
+    status: not_reviewed
+  - name: Riley Owen
+    sort_name: Owen
+    party: R
+    ballotpedia: https://ballotpedia.org/Riley_Owen
+    status: not_reviewed
+  - name: Jesse West
+    sort_name: West
+    party: L
+    ballotpedia: https://ballotpedia.org/Jesse_West
+    status: not_reviewed
+  - name: Elias Montgomery
+    sort_name: Montgomery
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Elias_Montgomery
+    status: not_reviewed
+- office: us_house
+  state: UT
+  district: 2
+  candidates:
+  - name: Blake Moore
+    sort_name: Moore
+    party: R
+    incumbent: true
+    bioguide: M001213
+    ballotpedia: https://ballotpedia.org/Blake_Moore
+    status: not_reviewed
+  - name: Peter Crosby
+    sort_name: Crosby
+    party: D
+    ballotpedia: https://ballotpedia.org/Peter_Crosby
+    status: not_reviewed
+  - name: Carlton Bowen
+    sort_name: Bowen
+    party_name: Independent American Party of Utah
+    ballotpedia: https://ballotpedia.org/Carlton_Bowen
+    status: not_reviewed
+  - name: Daniel Cottam
+    sort_name: Cottam
+    party: L
+    ballotpedia: https://ballotpedia.org/Daniel_Cottam
+    status: not_reviewed
+  - name: Robert Moesinger
+    sort_name: Moesinger
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Robert_Moesinger
+    status: not_reviewed
+- office: us_house
+  state: UT
+  district: 3
+  candidates:
+  - name: Celeste Maloy
+    sort_name: Maloy
+    party: R
+    incumbent: true
+    bioguide: M001228
+    ballotpedia: https://ballotpedia.org/Celeste_Maloy
+    status: not_reviewed
+  - name: Kent Udell
+    sort_name: Udell
+    party: D
+    ballotpedia: https://ballotpedia.org/Kent_Udell
+    status: not_reviewed
+  - name: Cassie Easley
+    sort_name: Easley
+    party: C
+    ballotpedia: https://ballotpedia.org/Cassie_Easley
+    status: not_reviewed
+  - name: Michael Stoddard
+    sort_name: Stoddard
+    party: L
+    ballotpedia: https://ballotpedia.org/Michael_Stoddard
+    status: not_reviewed
+  - name: Adonis Hooslyn
+    sort_name: Hooslyn
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Adonis_Hooslyn
+    status: not_reviewed
+  - name: Ayden Scott
+    sort_name: Scott
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Ayden_Scott
+    status: not_reviewed
+- office: us_house
+  state: UT
+  district: 4
+  candidates:
+  - name: Mike Kennedy
+    sort_name: Kennedy
+    party: R
+    incumbent: true
+    bioguide: K000403
+    ballotpedia: https://ballotpedia.org/Mike_Kennedy_(Utah)
+    status: not_reviewed
+  - name: Jonny Larsen
+    sort_name: Larsen
+    party: D
+    ballotpedia: https://ballotpedia.org/Jonny_Larsen
+    status: not_reviewed
+  - name: Taylor Wright
+    sort_name: Wright
+    party: L
+    ballotpedia: https://ballotpedia.org/Taylor_Wright
+    status: not_reviewed
+  - name: Steven Burt
+    sort_name: Burt
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Steven_Burt
+    status: not_reviewed

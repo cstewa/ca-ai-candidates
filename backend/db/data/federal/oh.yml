@@ -1,0 +1,299 @@
+# U.S. Senate and House races in Ohio. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: OH
+  note: Special election for the last two years of the term JD Vance won in 2022.
+  candidates:
+  - name: Jon Husted
+    sort_name: Husted
+    party: R
+    incumbent: true
+    bioguide: H001104
+    ballotpedia: https://ballotpedia.org/Jon_Husted
+    status: not_reviewed
+  - name: Sherrod Brown
+    sort_name: Brown
+    party: D
+    bioguide: B000944
+    ballotpedia: https://ballotpedia.org/Sherrod_Brown
+    status: not_reviewed
+  - name: Bill Redpath
+    sort_name: Redpath
+    party: L
+    ballotpedia: https://ballotpedia.org/Bill_Redpath
+    status: not_reviewed
+  - name: Gregory Levy
+    sort_name: Levy
+    party: I
+    ballotpedia: https://ballotpedia.org/Gregory_Levy
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 1
+  candidates:
+  - name: Greg Landsman
+    sort_name: Landsman
+    party: D
+    incumbent: true
+    bioguide: L000601
+    ballotpedia: https://ballotpedia.org/Greg_Landsman
+    status: not_reviewed
+  - name: Eric Conroy
+    sort_name: Conroy
+    party: R
+    ballotpedia: https://ballotpedia.org/Eric_Conroy
+    status: not_reviewed
+  - name: Nathan Weise
+    sort_name: Weise
+    party: L
+    ballotpedia: https://ballotpedia.org/Nathan_Weise
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 2
+  candidates:
+  - name: David Taylor
+    sort_name: Taylor
+    party: R
+    incumbent: true
+    bioguide: T000490
+    ballotpedia: https://ballotpedia.org/David_Taylor_(Ohio)
+    status: not_reviewed
+  - name: Jen Mazzuckelli
+    sort_name: Mazzuckelli
+    party: D
+    ballotpedia: https://ballotpedia.org/Jen_Mazzuckelli
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 3
+  candidates:
+  - name: Joyce Beatty
+    sort_name: Beatty
+    party: D
+    incumbent: true
+    bioguide: B001281
+    ballotpedia: https://ballotpedia.org/Joyce_Beatty
+    status: not_reviewed
+  - name: Cleophus Dulaney
+    sort_name: Dulaney
+    party: R
+    ballotpedia: https://ballotpedia.org/Cleophus_Dulaney
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 4
+  candidates:
+  - name: Jim Jordan
+    sort_name: Jordan
+    party: R
+    incumbent: true
+    bioguide: J000289
+    ballotpedia: https://ballotpedia.org/Jim_Jordan_(Ohio)
+    status: not_reviewed
+  - name: Joshua Kolasinski
+    sort_name: Kolasinski
+    party: D
+    ballotpedia: https://ballotpedia.org/Joshua_Kolasinski
+    status: not_reviewed
+  - name: Tracey Tackett
+    sort_name: Tackett
+    party: I
+    ballotpedia: https://ballotpedia.org/Tracey_Tackett
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 5
+  candidates:
+  - name: Bob Latta
+    sort_name: Latta
+    party: R
+    incumbent: true
+    bioguide: L000566
+    ballotpedia: https://ballotpedia.org/Bob_Latta
+    status: not_reviewed
+  - name: Brian Shaver
+    sort_name: Shaver
+    party: D
+    ballotpedia: https://ballotpedia.org/Brian_Shaver
+    status: not_reviewed
+  - name: Michael Veloff
+    sort_name: Veloff
+    party: L
+    ballotpedia: https://ballotpedia.org/Michael_Veloff
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 6
+  candidates:
+  - name: Michael Rulli
+    sort_name: Rulli
+    party: R
+    incumbent: true
+    bioguide: R000619
+    ballotpedia: https://ballotpedia.org/Michael_Rulli
+    status: not_reviewed
+  - name: Elizabeth Kirtley
+    sort_name: Kirtley
+    party: D
+    ballotpedia: https://ballotpedia.org/Elizabeth_Kirtley
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 7
+  candidates:
+  - name: Max Miller
+    sort_name: Miller
+    party: R
+    incumbent: true
+    bioguide: M001222
+    ballotpedia: https://ballotpedia.org/Max_Miller
+    status: not_reviewed
+  - name: Brian Poindexter
+    sort_name: Poindexter
+    party: D
+    ballotpedia: https://ballotpedia.org/Brian_Poindexter
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 8
+  candidates:
+  - name: Warren Davidson
+    sort_name: Davidson
+    party: R
+    incumbent: true
+    bioguide: D000626
+    ballotpedia: https://ballotpedia.org/Warren_Davidson
+    status: not_reviewed
+  - name: Vanessa Enoch
+    sort_name: Enoch
+    party: D
+    ballotpedia: https://ballotpedia.org/Vanessa_Enoch
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 9
+  candidates:
+  - name: Marcy Kaptur
+    sort_name: Kaptur
+    party: D
+    incumbent: true
+    bioguide: K000009
+    ballotpedia: https://ballotpedia.org/Marcy_Kaptur
+    status: not_reviewed
+  - name: Derek Merrin
+    sort_name: Merrin
+    party: R
+    ballotpedia: https://ballotpedia.org/Derek_Merrin
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 10
+  candidates:
+  - name: Michael Turner
+    sort_name: Turner
+    party: R
+    incumbent: true
+    bioguide: T000463
+    ballotpedia: https://ballotpedia.org/Michael_Turner_(Ohio)
+    status: not_reviewed
+  - name: Kristina Knickerbocker
+    sort_name: Knickerbocker
+    party: D
+    ballotpedia: https://ballotpedia.org/Kristina_Knickerbocker
+    status: not_reviewed
+  - name: Thomas McMasters
+    sort_name: McMasters
+    party: L
+    ballotpedia: https://ballotpedia.org/Thomas_McMasters_(Ohio_U.S._House)
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 11
+  candidates:
+  - name: Shontel Brown
+    sort_name: Brown
+    party: D
+    incumbent: true
+    bioguide: B001313
+    ballotpedia: https://ballotpedia.org/Shontel_Brown
+    status: not_reviewed
+  - name: Mike Kirchner
+    sort_name: Kirchner
+    party: R
+    ballotpedia: https://ballotpedia.org/Mike_Kirchner
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 12
+  candidates:
+  - name: Troy Balderson
+    sort_name: Balderson
+    party: R
+    incumbent: true
+    bioguide: B001306
+    ballotpedia: https://ballotpedia.org/Troy_Balderson
+    status: not_reviewed
+  - name: Jerrad Christian
+    sort_name: Christian
+    party: D
+    ballotpedia: https://ballotpedia.org/Jerrad_Christian
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 13
+  candidates:
+  - name: Emilia Sykes
+    sort_name: Sykes
+    party: D
+    incumbent: true
+    bioguide: S001223
+    ballotpedia: https://ballotpedia.org/Emilia_Sykes
+    status: not_reviewed
+  - name: Carey Coleman
+    sort_name: Coleman
+    party: R
+    ballotpedia: https://ballotpedia.org/Carey_Coleman
+    status: not_reviewed
+  - name: Sandeep Dixit
+    sort_name: Dixit
+    party: I
+    ballotpedia: https://ballotpedia.org/Sandeep_Dixit
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 14
+  candidates:
+  - name: David Joyce
+    sort_name: Joyce
+    party: R
+    incumbent: true
+    bioguide: J000295
+    ballotpedia: https://ballotpedia.org/David_Joyce
+    status: not_reviewed
+  - name: Maria Jukic
+    sort_name: Jukic
+    party: D
+    ballotpedia: https://ballotpedia.org/Maria_Jukic
+    status: not_reviewed
+- office: us_house
+  state: OH
+  district: 15
+  candidates:
+  - name: Mike Carey
+    sort_name: Carey
+    party: R
+    incumbent: true
+    bioguide: C001126
+    ballotpedia: https://ballotpedia.org/Mike_Carey_(Ohio)
+    status: not_reviewed
+  - name: Don Leonard
+    sort_name: Leonard
+    party: D
+    ballotpedia: https://ballotpedia.org/Don_Leonard
+    status: not_reviewed
+  - name: Brennan Barrington
+    sort_name: Barrington
+    party: L
+    ballotpedia: https://ballotpedia.org/Brennan_Barrington
+    status: not_reviewed

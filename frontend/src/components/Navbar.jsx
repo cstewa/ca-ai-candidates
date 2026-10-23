@@ -15,10 +15,10 @@ export default function Navbar() {
     <nav className="navbar" aria-label="Main">
       <div className="navbar__inner container">
         <Link to="/" className="navbar__logo" onClick={() => setOpen(false)}>
-          <span className="navbar__mark" aria-hidden="true">CA</span>
+          <span className="navbar__mark" aria-hidden="true">AI</span>
           <span className="navbar__title">
-            AI Safety Candidate Lookup
-            <span className="navbar__sub">California · 2026 Election</span>
+            AI Vote Watch
+            <span className="navbar__sub">2026 Election · AI safety records</span>
           </span>
         </Link>
 

@@ -1,0 +1,106 @@
+# U.S. Senate and House races in Kansas. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: KS
+  candidates:
+  - name: Roger Marshall
+    sort_name: Marshall
+    party: R
+    incumbent: true
+    bioguide: M001198
+    ballotpedia: https://ballotpedia.org/Roger_Marshall
+    status: not_reviewed
+  - name: Adam Hamilton
+    sort_name: Hamilton
+    party: D
+    ballotpedia: https://ballotpedia.org/Adam_Hamilton_(Kansas)
+    status: not_reviewed
+  - name: David Graham
+    sort_name: Graham
+    party: L
+    ballotpedia: https://ballotpedia.org/David_Graham_(Kansas)
+    status: not_reviewed
+- office: us_house
+  state: KS
+  district: 1
+  candidates:
+  - name: Tracey Mann
+    sort_name: Mann
+    party: R
+    incumbent: true
+    bioguide: M000871
+    ballotpedia: https://ballotpedia.org/Tracey_Mann
+    status: not_reviewed
+  - name: Lauren Reinhold
+    sort_name: Reinhold
+    party: D
+    ballotpedia: https://ballotpedia.org/Lauren_Reinhold
+    status: not_reviewed
+  - name: Steven Jacob
+    sort_name: Jacob
+    party: L
+    ballotpedia: https://ballotpedia.org/Steven_Jacob_(Kansas)
+    status: not_reviewed
+- office: us_house
+  state: KS
+  district: 2
+  candidates:
+  - name: Derek Schmidt
+    sort_name: Schmidt
+    party: R
+    incumbent: true
+    bioguide: S001228
+    ballotpedia: https://ballotpedia.org/Derek_Schmidt
+    status: not_reviewed
+  - name: Don Coover
+    sort_name: Coover
+    party: D
+    ballotpedia: https://ballotpedia.org/Don_Coover
+    status: not_reviewed
+  - name: John Hauer
+    sort_name: Hauer
+    party: L
+    ballotpedia: https://ballotpedia.org/John_Hauer
+    status: not_reviewed
+- office: us_house
+  state: KS
+  district: 3
+  candidates:
+  - name: Sharice Davids
+    sort_name: Davids
+    party: D
+    incumbent: true
+    bioguide: D000629
+    ballotpedia: https://ballotpedia.org/Sharice_Davids
+    status: not_reviewed
+  - name: Eric Jenkins
+    sort_name: Jenkins
+    party: R
+    ballotpedia: https://ballotpedia.org/Eric_Jenkins
+    status: not_reviewed
+  - name: Steve Hohe
+    sort_name: Hohe
+    party: L
+    ballotpedia: https://ballotpedia.org/Steve_Hohe
+    status: not_reviewed
+- office: us_house
+  state: KS
+  district: 4
+  candidates:
+  - name: Ron Estes
+    sort_name: Estes
+    party: R
+    incumbent: true
+    bioguide: E000298
+    ballotpedia: https://ballotpedia.org/Ron_Estes_(U.S._Representative_from_Kansas)
+    status: not_reviewed
+  - name: Katy Tyndell
+    sort_name: Tyndell
+    party: D
+    ballotpedia: https://ballotpedia.org/Katy_Tyndell
+    status: not_reviewed
+  - name: Drew Cranmer
+    sort_name: Cranmer
+    party: L
+    ballotpedia: https://ballotpedia.org/Drew_Cranmer
+    status: not_reviewed

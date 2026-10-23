@@ -1,0 +1,40 @@
+# U.S. Senate and House races in Wyoming. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: WY
+  candidates:
+  - name: James Byrd
+    sort_name: Byrd
+    party: D
+    ballotpedia: https://ballotpedia.org/James_Byrd
+    status: not_reviewed
+  - name: Harriet Hageman
+    sort_name: Hageman
+    party: R
+    bioguide: H001096
+    ballotpedia: https://ballotpedia.org/Harriet_Hageman
+    status: not_reviewed
+- office: us_house
+  state: WY
+  district: 0
+  candidates:
+  - name: Lisa Kinney
+    sort_name: Kinney
+    party: D
+    ballotpedia: https://ballotpedia.org/Lisa_Kinney
+    status: not_reviewed
+  - name: Chuck Gray
+    sort_name: Gray
+    party: R
+    ballotpedia: https://ballotpedia.org/Chuck_Gray_(Wyoming)
+    status: not_reviewed
+  - name: Jeff Haggit
+    sort_name: Haggit
+    party: C
+    ballotpedia: https://ballotpedia.org/Jeff_Haggit
+    status: not_reviewed
+  - name: Shawn Johnson
+    sort_name: Johnson
+    party: L
+    ballotpedia: https://ballotpedia.org/Shawn_Johnson
+    status: not_reviewed

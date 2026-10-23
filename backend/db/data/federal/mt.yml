@@ -1,0 +1,70 @@
+# U.S. Senate and House races in Montana. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: MT
+  candidates:
+  - name: Alani Bankhead
+    sort_name: Bankhead
+    party: D
+    ballotpedia: https://ballotpedia.org/Alani_Bankhead
+    status: not_reviewed
+  - name: Kurt Alme
+    sort_name: Alme
+    party: R
+    ballotpedia: https://ballotpedia.org/Kurt_Alme
+    status: not_reviewed
+  - name: Kyle Austin
+    sort_name: Austin
+    party: L
+    ballotpedia: https://ballotpedia.org/Kyle_Austin_(Montana)
+    status: not_reviewed
+  - name: Seth Bodnar
+    sort_name: Bodnar
+    party: I
+    ballotpedia: https://ballotpedia.org/Seth_Bodnar
+    status: not_reviewed
+- office: us_house
+  state: MT
+  district: 1
+  candidates:
+  - name: Sam Forstag
+    sort_name: Forstag
+    party: D
+    ballotpedia: https://ballotpedia.org/Sam_Forstag
+    status: not_reviewed
+  - name: Aaron Flint
+    sort_name: Flint
+    party: R
+    ballotpedia: https://ballotpedia.org/Aaron_Flint_(Montana)
+    status: not_reviewed
+  - name: Nick Sheedy
+    sort_name: Sheedy
+    party: L
+    ballotpedia: https://ballotpedia.org/Nick_Sheedy
+    status: not_reviewed
+- office: us_house
+  state: MT
+  district: 2
+  candidates:
+  - name: Troy Downing
+    sort_name: Downing
+    party: R
+    incumbent: true
+    bioguide: D000634
+    ballotpedia: https://ballotpedia.org/Troy_Downing
+    status: not_reviewed
+  - name: Brian Miller
+    sort_name: Miller
+    party: D
+    ballotpedia: https://ballotpedia.org/Brian_Miller_(Montana)
+    status: not_reviewed
+  - name: Patrick McCracken
+    sort_name: McCracken
+    party: L
+    ballotpedia: https://ballotpedia.org/Patrick_McCracken
+    status: not_reviewed
+  - name: Michael Eisenhauer
+    sort_name: Eisenhauer
+    party: I
+    ballotpedia: https://ballotpedia.org/Michael_Eisenhauer
+    status: not_reviewed

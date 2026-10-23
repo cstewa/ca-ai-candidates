@@ -1,0 +1,443 @@
+# U.S. Senate and House races in New York. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: NY
+  district: 1
+  candidates:
+  - name: Nicholas J. LaLota
+    sort_name: LaLota
+    party_name: Republican / Conservative Party
+    incumbent: true
+    bioguide: L000598
+    ballotpedia: https://ballotpedia.org/Nicholas_J._LaLota
+    status: not_reviewed
+  - name: Christopher Gallant
+    sort_name: Gallant
+    party: D
+    ballotpedia: https://ballotpedia.org/Christopher_Gallant
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 2
+  candidates:
+  - name: Andrew Garbarino
+    sort_name: Garbarino
+    party_name: Republican / Conservative Party
+    incumbent: true
+    bioguide: G000597
+    ballotpedia: https://ballotpedia.org/Andrew_Garbarino
+    status: not_reviewed
+  - name: Patrick Halpin
+    sort_name: Halpin
+    party_name: Democratic / Working Families Party
+    ballotpedia: https://ballotpedia.org/Patrick_Halpin
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 3
+  candidates:
+  - name: Tom Suozzi
+    sort_name: Suozzi
+    party: D
+    incumbent: true
+    bioguide: S001201
+    ballotpedia: https://ballotpedia.org/Tom_Suozzi
+    status: not_reviewed
+  - name: Michael LiPetri Jr.
+    sort_name: LiPetri
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Michael_LiPetri_Jr.
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 4
+  candidates:
+  - name: Laura Gillen
+    sort_name: Gillen
+    party: D
+    incumbent: true
+    bioguide: G000602
+    ballotpedia: https://ballotpedia.org/Laura_Gillen
+    status: not_reviewed
+  - name: Jeanine Driscoll
+    sort_name: Driscoll
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Jeanine_Driscoll
+    status: not_reviewed
+  - name: Blay Tarnoff
+    sort_name: Tarnoff
+    party: L
+    ballotpedia: https://ballotpedia.org/Blay_Tarnoff
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 5
+  candidates:
+  - name: Gregory W. Meeks
+    sort_name: Meeks
+    party: D
+    incumbent: true
+    bioguide: M001137
+    ballotpedia: https://ballotpedia.org/Gregory_Meeks
+    status: not_reviewed
+  - name: George Marsh
+    sort_name: Marsh
+    party_name: Republican / Queens United Party
+    ballotpedia: https://ballotpedia.org/George_Marsh
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 6
+  candidates:
+  - name: Grace Meng
+    sort_name: Meng
+    party: D
+    incumbent: true
+    bioguide: M001188
+    ballotpedia: https://ballotpedia.org/Grace_Meng
+    status: not_reviewed
+  - name: Joseph Chou
+    sort_name: Chou
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Joseph_Chou
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 7
+  candidates:
+  - name: Claire Valdez
+    sort_name: Valdez
+    party_name: Democratic / Working Families Party
+    ballotpedia: https://ballotpedia.org/Claire_Valdez
+    status: not_reviewed
+  - name: Melvin Rivera
+    sort_name: Rivera
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Melvin_Rivera_(New_York)
+    status: not_reviewed
+  - name: Priscilla Ghaznavi
+    sort_name: Ghaznavi
+    party_name: Our Future Party
+    ballotpedia: https://ballotpedia.org/Priscilla_Ghaznavi
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 8
+  candidates:
+  - name: Hakeem Jeffries
+    sort_name: Jeffries
+    party: D
+    incumbent: true
+    bioguide: J000294
+    ballotpedia: https://ballotpedia.org/Hakeem_Jeffries
+    status: not_reviewed
+  - name: Lewis Mizrahi
+    sort_name: Mizrahi
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Lewis_Mizrahi
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 9
+  candidates:
+  - name: Yvette D. Clarke
+    sort_name: Clarke
+    party: D
+    incumbent: true
+    bioguide: C001067
+    ballotpedia: https://ballotpedia.org/Yvette_Clarke
+    status: not_reviewed
+  - name: Joel Anabilah-Azumah
+    sort_name: Anabilah-Azumah
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Joel_Anabilah-Azumah
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 10
+  candidates:
+  - name: Brad Lander
+    sort_name: Lander
+    party_name: Democratic / Working Families Party
+    ballotpedia: https://ballotpedia.org/Brad_Lander
+    status: not_reviewed
+  - name: Jennifer Moore
+    sort_name: Moore
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Jennifer_Moore_(New_York)
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 11
+  candidates:
+  - name: Nicole Malliotakis
+    sort_name: Malliotakis
+    party_name: Republican / Conservative Party
+    incumbent: true
+    bioguide: M000317
+    ballotpedia: https://ballotpedia.org/Nicole_Malliotakis
+    status: not_reviewed
+  - name: Michael DeCillis
+    sort_name: DeCillis
+    party: D
+    ballotpedia: https://ballotpedia.org/Michael_DeCillis
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 12
+  candidates:
+  - name: Micah Lasher
+    sort_name: Lasher
+    party: D
+    ballotpedia: https://ballotpedia.org/Micah_Lasher
+    status: not_reviewed
+  - name: Caroline Shinkle
+    sort_name: Shinkle
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Caroline_Shinkle
+    status: not_reviewed
+  - name: Wilneida Negron
+    sort_name: Negron
+    party_name: For All of Us Party
+    ballotpedia: https://ballotpedia.org/Wilneida_Negron
+    status: not_reviewed
+  - name: Karen Ortiz
+    sort_name: Ortiz
+    party_name: Karen Ortiz Party
+    ballotpedia: https://ballotpedia.org/Karen_Ortiz
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 13
+  candidates:
+  - name: Darializa Avila Chevalier
+    sort_name: Chevalier
+    party_name: Democratic / Working Families Party
+    ballotpedia: https://ballotpedia.org/Darializa_Avila_Chevalier
+    status: not_reviewed
+  - name: Manual Williams
+    sort_name: Williams
+    party: R
+    ballotpedia: https://ballotpedia.org/Manual_Williams
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 14
+  candidates:
+  - name: Alexandria Ocasio-Cortez
+    sort_name: Ocasio-Cortez
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: O000172
+    ballotpedia: https://ballotpedia.org/Alexandria_Ocasio-Cortez
+    status: not_reviewed
+  - name: Diamant Hysenaj
+    sort_name: Hysenaj
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Diamant_Hysenaj
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 15
+  candidates:
+  - name: Ritchie Torres
+    sort_name: Torres
+    party: D
+    incumbent: true
+    bioguide: T000486
+    ballotpedia: https://ballotpedia.org/Ritchie_Torres
+    status: not_reviewed
+  - name: Stylo A. Sapaskis
+    sort_name: Sapaskis
+    party: R
+    ballotpedia: https://ballotpedia.org/Stylo_Sapaskis
+    status: not_reviewed
+  - name: Gonzalo Duran
+    sort_name: Duran
+    party_name: Conservative Party
+    ballotpedia: https://ballotpedia.org/Gonzalo_Duran
+    status: not_reviewed
+  - name: Andre Easton
+    sort_name: Easton
+    party_name: Party for Socialism and Liberation
+    ballotpedia: https://ballotpedia.org/Andre_Easton
+    status: not_reviewed
+  - name: Jose Vega
+    sort_name: Vega
+    party_name: Speak The Truth Party
+    ballotpedia: https://ballotpedia.org/Jose_Vega
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 16
+  candidates:
+  - name: George Latimer
+    sort_name: Latimer
+    party: D
+    incumbent: true
+    bioguide: L000606
+    ballotpedia: https://ballotpedia.org/George_Latimer_(New_York)
+    status: not_reviewed
+  - name: Joseph Cinquemani
+    sort_name: Cinquemani
+    party: R
+    ballotpedia: https://ballotpedia.org/Joseph_Cinquemani
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 17
+  candidates:
+  - name: Michael Lawler
+    sort_name: Lawler
+    party_name: Republican / Conservative Party
+    incumbent: true
+    bioguide: L000599
+    ballotpedia: https://ballotpedia.org/Michael_Lawler_(New_York)
+    status: not_reviewed
+  - name: Cait Conley
+    sort_name: Conley
+    party_name: Democratic / Working Families Party
+    ballotpedia: https://ballotpedia.org/Cait_Conley
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 18
+  candidates:
+  - name: Pat Ryan
+    sort_name: Ryan
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: R000579
+    ballotpedia: https://ballotpedia.org/Pat_Ryan_(New_York)
+    status: not_reviewed
+  - name: Jackie Auringer
+    sort_name: Auringer
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Jackie_Auringer
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 19
+  candidates:
+  - name: Josh Riley
+    sort_name: Riley
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: R000622
+    ballotpedia: https://ballotpedia.org/Josh_Riley
+    status: not_reviewed
+  - name: Peter Oberacker
+    sort_name: Oberacker
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Peter_Oberacker
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 20
+  candidates:
+  - name: Paul Tonko
+    sort_name: Tonko
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: T000469
+    ballotpedia: https://ballotpedia.org/Paul_Tonko
+    status: not_reviewed
+  - name: Ralph Ambrosio
+    sort_name: Ambrosio
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Ralph_Ambrosio
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 21
+  candidates:
+  - name: Blake Gendebien
+    sort_name: Gendebien
+    party: D
+    ballotpedia: https://ballotpedia.org/Blake_Gendebien
+    status: not_reviewed
+  - name: Anthony Constantino
+    sort_name: Constantino
+    party_name: Republican / Taxpayer Rights Party
+    ballotpedia: https://ballotpedia.org/Anthony_Constantino
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 22
+  candidates:
+  - name: John Mannion
+    sort_name: Mannion
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: M001231
+    ballotpedia: https://ballotpedia.org/John_Mannion
+    status: not_reviewed
+  - name: Kailee Buller
+    sort_name: Buller
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Kailee_Buller
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 23
+  candidates:
+  - name: Nick Langworthy
+    sort_name: Langworthy
+    party_name: Republican / Conservative Party
+    incumbent: true
+    bioguide: L000600
+    ballotpedia: https://ballotpedia.org/Nick_Langworthy
+    status: not_reviewed
+  - name: Aaron Gies
+    sort_name: Gies
+    party_name: Democratic / Working Families Party
+    ballotpedia: https://ballotpedia.org/Aaron_Gies
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 24
+  candidates:
+  - name: Claudia Tenney
+    sort_name: Tenney
+    party_name: Republican / Conservative Party
+    incumbent: true
+    bioguide: T000478
+    ballotpedia: https://ballotpedia.org/Claudia_Tenney
+    status: not_reviewed
+  - name: Alissa Ellman
+    sort_name: Ellman
+    party_name: Democratic / Working Families Party
+    ballotpedia: https://ballotpedia.org/Alissa_Ellman
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 25
+  candidates:
+  - name: Joseph Morelle
+    sort_name: Morelle
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: M001206
+    ballotpedia: https://ballotpedia.org/Joseph_Morelle
+    status: not_reviewed
+  - name: Virginia McIntyre
+    sort_name: McIntyre
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Virginia_McIntyre
+    status: not_reviewed
+- office: us_house
+  state: NY
+  district: 26
+  candidates:
+  - name: Timothy M. Kennedy
+    sort_name: Kennedy
+    party: D
+    incumbent: true
+    bioguide: K000402
+    ballotpedia: https://ballotpedia.org/Tim_Kennedy_(New_York)
+    status: not_reviewed
+  - name: Dennis Hannon
+    sort_name: Hannon
+    party_name: Republican / Conservative Party
+    ballotpedia: https://ballotpedia.org/Dennis_Hannon
+    status: not_reviewed

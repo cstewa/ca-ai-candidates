@@ -1,0 +1,255 @@
+# U.S. Senate and House races in Louisiana. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: LA
+  candidates:
+  - name: Jamie Davis
+    sort_name: Davis
+    party: D
+    ballotpedia: https://ballotpedia.org/Jamie_Davis_(Louisiana)
+    status: not_reviewed
+  - name: Julia Letlow
+    sort_name: Letlow
+    party: R
+    bioguide: L000595
+    ballotpedia: https://ballotpedia.org/Julia_Letlow
+    status: not_reviewed
+- office: us_house
+  state: LA
+  district: 1
+  note: All candidates run on one ballot. If no one wins a majority, the top two meet
+    in a December runoff.
+  candidates:
+  - name: Steve Scalise
+    sort_name: Scalise
+    party: R
+    incumbent: true
+    bioguide: S001176
+    ballotpedia: https://ballotpedia.org/Steve_Scalise
+    status: not_reviewed
+  - name: Lauren Jewett
+    sort_name: Jewett
+    party: D
+    ballotpedia: https://ballotpedia.org/Lauren_Jewett
+    status: not_reviewed
+  - name: Randall Arrington
+    sort_name: Arrington
+    party: R
+    ballotpedia: https://ballotpedia.org/Randall_Arrington
+    status: not_reviewed
+  - name: Liddy Glass
+    sort_name: Glass
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Liddy_Glass
+    status: not_reviewed
+- office: us_house
+  state: LA
+  district: 2
+  note: All candidates run on one ballot. If no one wins a majority, the top two meet
+    in a December runoff.
+  candidates:
+  - name: Troy Carter
+    sort_name: Carter
+    party: D
+    incumbent: true
+    bioguide: C001125
+    ballotpedia: https://ballotpedia.org/Troy_Carter
+    status: not_reviewed
+  - name: Peter Williams
+    sort_name: Williams
+    party: R
+    ballotpedia: https://ballotpedia.org/Peter_Williams_(Louisiana)
+    status: not_reviewed
+  - name: Lisa Ballay
+    sort_name: Ballay
+    party: L
+    ballotpedia: https://ballotpedia.org/Lisa_Ballay
+    status: not_reviewed
+  - name: Walter Beach
+    sort_name: Beach
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Walter_Beach
+    status: not_reviewed
+  - name: Renada Collins
+    sort_name: Collins
+    party_name: Unaffiliated
+    ballotpedia: https://ballotpedia.org/Renada_Collins
+    status: not_reviewed
+- office: us_house
+  state: LA
+  district: 3
+  note: All candidates run on one ballot. If no one wins a majority, the top two meet
+    in a December runoff.
+  candidates:
+  - name: Clay Higgins
+    sort_name: Higgins
+    party: R
+    incumbent: true
+    bioguide: H001077
+    ballotpedia: https://ballotpedia.org/Clay_Higgins
+    status: not_reviewed
+  - name: John Day
+    sort_name: Day
+    party: D
+    ballotpedia: https://ballotpedia.org/John_Day_(Louisiana)
+    status: not_reviewed
+  - name: Priscilla Gonzalez
+    sort_name: Gonzalez
+    party: D
+    ballotpedia: https://ballotpedia.org/Priscilla_Gonzalez
+    status: not_reviewed
+  - name: Caleb Walker
+    sort_name: Walker
+    party: D
+    ballotpedia: https://ballotpedia.org/Caleb_Walker
+    status: not_reviewed
+  - name: Kate Cotten
+    sort_name: Cotten
+    party: R
+    ballotpedia: https://ballotpedia.org/Kate_Cotten
+    status: not_reviewed
+  - name: Tia LeBrun
+    sort_name: LeBrun
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Tia_LeBrun
+    status: not_reviewed
+- office: us_house
+  state: LA
+  district: 4
+  note: All candidates run on one ballot. If no one wins a majority, the top two meet
+    in a December runoff.
+  candidates:
+  - name: Mike Johnson
+    sort_name: Johnson
+    party: R
+    incumbent: true
+    bioguide: J000299
+    ballotpedia: https://ballotpedia.org/Mike_Johnson_(Louisiana)
+    status: not_reviewed
+  - name: Conrad Cable
+    sort_name: Cable
+    party: D
+    ballotpedia: https://ballotpedia.org/Conrad_Cable
+    status: not_reviewed
+  - name: Matthew Gromlich
+    sort_name: Gromlich
+    party: D
+    ballotpedia: https://ballotpedia.org/Matthew_Gromlich
+    status: not_reviewed
+  - name: Gordon Heslop
+    sort_name: Heslop
+    party: R
+    ballotpedia: https://ballotpedia.org/Gordon_Heslop
+    status: not_reviewed
+  - name: Mike Nichols
+    sort_name: Nichols
+    party: R
+    ballotpedia: https://ballotpedia.org/Mike_Nichols_(Louisiana)
+    status: not_reviewed
+- office: us_house
+  state: LA
+  district: 5
+  note: All candidates run on one ballot. If no one wins a majority, the top two meet
+    in a December runoff.
+  candidates:
+  - name: Dan McKay
+    sort_name: McKay
+    party: D
+    ballotpedia: https://ballotpedia.org/Dan_McKay
+    status: not_reviewed
+  - name: Pat Moore
+    sort_name: Moore
+    party: D
+    ballotpedia: https://ballotpedia.org/Pat_Moore_(Louisiana)
+    status: not_reviewed
+  - name: Antonio Wilson
+    sort_name: Wilson
+    party: D
+    ballotpedia: https://ballotpedia.org/Antonio_Wilson
+    status: not_reviewed
+  - name: Stewart Cathey
+    sort_name: Cathey
+    party: R
+    ballotpedia: https://ballotpedia.org/Stewart_Cathey
+    status: not_reviewed
+  - name: Misti Cordell
+    sort_name: Cordell
+    party: R
+    ballotpedia: https://ballotpedia.org/Misti_Cordell
+    status: not_reviewed
+  - name: Oscar Dantzler
+    sort_name: Dantzler
+    party: R
+    ballotpedia: https://ballotpedia.org/Oscar_Dantzler
+    status: not_reviewed
+  - name: Michael Echols
+    sort_name: Echols
+    party: R
+    ballotpedia: https://ballotpedia.org/Michael_Echols
+    status: not_reviewed
+  - name: Gabe Firment
+    sort_name: Firment
+    party: R
+    ballotpedia: https://ballotpedia.org/Gabe_Firment
+    status: not_reviewed
+  - name: Austin Magee
+    sort_name: Magee
+    party: R
+    ballotpedia: https://ballotpedia.org/Austin_Magee
+    status: not_reviewed
+- office: us_house
+  state: LA
+  district: 6
+  note: All candidates run on one ballot. If no one wins a majority, the top two meet
+    in a December runoff.
+  candidates:
+  - name: Chauna Banks
+    sort_name: Banks
+    party: D
+    ballotpedia: https://ballotpedia.org/Chauna_Banks
+    status: not_reviewed
+  - name: Patrick Forbes
+    sort_name: Forbes
+    party: D
+    ballotpedia: https://ballotpedia.org/Patrick_Forbes
+    status: not_reviewed
+  - name: Lindsay Garcia
+    sort_name: Garcia
+    party: D
+    ballotpedia: https://ballotpedia.org/Lindsay_Garcia
+    status: not_reviewed
+  - name: Monique Appeaning
+    sort_name: Appeaning
+    party: R
+    ballotpedia: https://ballotpedia.org/Monique_Appeaning
+    status: not_reviewed
+  - name: Larry Davis
+    sort_name: Davis
+    party: R
+    ballotpedia: https://ballotpedia.org/Larry_Davis_(Louisiana)
+    status: not_reviewed
+  - name: Rick Edmonds
+    sort_name: Edmonds
+    party: R
+    ballotpedia: https://ballotpedia.org/Rick_Edmonds
+    status: not_reviewed
+  - name: Michael Mebruer
+    sort_name: Mebruer
+    party: R
+    ballotpedia: https://ballotpedia.org/Michael_Mebruer
+    status: not_reviewed
+  - name: Blake Miguez
+    sort_name: Miguez
+    party: R
+    ballotpedia: https://ballotpedia.org/Blake_Miguez
+    status: not_reviewed
+  - name: Stephen Wagley
+    sort_name: Wagley
+    party: R
+    ballotpedia: https://ballotpedia.org/Stephen_Wagley
+    status: not_reviewed
+  - name: Rufus Craig
+    sort_name: Craig
+    party: L
+    ballotpedia: https://ballotpedia.org/Rufus_Craig
+    status: not_reviewed

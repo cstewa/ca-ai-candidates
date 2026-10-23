@@ -1,0 +1,143 @@
+# U.S. Senate and House races in Maryland. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: MD
+  district: 1
+  candidates:
+  - name: Andrew Harris
+    sort_name: Harris
+    party: R
+    incumbent: true
+    bioguide: H001052
+    ballotpedia: https://ballotpedia.org/Andrew_Harris
+    status: not_reviewed
+  - name: Dan Schwartz
+    sort_name: Schwartz
+    party: D
+    ballotpedia: https://ballotpedia.org/Dan_Schwartz_(Maryland)
+    status: not_reviewed
+- office: us_house
+  state: MD
+  district: 2
+  candidates:
+  - name: John Olszewski Jr.
+    sort_name: Olszewski
+    party: D
+    incumbent: true
+    bioguide: O000176
+    ballotpedia: https://ballotpedia.org/John_Olszewski_Jr.
+    status: not_reviewed
+  - name: Dave Wallace
+    sort_name: Wallace
+    party: R
+    ballotpedia: https://ballotpedia.org/Dave_Wallace_(Maryland)
+    status: not_reviewed
+- office: us_house
+  state: MD
+  district: 3
+  candidates:
+  - name: Sarah Elfreth
+    sort_name: Elfreth
+    party: D
+    incumbent: true
+    bioguide: E000301
+    ballotpedia: https://ballotpedia.org/Sarah_Elfreth
+    status: not_reviewed
+  - name: Bernard Flowers
+    sort_name: Flowers
+    party: R
+    ballotpedia: https://ballotpedia.org/Bernard_Flowers
+    status: not_reviewed
+- office: us_house
+  state: MD
+  district: 4
+  candidates:
+  - name: Glenn Ivey
+    sort_name: Ivey
+    party: D
+    incumbent: true
+    bioguide: I000058
+    ballotpedia: https://ballotpedia.org/Glenn_Ivey
+    status: not_reviewed
+  - name: George McDermott
+    sort_name: McDermott
+    party: R
+    ballotpedia: https://ballotpedia.org/George_McDermott
+    status: not_reviewed
+  - name: Sam Husseini
+    sort_name: Husseini
+    party: G
+    ballotpedia: https://ballotpedia.org/Sam_Husseini
+    status: not_reviewed
+- office: us_house
+  state: MD
+  district: 5
+  candidates:
+  - name: Adrian Boafo
+    sort_name: Boafo
+    party: D
+    ballotpedia: https://ballotpedia.org/Adrian_Boafo
+    status: not_reviewed
+  - name: Chris Chaffee
+    sort_name: Chaffee
+    party: R
+    ballotpedia: https://ballotpedia.org/Chris_Chaffee
+    status: not_reviewed
+- office: us_house
+  state: MD
+  district: 6
+  candidates:
+  - name: April McClain Delaney
+    sort_name: McClain Delaney
+    party: D
+    incumbent: true
+    bioguide: M001232
+    ballotpedia: https://ballotpedia.org/April_McClain_Delaney
+    status: not_reviewed
+  - name: Robin Ficker
+    sort_name: Ficker
+    party: R
+    ballotpedia: https://ballotpedia.org/Robin_Ficker
+    status: not_reviewed
+  - name: Moshe Landman
+    sort_name: Landman
+    party: G
+    ballotpedia: https://ballotpedia.org/Moshe_Landman
+    status: not_reviewed
+- office: us_house
+  state: MD
+  district: 7
+  candidates:
+  - name: Kweisi Mfume
+    sort_name: Mfume
+    party: D
+    incumbent: true
+    bioguide: M000687
+    ballotpedia: https://ballotpedia.org/Kweisi_Mfume
+    status: not_reviewed
+  - name: Scott Collier
+    sort_name: Collier
+    party: R
+    ballotpedia: https://ballotpedia.org/Scott_Collier_(Maryland)
+    status: not_reviewed
+- office: us_house
+  state: MD
+  district: 8
+  candidates:
+  - name: Jamie Raskin
+    sort_name: Raskin
+    party: D
+    incumbent: true
+    bioguide: R000606
+    ballotpedia: https://ballotpedia.org/Jamie_Raskin
+    status: not_reviewed
+  - name: Cheryl Riley
+    sort_name: Riley
+    party: R
+    ballotpedia: https://ballotpedia.org/Cheryl_Riley
+    status: not_reviewed
+  - name: Nancy Wallace
+    sort_name: Wallace
+    party: G
+    ballotpedia: https://ballotpedia.org/Nancy_Wallace
+    status: not_reviewed

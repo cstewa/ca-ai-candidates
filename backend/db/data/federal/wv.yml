@@ -1,0 +1,59 @@
+# U.S. Senate and House races in West Virginia. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: WV
+  candidates:
+  - name: Shelley Moore Capito
+    sort_name: Capito
+    party: R
+    incumbent: true
+    bioguide: C001047
+    ballotpedia: https://ballotpedia.org/Shelley_Moore_Capito
+    status: not_reviewed
+  - name: Rachel Fetty Anderson
+    sort_name: Anderson
+    party: D
+    ballotpedia: https://ballotpedia.org/Rachel_Fetty_Anderson
+    status: not_reviewed
+  - name: S. Marshall Wilson
+    sort_name: Wilson
+    party: C
+    ballotpedia: https://ballotpedia.org/S._Marshall_Wilson_(West_Virginia)
+    status: not_reviewed
+- office: us_house
+  state: WV
+  district: 1
+  candidates:
+  - name: Carol Miller
+    sort_name: Miller
+    party: R
+    incumbent: true
+    bioguide: M001205
+    ballotpedia: https://ballotpedia.org/Carol_Miller_(West_Virginia)
+    status: not_reviewed
+  - name: Vince George
+    sort_name: George
+    party: D
+    ballotpedia: https://ballotpedia.org/Vince_George
+    status: not_reviewed
+  - name: Belinda Fox-Spencer
+    sort_name: Fox-Spencer
+    party: C
+    ballotpedia: https://ballotpedia.org/Belinda_Fox-Spencer
+    status: not_reviewed
+- office: us_house
+  state: WV
+  district: 2
+  candidates:
+  - name: Riley Moore
+    sort_name: Moore
+    party: R
+    incumbent: true
+    bioguide: M001235
+    ballotpedia: https://ballotpedia.org/Riley_Moore
+    status: not_reviewed
+  - name: Ace Parsi
+    sort_name: Parsi
+    party: D
+    ballotpedia: https://ballotpedia.org/Ace_Parsi
+    status: not_reviewed

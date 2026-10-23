@@ -1,4 +1,5 @@
-# The whole guide, loaded from db/data/*.yml. There is no database: the YAML
+# The whole guide, loaded from db/data/*.yml (California) and db/data/federal/*.yml
+# (U.S. House and Senate races in every other state). There is no database: the YAML
 # files are the source of truth, and the site only reads them.
 #
 # Loading validates every value, so a typo in the YAML fails loudly at boot
@@ -17,18 +18,37 @@ class Guide
     "insurance_commissioner" => ["Insurance Commissioner", "statewide", "insurance-commissioner"],
     "superintendent"         => ["Superintendent of Public Instruction", "statewide", "superintendent"],
     "board_of_equalization"  => ["Board of Equalization", "board_of_equalization", "boe"],
+    "us_senate"              => ["U.S. Senate", "us_senate", "us-senate"],
     "us_house"               => ["U.S. House", "us_house", "us-house"],
     "state_senate"           => ["State Senate", "state_senate", "state-senate"],
     "state_assembly"         => ["State Assembly", "state_assembly", "assembly"],
   }.freeze
 
+  FEDERAL_OFFICES = %w[us_senate us_house].freeze
+
+  STATES = {
+    "AL" => "Alabama", "AK" => "Alaska", "AZ" => "Arizona", "AR" => "Arkansas", "CA" => "California",
+    "CO" => "Colorado", "CT" => "Connecticut", "DE" => "Delaware", "FL" => "Florida", "GA" => "Georgia",
+    "HI" => "Hawaii", "ID" => "Idaho", "IL" => "Illinois", "IN" => "Indiana", "IA" => "Iowa",
+    "KS" => "Kansas", "KY" => "Kentucky", "LA" => "Louisiana", "ME" => "Maine", "MD" => "Maryland",
+    "MA" => "Massachusetts", "MI" => "Michigan", "MN" => "Minnesota", "MS" => "Mississippi", "MO" => "Missouri",
+    "MT" => "Montana", "NE" => "Nebraska", "NV" => "Nevada", "NH" => "New Hampshire", "NJ" => "New Jersey",
+    "NM" => "New Mexico", "NY" => "New York", "NC" => "North Carolina", "ND" => "North Dakota", "OH" => "Ohio",
+    "OK" => "Oklahoma", "OR" => "Oregon", "PA" => "Pennsylvania", "RI" => "Rhode Island", "SC" => "South Carolina",
+    "SD" => "South Dakota", "TN" => "Tennessee", "TX" => "Texas", "UT" => "Utah", "VT" => "Vermont",
+    "VA" => "Virginia", "WA" => "Washington", "WV" => "West Virginia", "WI" => "Wisconsin", "WY" => "Wyoming",
+  }.freeze
+
+  # Other parties are written out in full with `party_name`.
   PARTIES = {
     "D" => "Democratic", "R" => "Republican", "NPP" => "No party preference",
     "L" => "Libertarian", "G" => "Green", "P&F" => "Peace and Freedom",
+    "I" => "Independent", "C" => "Constitution",
   }.freeze
 
   # Describes how much of a public record exists, not whether it is good or bad.
-  STATUSES         = %w[on_record ai_other none_found].freeze
+  # not_reviewed: research on this race isn't finished; official votes may still show.
+  STATUSES         = %w[on_record ai_other none_found not_reviewed].freeze
   POSITION_VALUES  = %w[yes no did_not_vote author coauthor sponsor cosponsor signed].freeze
   # What kind of record each item is; shown as a label beside it.
   ITEM_KINDS       = %w[vote bill letter statement platform official_action background funding].freeze
@@ -40,14 +60,18 @@ class Guide
   class << self
     # Loaded once per process; reloads in development when a YAML file changes.
     def current
-      stamp = Dir[DATA_DIR.join("*.yml")].map { |f| File.mtime(f) }.max
+      stamp = Dir[DATA_DIR.join("**", "*.yml")].map { |f| File.mtime(f) }.max
       @current = nil if Rails.env.development? && stamp != @stamp
       @stamp = stamp
       @current ||= new
     end
 
-    def slug_for(office, district)
-      [OFFICES.fetch(office)[2], district].compact.join("-")
+    # California keeps its original slugs (us-house-11) so shared links still work;
+    # other states carry the state: us-house-tx-12, us-house-wy-at-large, us-senate-tx.
+    def slug_for(office, district, state = "CA")
+      prefix = OFFICES.fetch(office)[2]
+      return [prefix, district].compact.join("-") if state == "CA"
+      [prefix, state.downcase, (district == 0 ? "at-large" : district)].compact.join("-")
     end
   end
 
@@ -58,10 +82,17 @@ class Guide
     @yardstick_order = @yardsticks.each_with_index.to_h { |y, i| [y["key"], i] }
     check! @yardstick_order.size == @yardsticks.size, "duplicate yardstick key"
 
+    # Roll calls and cosponsorships imported from official records, by Bioguide ID.
+    # Hand-written positions in the race files take precedence.
+    votes_file = dir.join("federal_votes.yml")
+    @federal_votes = votes_file.exist? ? YAML.load_file(votes_file) : {}
+
     @candidate_slugs = Set.new
-    @races = YAML.load_file(dir.join("races.yml"))
+    race_data = YAML.load_file(dir.join("races.yml")).map { |r| { "state" => "CA" }.merge(r) }
+    race_data += Dir[dir.join("federal", "*.yml")].sort.flat_map { |f| YAML.load_file(f) }
+    @races = race_data
       .map { |r| build_race(r) }
-      .sort_by { |r| [OFFICES.keys.index(r["office"]), r["district"].to_i] }
+      .sort_by { |r| [r["state"] == "CA" ? 0 : 1, r["state_name"], OFFICES.keys.index(r["office"]), r["district"].to_i] }
 
     @race_by_slug = @races.index_by { |r| r["slug"] }
     check! @race_by_slug.size == @races.size, "duplicate race: #{@races.map { |r| r['slug'] }.tally.select { |_, n| n > 1 }.keys}"
@@ -75,7 +106,7 @@ class Guide
   # The candidate plus a short summary of their race, or nil.
   def candidate(slug)
     c, r = @candidate_by_slug[slug]
-    c && c.merge("race" => r.slice("slug", "title", "category", "note"))
+    c && c.merge("race" => r.slice("slug", "title", "category", "note", "state", "state_name"))
   end
 
   private
@@ -95,7 +126,10 @@ class Guide
     office = r["office"]
     check! OFFICES.key?(office), "unknown office #{office.inspect}"
     label, category, = OFFICES[office]
-    slug = self.class.slug_for(office, r["district"])
+    state = r["state"]
+    check! STATES.key?(state), "unknown state #{state.inspect}"
+    check! state == "CA" || FEDERAL_OFFICES.include?(office), "#{office} races are only covered in California"
+    slug = self.class.slug_for(office, r["district"], state)
     check! r["candidates"].present?, "race #{slug} has no candidates"
 
     {
@@ -105,12 +139,29 @@ class Guide
       "note" => r["note"],
       "office_label" => label,
       "category" => category,
-      "title" => r["district"] ? "#{label}, District #{r['district']}" : label,
+      "state" => state,
+      "state_name" => STATES[state],
+      "title" => race_title(office, label, r["district"], state),
       # Alphabetical by last name, ignoring case and accents.
       "candidates" => r["candidates"]
         .map { |c| build_candidate(c, slug) }
         .sort_by { |c| c.delete("_sort") },
     }
+  end
+
+  def race_title(office, label, district, state)
+    return "#{label}, #{STATES[state]}" if office == "us_senate"
+    if office == "us_house"
+      return "#{label}, #{STATES[state]} At-large" if district == 0
+      return "#{label}, #{STATES[state]} District #{district}"
+    end
+    district ? "#{label}, District #{district}" : label
+  end
+
+  def build_position(p, where)
+    check! @yardstick_order.key?(p["yardstick"]), "#{where}: unknown yardstick #{p['yardstick'].inspect}"
+    check! POSITION_VALUES.include?(p["position"]), "#{where}: unknown position #{p['position'].inspect}"
+    { "yardstick" => p["yardstick"], "value" => p["position"], "detail" => p["detail"] }
   end
 
   def build_candidate(c, race_slug)
@@ -123,12 +174,12 @@ class Guide
     slug = "#{slug}-#{race_slug}" if @candidate_slugs.include?(slug)
     @candidate_slugs << slug
 
-    positions = (c["positions"] || []).map do |p|
-      check! @yardstick_order.key?(p["yardstick"]), "#{where}: unknown yardstick #{p['yardstick'].inspect}"
-      check! POSITION_VALUES.include?(p["position"]), "#{where}: unknown position #{p['position'].inspect}"
-      { "yardstick" => p["yardstick"], "value" => p["position"], "detail" => p["detail"] }
-    end
+    positions = (c["positions"] || []).map { |p| build_position(p, where) }
     check! positions.map { |p| p["yardstick"] }.uniq.size == positions.size, "#{where}: duplicate yardstick"
+    if c["bioguide"]
+      hand = positions.map { |p| p["yardstick"] }
+      positions += (@federal_votes[c["bioguide"]] || []).reject { |p| hand.include?(p["yardstick"]) }.map { |p| build_position(p, where) }
+    end
 
     items = (c["items"] || []).map do |i|
       kind = i["kind"]
@@ -146,7 +197,9 @@ class Guide
       "unopposed" => !!c["unopposed"],
       "status" => c["status"],
       "search_note" => c["search_note"],
-      "party_label" => PARTIES[c["party"]],
+      "party_label" => PARTIES[c["party"]] || c["party_name"],
+      "bioguide" => c["bioguide"],
+      "ballotpedia" => c["ballotpedia"],
       "positions" => positions.sort_by { |p| @yardstick_order[p["yardstick"]] },
       "items" => items,
       "_sort" => c["sort_name"].unicode_normalize(:nfd).gsub(/\p{Mn}/, "").downcase,

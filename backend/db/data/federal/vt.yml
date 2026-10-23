@@ -1,0 +1,38 @@
+# U.S. Senate and House races in Vermont. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: VT
+  district: 0
+  candidates:
+  - name: Becca Balint
+    sort_name: Balint
+    party: D
+    incumbent: true
+    bioguide: B001318
+    ballotpedia: https://ballotpedia.org/Becca_Balint
+    status: not_reviewed
+  - name: Gerald Malloy
+    sort_name: Malloy
+    party: R
+    ballotpedia: https://ballotpedia.org/Gerald_Malloy_(Vermont)
+    status: not_reviewed
+  - name: Phoenix Altair
+    sort_name: Altair
+    party: I
+    ballotpedia: https://ballotpedia.org/Phoenix_Altair
+    status: not_reviewed
+  - name: Adam Ortiz
+    sort_name: Ortiz
+    party: I
+    ballotpedia: https://ballotpedia.org/Adam_Ortiz
+    status: not_reviewed
+  - name: Suzanne Seymour
+    sort_name: Seymour
+    party: I
+    ballotpedia: https://ballotpedia.org/Suzanne_Seymour_(Vermont)
+    status: not_reviewed
+  - name: Ryan Walton
+    sort_name: Walton
+    party: I
+    ballotpedia: https://ballotpedia.org/Ryan_Walton
+    status: not_reviewed

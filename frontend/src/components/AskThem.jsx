@@ -10,7 +10,7 @@ export default function AskThem({ candidate: c, race, anchor = false }) {
   const message =
     `Hi, I'm a voter in the race for ${race.title}. Where do you stand on AI safety, ` +
     `including how the most powerful AI systems should be tested and overseen? ` +
-    `I'm comparing candidates on the California AI Safety Candidate Lookup: ${url}`
+    `I'm comparing candidates on AI Vote Watch: ${url}`
   const subject = `Your position on AI safety, ${race.title}`
   const mailto = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`
   const search = `https://www.google.com/search?q=${encodeURIComponent(`"${c.name}" ${race.title} 2026 campaign`)}`

@@ -3,7 +3,7 @@ import RecordText from './RecordText'
 import StatusBadge from './StatusBadge'
 import PositionList from './PositionList'
 import AskThem from './AskThem'
-import { candidateMeta, ITEM_KINDS } from '../data'
+import { candidateMeta, ITEM_KINDS, NOT_REVIEWED_NOTE } from '../data'
 import './CandidatePanel.css'
 
 export default function CandidatePanel({ candidate: c, race, yardsticks, linkName = true, headingLevel = 3, askAnchor = false }) {
@@ -50,6 +50,13 @@ export default function CandidatePanel({ candidate: c, race, yardsticks, linkNam
             {funding.map((i, n) => <li key={n}><RecordText text={i.body} /></li>)}
           </ul>
         </section>
+      )}
+
+      {c.status === 'not_reviewed' && (
+        <p className="cpanel__note">
+          {NOT_REVIEWED_NOTE}
+          {c.ballotpedia && <> <a href={c.ballotpedia} target="_blank" rel="noreferrer">Ballotpedia profile<span className="visually-hidden"> for {c.name} (opens in new tab)</span></a>.</>}
+        </p>
       )}
 
       {c.search_note && (

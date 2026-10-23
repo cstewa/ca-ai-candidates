@@ -1,0 +1,95 @@
+# U.S. Senate and House races in Connecticut. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_house
+  state: CT
+  district: 1
+  candidates:
+  - name: Luke Bronin
+    sort_name: Bronin
+    party: D
+    ballotpedia: https://ballotpedia.org/Luke_Bronin
+    status: not_reviewed
+  - name: Amy Chai
+    sort_name: Chai
+    party: R
+    ballotpedia: https://ballotpedia.org/Amy_Chai
+    status: not_reviewed
+  - name: Mary L. Sanders
+    sort_name: Sanders
+    party: G
+    ballotpedia: https://ballotpedia.org/Mary_Sanders
+    status: not_reviewed
+- office: us_house
+  state: CT
+  district: 2
+  candidates:
+  - name: Joe Courtney
+    sort_name: Courtney
+    party: D
+    incumbent: true
+    bioguide: C001069
+    ballotpedia: https://ballotpedia.org/Joe_Courtney
+    status: not_reviewed
+  - name: George Austin
+    sort_name: Austin
+    party_name: Republican / Independent Party of Connecticut
+    ballotpedia: https://ballotpedia.org/George_Austin
+    status: not_reviewed
+- office: us_house
+  state: CT
+  district: 3
+  candidates:
+  - name: Rosa L. DeLauro
+    sort_name: DeLauro
+    party: D
+    incumbent: true
+    bioguide: D000216
+    ballotpedia: https://ballotpedia.org/Rosa_DeLauro
+    status: not_reviewed
+  - name: Christopher Lancia
+    sort_name: Lancia
+    party: R
+    ballotpedia: https://ballotpedia.org/Christopher_Lancia
+    status: not_reviewed
+  - name: Thomas Egan
+    sort_name: Egan
+    party_name: Independent Party of Connecticut
+    ballotpedia: https://ballotpedia.org/Thomas_Egan_(Connecticut)
+    status: not_reviewed
+- office: us_house
+  state: CT
+  district: 4
+  candidates:
+  - name: Jim Himes
+    sort_name: Himes
+    party: D
+    incumbent: true
+    bioguide: H001047
+    ballotpedia: https://ballotpedia.org/Jim_Himes
+    status: not_reviewed
+  - name: Michael Goldstein
+    sort_name: Goldstein
+    party: R
+    ballotpedia: https://ballotpedia.org/Michael_Goldstein_(Connecticut)
+    status: not_reviewed
+  - name: Benjamin Wesley
+    sort_name: Wesley
+    party_name: Independent Party of Connecticut
+    ballotpedia: https://ballotpedia.org/Benjamin_Wesley
+    status: not_reviewed
+- office: us_house
+  state: CT
+  district: 5
+  candidates:
+  - name: Jahana Hayes
+    sort_name: Hayes
+    party_name: Democratic / Working Families Party
+    incumbent: true
+    bioguide: H001081
+    ballotpedia: https://ballotpedia.org/Jahana_Hayes
+    status: not_reviewed
+  - name: Chris Shea
+    sort_name: Shea
+    party: R
+    ballotpedia: https://ballotpedia.org/Chris_Shea
+    status: not_reviewed

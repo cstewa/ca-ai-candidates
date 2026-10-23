@@ -1,0 +1,56 @@
+# U.S. Senate and House races in Alaska. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: AK
+  note: Ranked-choice voting
+  candidates:
+  - name: Dan S. Sullivan
+    sort_name: Sullivan
+    party: R
+    incumbent: true
+    bioguide: S001198
+    ballotpedia: https://ballotpedia.org/Dan_S._Sullivan_(United_States_Senator_from_Alaska)
+    status: not_reviewed
+  - name: Mary Peltola
+    sort_name: Peltola
+    party: D
+    bioguide: P000619
+    ballotpedia: https://ballotpedia.org/Mary_Peltola
+    status: not_reviewed
+  - name: Gerald Heikes
+    sort_name: Heikes
+    party: R
+    ballotpedia: https://ballotpedia.org/Gerald_Heikes
+    status: not_reviewed
+  - name: Daniel J. Sullivan Jr.
+    sort_name: Sullivan
+    party_name: No Party Affiliation
+    ballotpedia: https://ballotpedia.org/Daniel_J._Sullivan_Jr._(Alaska_U.S._Senate_candidate)
+    status: not_reviewed
+- office: us_house
+  state: AK
+  district: 0
+  note: Ranked-choice voting
+  candidates:
+  - name: Nicholas Begich
+    sort_name: Begich
+    party: R
+    incumbent: true
+    bioguide: B001323
+    ballotpedia: https://ballotpedia.org/Nicholas_Begich
+    status: not_reviewed
+  - name: Eric Hafner
+    sort_name: Hafner
+    party: D
+    ballotpedia: https://ballotpedia.org/Eric_Hafner
+    status: not_reviewed
+  - name: Jim McDermott
+    sort_name: McDermott
+    party: L
+    ballotpedia: https://ballotpedia.org/Jim_McDermott_(Alaska)
+    status: not_reviewed
+  - name: Bill Hill
+    sort_name: Hill
+    party_name: Nonpartisan
+    ballotpedia: https://ballotpedia.org/Bill_Hill
+    status: not_reviewed

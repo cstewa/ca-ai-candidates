@@ -1,0 +1,31 @@
+# U.S. Senate and House races in South Dakota. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: SD
+  candidates:
+  - name: Mike Rounds
+    sort_name: Rounds
+    party: R
+    incumbent: true
+    bioguide: R000605
+    ballotpedia: https://ballotpedia.org/Mike_Rounds
+    status: not_reviewed
+  - name: Brian Bengs
+    sort_name: Bengs
+    party: I
+    ballotpedia: https://ballotpedia.org/Brian_Bengs
+    status: not_reviewed
+- office: us_house
+  state: SD
+  district: 0
+  candidates:
+  - name: Nicole Gronli
+    sort_name: Gronli
+    party: D
+    ballotpedia: https://ballotpedia.org/Nicole_Gronli
+    status: not_reviewed
+  - name: Marty J. Jackley
+    sort_name: Jackley
+    party: R
+    ballotpedia: https://ballotpedia.org/Marty_J._Jackley
+    status: not_reviewed

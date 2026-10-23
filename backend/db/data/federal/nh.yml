@@ -1,0 +1,56 @@
+# U.S. Senate and House races in New Hampshire. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: NH
+  candidates:
+  - name: Chris Pappas
+    sort_name: Pappas
+    party: D
+    bioguide: P000614
+    ballotpedia: https://ballotpedia.org/Chris_Pappas
+    status: not_reviewed
+  - name: John Sununu
+    sort_name: Sununu
+    party: R
+    ballotpedia: https://ballotpedia.org/John_E._Sununu
+    status: not_reviewed
+  - name: Edmond Laplante
+    sort_name: Laplante
+    party: C
+    ballotpedia: https://ballotpedia.org/Edmond_Laplante
+    status: not_reviewed
+- office: us_house
+  state: NH
+  district: 1
+  candidates:
+  - name: Stefany Shaheen
+    sort_name: Shaheen
+    party: D
+    ballotpedia: https://ballotpedia.org/Stefany_Shaheen
+    status: not_reviewed
+  - name: Anthony DiLorenzo
+    sort_name: DiLorenzo
+    party: R
+    ballotpedia: https://ballotpedia.org/Anthony_DiLorenzo
+    status: not_reviewed
+- office: us_house
+  state: NH
+  district: 2
+  candidates:
+  - name: Maggie Goodlander
+    sort_name: Goodlander
+    party: D
+    incumbent: true
+    bioguide: G000604
+    ballotpedia: https://ballotpedia.org/Maggie_Goodlander
+    status: not_reviewed
+  - name: Lily Williams
+    sort_name: Williams
+    party: R
+    ballotpedia: https://ballotpedia.org/Lily_Williams
+    status: not_reviewed
+  - name: Robbie Mahrou
+    sort_name: Mahrou
+    party: I
+    ballotpedia: https://ballotpedia.org/Robbie_Mahrou
+    status: not_reviewed

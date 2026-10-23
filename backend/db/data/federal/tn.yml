@@ -1,0 +1,335 @@
+# U.S. Senate and House races in Tennessee. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: TN
+  candidates:
+  - name: Bill Hagerty
+    sort_name: Hagerty
+    party: R
+    incumbent: true
+    bioguide: H000601
+    ballotpedia: https://ballotpedia.org/Bill_Hagerty
+    status: not_reviewed
+  - name: Marquita Bradshaw
+    sort_name: Bradshaw
+    party: D
+    ballotpedia: https://ballotpedia.org/Marquita_Bradshaw
+    status: not_reviewed
+  - name: Tharon Chandler
+    sort_name: Chandler
+    party: I
+    ballotpedia: https://ballotpedia.org/Tharon_Chandler
+    status: not_reviewed
+  - name: Andrew Gerena
+    sort_name: Gerena
+    party: I
+    ballotpedia: https://ballotpedia.org/Andrew_Gerena
+    status: not_reviewed
+  - name: Jeremy Hearn
+    sort_name: Hearn
+    party: I
+    ballotpedia: https://ballotpedia.org/Jeremy_Hearn
+    status: not_reviewed
+  - name: Robert Jones
+    sort_name: Jones
+    party: I
+    ballotpedia: https://ballotpedia.org/Robert_Jones_(Tennesses_congressional_candidate)
+    status: not_reviewed
+  - name: James Macon III
+    sort_name: Macon
+    party: I
+    ballotpedia: https://ballotpedia.org/James_Macon_III
+    status: not_reviewed
+  - name: Yoshi Matthews
+    sort_name: Matthews
+    party: I
+    ballotpedia: https://ballotpedia.org/Yoshi_Matthews
+    status: not_reviewed
+  - name: David Sutman Jr.
+    sort_name: Sutman
+    party: I
+    ballotpedia: https://ballotpedia.org/David_Sutman_Jr.
+    status: not_reviewed
+  - name: Catherine Whitson
+    sort_name: Whitson
+    party: I
+    ballotpedia: https://ballotpedia.org/Catherine_Whitson
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 1
+  candidates:
+  - name: Diana Harshbarger
+    sort_name: Harshbarger
+    party: R
+    incumbent: true
+    bioguide: H001086
+    ballotpedia: https://ballotpedia.org/Diana_Harshbarger
+    status: not_reviewed
+  - name: Kristi Burke
+    sort_name: Burke
+    party: D
+    ballotpedia: https://ballotpedia.org/Kristi_Burke
+    status: not_reviewed
+  - name: Joshua Ray Ashburn
+    sort_name: Ashburn
+    party: I
+    ballotpedia: https://ballotpedia.org/Joshua_Ray_Ashburn
+    status: not_reviewed
+  - name: Richard Baker
+    sort_name: Baker
+    party: I
+    ballotpedia: https://ballotpedia.org/Richard_Baker_(Tennessee)
+    status: not_reviewed
+  - name: Chris Campbell
+    sort_name: Campbell
+    party: I
+    ballotpedia: https://ballotpedia.org/Chris_Campbell_(Tennessee)
+    status: not_reviewed
+  - name: Billy Cody
+    sort_name: Cody
+    party: I
+    ballotpedia: https://ballotpedia.org/Billy_Cody
+    status: not_reviewed
+  - name: Tyler McClain
+    sort_name: McClain
+    party: I
+    ballotpedia: https://ballotpedia.org/Tyler_McClain
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 2
+  candidates:
+  - name: Tim Burchett
+    sort_name: Burchett
+    party: R
+    incumbent: true
+    bioguide: B001309
+    ballotpedia: https://ballotpedia.org/Tim_Burchett
+    status: not_reviewed
+  - name: Michaela Barnett
+    sort_name: Barnett
+    party: D
+    ballotpedia: https://ballotpedia.org/Michaela_Barnett
+    status: not_reviewed
+  - name: Bruce Fine
+    sort_name: Fine
+    party: I
+    ballotpedia: https://ballotpedia.org/Bruce_Fine
+    status: not_reviewed
+  - name: Adam Heimerman
+    sort_name: Heimerman
+    party: I
+    ballotpedia: https://ballotpedia.org/Adam_Heimerman
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 3
+  candidates:
+  - name: Charles J. Fleischmann
+    sort_name: Fleischmann
+    party: R
+    incumbent: true
+    bioguide: F000459
+    ballotpedia: https://ballotpedia.org/Charles_Fleischmann
+    status: not_reviewed
+  - name: Anna Golladay
+    sort_name: Golladay
+    party: D
+    ballotpedia: https://ballotpedia.org/Anna_Golladay
+    status: not_reviewed
+  - name: Dean Arnold
+    sort_name: Arnold
+    party: I
+    ballotpedia: https://ballotpedia.org/Dean_Arnold
+    status: not_reviewed
+  - name: Jean Howard-Hill
+    sort_name: Howard-Hill
+    party: I
+    ballotpedia: https://ballotpedia.org/Jean_Howard-Hill
+    status: not_reviewed
+  - name: Rodney King
+    sort_name: King
+    party: I
+    ballotpedia: https://ballotpedia.org/Rodney_King
+    status: not_reviewed
+  - name: Donnie Ownby
+    sort_name: Ownby
+    party: I
+    ballotpedia: https://ballotpedia.org/Donnie_Ownby
+    status: not_reviewed
+  - name: Edward Roland
+    sort_name: Roland
+    party: I
+    ballotpedia: https://ballotpedia.org/Edward_Roland
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 4
+  candidates:
+  - name: Scott DesJarlais
+    sort_name: DesJarlais
+    party: R
+    incumbent: true
+    bioguide: D000616
+    ballotpedia: https://ballotpedia.org/Scott_DesJarlais
+    status: not_reviewed
+  - name: Victoria Broderick
+    sort_name: Broderick
+    party: D
+    ballotpedia: https://ballotpedia.org/Victoria_Broderick
+    status: not_reviewed
+  - name: Jacob Anders
+    sort_name: Anders
+    party: I
+    ballotpedia: https://ballotpedia.org/Jacob_Anders
+    status: not_reviewed
+  - name: Clay Faircloth
+    sort_name: Faircloth
+    party: I
+    ballotpedia: https://ballotpedia.org/Clay_Faircloth
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 5
+  candidates:
+  - name: Chaz Molder
+    sort_name: Molder
+    party: D
+    ballotpedia: https://ballotpedia.org/Chaz_Molder
+    status: not_reviewed
+  - name: Charlie Hatcher
+    sort_name: Hatcher
+    party: R
+    ballotpedia: https://ballotpedia.org/Charlie_Hatcher
+    status: not_reviewed
+  - name: James Johnson
+    sort_name: Johnson
+    party: I
+    ballotpedia: https://ballotpedia.org/James_Johnson_(Tennessee_congressional_candidate)
+    status: not_reviewed
+  - name: Micheál O'Leary
+    sort_name: O'Leary
+    party: I
+    ballotpedia: https://ballotpedia.org/Micheál_O'Leary
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 6
+  candidates:
+  - name: Mike Croley
+    sort_name: Croley
+    party: D
+    ballotpedia: https://ballotpedia.org/Mike_Croley
+    status: not_reviewed
+  - name: Johnny Garrett
+    sort_name: Garrett
+    party: R
+    ballotpedia: https://ballotpedia.org/Johnny_Garrett
+    status: not_reviewed
+  - name: Christopher Monday
+    sort_name: Monday
+    party: I
+    ballotpedia: https://ballotpedia.org/Christopher_Monday
+    status: not_reviewed
+  - name: Angus Purdy
+    sort_name: Purdy
+    party: I
+    ballotpedia: https://ballotpedia.org/Angus_Purdy
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 7
+  candidates:
+  - name: Matt Van Epps
+    sort_name: Van Epps
+    party: R
+    incumbent: true
+    bioguide: V000139
+    ballotpedia: https://ballotpedia.org/Matt_Van_Epps
+    status: not_reviewed
+  - name: Darden Copeland
+    sort_name: Copeland
+    party: D
+    ballotpedia: https://ballotpedia.org/Darden_Copeland
+    status: not_reviewed
+  - name: Andrew Koontz
+    sort_name: Koontz
+    party: I
+    ballotpedia: https://ballotpedia.org/Andrew_Koontz
+    status: not_reviewed
+  - name: Lowell Reynolds
+    sort_name: Reynolds
+    party: I
+    ballotpedia: https://ballotpedia.org/Lowell_Reynolds
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 8
+  candidates:
+  - name: David Kustoff
+    sort_name: Kustoff
+    party: R
+    incumbent: true
+    bioguide: K000392
+    ballotpedia: https://ballotpedia.org/David_Kustoff
+    status: not_reviewed
+  - name: Heidi Kuhn
+    sort_name: Kuhn
+    party: D
+    ballotpedia: https://ballotpedia.org/Heidi_Kuhn
+    status: not_reviewed
+  - name: Adam Austill
+    sort_name: Austill
+    party: I
+    ballotpedia: https://ballotpedia.org/Adam_Austill
+    status: not_reviewed
+  - name: Wendell Blankenship
+    sort_name: Blankenship
+    party: I
+    ballotpedia: https://ballotpedia.org/Wendell_Blankenship
+    status: not_reviewed
+  - name: Antonio Futch
+    sort_name: Futch
+    party: I
+    ballotpedia: https://ballotpedia.org/Antonio_Futch
+    status: not_reviewed
+  - name: Pamela Moses
+    sort_name: Moses
+    party: I
+    ballotpedia: https://ballotpedia.org/Pamela_Moses
+    status: not_reviewed
+  - name: Horace Taylor
+    sort_name: Taylor
+    party: I
+    ballotpedia: https://ballotpedia.org/Horace_Taylor
+    status: not_reviewed
+  - name: Henry Ward III
+    sort_name: Ward
+    party: I
+    ballotpedia: https://ballotpedia.org/Henry_Ward_III
+    status: not_reviewed
+- office: us_house
+  state: TN
+  district: 9
+  candidates:
+  - name: Justin Pearson
+    sort_name: Pearson
+    party: D
+    ballotpedia: https://ballotpedia.org/Justin_Pearson_(Tennessee)
+    status: not_reviewed
+  - name: Brent Taylor
+    sort_name: Taylor
+    party: R
+    ballotpedia: https://ballotpedia.org/Brent_Taylor_(Tennessee)
+    status: not_reviewed
+  - name: Dennis Jeffrey Clark
+    sort_name: Clark
+    party: I
+    ballotpedia: https://ballotpedia.org/Dennis_Jeffrey_Clark_(Tennessee_congressional_candidate)
+    status: not_reviewed
+  - name: Michelle Head
+    sort_name: Head
+    party: I
+    ballotpedia: https://ballotpedia.org/Michelle_Head
+    status: not_reviewed

@@ -1,0 +1,143 @@
+# U.S. Senate and House races in Kentucky. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: KY
+  candidates:
+  - name: Charles Booker
+    sort_name: Booker
+    party: D
+    ballotpedia: https://ballotpedia.org/Charles_Booker
+    status: not_reviewed
+  - name: Andy Barr
+    sort_name: Barr
+    party: R
+    bioguide: B001282
+    ballotpedia: https://ballotpedia.org/Andy_Barr
+    status: not_reviewed
+  - name: Christopher Campbell
+    sort_name: Campbell
+    party_name: Kentucky Party
+    ballotpedia: https://ballotpedia.org/Christopher_Campbell_(Kentucky)
+    status: not_reviewed
+- office: us_house
+  state: KY
+  district: 1
+  candidates:
+  - name: James Comer Jr.
+    sort_name: Comer
+    party: R
+    incumbent: true
+    bioguide: C001108
+    ballotpedia: https://ballotpedia.org/James_Comer_Jr.
+    status: not_reviewed
+  - name: Drew Williams
+    sort_name: Williams
+    party: D
+    ballotpedia: https://ballotpedia.org/Drew_Williams
+    status: not_reviewed
+- office: us_house
+  state: KY
+  district: 2
+  candidates:
+  - name: Brett Guthrie
+    sort_name: Guthrie
+    party: R
+    incumbent: true
+    bioguide: G000558
+    ballotpedia: https://ballotpedia.org/Brett_Guthrie
+    status: not_reviewed
+  - name: Megan Wingfield
+    sort_name: Wingfield
+    party: D
+    ballotpedia: https://ballotpedia.org/Megan_Wingfield
+    status: not_reviewed
+  - name: Thomas Loecken
+    sort_name: Loecken
+    party: I
+    ballotpedia: https://ballotpedia.org/Thomas_Loecken
+    status: not_reviewed
+- office: us_house
+  state: KY
+  district: 3
+  candidates:
+  - name: Morgan McGarvey
+    sort_name: McGarvey
+    party: D
+    incumbent: true
+    bioguide: M001220
+    ballotpedia: https://ballotpedia.org/Morgan_McGarvey
+    status: not_reviewed
+  - name: Maria Teresa Rodriguez
+    sort_name: Rodriguez
+    party: R
+    ballotpedia: https://ballotpedia.org/Maria_Teresa_Rodriguez
+    status: not_reviewed
+- office: us_house
+  state: KY
+  district: 4
+  candidates:
+  - name: Melissa Strange
+    sort_name: Strange
+    party: D
+    ballotpedia: https://ballotpedia.org/Melissa_Strange
+    status: not_reviewed
+  - name: Ed Gallrein
+    sort_name: Gallrein
+    party: R
+    ballotpedia: https://ballotpedia.org/Ed_Gallrein
+    status: not_reviewed
+  - name: Jeremy Todd
+    sort_name: Todd
+    party: L
+    ballotpedia: https://ballotpedia.org/Jeremy_Todd
+    status: not_reviewed
+- office: us_house
+  state: KY
+  district: 5
+  candidates:
+  - name: Hal Rogers
+    sort_name: Rogers
+    party: R
+    incumbent: true
+    bioguide: R000395
+    ballotpedia: https://ballotpedia.org/Hal_Rogers
+    status: not_reviewed
+  - name: Ned Pillersdorf
+    sort_name: Pillersdorf
+    party: D
+    ballotpedia: https://ballotpedia.org/Ned_Pillersdorf
+    status: not_reviewed
+  - name: Gerardo Serrano
+    sort_name: Serrano
+    party: I
+    ballotpedia: https://ballotpedia.org/Gerardo_Serrano
+    status: not_reviewed
+  - name: Mikel Wein
+    sort_name: Wein
+    party: I
+    ballotpedia: https://ballotpedia.org/Mikel_Wein
+    status: not_reviewed
+- office: us_house
+  state: KY
+  district: 6
+  candidates:
+  - name: Zach Dembo
+    sort_name: Dembo
+    party: D
+    ballotpedia: https://ballotpedia.org/Zach_Dembo
+    status: not_reviewed
+  - name: Ralph Alvarado
+    sort_name: Alvarado
+    party: R
+    ballotpedia: https://ballotpedia.org/Ralph_Alvarado
+    status: not_reviewed
+  - name: Pete Lynch
+    sort_name: Lynch
+    party_name: Kentucky Party
+    ballotpedia: https://ballotpedia.org/Pete_Lynch
+    status: not_reviewed
+  - name: Jay Bowman
+    sort_name: Bowman
+    party: I
+    ballotpedia: https://ballotpedia.org/Jay_Bowman
+    status: not_reviewed

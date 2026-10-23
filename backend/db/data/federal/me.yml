@@ -1,0 +1,50 @@
+# U.S. Senate and House races in Maine. Imported from Ballotpedia by
+# scripts/import_federal.rb, then edited by hand: see README "Editing the data".
+- office: us_senate
+  state: ME
+  note: Ranked-choice voting
+  candidates:
+  - name: Susan Collins
+    sort_name: Collins
+    party: R
+    incumbent: true
+    bioguide: C001035
+    ballotpedia: https://ballotpedia.org/Susan_Collins_(Maine)
+    status: not_reviewed
+  - name: Troy Dale Jackson
+    sort_name: Jackson
+    party: D
+    ballotpedia: https://ballotpedia.org/Troy_Dale_Jackson
+    status: not_reviewed
+- office: us_house
+  state: ME
+  district: 1
+  note: Ranked-choice voting
+  candidates:
+  - name: Chellie Pingree
+    sort_name: Pingree
+    party: D
+    incumbent: true
+    bioguide: P000597
+    ballotpedia: https://ballotpedia.org/Chellie_Pingree
+    status: not_reviewed
+  - name: Ronald C. Russell
+    sort_name: Russell
+    party: R
+    ballotpedia: https://ballotpedia.org/Ronald_Russell_(Maine_congressional_candidate)
+    status: not_reviewed
+- office: us_house
+  state: ME
+  district: 2
+  note: Ranked-choice voting
+  candidates:
+  - name: Matthew Dunlap
+    sort_name: Dunlap
+    party: D
+    ballotpedia: https://ballotpedia.org/Matthew_Dunlap
+    status: not_reviewed
+  - name: Paul LePage
+    sort_name: LePage
+    party: R
+    ballotpedia: https://ballotpedia.org/Paul_LePage
+    status: not_reviewed
