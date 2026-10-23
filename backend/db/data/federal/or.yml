@@ -9,22 +9,26 @@
     incumbent: true
     bioguide: M001176
     ballotpedia: https://ballotpedia.org/Jeff_Merkley
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: David Brock Smith
     sort_name: Smith
     party: R
     ballotpedia: https://ballotpedia.org/David_Brock_Smith_(Oregon_state_senator)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Gary Dye
     sort_name: Dye
     party: L
     ballotpedia: https://ballotpedia.org/Gary_Dye
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Chris Henry
     sort_name: Henry
     party_name: Pacific Green Party of Oregon / Progressive Party
     ballotpedia: https://ballotpedia.org/Chris_Henry_(Oregon)
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
 - office: us_house
   state: OR
   district: 1

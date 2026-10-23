@@ -7,22 +7,39 @@
     sort_name: Bankhead
     party: D
     ballotpedia: https://ballotpedia.org/Alani_Bankhead
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: '"The most capable systems get tested before they ship"; supports "binding
+        federal safety requirements for the most capable AI systems: independent testing
+        before deployment, and mandatory reporting" of serious incidents, and "a human
+        stays in the loop in every life-or-death decision." [[source]](https://alaniformt.com/ai)'
+      kind: platform
+    - text: 'Data centers: wants "timely, accurate impact studies and full disclosure"
+        of power and water use, and community consent, before projects proceed. [[source]](https://alaniformt.com/data-centers)'
+      kind: platform
   - name: Kurt Alme
     sort_name: Alme
     party: R
     ballotpedia: https://ballotpedia.org/Kurt_Alme
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Kyle Austin
     sort_name: Austin
     party: L
     ballotpedia: https://ballotpedia.org/Kyle_Austin_(Montana)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Seth Bodnar
     sort_name: Bodnar
     party: I
     ballotpedia: https://ballotpedia.org/Seth_Bodnar
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Would "require mandatory, independent safety review for major AI models
+        before they ever reach the public" and "establish real accountability when
+        an AI causes harm"; also backs wage support for workers displaced by AI and
+        opposes AI data centers that raise power bills. [[source]](https://www.sethformontana.com/issues)
+      kind: platform
 - office: us_house
   state: MT
   district: 1

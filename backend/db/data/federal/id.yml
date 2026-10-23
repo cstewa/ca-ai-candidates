@@ -9,22 +9,36 @@
     incumbent: true
     bioguide: R000584
     ballotpedia: https://ballotpedia.org/Jim_Risch
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Matt Loesby
     sort_name: Loesby
     party: L
     ballotpedia: https://ballotpedia.org/Matt_Loesby
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Todd Achilles
     sort_name: Achilles
     party: I
     ballotpedia: https://ballotpedia.org/Todd_Achilles
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: 'Under "Internet Privacy & AI": will "protect private intellectual property
+        rights from uncredited, unpermitted use by artificial intelligence companies"
+        and hold big tech firms "accountable when their platforms and products ...
+        cause demonstrable harm." [[source]](https://www.achillesforidaho.com/policies)'
+      kind: platform
   - name: Natalie Fleming
     sort_name: Fleming
     party: I
     ballotpedia: https://ballotpedia.org/Natalie_Fleming_(Idaho)
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Calls for "a Digital Bill of Rights," regulation of "addictive design"
+        and "algorithmic transparency"; says Congress is deciding on "surveillance
+        technology, AI systems, and data security" without people who understand them.
+        [[source]](https://nataliefleming.info/just-a-few-issues/)
+      kind: platform
 - office: us_house
   state: ID
   district: 1

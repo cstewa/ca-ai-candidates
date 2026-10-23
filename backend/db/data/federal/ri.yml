@@ -9,17 +9,23 @@
     incumbent: true
     bioguide: R000122
     ballotpedia: https://ballotpedia.org/Jack_Reed
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: 'Campaign site: "we must confront the social, economic, and technological
+        challenges from artificial intelligence." [[source]](https://jackreed.com/meet-jack/)'
+      kind: platform
   - name: Raymond McKay
     sort_name: McKay
     party: R
     ballotpedia: https://ballotpedia.org/Raymond_McKay
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Michael Bahry
     sort_name: Bahry
     party: I
     ballotpedia: https://ballotpedia.org/Michael_Bahry
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: RI
   district: 1

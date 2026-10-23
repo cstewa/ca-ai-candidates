@@ -9,22 +9,26 @@
     incumbent: true
     bioguide: B001288
     ballotpedia: https://ballotpedia.org/Cory_Booker
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Justin Murphy
     sort_name: Murphy
     party: R
     ballotpedia: https://ballotpedia.org/Justin_Murphy
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Veronica Fernandez
     sort_name: Fernandez
     party_name: End the Corruption! Party
     ballotpedia: https://ballotpedia.org/Veronica_Fernandez
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Joanne Kuniansky
     sort_name: Kuniansky
     party_name: Socialist Workers Party
     ballotpedia: https://ballotpedia.org/Joanne_Kuniansky
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
 - office: us_house
   state: NJ
   district: 1

@@ -7,13 +7,15 @@
     sort_name: Wess
     party: D
     ballotpedia: https://ballotpedia.org/Everett_Wess
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Barry Moore
     sort_name: Moore
     party: R
     bioguide: M001212
     ballotpedia: https://ballotpedia.org/Barry_Moore_(Alabama_U.S._representative)
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
 - office: us_house
   state: AL
   district: 1

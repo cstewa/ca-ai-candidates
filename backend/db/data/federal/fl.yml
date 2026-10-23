@@ -10,17 +10,25 @@
     incumbent: true
     bioguide: M001244
     ballotpedia: https://ballotpedia.org/Ashley_B._Moody
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Angie Nixon
     sort_name: Nixon
     party: D
     ballotpedia: https://ballotpedia.org/Angie_Nixon
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Says AI companies are releasing products "with little to no safety testing
+        and no accountability when things go wrong," citing chatbots linked to self-harm;
+        calls for "no new construction of data centers before there are real federal
+        guardrails" and protections for workers displaced by AI. [[source]](https://angienixon.com/priorities/)
+      kind: platform
   - name: Neil Gillespie
     sort_name: Gillespie
     party_name: No Party Affiliation
     ballotpedia: https://ballotpedia.org/Neil_Gillespie
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: FL
   district: 1

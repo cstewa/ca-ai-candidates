@@ -9,17 +9,24 @@
     incumbent: true
     bioguide: H001079
     ballotpedia: https://ballotpedia.org/Cindy_Hyde-Smith
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Scott Colom
     sort_name: Colom
     party: D
     ballotpedia: https://ballotpedia.org/Scott_Colom
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: '"AI & Data Center Plan": says "the people writing the rules for artificial
+        intelligence are the people who own it" and backs making data centers cover
+        their own power costs. [[source]](https://scottcolom.com/making-ai-work-for-mississippi/)'
+      kind: platform
   - name: Ty Pinkins
     sort_name: Pinkins
     party: I
     ballotpedia: https://ballotpedia.org/Ty_Pinkins
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: MS
   district: 1

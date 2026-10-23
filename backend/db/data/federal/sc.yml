@@ -9,22 +9,29 @@
     incumbent: true
     bioguide: G000608
     ballotpedia: https://ballotpedia.org/Darline_Graham
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Annie Andrews
     sort_name: Andrews
     party: D
     ballotpedia: https://ballotpedia.org/Annie_Andrews
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Mark Hackett
     sort_name: Hackett
     party: C
     ballotpedia: https://ballotpedia.org/Mark_Hackett
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Kasie Whitener
     sort_name: Whitener
     party: L
     ballotpedia: https://ballotpedia.org/Kasie_Whitener
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: 'Campaign blog "How should we handle AI?": says AI is "changing everything
+        right now, in real time" and asks "what can we do to prepare?" [[source]](https://kasiesouthcarolina.com/how-should-we-handle-ai/)'
+      kind: platform
 - office: us_house
   state: SC
   district: 1

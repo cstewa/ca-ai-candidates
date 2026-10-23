@@ -8,17 +8,23 @@
     party: D
     bioguide: P000614
     ballotpedia: https://ballotpedia.org/Chris_Pappas
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Campaign site says he supports "cracking down on AI-driven price discrimination"
+        in grocery pricing. [[source]](https://chrispappas.org/priority/tax-cuts-lower-costs-blueprint/)
+      kind: platform
   - name: John Sununu
     sort_name: Sununu
     party: R
     ballotpedia: https://ballotpedia.org/John_E._Sununu
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Edmond Laplante
     sort_name: Laplante
     party: C
     ballotpedia: https://ballotpedia.org/Edmond_Laplante
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: NH
   district: 1

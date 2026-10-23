@@ -7,13 +7,19 @@
     sort_name: Byrd
     party: D
     ballotpedia: https://ballotpedia.org/James_Byrd
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: '"Skeptical of the rush to bring data centers into Wyoming"; won''t support
+        "sweetheart tax deals" or projects that strain the grid and water supplies.
+        [[source]](https://www.byrdforsenate.com/blank)'
+      kind: platform
   - name: Harriet Hageman
     sort_name: Hageman
     party: R
     bioguide: H001096
     ballotpedia: https://ballotpedia.org/Harriet_Hageman
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
 - office: us_house
   state: WY
   district: 0

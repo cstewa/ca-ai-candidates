@@ -9,12 +9,18 @@
     incumbent: true
     bioguide: W000805
     ballotpedia: https://ballotpedia.org/Mark_Warner
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Says AI "is changing the way we work, but there's no serious plan to help
+        workers with the fallout," and could create "more inequality instead of opportunity."
+        [[source]](https://www.markwarnerva.com/plan/)
+      kind: platform
   - name: Bert Mizusawa
     sort_name: Mizusawa
     party: R
     ballotpedia: https://ballotpedia.org/Bert_Mizusawa
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: VA
   district: 1

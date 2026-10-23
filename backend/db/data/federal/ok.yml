@@ -7,28 +7,36 @@
     sort_name: Thomas
     party: D
     ballotpedia: https://ballotpedia.org/N'Kiyla_Thomas
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Kevin Hern
     sort_name: Hern
     party: R
     bioguide: H001082
     ballotpedia: https://ballotpedia.org/Kevin_Hern
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Sevier White
     sort_name: White
     party: L
     ballotpedia: https://ballotpedia.org/Sevier_White
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Ron Meinhardt
     sort_name: Meinhardt
     party: I
     ballotpedia: https://ballotpedia.org/Ron_Meinhardt
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: '"No data centers without consent": large projects should not be "forced
+        into Oklahoma communities without informed local consent." [[source]](https://www.running4ok.com/)'
+      kind: platform
   - name: Curtis Stinnett
     sort_name: Stinnett
     party: I
     ballotpedia: https://ballotpedia.org/Curtis_Stinnett
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: OK
   district: 1

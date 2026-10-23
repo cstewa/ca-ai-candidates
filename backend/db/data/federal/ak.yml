@@ -10,23 +10,27 @@
     incumbent: true
     bioguide: S001198
     ballotpedia: https://ballotpedia.org/Dan_S._Sullivan_(United_States_Senator_from_Alaska)
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Mary Peltola
     sort_name: Peltola
     party: D
     bioguide: P000619
     ballotpedia: https://ballotpedia.org/Mary_Peltola
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Gerald Heikes
     sort_name: Heikes
     party: R
     ballotpedia: https://ballotpedia.org/Gerald_Heikes
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Daniel J. Sullivan Jr.
     sort_name: Sullivan
     party_name: No Party Affiliation
     ballotpedia: https://ballotpedia.org/Daniel_J._Sullivan_Jr._(Alaska_U.S._Senate_candidate)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: AK
   district: 0

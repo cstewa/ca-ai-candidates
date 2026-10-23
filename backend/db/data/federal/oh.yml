@@ -10,23 +10,35 @@
     incumbent: true
     bioguide: H001104
     ballotpedia: https://ballotpedia.org/Jon_Husted
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Sherrod Brown
     sort_name: Brown
     party: D
     bioguide: B000944
     ballotpedia: https://ballotpedia.org/Sherrod_Brown
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: '"We''re fighting to require data centers to pay the full cost of their
+        utilities so your bills don''t go up"; says Ohioans "should get to decide
+        if data centers are built." [[source]](https://www.sherrodbrown.com/our-fight/)'
+      kind: platform
   - name: Bill Redpath
     sort_name: Redpath
     party: L
     ballotpedia: https://ballotpedia.org/Bill_Redpath
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Gregory Levy
     sort_name: Levy
     party: I
     ballotpedia: https://ballotpedia.org/Gregory_Levy
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Says AI "could displace a third of workers by 2030" and the "race for
+        AI dominance" risks "unsustainable energy consumption"; calls for "public
+        ownership and democratic control" of technology. [[source]](https://www.greg4senate.com/)
+      kind: platform
 - office: us_house
   state: OH
   district: 1

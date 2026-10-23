@@ -7,17 +7,24 @@
     sort_name: Talarico
     party: D
     ballotpedia: https://ballotpedia.org/James_Talarico
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: '"We must protect Americans and establish clear, consistent laws for businesses"
+        on AI; "we can encourage innovation while setting clear guidelines that protect
+        Americans from harm." [[source]](https://jamestalarico.com/issue/social-media-artificial-intelligence-tech/)'
+      kind: platform
   - name: Ken Paxton
     sort_name: Paxton
     party: R
     ballotpedia: https://ballotpedia.org/Ken_Paxton
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Ted Brown
     sort_name: Brown
     party: L
     ballotpedia: https://ballotpedia.org/Ted_Brown_(Texas)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: TX
   district: 1

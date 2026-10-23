@@ -7,18 +7,21 @@
     sort_name: Turek
     party: D
     ballotpedia: https://ballotpedia.org/Josh_Turek
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Ashley Hinson
     sort_name: Hinson
     party: R
     bioguide: H001091
     ballotpedia: https://ballotpedia.org/Ashley_Hinson
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Thomas Laehn
     sort_name: Laehn
     party: L
     ballotpedia: https://ballotpedia.org/Thomas_Laehn
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: IA
   district: 1

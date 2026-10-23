@@ -7,13 +7,20 @@
     sort_name: Davis
     party: D
     ballotpedia: https://ballotpedia.org/Jamie_Davis_(Louisiana)
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Backs "guardrails written for people, not dictated by the industry," and
+        pledges to "keep AI safe and honest — protect your privacy, stop AI scams
+        and deepfakes"; says new AI data centers are welcome "if they pay their own
+        way" and protect water. [[source]](https://jamieforlouisiana.com/issues)
+      kind: platform
   - name: Julia Letlow
     sort_name: Letlow
     party: R
     bioguide: L000595
     ballotpedia: https://ballotpedia.org/Julia_Letlow
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
 - office: us_house
   state: LA
   district: 1

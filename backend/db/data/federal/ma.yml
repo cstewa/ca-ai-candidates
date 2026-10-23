@@ -9,22 +9,42 @@
     incumbent: true
     bioguide: M000133
     ballotpedia: https://ballotpedia.org/Edward_Markey
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Campaign site cites his authorship of the AI Civil Rights Act. [[source]](https://www.edmarkey.com/)
+      kind: bill
   - name: John Deaton
     sort_name: Deaton
     party: R
     ballotpedia: https://ballotpedia.org/John_Deaton_(Massachusetts)
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: 'Oct. 7, 2026 release: calls on Congress "to pass a national AI standard
+        with enforceable consumer protections," including "mandatory AI disclosure,
+        protections for seniors and children, and real accountability for companies
+        that deceive." [[source]](https://www.johndeatonforsenate.com/)'
+      kind: statement
   - name: Joseph Tache
     sort_name: Tache
     party_name: Party for Socialism and Liberation
     ballotpedia: https://ballotpedia.org/Joseph_Tache
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Says job automation "is only accelerating with the development of artificial
+        intelligence"; his jobs plan "will include points specifically pertaining
+        to the use of AI ... to ensure it is properly regulated and deployed to benefit
+        society." [[source]](https://www.tache4ma.com/our-program)
+      kind: platform
   - name: Shiva Ayyadurai
     sort_name: Ayyadurai
     party_name: Unenrolled
     ballotpedia: https://ballotpedia.org/Shiva_Ayyadurai
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Says AI "has enormous potential to improve society, but only if access
+        to its computing infrastructure is decentralized rather than concentrated
+        in the hands of a few powerful organizations." [[source]](https://shiva4senate.com/)
+      kind: platform
 - office: us_house
   state: MA
   district: 1

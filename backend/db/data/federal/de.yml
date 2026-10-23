@@ -9,12 +9,14 @@
     incumbent: true
     bioguide: C001088
     ballotpedia: https://ballotpedia.org/Chris_Coons
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Michael Katz
     sort_name: Katz
     party: R
     ballotpedia: https://ballotpedia.org/Michael_Katz
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: DE
   district: 0

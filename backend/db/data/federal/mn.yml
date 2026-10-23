@@ -7,22 +7,30 @@
     sort_name: Flanagan
     party: D
     ballotpedia: https://ballotpedia.org/Peggy_Flanagan
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: '"A stranger behind a desk or an AI algorithm shouldn''t be able to deny
+        you care your doctor prescribed"; opposes a federal plan "to use AI for prior
+        authorization" in Medicare. [[source]](https://peggyflanagan.com/priorities/)'
+      kind: platform
   - name: Michele Tafoya
     sort_name: Tafoya
     party: R
     ballotpedia: https://ballotpedia.org/Michele_Tafoya
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Rebecca Whiting
     sort_name: Whiting
     party: L
     ballotpedia: https://ballotpedia.org/Rebecca_Whiting
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Marisa Simonetti
     sort_name: Simonetti
     party_name: Unaffiliated
     ballotpedia: https://ballotpedia.org/Marisa_Simonetti
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: MN
   district: 1

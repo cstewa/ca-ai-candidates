@@ -9,12 +9,14 @@
     incumbent: true
     bioguide: L000570
     ballotpedia: https://ballotpedia.org/Ben_Ray_Luján
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Larry E. Marker
     sort_name: Marker
     party: R
     ballotpedia: https://ballotpedia.org/Larry_Marker
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: NM
   district: 1

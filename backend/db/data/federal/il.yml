@@ -7,17 +7,20 @@
     sort_name: Stratton
     party: D
     ballotpedia: https://ballotpedia.org/Juliana_Stratton
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Don Tracy
     sort_name: Tracy
     party: R
     ballotpedia: https://ballotpedia.org/Don_Tracy
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Whitfield Harrington Jr.
     sort_name: Harrington
     party_name: American Center Party
     ballotpedia: https://ballotpedia.org/Whitfield_Harrington_Jr._(Illinois)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: IL
   district: 1

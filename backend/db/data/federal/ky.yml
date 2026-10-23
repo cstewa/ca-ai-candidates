@@ -7,18 +7,24 @@
     sort_name: Booker
     party: D
     ballotpedia: https://ballotpedia.org/Charles_Booker
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: '"I would support a national moratorium on all new AI data center construction."
+        [[source]](https://charlesbookerky.org/policies)'
+      kind: platform
   - name: Andy Barr
     sort_name: Barr
     party: R
     bioguide: B001282
     ballotpedia: https://ballotpedia.org/Andy_Barr
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Christopher Campbell
     sort_name: Campbell
     party_name: Kentucky Party
     ballotpedia: https://ballotpedia.org/Christopher_Campbell_(Kentucky)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: KY
   district: 1

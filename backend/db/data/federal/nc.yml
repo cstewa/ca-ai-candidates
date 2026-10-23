@@ -7,22 +7,35 @@
     sort_name: Cooper
     party: D
     ballotpedia: https://ballotpedia.org/Roy_Cooper
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Would "make sure data centers pay the full cost of all the power they
+        use and prevent costs from being passed on to consumers." [[source]](https://roycooper.com/costless/energy/)
+      kind: platform
   - name: Michael Whatley
     sort_name: Whatley
     party: R
     ballotpedia: https://ballotpedia.org/Michael_Whatley
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Michael Dublin
     sort_name: Dublin
     party: G
     ballotpedia: https://ballotpedia.org/Michael_Dublin
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: '"I oppose the expansion of data centers and support a moratorium on the
+        construction of new data centers." [[source]](https://www.dublinforcongress.com/platform)'
+      kind: platform
   - name: Shannon Bray
     sort_name: Bray
     party: L
     ballotpedia: https://ballotpedia.org/Shannon_Bray
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: 'On data privacy: consent "should be specific, revocable, and enforceable
+        — without breaking innovation or AI." [[source]](https://www.shannonbray.us/issues)'
+      kind: platform
 - office: us_house
   state: NC
   district: 1

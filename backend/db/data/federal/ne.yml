@@ -9,27 +9,35 @@
     incumbent: true
     bioguide: R000618
     ballotpedia: https://ballotpedia.org/Pete_Ricketts
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Chuck Conboy
     sort_name: Conboy
     party_name: America First Party Nebraska
     ballotpedia: https://ballotpedia.org/Chuck_Conboy
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Mike Marvin
     sort_name: Marvin
     party_name: Legal Marijuana Now Party
     ballotpedia: https://ballotpedia.org/Mike_Marvin
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Robin Richards
     sort_name: Richards
     party_name: Nebraska Working People Party
     ballotpedia: https://ballotpedia.org/Robin_Richards
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Dan Osborn
     sort_name: Osborn
     party_name: Nonpartisan
     ballotpedia: https://ballotpedia.org/Dan_Osborn
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Campaign criticizes tax breaks for data center developers, saying their
+        utility costs are passed on to ratepayers. [[source]](https://www.osbornforsenate.com/media)
+      kind: platform
 - office: us_house
   state: NE
   district: 1

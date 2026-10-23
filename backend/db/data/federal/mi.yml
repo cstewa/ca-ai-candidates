@@ -7,32 +7,44 @@
     sort_name: El-Sayed
     party: D
     ballotpedia: https://ballotpedia.org/Abdul_El-Sayed
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Warns powerful AI "may fall into the wrong hands or escape human control
+        altogether"; supports "clear safety testing standards for frontier models;
+        liability and incident reporting standards; compute controls" and "an independent
+        technical agency with real enforcement power ... for AI"; opposes preempting
+        state AI laws without federal legislation. [[source]](https://abdulforsenate.com/priority/money-in-your-pocket/)
+      kind: platform
   - name: Mike Rogers
     sort_name: Rogers
     party: R
     ballotpedia: https://ballotpedia.org/Mike_Rogers_(Michigan)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Douglas P. Marsh
     sort_name: Marsh
     party: G
     ballotpedia: https://ballotpedia.org/Douglas_P._Marsh
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Lydia Christensen
     sort_name: Christensen
     party: L
     ballotpedia: https://ballotpedia.org/Lydia_Christensen
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Walter Kristy
     sort_name: Kristy
     party_name: Natural Law Party in Michigan
     ballotpedia: https://ballotpedia.org/Walter_Kristy
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Timothy Long
     sort_name: Long
     party_name: U.S. Taxpayers Party
     ballotpedia: https://ballotpedia.org/Timothy_Long
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
 - office: us_house
   state: MI
   district: 1

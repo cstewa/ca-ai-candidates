@@ -9,12 +9,18 @@
     incumbent: true
     bioguide: R000605
     ballotpedia: https://ballotpedia.org/Mike_Rounds
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Brian Bengs
     sort_name: Bengs
     party: I
     ballotpedia: https://ballotpedia.org/Brian_Bengs
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Calls to "halt construction of new data centers" until communities can
+        weigh the impacts and "say no"; signed a pledge not to accept "AI-Data Center
+        money." [[source]](https://bengsforsouthdakota.com/)
+      kind: platform
 - office: us_house
   state: SD
   district: 0

@@ -10,13 +10,15 @@
     incumbent: true
     bioguide: O000174
     ballotpedia: https://ballotpedia.org/Jon_Ossoff
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Mike Collins
     sort_name: Collins
     party: R
     bioguide: C001129
     ballotpedia: https://ballotpedia.org/Mike_Collins_(Georgia)
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
 - office: us_house
   state: GA
   district: 1

@@ -9,17 +9,27 @@
     incumbent: true
     bioguide: C001095
     ballotpedia: https://ballotpedia.org/Tom_Cotton
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: 'Campaign site: "authored legislation to protect Arkansans from the costs
+        associated with data centers." [[source]](https://tomcotton.com/issues/)'
+      kind: platform
   - name: Hallie Shoffner
     sort_name: Shoffner
     party: D
     ballotpedia: https://ballotpedia.org/Hallie_Shoffner
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Jeff Wadlin
     sort_name: Wadlin
     party: L
     ballotpedia: https://ballotpedia.org/Jeff_Wadlin
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Says "local communities must decide whether they want" data centers, which
+        "should pay the full cost of the electricity, transmission, substations" they
+        use. [[source]](https://www.jeffwadlin.com/issues)
+      kind: platform
 - office: us_house
   state: AR
   district: 1

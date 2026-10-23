@@ -9,17 +9,24 @@
     incumbent: true
     bioguide: C001047
     ballotpedia: https://ballotpedia.org/Shelley_Moore_Capito
-    status: not_reviewed
+    status: on_record
+    search_note: No AI statements found on campaign site beyond the votes shown.
   - name: Rachel Fetty Anderson
     sort_name: Anderson
     party: D
     ballotpedia: https://ballotpedia.org/Rachel_Fetty_Anderson
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: '"End special treatment for hyperscale data centers"; will "fight for
+        a moratorium on data center development" and local control over zoning and
+        taxes. [[source]](https://www.fettyandersonforsenate.com/issues)'
+      kind: platform
   - name: S. Marshall Wilson
     sort_name: Wilson
     party: C
     ballotpedia: https://ballotpedia.org/S._Marshall_Wilson_(West_Virginia)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
 - office: us_house
   state: WV
   district: 1

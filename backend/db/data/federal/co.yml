@@ -9,32 +9,54 @@
     incumbent: true
     bioguide: H000273
     ballotpedia: https://ballotpedia.org/John_Hickenlooper
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: Campaign site says he "authored legislation to prepare and protect our
+        workforce" for AI and "supports regulating the artificial intelligence industry."
+        [[source]](https://hickenlooper.com/issues/)
+      kind: platform
   - name: Mark Baisley
     sort_name: Baisley
     party: R
     ballotpedia: https://ballotpedia.org/Mark_Baisley
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Campaign site lists that, as a Colorado state senator, he "introduced
+        AI legislation that protects economic growth, innovation, and privacy." [[source]](https://baisleyforsenate.com/)
+      kind: bill
   - name: Chris Baum
     sort_name: Baum
     party_name: Approval Voting Party
     ballotpedia: https://ballotpedia.org/Chris_Baum
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Bob Chew
     sort_name: Chew
     party_name: Colorado Forward Party
     ballotpedia: https://ballotpedia.org/Bob_Chew
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Says "every data center, every cloud server ... and every ChatGPT query
+        consumes massive amounts of energy"; backs an all-of-the-above energy plan
+        with "a heavy reliance on nuclear power." [[source]](https://bobchew2026.com/issues/)
+      kind: platform
   - name: Blake Huber
     sort_name: Huber
     party: L
     ballotpedia: https://ballotpedia.org/Blake_Huber
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Adam Withrow
     sort_name: Withrow
     party_name: Unity Party
     ballotpedia: https://ballotpedia.org/Adam_Withrow
-    status: not_reviewed
+    status: on_record
+    items:
+    - text: 'AI page: "Our frontier artificial intelligence will continue to evolve
+        faster than the institutions that create it," and "we should establish the
+        groundwork for a healthy relationship" with future self-aware AI "starting
+        today." [[source]](https://www.senatorwithrow.com/artificial-intelligence)'
+      kind: platform
 - office: us_house
   state: CO
   district: 1

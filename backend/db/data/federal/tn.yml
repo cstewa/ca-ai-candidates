@@ -9,52 +9,68 @@
     incumbent: true
     bioguide: H000601
     ballotpedia: https://ballotpedia.org/Bill_Hagerty
-    status: not_reviewed
+    status: on_record
+    search_note: Campaign site couldn't be read (it blocks automated visits).
   - name: Marquita Bradshaw
     sort_name: Bradshaw
     party: D
     ballotpedia: https://ballotpedia.org/Marquita_Bradshaw
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Tharon Chandler
     sort_name: Chandler
     party: I
     ballotpedia: https://ballotpedia.org/Tharon_Chandler
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Andrew Gerena
     sort_name: Gerena
     party: I
     ballotpedia: https://ballotpedia.org/Andrew_Gerena
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Platform lists "serious environmental and data privacy regulations on
+        AI data centers." [[source]](https://www.jeranimo4senate.org/issues)
+      kind: platform
   - name: Jeremy Hearn
     sort_name: Hearn
     party: I
     ballotpedia: https://ballotpedia.org/Jeremy_Hearn
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Robert Jones
     sort_name: Jones
     party: I
     ballotpedia: https://ballotpedia.org/Robert_Jones_(Tennesses_congressional_candidate)
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: James Macon III
     sort_name: Macon
     party: I
     ballotpedia: https://ballotpedia.org/James_Macon_III
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: Yoshi Matthews
     sort_name: Matthews
     party: I
     ballotpedia: https://ballotpedia.org/Yoshi_Matthews
-    status: not_reviewed
+    status: none_found
+    search_note: No campaign website found.
   - name: David Sutman Jr.
     sort_name: Sutman
     party: I
     ballotpedia: https://ballotpedia.org/David_Sutman_Jr.
-    status: not_reviewed
+    status: none_found
+    search_note: No AI statements found on campaign site.
   - name: Catherine Whitson
     sort_name: Whitson
     party: I
     ballotpedia: https://ballotpedia.org/Catherine_Whitson
-    status: not_reviewed
+    status: ai_other
+    items:
+    - text: Would "encourage dreamers and brilliant thinkers who have great ideas
+        for the use of AI, Quantum Computing, etc." [[source]](https://senatorbarcy.org/)
+      kind: platform
 - office: us_house
   state: TN
   district: 1
